@@ -3,7 +3,6 @@ Revenue.delete_all
 Expense.delete_all
 Executive.delete_all
 Balance.delete_all
-Year.delete_all
 
 org = Organisation.create(
   name: "Devbootcamp",
@@ -14,12 +13,9 @@ org = Organisation.create(
   domain: "Devbootcamp.com"
   )
 
-year = Year.create(
-  year: 2016)
-
 Revenue.create(
   organisation_id: org.id,
-  year_id: year.id,
+  year: 2016,
   contributions: 5,
   service_revenue: 5,
   investments: 5,
@@ -28,7 +24,7 @@ Revenue.create(
 
 Expense.create(
   organisation_id: org.id,
-  year_id: year.id,
+  year: 2016,
   grants: 10,
   member_benefits: 20,
   salaries: 20,
@@ -44,7 +40,7 @@ Executive.create(
 
 Balance.create(
   organisation_id: org.id,
-  year_id: year.id,
+  year: 2016,
   total_assets: 500,
   total_liabilities: 400,
   net_assets: 100
