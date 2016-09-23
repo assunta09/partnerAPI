@@ -18,9 +18,15 @@ class Organisation < ApplicationRecord
   end
 
   def general_expenses_overview
+    percentages = {}
     expense_data.attributes.each do |expense_type, value|
-
+      if expense_type == 'other' || expense_type == 'member_benefits' || expense_type == 'salaries' || expense_type == 'fundraising_fees' || expense_type == 'grants'
+        if value != nil
+          percentages[expense_type] = value.to_f/expense_data.total
+        end
+      end
     end
+    percentages
   end
 
 
