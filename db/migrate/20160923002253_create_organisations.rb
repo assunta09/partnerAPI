@@ -4,6 +4,9 @@ class CreateOrganisations < ActiveRecord::Migration[5.0]
       t.string :name
       t.text :mission
       t.string :address
+      t.string :city
+      t.string :state
+      t.integer :zip
       t.integer :year_formed
       t.integer :number_of_employees
       t.string :domain
