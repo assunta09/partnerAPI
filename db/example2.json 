@@ -1,0 +1,1273 @@
+{
+  "Return": {
+    "-xmlns": "http://www.irs.gov/efile",
+    "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "-returnVersion": "2014v5.0",
+    "-xsi:schemaLocation": "http://www.irs.gov/efile",
+    "ReturnHeader": {
+      "-binaryAttachmentCnt": "0",
+      "ReturnTs": "2015-09-19T06:25:37-07:00",
+      "TaxPeriodEndDt": "2014-12-31",
+      "PreparerFirmGrp": {
+        "PreparerFirmName": { "BusinessNameLine1Txt": "Kissel & Associates Inc" },
+        "PreparerUSAddress": {
+          "AddressLine1Txt": "1005 Lexington Ave",
+          "CityNm": "Mansfield",
+          "StateAbbreviationCd": "OH",
+          "ZIPCd": "449072247"
+        }
+      },
+      "ReturnTypeCd": "990",
+      "#text": "
+    CALENDAR YEAR
+    ",
+      "TaxPeriodBeginDt": "2014-01-01",
+      "Filer": {
+        "EIN": "340714455",
+        "BusinessName": { "BusinessNameLine1Txt": "UNITED WAY OF RICHLAND COUNTY" },
+        "BusinessNameControlTxt": "UNIT",
+        "PhoneNum": "4195252816",
+        "USAddress": {
+          "AddressLine1Txt": "35 NORTH PARK STREET",
+          "CityNm": "MANSFIELD",
+          "StateAbbreviationCd": "OH",
+          "ZIPCd": "44902"
+        }
+      },
+      "BusinessOfficerGrp": {
+        "#text": "
+        PRINCIPAL OFFICER
+      ",
+        "PersonNm": "MICHAEL RETTIG",
+        "PersonTitleTxt": "FINANCE DIRECTOR",
+        "SignatureDt": "2015-09-19",
+        "DiscussWithPaidPreparerInd": "true"
+      },
+      "PreparerPersonGrp": {
+        "PreparerPersonNm": "RAYMOND KISSEL CPA",
+        "PTIN": "P00051930",
+        "PhoneNum": "4197566304"
+      },
+      "TaxYr": "2014",
+      "BuildTS": "2016-02-25 16:41:14Z"
+    },
+    "ReturnData": {
+      "-documentCnt": "6",
+      "IRS990": {
+        "-documentId": "IRS990",
+        "-referenceDocumentId": "IRS990ScheduleO",
+        "-softwareId": "14000265",
+        "-softwareVersionNum": "2014v5.0",
+        "PrincipalOfficerNm": "MICHAEL RETTIG",
+        "USAddress": {
+          "AddressLine1Txt": "35 NORTH PARK STREET",
+          "CityNm": "MANSFIELD",
+          "StateAbbreviationCd": "OH",
+          "ZIPCd": "44902"
+        },
+        "GrossReceiptsAmt": "1462369",
+        "GroupReturnForAffiliatesInd": "false",
+        "AllAffiliatesIncludedInd": "false",
+        "Organization501c3Ind": "X",
+        "WebsiteAddressTxt": "UNITEDWAYOFRICHLANDCOUNTY.ORG",
+        "TypeOfOrganizationOtherInd": "X",
+        "FormationYr": "1961",
+        "LegalDomicileStateCd": "OH",
+        "#text": [
+          "
+      PART 1 ACTIVITY AND GOV
+      ",
+          "
+      PART 1 REVENUE
+      ",
+          "
+      PART 1 EXPENSES
+      ",
+          "
+      PART 1 NET ASSETS AND FUND BALANCES
+      ",
+          "
+      PART 7 OFFICERS, Directors, trustees, key empployees, highest compensated
+      ",
+          "
+      STATEMENT REVENUE
+      CONTRIBUTIONS,GIFTS, SIMILAR AMOUNTS
+      ",
+          "
+      STATEMENT REVENUE PROGRAM SERVICE REVENUE
+      ",
+          "
+      STATEMENT REVENUE OTHER REVENUE
+      ",
+          "
+      STATEMENT of FUNCTIONAL EXPENSES [USED TO TRACK ]
+      ",
+          " END OF PART 9, TOTAL FUNCTIONAL EXPENSES
+      
+      PART 10 BALANCE SHEET
+      ASSETS
+      ",
+          "
+      NET ASSETS AND FUND BALANCES
+      ",
+          "
+      PART 11 RECONCILIATION OF NET ASSETS
+      "
+        ],
+        "ActivityOrMissionDesc": "FUND RAISING TO GIVE TO OTHER EXEMPT ORGANIZATIONS.",
+        "VotingMembersGoverningBodyCnt": "24",
+        "VotingMembersIndependentCnt": "24",
+        "TotalEmployeeCnt": "6",
+        "TotalVolunteersCnt": "360",
+        "TotalGrossUBIAmt": "0",
+        "PYContributionsGrantsAmt": "1343599",
+        "CYContributionsGrantsAmt": "1421972",
+        "CYProgramServiceRevenueAmt": "0",
+        "PYInvestmentIncomeAmt": "1603",
+        "CYInvestmentIncomeAmt": "1152",
+        "PYOtherRevenueAmt": "40009",
+        "CYOtherRevenueAmt": "35933",
+        "PYTotalRevenueAmt": "1385211",
+        "CYTotalRevenueAmt": "1459057",
+        "PYGrantsAndSimilarPaidAmt": "843356",
+        "CYGrantsAndSimilarPaidAmt": "905931",
+        "CYBenefitsPaidToMembersAmt": "0",
+        "PYSalariesCompEmpBnftPaidAmt": "329437",
+        "CYSalariesCompEmpBnftPaidAmt": "296792",
+        "CYTotalProfFndrsngExpnsAmt": "0",
+        "CYTotalFundraisingExpenseAmt": "210665",
+        "PYOtherExpensesAmt": "172530",
+        "CYOtherExpensesAmt": "228047",
+        "PYTotalExpensesAmt": "1345323",
+        "CYTotalExpensesAmt": "1430770",
+        "PYRevenuesLessExpensesAmt": "39888",
+        "CYRevenuesLessExpensesAmt": "28287",
+        "TotalAssetsBOYAmt": "1603783",
+        "TotalAssetsEOYAmt": "1628233",
+        "TotalLiabilitiesBOYAmt": "280657",
+        "TotalLiabilitiesEOYAmt": "276820",
+        "NetAssetsOrFundBalancesBOYAmt": "1323126",
+        "NetAssetsOrFundBalancesEOYAmt": "1351413",
+        "MissionDesc": "FUND RAISING TO GIVE TO OTHER EXEMPT ORGANIZATIONS.",
+        "SignificantNewProgramSrvcInd": "false",
+        "SignificantChangeInd": "false",
+        "ExpenseAmt": "1112349",
+        "GrantAmt": "905931",
+        "RevenueAmt": "1459057",
+        "Desc": "ANNUAL FUND RAISING CAMPAIGN IS EXECUTED TO COLLECT FUNDS FROM THE GENERAL PUBLIC FOR OTHER EXEMPT ORGANIZATIONS. CAMPAIGN FUNDS ARE THEN DISTRIBUTED TO THE VARIOUS ORGANIZATIONS.",
+        "TotalProgramServiceExpensesAmt": "1112349",
+        "DescribedInSection501c3Ind": {
+          "-referenceDocumentId": "IRS990ScheduleA",
+          "#text": "true"
+        },
+        "ScheduleBRequiredInd": {
+          "-referenceDocumentId": "IRS990ScheduleB",
+          "#text": "true"
+        },
+        "PoliticalCampaignActyInd": "false",
+        "LobbyingActivitiesInd": "false",
+        "SubjectToProxyTaxInd": "false",
+        "DonorAdvisedFundInd": {
+          "-referenceDocumentId": "IRS990ScheduleD",
+          "#text": "false"
+        },
+        "ConservationEasementsInd": {
+          "-referenceDocumentId": "IRS990ScheduleD",
+          "#text": "false"
+        },
+        "CollectionsOfArtInd": {
+          "-referenceDocumentId": "IRS990ScheduleD",
+          "#text": "false"
+        },
+        "CreditCounselingInd": {
+          "-referenceDocumentId": "IRS990ScheduleD",
+          "#text": "false"
+        },
+        "TempOrPermanentEndowmentsInd": {
+          "-referenceDocumentId": "IRS990ScheduleD",
+          "#text": "false"
+        },
+        "ReportLandBuildingEquipmentInd": {
+          "-referenceDocumentId": "IRS990ScheduleD",
+          "#text": "true"
+        },
+        "ReportInvestmentsOtherSecInd": {
+          "-referenceDocumentId": "IRS990ScheduleD",
+          "#text": "false"
+        },
+        "ReportProgramRelatedInvstInd": {
+          "-referenceDocumentId": "IRS990ScheduleD",
+          "#text": "false"
+        },
+        "ReportOtherAssetsInd": {
+          "-referenceDocumentId": "IRS990ScheduleD",
+          "#text": "false"
+        },
+        "ReportOtherLiabilitiesInd": {
+          "-referenceDocumentId": "IRS990ScheduleD",
+          "#text": "true"
+        },
+        "IncludeFIN48FootnoteInd": {
+          "-referenceDocumentId": "IRS990ScheduleD",
+          "#text": "false"
+        },
+        "IndependentAuditFinclStmtInd": {
+          "-referenceDocumentId": "IRS990ScheduleD",
+          "#text": "true"
+        },
+        "ConsolidatedAuditFinclStmtInd": {
+          "-referenceDocumentId": "IRS990ScheduleD",
+          "#text": "false"
+        },
+        "SchoolOperatingInd": "false",
+        "ForeignOfficeInd": "false",
+        "ForeignActivitiesInd": "false",
+        "MoreThan5000KToOrgInd": "false",
+        "MoreThan5000KToIndividualsInd": "false",
+        "ProfessionalFundraisingInd": "false",
+        "FundraisingActivitiesInd": "false",
+        "GamingActivitiesInd": "false",
+        "OperateHospitalInd": "false",
+        "GrantsToOrganizationsInd": {
+          "-referenceDocumentId": "IRS990ScheduleI",
+          "#text": "true"
+        },
+        "GrantsToIndividualsInd": {
+          "-referenceDocumentId": "IRS990ScheduleI",
+          "#text": "false"
+        },
+        "ScheduleJRequiredInd": "false",
+        "TaxExemptBondsInd": "false",
+        "InvestTaxExemptBondsInd": "false",
+        "EscrowAccountInd": "false",
+        "OnBehalfOfIssuerInd": "false",
+        "EngagedInExcessBenefitTransInd": "false",
+        "PYExcessBenefitTransInd": "false",
+        "LoanOutstandingInd": "false",
+        "GrantToRelatedPersonInd": "false",
+        "BusinessRlnWithOrgMemInd": "false",
+        "BusinessRlnWithFamMemInd": "false",
+        "BusinessRlnWithOfficerEntInd": "false",
+        "DeductibleNonCashContriInd": "false",
+        "DeductibleArtContributionInd": "false",
+        "TerminateOperationsInd": "false",
+        "PartialLiquidationInd": "false",
+        "DisregardedEntityInd": "false",
+        "RelatedEntityInd": "false",
+        "RelatedOrganizationCtrlEntInd": "false",
+        "TransactionWithControlEntInd": "false",
+        "TrnsfrExmptNonChrtblRltdOrgInd": "false",
+        "ActivitiesConductedPrtshpInd": "false",
+        "ScheduleORequiredInd": "true",
+        "IRPDocumentCnt": "0",
+        "IRPDocumentW2GCnt": "0",
+        "BackupWthldComplianceInd": "false",
+        "EmployeeCnt": "6",
+        "EmploymentTaxReturnsFiledInd": "true",
+        "UnrelatedBusIncmOverLimitInd": "false",
+        "Form990TFiledInd": "false",
+        "ForeignFinancialAccountInd": "false",
+        "ProhibitedTaxShelterTransInd": "false",
+        "TaxablePartyNotificationInd": "false",
+        "NondeductibleContributionsInd": "false",
+        "QuidProQuoContributionsInd": "false",
+        "Form8282PropertyDisposedOfInd": "false",
+        "Form8282FiledCnt": "0",
+        "RcvFndsToPayPrsnlBnftCntrctInd": "false",
+        "PayPremiumsPrsnlBnftCntrctInd": "false",
+        "Form8899Filedind": "false",
+        "Form1098CFiledInd": "false",
+        "DAFExcessBusinessHoldingsInd": "false",
+        "TaxableDistributionsInd": "false",
+        "DistributionToDonorInd": "false",
+        "OrgFiledInLieuOfForm1041Ind": "false",
+        "LicensedMoreThanOneStateInd": "false",
+        "IndoorTanningServicesInd": "false",
+        "InfoInScheduleOPartVIInd": "X",
+        "GoverningBodyVotingMembersCnt": "24",
+        "IndependentVotingMemberCnt": "24",
+        "FamilyOrBusinessRlnInd": "false",
+        "DelegationOfMgmtDutiesInd": "false",
+        "ChangeToOrgDocumentsInd": "false",
+        "MaterialDiversionOrMisuseInd": "false",
+        "MembersOrStockholdersInd": "false",
+        "ElectionOfBoardMembersInd": "false",
+        "DecisionsSubjectToApprovaInd": "false",
+        "MinutesOfGoverningBodyInd": "false",
+        "MinutesOfCommitteesInd": "false",
+        "OfficerMailingAddressInd": "false",
+        "LocalChaptersInd": "false",
+        "Form990ProvidedToGvrnBodyInd": "true",
+        "ConflictOfInterestPolicyInd": "true",
+        "AnnualDisclosureCoveredPrsnInd": "true",
+        "RegularMonitoringEnfrcInd": "false",
+        "WhistleblowerPolicyInd": "true",
+        "DocumentRetentionPolicyInd": "true",
+        "CompensationProcessCEOInd": "false",
+        "CompensationProcessOtherInd": "false",
+        "InvestmentInJointVentureInd": "false",
+        "OtherWebsiteInd": "X",
+        "UponRequestInd": "X",
+        "BooksInCareOfDetail": {
+          "PersonNm": "MICHAEL RETTIG",
+          "PhoneNum": "4195252816",
+          "USAddress": {
+            "AddressLine1Txt": "35 NORTH PARK STREET",
+            "CityNm": "MANSFIELD",
+            "StateAbbreviationCd": "OH",
+            "ZIPCd": "449021722"
+          }
+        },
+        "Form990PartVIISectionAGrp": [
+          {
+            "PersonNm": "LT COL PATTY BARR",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "MARY BOLIN",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "JODI SCOTT",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "MARIAN CRAIG",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "BRIDGET MCDANIEL",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "LIZ PRATHER",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "DONNA FREEHAFER",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "KENT HALL",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "DIANE BROWN",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "ELLEN HARING",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "SID HALL",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "JEANETTE KVOCHICK",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "CATHY MOSIER",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "KRISTIE MASSA",
+            "TitleTxt": "Past President",
+            "AverageHoursPerWeekRt": "2.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "RYAN SMITH",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "LEE KAPLE",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "NICK OROSAN",
+            "TitleTxt": "President Elect",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "KEVIN VANMETER",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "NORM SHOEMAKER",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "RON DAVIS",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "THAD GRIBBLE",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "TIM DOVE",
+            "TitleTxt": "Trustee",
+            "AverageHoursPerWeekRt": "1.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "IndividualTrusteeOrDirectorInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "HAILEY KINNAMON",
+            "TitleTxt": "Treasurer",
+            "AverageHoursPerWeekRt": "2.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "OfficerInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "DAN DEVILLE",
+            "TitleTxt": "President",
+            "AverageHoursPerWeekRt": "2.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "OfficerInd": "X",
+            "ReportableCompFromOrgAmt": "0",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "0"
+          },
+          {
+            "PersonNm": "MICHAEL RETTIG",
+            "TitleTxt": "CFO",
+            "AverageHoursPerWeekRt": "40.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "OfficerInd": "X",
+            "ReportableCompFromOrgAmt": "54717",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "16217"
+          },
+          {
+            "PersonNm": "DANIEL VARN",
+            "TitleTxt": "Executive Dir.",
+            "AverageHoursPerWeekRt": "40.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "OfficerInd": "X",
+            "ReportableCompFromOrgAmt": "31750",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "7153"
+          },
+          {
+            "PersonNm": "ROBERT MAXEY",
+            "TitleTxt": "Executive Dir.",
+            "AverageHoursPerWeekRt": "40.00",
+            "AverageHoursPerWeekRltdOrgRt": "0.00",
+            "OfficerInd": "X",
+            "ReportableCompFromOrgAmt": "23238",
+            "ReportableCompFromRltdOrgAmt": "0",
+            "OtherCompensationAmt": "6862"
+          }
+        ],
+        "TotalReportableCompFromOrgAmt": "109705",
+        "TotalOtherCompensationAmt": "30232",
+        "IndivRcvdGreaterThan100KCnt": "0",
+        "FormerOfcrEmployeesListedInd": "false",
+        "TotalCompGreaterThan150KInd": "false",
+        "CompensationFromOtherSrcsInd": "false",
+        "CntrctRcvdGreaterThan100KCnt": "0",
+        "FederatedCampaignsAmt": "42209",
+        "AllOtherContributionsAmt": "1379763",
+        "TotalContributionsAmt": "1421972",
+        "TotalProgramServiceRevenueAmt": "0",
+        "InvestmentIncomeGrp": {
+          "TotalRevenueColumnAmt": "1152",
+          "ExclusionAmt": "1152"
+        },
+        "IncmFromInvestBondProceedsGrp": { "TotalRevenueColumnAmt": "0" },
+        "RoyaltiesRevenueGrp": { "TotalRevenueColumnAmt": "0" },
+        "NetRentalIncomeOrLossGrp": { "TotalRevenueColumnAmt": "0" },
+        "NetGainOrLossInvestmentsGrp": { "TotalRevenueColumnAmt": "0" },
+        "FundraisingGrossIncomeAmt": "4085",
+        "FundraisingDirectExpensesAmt": "3312",
+        "NetIncmFromFundraisingEvtGrp": {
+          "TotalRevenueColumnAmt": "773",
+          "ExclusionAmt": "773"
+        },
+        "NetIncomeFromGamingGrp": { "TotalRevenueColumnAmt": "0" },
+        "NetIncomeOrLossGrp": { "TotalRevenueColumnAmt": "0" },
+        "OtherRevenueMiscGrp": [
+          {
+            "Desc": "ADMINISTRATIVE FEES",
+            "BusinessCd": "561000",
+            "TotalRevenueColumnAmt": "33063",
+            "ExclusionAmt": "33063"
+          },
+          {
+            "Desc": "GAIN-ASSETS HELD BY OTHER",
+            "BusinessCd": "900099",
+            "TotalRevenueColumnAmt": "2097",
+            "ExclusionAmt": "2097"
+          }
+        ],
+        "OtherRevenueTotalAmt": "35160",
+        "TotalRevenueGrp": {
+          "TotalRevenueColumnAmt": "1459057",
+          "#text": "
+        STATEMENT REVENUE TOTAL REVENUE
+        ",
+          "ExclusionAmt": "37085"
+        },
+        "GrantsToDomesticOrgsGrp": {
+          "TotalAmt": "905931",
+          "#text": " TOTAL EXPENSES
+        ",
+          "ProgramServicesAmt": "905931"
+        },
+        "GrantsToDomesticIndividualsGrp": { "TotalAmt": "0" },
+        "ForeignGrantsGrp": { "TotalAmt": "0" },
+        "BenefitsToMembersGrp": { "TotalAmt": "0" },
+        "CompCurrentOfcrDirectorsGrp": {
+          "TotalAmt": "139937",
+          "ProgramServicesAmt": "47172",
+          "ManagementAndGeneralAmt": "38364",
+          "FundraisingAmt": "54401"
+        },
+        "CompDisqualPersonsGrp": { "TotalAmt": "0" },
+        "OtherSalariesAndWagesGrp": {
+          "TotalAmt": "110120",
+          "ProgramServicesAmt": "49094",
+          "ManagementAndGeneralAmt": "7068",
+          "FundraisingAmt": "53958"
+        },
+        "PensionPlanContributionsGrp": {
+          "TotalAmt": "5156",
+          "ProgramServicesAmt": "1985",
+          "ManagementAndGeneralAmt": "937",
+          "FundraisingAmt": "2234"
+        },
+        "OtherEmployeeBenefitsGrp": {
+          "TotalAmt": "24121",
+          "ProgramServicesAmt": "9287",
+          "ManagementAndGeneralAmt": "4383",
+          "FundraisingAmt": "10451"
+        },
+        "PayrollTaxesGrp": {
+          "TotalAmt": "17458",
+          "ProgramServicesAmt": "6721",
+          "ManagementAndGeneralAmt": "3172",
+          "FundraisingAmt": "7565"
+        },
+        "FeesForServicesManagementGrp": { "TotalAmt": "0" },
+        "FeesForServicesLegalGrp": { "TotalAmt": "0" },
+        "FeesForServicesAccountingGrp": {
+          "TotalAmt": "17635",
+          "ProgramServicesAmt": "100",
+          "ManagementAndGeneralAmt": "17535"
+        },
+        "FeesForServicesLobbyingGrp": { "TotalAmt": "0" },
+        "FeesForServicesProfFundraising": { "TotalAmt": "0" },
+        "FeesForSrvcInvstMgmntFeesGrp": { "TotalAmt": "0" },
+        "FeesForServicesOtherGrp": {
+          "TotalAmt": "5354",
+          "ManagementAndGeneralAmt": "5209",
+          "FundraisingAmt": "145"
+        },
+        "AdvertisingGrp": {
+          "TotalAmt": "22910",
+          "FundraisingAmt": "22910"
+        },
+        "OfficeExpensesGrp": {
+          "TotalAmt": "6543",
+          "ManagementAndGeneralAmt": "6511",
+          "FundraisingAmt": "32"
+        },
+        "InformationTechnologyGrp": { "TotalAmt": "0" },
+        "RoyaltiesGrp": { "TotalAmt": "0" },
+        "OccupancyGrp": {
+          "TotalAmt": "29947",
+          "ProgramServicesAmt": "11197",
+          "ManagementAndGeneralAmt": "6202",
+          "FundraisingAmt": "12548"
+        },
+        "TravelGrp": {
+          "TotalAmt": "1306",
+          "ProgramServicesAmt": "1136",
+          "ManagementAndGeneralAmt": "106",
+          "FundraisingAmt": "64"
+        },
+        "PymtTravelEntrtnmntPubOfclGrp": { "TotalAmt": "0" },
+        "ConferencesMeetingsGrp": { "TotalAmt": "0" },
+        "InterestGrp": { "TotalAmt": "0" },
+        "PaymentsToAffiliatesGrp": {
+          "TotalAmt": "21584",
+          "FundraisingAmt": "21584"
+        },
+        "DepreciationDepletionGrp": {
+          "TotalAmt": "954",
+          "ProgramServicesAmt": "143",
+          "ManagementAndGeneralAmt": "143",
+          "FundraisingAmt": "668"
+        },
+        "InsuranceGrp": {
+          "TotalAmt": "4688",
+          "ManagementAndGeneralAmt": "4369",
+          "FundraisingAmt": "319"
+        },
+        "OtherExpensesGrp": [
+          {
+            "Desc": "ALLOWANCE FOR UNCOLLECTIBLES",
+            "TotalAmt": "64137",
+            "ProgramServicesAmt": "64137"
+          },
+          {
+            "Desc": "CAMPAIGN AWARDS AND EXPENSE",
+            "TotalAmt": "23006",
+            "ManagementAndGeneralAmt": "8170",
+            "FundraisingAmt": "14836"
+          },
+          {
+            "Desc": "COMMUNITY BETTERMENT",
+            "TotalAmt": "10949",
+            "ProgramServicesAmt": "10949"
+          },
+          {
+            "Desc": "Printing and Publications",
+            "TotalAmt": "8336",
+            "ProgramServicesAmt": "314",
+            "ManagementAndGeneralAmt": "1492",
+            "FundraisingAmt": "6530"
+          }
+        ],
+        "AllOtherExpensesGrp": {
+          "TotalAmt": "10698",
+          "ProgramServicesAmt": "4183",
+          "ManagementAndGeneralAmt": "4095",
+          "FundraisingAmt": "2420"
+        },
+        "TotalFunctionalExpensesGrp": {
+          "TotalAmt": "1430770",
+          "ProgramServicesAmt": "1112349",
+          "ManagementAndGeneralAmt": "107756",
+          "FundraisingAmt": "210665"
+        },
+        "CashNonInterestBearingGrp": {
+          "BOYAmt": "360051",
+          "EOYAmt": "393536"
+        },
+        "SavingsAndTempCashInvstGrp": {
+          "BOYAmt": "468727",
+          "EOYAmt": "331533"
+        },
+        "PledgesAndGrantsReceivableGrp": {
+          "BOYAmt": "714336",
+          "EOYAmt": "832359"
+        },
+        "AccountsReceivableGrp": {
+          "BOYAmt": "88",
+          "EOYAmt": "987"
+        },
+        "ReceivablesFromOfficersEtcGrp": { "EOYAmt": "0" },
+        "RcvblFromDisqualifiedPrsnGrp": { "EOYAmt": "0" },
+        "OthNotesLoansReceivableNetGrp": { "EOYAmt": "0" },
+        "InventoriesForSaleOrUseGrp": { "EOYAmt": "0" },
+        "PrepaidExpensesDefrdChargesGrp": {
+          "BOYAmt": "1307",
+          "EOYAmt": "10792"
+        },
+        "LandBldgEquipCostOrOtherBssAmt": "49054",
+        "LandBldgEquipAccumDeprecAmt": "44429",
+        "LandBldgEquipBasisNetGrp": {
+          "BOYAmt": "5330",
+          "EOYAmt": "4625"
+        },
+        "InvestmentsPubTradedSecGrp": { "EOYAmt": "0" },
+        "InvestmentsOtherSecuritiesGrp": { "EOYAmt": "0" },
+        "InvestmentsProgramRelatedGrp": { "EOYAmt": "0" },
+        "IntangibleAssetsGrp": { "EOYAmt": "0" },
+        "OtherAssetsTotalGrp": {
+          "BOYAmt": "53944",
+          "EOYAmt": "54401"
+        },
+        "TotalAssetsGrp": {
+          "BOYAmt": "1603783",
+          "EOYAmt": "1628233",
+          "#text": "
+    LIABILITIES
+      "
+        },
+        "AccountsPayableAccrExpnssGrp": {
+          "BOYAmt": "42671",
+          "EOYAmt": "45259"
+        },
+        "OtherLiabilitiesGrp": {
+          "BOYAmt": "237986",
+          "EOYAmt": "231561"
+        },
+        "TotalLiabilitiesGrp": {
+          "BOYAmt": "280657",
+          "EOYAmt": "276820"
+        },
+        "OrganizationFollowsSFAS117Ind": "X",
+        "UnrestrictedNetAssetsGrp": {
+          "BOYAmt": "1316357",
+          "EOYAmt": "1344572"
+        },
+        "TemporarilyRstrNetAssetsGrp": {
+          "BOYAmt": "6769",
+          "EOYAmt": "6841"
+        },
+        "TotalNetAssetsFundBalanceGrp": {
+          "BOYAmt": "1323126",
+          "EOYAmt": "1351413"
+        },
+        "TotLiabNetAssetsFundBalanceGrp": {
+          "BOYAmt": "1603783",
+          "EOYAmt": "1628233"
+        },
+        "ReconcilationRevenueExpnssAmt": "28287",
+        "MethodOfAccountingAccrualInd": "X",
+        "AccountantCompileOrReviewInd": "false",
+        "FSAuditedInd": "true",
+        "FSAuditedBasisGrp": { "SeparateBasisFinclStmtInd": "X" },
+        "AuditCommitteeInd": "true",
+        "FederalGrantAuditRequiredInd": "false"
+      },
+      "IRS990ScheduleA": {
+        "-documentId": "IRS990ScheduleA",
+        "-softwareId": "14000265",
+        "-softwareVersionNum": "2014v5.0",
+        "PublicOrganization170Ind": "X",
+        "GiftsGrantsContriRcvd170Grp": {
+          "CurrentTaxYearMinus4YearsAmt": "1344153",
+          "CurrentTaxYearMinus3YearsAmt": "1342365",
+          "CurrentTaxYearMinus2YearsAmt": "1336234",
+          "CurrentTaxYearMinus1YearAmt": "1343599",
+          "CurrentTaxYearAmt": "1421972",
+          "TotalAmt": "6788323"
+        },
+        "TaxRevLeviedOrgnztnlBnft170Grp": { "TotalAmt": "0" },
+        "GovtFurnSrvcFcltsVl170Grp": { "TotalAmt": "0" },
+        "TotalCalendarYear170Grp": {
+          "CurrentTaxYearMinus4YearsAmt": "1344153",
+          "CurrentTaxYearMinus3YearsAmt": "1342365",
+          "CurrentTaxYearMinus2YearsAmt": "1336234",
+          "CurrentTaxYearMinus1YearAmt": "1343599",
+          "CurrentTaxYearAmt": "1421972",
+          "TotalAmt": "6788323"
+        },
+        "SubstantialContributorsTotAmt": "381117",
+        "PublicSupportTotal170Amt": "6407206",
+        "GrossInvestmentIncome170Grp": {
+          "CurrentTaxYearMinus4YearsAmt": "4505",
+          "CurrentTaxYearMinus3YearsAmt": "3849",
+          "CurrentTaxYearMinus2YearsAmt": "2189",
+          "CurrentTaxYearMinus1YearAmt": "1614",
+          "CurrentTaxYearAmt": "1152",
+          "TotalAmt": "13309"
+        },
+        "UnrelatedBusinessNetIncm170Grp": { "TotalAmt": "0" },
+        "OtherIncome170Grp": {
+          "CurrentTaxYearMinus4YearsAmt": "42759",
+          "CurrentTaxYearMinus3YearsAmt": "34662",
+          "CurrentTaxYearMinus2YearsAmt": "39314",
+          "CurrentTaxYearMinus1YearAmt": "40009",
+          "CurrentTaxYearAmt": "35160",
+          "TotalAmt": "191904"
+        },
+        "TotalSupportAmt": "6993536",
+        "PublicSupportCY170Pct": "0.91620",
+        "PublicSupportPY170Pct": "0.95260",
+        "ThirtyThrPctSuprtTestsCY170Ind": "X"
+      },
+      "IRS990ScheduleB": {
+        "-documentId": "IRS990ScheduleB",
+        "-softwareId": "14000265",
+        "-softwareVersionNum": "2014v5.0",
+        "ContributorInformationGrp": {
+          "ContributorNum": "RESTRICTED",
+          "ContributorBusinessName": { "BusinessNameLine1": "RESTRICTED" },
+          "ContributorUSAddress": {
+            "AddressLine1": "RESTRICTED",
+            "AddressLine2": "RESTRICTED",
+            "City": "RESTRICTED",
+            "State": "RESTRICTED",
+            "ZIPCode": "RESTRICTED"
+          },
+          "TotalContributionsAmt": "RESTRICTED"
+        }
+      },
+      "IRS990ScheduleD": {
+        "-documentId": "IRS990ScheduleD",
+        "-softwareId": "14000265",
+        "-softwareVersionNum": "2014v5.0",
+        "LeaseholdImprovementsGrp": {
+          "OtherCostOrOtherBasisAmt": "10733",
+          "DepreciationAmt": "10733"
+        },
+        "OtherLandBuildingsGrp": {
+          "OtherCostOrOtherBasisAmt": "38321",
+          "DepreciationAmt": "33696",
+          "BookValueAmt": "4625"
+        },
+        "TotalBookValueLandBuildingsAmt": "4625",
+        "OtherLiabilitiesOrgGrp": {
+          "Desc": "ALLOCATIONS & DESIGNATIONS PAYABLE",
+          "Amt": "231561"
+        },
+        "TotalLiabilityAmt": "231561",
+        "TotalRevEtcAuditedFinclStmtAmt": "1394920",
+        "RevenueSubtotalAmt": "1394920",
+        "OtherRevenuesNotIncludedAmt": "64137",
+        "RevenueNotReportedFinclStmtAmt": "64137",
+        "TotalRevenuePerForm990Amt": "1459057",
+        "TotExpnsEtcAuditedFinclStmtAmt": "1366633",
+        "ExpensesSubtotalAmt": "1366633",
+        "OtherExpensesNotIncludedAmt": "64137",
+        "ExpensesNotRptFinclStmtAmt": "64137",
+        "TotalExpensesPerForm990Amt": "1430770",
+        "SupplementalInformationDetail": [
+          {
+            "FormAndLineReferenceDesc": "Part XI, Line 4b: Other revenue amounts included on 990 but not included in F/S",
+            "ExplanationTxt": "ALLOWANCE FOR UNCOLLECTIBLES $64137"
+          },
+          {
+            "FormAndLineReferenceDesc": "Part XII, Line 4b: Other revenue amounts included on 990 but not included in F/S",
+            "ExplanationTxt": "ALLOWANCE FOR UNCOLLECTIBLES $64137"
+          }
+        ]
+      },
+      "IRS990ScheduleI": {
+        "-documentId": "IRS990ScheduleI",
+        "-softwareId": "14000265",
+        "-softwareVersionNum": "2014v5.0",
+        "GrantRecordsMaintainedInd": "true",
+        "RecipientTable": [
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "AMERICAN RED CROSS" },
+            "USAddress": {
+              "AddressLine1Txt": "39 N PARK STREET",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44902"
+            },
+            "RecipientEIN": "530196605",
+            "CashGrantAmt": "87900",
+            "NonCashAssistanceAmt": "33819",
+            "ValuationMethodUsedDesc": "FAIR MARKET VALUE",
+            "NonCashAssistanceDesc": "RENT",
+            "PurposeOfGrantTxt": "TO HELP PEOPLE AVOID, PREPARE FOR & COPE WITH EMERGENCIES"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "BIG BROTHERS BIG SISTERS" },
+            "USAddress": {
+              "AddressLine1Txt": "380 N MULBERRY STREET",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44902"
+            },
+            "RecipientEIN": "341877332",
+            "CashGrantAmt": "20000",
+            "NonCashAssistanceAmt": "0",
+            "PurposeOfGrantTxt": "PROVIDE PREVENTATIVE MENTORING SERVICES FOR AT-RISK YOUTH"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "CATHOLIC CHARITIES" },
+            "USAddress": {
+              "AddressLine1Txt": "249 WEST MAIN STREET",
+              "CityNm": "NORWALK",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44857"
+            },
+            "RecipientEIN": "344428254",
+            "CashGrantAmt": "35245",
+            "NonCashAssistanceAmt": "0",
+            "PurposeOfGrantTxt": "ASSIST COMMUNITY BY FEEDING THE HUNGRY, VISITING THE SICK"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "CENTER FOR INDIV AND FAMILY SRVC" },
+            "USAddress": {
+              "AddressLine1Txt": "741 SCHOLL ROAD",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44907"
+            },
+            "RecipientEIN": "341190641",
+            "CashGrantAmt": "77234",
+            "NonCashAssistanceAmt": "0",
+            "PurposeOfGrantTxt": "COMMUNITY MENTAL HEALTH PROG TO ASSIST FAMILIES LIVING ALONE"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "COMMUNITY ACTION FOR CAPABLE YOU" },
+            "USAddress": {
+              "AddressLine1Txt": "1495 WEST LONGVIEW",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44906"
+            },
+            "RecipientEIN": "341503726",
+            "CashGrantAmt": "21014",
+            "NonCashAssistanceAmt": "0",
+            "PurposeOfGrantTxt": "PROMOTE DRUG/ALCOHOL-FREE LIFE TO YOUTH THROUGH EDUCATION"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "COMMUNITY HEALTH ACCESS PROGRAM" },
+            "USAddress": {
+              "AddressLine1Txt": "PO BOX 1986",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44901"
+            },
+            "RecipientEIN": "341884022",
+            "CashGrantAmt": "20500",
+            "NonCashAssistanceAmt": "11530",
+            "ValuationMethodUsedDesc": "FAIR MARKET VALUE",
+            "NonCashAssistanceDesc": "RENT",
+            "PurposeOfGrantTxt": "IMPROVE HEALTH, SOCIAL AND EDUCATIONAL OUTCOMES"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "CULLIVER READING CENTER" },
+            "USAddress": {
+              "AddressLine1Txt": "276 HARKER STREET",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44902"
+            },
+            "RecipientEIN": "341829762",
+            "CashGrantAmt": "5600",
+            "NonCashAssistanceAmt": "0",
+            "PurposeOfGrantTxt": "ENCOURAGE EDUCATION, ASSIST IN READING, WRITING AND MATH"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "DOMESTIC VIOLENCE SHELTER" },
+            "USAddress": {
+              "AddressLine1Txt": "PO BOX 1524",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44901"
+            },
+            "RecipientEIN": "341261703",
+            "CashGrantAmt": "24357",
+            "NonCashAssistanceAmt": "0",
+            "PurposeOfGrantTxt": "PROVIDE EACH FAMILY AN ALTERNATIVE TO DOMESTIC VIOLENCE"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "FRIENDLY HOUSE" },
+            "USAddress": {
+              "AddressLine1Txt": "380 N MULBERRY",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44902"
+            },
+            "RecipientEIN": "340714667",
+            "CashGrantAmt": "222700",
+            "NonCashAssistanceAmt": "0",
+            "PurposeOfGrantTxt": "MEET RECREATIONAL, INFORMAL EDUCATIONAL AND CHILD CARE NEEDS"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "GIRL SCOUTS HERITAGE TRAIL" },
+            "USAddress": {
+              "AddressLine1Txt": "35 N PARK STREET",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44902"
+            },
+            "RecipientEIN": "314379475",
+            "CashGrantAmt": "8000",
+            "NonCashAssistanceAmt": "21093",
+            "ValuationMethodUsedDesc": "FAIR MARKET VALUE",
+            "NonCashAssistanceDesc": "RENT",
+            "PurposeOfGrantTxt": "INSPIRE GIRLS WITH HIGHEST IDEALS OF CHARACTER CONDUCT SERV"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "HARMONY HOUSE" },
+            "USAddress": {
+              "AddressLine1Txt": "124 W THIRD STREET",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44901"
+            },
+            "RecipientEIN": "205609709",
+            "CashGrantAmt": "14000",
+            "NonCashAssistanceAmt": "0",
+            "PurposeOfGrantTxt": "PROVIDE FOOD, CLOTHING, LODGING AND SERVICES TO THE HOMELESS"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "INDEPENDENT LIVING CENTER OF NCO" },
+            "USAddress": {
+              "AddressLine1Txt": "1 MARION AVENUE SUITE 115C",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44903"
+            },
+            "RecipientEIN": "341755929",
+            "CashGrantAmt": "8000",
+            "NonCashAssistanceAmt": "0",
+            "PurposeOfGrantTxt": "PROVIDE CORE SUPPLIES TO INDEPENDENT INDIVIDUALS WITH DISABI"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "MANSRICH COUNTY DENTAL CLINIC" },
+            "USAddress": {
+              "AddressLine1Txt": "35 N PARK STREET",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44902"
+            },
+            "RecipientEIN": "340820619",
+            "CashGrantAmt": "19500",
+            "NonCashAssistanceAmt": "3866",
+            "ValuationMethodUsedDesc": "FAIR MARKET VALUE",
+            "NonCashAssistanceDesc": "RENT",
+            "PurposeOfGrantTxt": "PROMOTE BETTER DENTAL CARE FOR INDIGENT CHILDREN IN RICH CTY"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "MEDCENTRAL HOSPICE" },
+            "USAddress": {
+              "AddressLine1Txt": "335 GLESSNER AVE",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44902"
+            },
+            "RecipientEIN": "340714456",
+            "CashGrantAmt": "12500",
+            "NonCashAssistanceAmt": "0",
+            "PurposeOfGrantTxt": "ASSIST ELDERLY PATIENTS WITH END-OF-LIFE CARE IN THEIR HOME"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "PARENT AIDE PROGRAM" },
+            "USAddress": {
+              "AddressLine1Txt": "87 PARK AVE WEST",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44902"
+            },
+            "RecipientEIN": "341799396",
+            "CashGrantAmt": "18000",
+            "NonCashAssistanceAmt": "0",
+            "PurposeOfGrantTxt": "PROVIDE SUPPORT, EDUCATION FOR THE PREVENTION OF CHILD ABUSE"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "RAEMELTION THERAPEUTIC EQUESTRIA" },
+            "USAddress": {
+              "AddressLine1Txt": "569 SOUTH TRIMBLE ROAD",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44906"
+            },
+            "RecipientEIN": "341780155",
+            "CashGrantAmt": "19879",
+            "NonCashAssistanceAmt": "0",
+            "PurposeOfGrantTxt": "HORSBACK RIDING FOR THE HANDICAPPED, TO PROVIDE THERAPY"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "REHAB CENTER OF NORTH CENTRAL OH" },
+            "USAddress": {
+              "AddressLine1Txt": "270 STERKEL BOULEVARD",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44907"
+            },
+            "RecipientEIN": "341190641",
+            "CashGrantAmt": "123137",
+            "NonCashAssistanceAmt": "0",
+            "PurposeOfGrantTxt": "EVALUATE, TREAT, CONSULT & TRAIN HANDICAPPED OF ALL AGES"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "ROTARY ADULT DAY CARE" },
+            "USAddress": {
+              "AddressLine1Txt": "50 BLYMER AVENUE",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44902"
+            },
+            "RecipientEIN": "340865526",
+            "CashGrantAmt": "10000",
+            "NonCashAssistanceAmt": "0",
+            "PurposeOfGrantTxt": "HELP ELDER ADULTS KEEP ACTIVE & LIVE INDEPENDENTLY AS POSSIB"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "SALAVATION ARMY" },
+            "USAddress": {
+              "AddressLine1Txt": "47 S MAIN STREET",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44903"
+            },
+            "RecipientEIN": "135562351",
+            "CashGrantAmt": "46697",
+            "NonCashAssistanceAmt": "0",
+            "PurposeOfGrantTxt": "ASSIST SPIRITUAL, MORAL & PHYSICAL REHAB OF PERSONS IN NEED"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "THIRD STREET COMMUNITY CLINIC" },
+            "USAddress": {
+              "AddressLine1Txt": "600 WEST THIRD STREET",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44906"
+            },
+            "RecipientEIN": "341753919",
+            "CashGrantAmt": "28960",
+            "NonCashAssistanceAmt": "0",
+            "PurposeOfGrantTxt": "PROVIDE SERVICES TO MEDICALLY INDGENT IN THE AREA"
+          },
+          {
+            "RecipientBusinessName": { "BusinessNameLine1Txt": "VISITING NURSE ASSOCIATION" },
+            "USAddress": {
+              "AddressLine1Txt": "188 W THIRD STREET",
+              "CityNm": "MANSFIELD",
+              "StateAbbreviationCd": "OH",
+              "ZIPCd": "44902"
+            },
+            "RecipientEIN": "341913736",
+            "CashGrantAmt": "12000",
+            "NonCashAssistanceAmt": "0",
+            "PurposeOfGrantTxt": "SUPPLY HOME HEALTH AND PRIVATE DUTY CARE"
+          }
+        ],
+        "Total501c3OrgCnt": "21",
+        "TotalOtherOrgCnt": "0",
+        "SupplementalInformationDetail": {
+          "FormAndLineReferenceDesc": "Grantmaker's Description of How Grants are Used",
+          "ExplanationTxt": "THE ORGANIZATION MONITORS THE USAGE OF THE GRANT FUNDS BY REQUESTING THE GRANTEE TO PROVIDE EITHER AN AUDIT OR A REVIEW FINANCIAL STATEMENT PREPARED BY AN INDEPENDENT ACCOUNTANT, ON AN ANNUAL BASIS."
+        }
+      },
+      "IRS990ScheduleO": {
+        "-documentId": "IRS990ScheduleO",
+        "-softwareId": "14000265",
+        "-softwareVersionNum": "2014v5.0",
+        "SupplementalInformationDetail": [
+          {
+            "FormAndLineReferenceDesc": "Form 990, Part VI, Line 11b: Form 990 Review Process",
+            "ExplanationTxt": "EMAILED TO ALL BOARD MEMBERS."
+          },
+          {
+            "FormAndLineReferenceDesc": "Form 990, Part VI, Line 19: Other Organization Documents Publicly Available",
+            "ExplanationTxt": "ON FILE AND AVAILABLE ON REQUEST."
+          }
+        ]
+      }
+    }
+  }
+}
