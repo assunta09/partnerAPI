@@ -1,14 +1,14 @@
 class CreateExpenses < ActiveRecord::Migration[5.0]
   def change
     create_table :expenses do |t|
-      t.organisation_id :integer
-      t.year_id :integer
-      t.grants :integer
-      t.member_benefits :integer
-      t.salaries :integer
-      t.fundraising_fees :integer
-      t.other :integer
-      t.total :integer
+      t.integer :organisation_id
+      t.integer :year_id
+      t.integer :grants
+      t.integer :member_benefits
+      t.integer :salaries
+      t.integer :fundraising_fees
+      t.integer :other
+      t.integer :total
 
       t.timestamps
     end
