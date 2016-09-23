@@ -5,5 +5,7 @@ class OrganisationsController < ApplicationController
 
   def show
     @organisation = Organisation.find(params[:id])
+    @impact_score = @organisation.impact_score
+    render json: {organisation: @organisation, impact_score: @impact_score}
   end
 end
