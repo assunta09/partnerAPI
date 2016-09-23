@@ -8,6 +8,9 @@ org = Organisation.create(
   name: "Devbootcamp",
   mission: "Make beautiful and meaningful shit",
   address: "633 Folsom St.",
+  city: "San Fran",
+  state: "California",
+  zip: 12345,
   year_formed: 2016,
   number_of_employees: 1337,
   domain: "Devbootcamp.com"
