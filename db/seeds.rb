@@ -50,6 +50,24 @@
 #   net_assets: 100
 #   )
 
+
+# THIS is not used currently - needs to be altered to get all executive data
+def seed_executives_table(org, doc)
+  puts "method call"
+  doc.search("Form990PartVIISectionAGrp").each do |person_element|
+    puts person_element.elements[1].text
+    # Executive.create(
+    # organisation_id: org.id,
+    # name: person_element.elements[0].text,
+    # title: person_element.elements[1].text,
+    # salary: person_element.elements[0].text
+
+    # )
+  end
+end
+
+
+#SEED SCRIPT
 source_path = Rails.root.join('db', 'xml_files')
 
 Dir.glob("#{source_path}/*.xml").each do |xml_file|
@@ -63,51 +81,76 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   leaves.each do |node|
   hash["#{node.name}"] = node.text
   end
-  puts hash["BusinessNameLine1"]
-  puts hash["WebsiteAddressTxt"]
+
+  org = Organisation.create(
+    name: hash["BusinessNameLine1"],
+    mission: hash["ActivityOrMissionDesc"],
+    organisation_type: hash["TypeOfOrganizationCorpInd"],
+    address: hash["AddressLine1"],
+    city: hash["City"],
+    state: hash["State"],
+    zip: hash["ZIPCode"],
+    year_formed: hash["FormationYr"],
+    number_of_employees: hash["TotalEmployeeCnt"],
+    domain: hash["WebsiteAddressTxt"]
+  )
+
+  Revenue.create(
+   organisation_id: org.id,
+   year: hash["TaxYr"],
+   contributions: hash["CYContributionsGrantsAmt"],
+   service_revenue: hash["CYProgramServiceRevenueAmt"],
+   investments: hash["CYInvestmentIncomeAmt"],
+   other: hash["CYTotalRevenueAmt"],
+   total: hash["CYTotalRevenueAmt"]
+   )
+
+   Expense.create(
+   organisation_id: org.id,
+   year: hash["TaxYr"],
+   grants: hash["CYGrantsAndSimilarPaidAmt"],
+   member_benefits: hash["CYBenefitsPaidToMembersAmt"],
+   salaries: hash["CYSalariesCompEmpBnftPaidAmt"],
+   fundraising_fees: hash["CYTotalProfFndrsngExpnsAmt"],
+   other: hash["CYOtherExpensesAmt"],
+   total: hash["CYTotalExpensesAmt"]
+   )
+
+  Balance.create(
+    organisation_id: org.id,
+    year: hash["TaxYr"],
+    total_assets: hash["TotalAssetsEOYAmt"],
+    total_liabilities: hash["TotalLiabilitiesEOYAmt"],
+    net_assets: hash["NetAssetsOrFundBalancesEOYAmt"]
+    )
+
+  Executive.create(
+  organisation_id: org.id,
+  name: hash["PersonNm"],
+  title: hash["TitleTxt"],
+  salary: hash["ReportableCompFromOrgAmt"],
+   )
+
+    # seed_executives_table(doc)
 end
 
-# name = data["Return"]["ReturnHeader"]["Filer"]["BusinessName"]["BusinessNameLine1"]
-# mission = data["Return"]["ReturnData"]["IRS990"]["ActivityOrMissionDesc"]
-# #We probably need to parse this out over a couple pieces in one string
-# address1 = data["Return"]["ReturnHeader"]["Filer"]["USAddress"]["AddressLine1"]
-# address2 = data["Return"]["ReturnHeader"]["Filer"]["USAddress"]["City"]
-# address3 = data["Return"]["ReturnHeader"]["Filer"]["USAddress"]["State"]
-# address4 = data["Return"]["ReturnHeader"]["Filer"]["USAddress"]["ZIPCode"]
 
-# # name = data["Return"]["ReturnHeader"]["Filer"]["BusinessName"]["BusinessNameLine1"]
-# # mission = data["Return"]["ReturnData"]["IRS990"]["ActivityOrMissionDesc"]
-# # #We probably need to parse this out over a couple pieces in one string
-# # address1 = data["Return"]["ReturnHeader"]["Filer"]["USAddress"]["AddressLine1"]
-# # address2 = data["Return"]["ReturnHeader"]["Filer"]["USAddress"]["City"]
-# # address3 = data["Return"]["ReturnHeader"]["Filer"]["USAddress"]["State"]
-# # address4 = data["Return"]["ReturnHeader"]["Filer"]["USAddress"]["ZIPCode"]
+  # This is the runner data
 
-# # year_formed = data["Return"]["ReturnData"]["IRS990"]["FormationYr"]
-# # number_of_employees = data["Return"]["ReturnData"]["IRS990"]["TotalEmployeeCnt"]
-# # domain = data["Return"]["ReturnData"]["IRS990"]["WebsiteAddressTxt"]
-# # address = address1 + " " + address2 + " " + address3 + " " + address4
+  # puts hash["BusinessNameLine1"]
+  # puts hash["ActivityOrMissionDesc"]
+  # puts hash["AddressLine1"]
+  # puts hash["City"]
+  # puts hash["State"]
+  # puts hash["ZIPCode"]
+  # puts hash["TotalEmployeeCnt"]
+  # puts hash["WebsiteAddressTxt"]
 
 
 
-# # json = ActiveSupport::JSON.decode(File.read('example2.json'))
-
-# # json.each do |a|
-# #   Organisation.create!(['country'], without_protection: true)
-# # end
+# Additional information we could add
+  # puts hash["TypeOfOrganizationCorpInd"]
 
 
-# #This is the new script for reading an xml file, parsing, and creating a
-# # ruby hash.
-
-# file = File.open("201510099349300436_public.xml")
-# xml_file = File.read(file)
-# doc = Nokogiri::XML(xml_file)
-# leaves = doc.xpath('//*[not(*)]')
-
-# hash = {}
-# leaves.each do |node|
-#   hash["#{node.name}"] = node.text
-# end
 
 
