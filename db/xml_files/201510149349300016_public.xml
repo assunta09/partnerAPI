@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2013v4.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2015-01-14T09:28:45-06:00</ReturnTs>
+    <TaxPeriodEndDt>2014-06-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>430642511</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1>STONE CARLIE AND COMPANY LLC</BusinessNameLine1>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1>101 S HANLEY ROAD SUITE 800</AddressLine1>
+        <City>ST LOUIS</City>
+        <State>MO</State>
+        <ZIPCode>63105</ZIPCode>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990</ReturnTypeCd>
+    <TaxPeriodBeginDt>2013-07-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>840291850</EIN>
+      <BusinessName>
+        <BusinessNameLine1>PI BETA PHI COLORADO ALPHA</BusinessNameLine1>
+      </BusinessName>
+      <BusinessNameControlTxt>PIBE</BusinessNameControlTxt>
+      <PhoneNum>6362560680</PhoneNum>
+      <USAddress>
+        <AddressLine1>890 11TH STREET</AddressLine1>
+        <City>BOULDER</City>
+        <State>CO</State>
+        <ZIPCode>803027515</ZIPCode>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>ONILIA ZORIO</PersonNm>
+      <PersonTitleTxt>VP OF FINANCE</PersonTitleTxt>
+      <PhoneNum>6362560680</PhoneNum>
+      <SignatureDt>2014-11-12</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>MARY JANE PIERONI CPA</PreparerPersonNm>
+      <PTIN>P00538772</PTIN>
+      <PhoneNum>3148891100</PhoneNum>
+    </PreparerPersonGrp>
+    <TaxYr>2013</TaxYr>
+    <BuildTS>2016-02-25 16:41:14Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCount="3">
+    <IRS990 documentId="RetDoc1038000001" referenceDocumentId="RetDoc1044400001">
+      <PrincipalOfficerNm>SARA BERGMARK</PrincipalOfficerNm>
+      <USAddress>
+        <AddressLine1>890 11TH STREET</AddressLine1>
+        <City>BOULDER</City>
+        <State>CO</State>
+        <ZIPCode>803027515</ZIPCode>
+      </USAddress>
+      <GrossReceiptsAmt>433209</GrossReceiptsAmt>
+      <GroupReturnForAffiliatesInd>0</GroupReturnForAffiliatesInd>
+      <GroupExemptionNum>0544</GroupExemptionNum>
+      <Organization501cInd organization501cTypeTxt="7">X</Organization501cInd>
+      <WebsiteAddressTxt>WWW.PIBETAPHI.ORG/COLORADO</WebsiteAddressTxt>
+      <TypeOfOrganizationAssocInd>X</TypeOfOrganizationAssocInd>
+      <FormationYr>1884</FormationYr>
+      <LegalDomicileStateCd>CO</LegalDomicileStateCd>
+      <ActivityOrMissionDesc>TO MUTUALLY ENCOURAGE AND ASSIST MEMBERS IN SOCIAL, MENTAL, AND MORAL ADVANCEMENT.</ActivityOrMissionDesc>
+      <VotingMembersGoverningBodyCnt>10</VotingMembersGoverningBodyCnt>
+      <VotingMembersIndependentCnt>10</VotingMembersIndependentCnt>
+      <TotalEmployeeCnt>0</TotalEmployeeCnt>
+      <TotalVolunteersCnt>18</TotalVolunteersCnt>
+      <TotalGrossUBIAmt>0</TotalGrossUBIAmt>
+      <NetUnrelatedBusTxblIncmAmt>0</NetUnrelatedBusTxblIncmAmt>
+      <PYContributionsGrantsAmt>100</PYContributionsGrantsAmt>
+      <CYContributionsGrantsAmt>0</CYContributionsGrantsAmt>
+      <PYProgramServiceRevenueAmt>225797</PYProgramServiceRevenueAmt>
+      <CYProgramServiceRevenueAmt>430481</CYProgramServiceRevenueAmt>
+      <PYInvestmentIncomeAmt>661</PYInvestmentIncomeAmt>
+      <CYInvestmentIncomeAmt>536</CYInvestmentIncomeAmt>
+      <PYOtherRevenueAmt>4384</PYOtherRevenueAmt>
+      <CYOtherRevenueAmt>1566</CYOtherRevenueAmt>
+      <PYTotalRevenueAmt>230942</PYTotalRevenueAmt>
+      <CYTotalRevenueAmt>432583</CYTotalRevenueAmt>
+      <PYGrantsAndSimilarPaidAmt>2552</PYGrantsAndSimilarPaidAmt>
+      <CYGrantsAndSimilarPaidAmt>2001</CYGrantsAndSimilarPaidAmt>
+      <PYBenefitsPaidToMembersAmt>0</PYBenefitsPaidToMembersAmt>
+      <CYBenefitsPaidToMembersAmt>0</CYBenefitsPaidToMembersAmt>
+      <PYSalariesCompEmpBnftPaidAmt>0</PYSalariesCompEmpBnftPaidAmt>
+      <CYSalariesCompEmpBnftPaidAmt>0</CYSalariesCompEmpBnftPaidAmt>
+      <PYTotalProfFndrsngExpnsAmt>0</PYTotalProfFndrsngExpnsAmt>
+      <CYTotalProfFndrsngExpnsAmt>0</CYTotalProfFndrsngExpnsAmt>
+      <CYTotalFundraisingExpenseAmt>0</CYTotalFundraisingExpenseAmt>
+      <PYOtherExpensesAmt>257638</PYOtherExpensesAmt>
+      <CYOtherExpensesAmt>273259</CYOtherExpensesAmt>
+      <PYTotalExpensesAmt>260190</PYTotalExpensesAmt>
+      <CYTotalExpensesAmt>275260</CYTotalExpensesAmt>
+      <PYRevenuesLessExpensesAmt>-29248</PYRevenuesLessExpensesAmt>
+      <CYRevenuesLessExpensesAmt>157323</CYRevenuesLessExpensesAmt>
+      <TotalAssetsBOYAmt>196020</TotalAssetsBOYAmt>
+      <TotalAssetsEOYAmt>352066</TotalAssetsEOYAmt>
+      <TotalLiabilitiesBOYAmt>2352</TotalLiabilitiesBOYAmt>
+      <TotalLiabilitiesEOYAmt>1075</TotalLiabilitiesEOYAmt>
+      <NetAssetsOrFundBalancesBOYAmt>193668</NetAssetsOrFundBalancesBOYAmt>
+      <NetAssetsOrFundBalancesEOYAmt>350991</NetAssetsOrFundBalancesEOYAmt>
+      <MissionDesc>TO MUTUALLY ENCOURAGE AND ASSIST MEMBERS IN SOCIAL, MENTAL, AND MORAL ADVANCEMENT.</MissionDesc>
+      <SignificantNewProgramSrvcInd>0</SignificantNewProgramSrvcInd>
+      <SignificantChangeInd>0</SignificantChangeInd>
+      <Desc>THE COLORADO ALPHA CHAPTER OF PI BETA PHI FRATERNITY IS A MEMBERSHIP ORGANIZATION SUPPORTED BY DUES, FEES, CHARGES, OR OTHER FUNDS PAID BY ITS MEMBERS AND PROVIDES GOODS, FACILITIES, AND SERVICES TO MEMBERS WHILE ASSISTING STUDENTS IN IMPROVING VARIOUS EDUCATIONAL AND LEADERSHIP SKILLS BY SUPPORTING PHILANTHROPIC AND COMMUNITY SERVICE PROJECTS. DURING THE CURRENT FISCAL YEAR, THE CHAPTER SERVED APPROXIMATELY 160 MEMBERS.</Desc>
+      <DescribedInSection501c3Ind>0</DescribedInSection501c3Ind>
+      <ScheduleBRequiredInd>0</ScheduleBRequiredInd>
+      <PoliticalCampaignActyInd>0</PoliticalCampaignActyInd>
+      <SubjectToProxyTaxInd>0</SubjectToProxyTaxInd>
+      <DonorAdvisedFundInd>0</DonorAdvisedFundInd>
+      <ConservationEasementsInd>0</ConservationEasementsInd>
+      <CollectionsOfArtInd>0</CollectionsOfArtInd>
+      <CreditCounselingInd>0</CreditCounselingInd>
+      <TempOrPermanentEndowmentsInd>0</TempOrPermanentEndowmentsInd>
+      <ReportLandBuildingEquipmentInd>0</ReportLandBuildingEquipmentInd>
+      <ReportInvestmentsOtherSecInd>0</ReportInvestmentsOtherSecInd>
+      <ReportProgramRelatedInvstInd>0</ReportProgramRelatedInvstInd>
+      <ReportOtherAssetsInd>0</ReportOtherAssetsInd>
+      <ReportOtherLiabilitiesInd>0</ReportOtherLiabilitiesInd>
+      <IncludeFIN48FootnoteInd>0</IncludeFIN48FootnoteInd>
+      <IndependentAuditFinclStmtInd>0</IndependentAuditFinclStmtInd>
+      <ConsolidatedAuditFinclStmtInd>0</ConsolidatedAuditFinclStmtInd>
+      <SchoolOperatingInd>0</SchoolOperatingInd>
+      <ForeignOfficeInd>0</ForeignOfficeInd>
+      <ForeignActivitiesInd>0</ForeignActivitiesInd>
+      <MoreThan5000KToOrgInd>0</MoreThan5000KToOrgInd>
+      <MoreThan5000KToIndividualsInd>0</MoreThan5000KToIndividualsInd>
+      <ProfessionalFundraisingInd>0</ProfessionalFundraisingInd>
+      <FundraisingActivitiesInd>0</FundraisingActivitiesInd>
+      <GamingActivitiesInd>0</GamingActivitiesInd>
+      <OperateHospitalInd>0</OperateHospitalInd>
+      <GrantsToOrganizationsInd>0</GrantsToOrganizationsInd>
+      <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+      <ScheduleJRequiredInd>0</ScheduleJRequiredInd>
+      <TaxExemptBondsInd>0</TaxExemptBondsInd>
+      <LoanOutstandingInd>0</LoanOutstandingInd>
+      <GrantToRelatedPersonInd>0</GrantToRelatedPersonInd>
+      <BusinessRlnWithOrgMemInd>0</BusinessRlnWithOrgMemInd>
+      <BusinessRlnWithFamMemInd>0</BusinessRlnWithFamMemInd>
+      <BusinessRlnWithOfficerEntInd>0</BusinessRlnWithOfficerEntInd>
+      <DeductibleNonCashContriInd>0</DeductibleNonCashContriInd>
+      <DeductibleArtContributionInd>0</DeductibleArtContributionInd>
+      <TerminateOperationsInd>0</TerminateOperationsInd>
+      <PartialLiquidationInd>0</PartialLiquidationInd>
+      <DisregardedEntityInd referenceDocumentId="RetDoc1043400001">0</DisregardedEntityInd>
+      <RelatedEntityInd referenceDocumentId="RetDoc1043400001">1</RelatedEntityInd>
+      <RelatedOrganizationCtrlEntInd>0</RelatedOrganizationCtrlEntInd>
+      <ActivitiesConductedPrtshpInd referenceDocumentId="RetDoc1043400001">0</ActivitiesConductedPrtshpInd>
+      <ScheduleORequiredInd>1</ScheduleORequiredInd>
+      <IRPDocumentCnt>3</IRPDocumentCnt>
+      <IRPDocumentW2GCnt>0</IRPDocumentW2GCnt>
+      <BackupWthldComplianceInd>1</BackupWthldComplianceInd>
+      <EmployeeCnt>0</EmployeeCnt>
+      <UnrelatedBusIncmOverLimitInd>1</UnrelatedBusIncmOverLimitInd>
+      <Form990TFiledInd>1</Form990TFiledInd>
+      <ForeignFinancialAccountInd>0</ForeignFinancialAccountInd>
+      <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+      <TaxablePartyNotificationInd>0</TaxablePartyNotificationInd>
+      <NondeductibleContributionsInd>1</NondeductibleContributionsInd>
+      <NondeductibleContriDisclInd>1</NondeductibleContriDisclInd>
+      <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+      <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+      <InitiationFeesAndCapContriAmt>0</InitiationFeesAndCapContriAmt>
+      <GrossReceiptsForPublicUseAmt>0</GrossReceiptsForPublicUseAmt>
+      <IndoorTanningServicesInd>0</IndoorTanningServicesInd>
+      <InfoInScheduleOPartVIInd>X</InfoInScheduleOPartVIInd>
+      <GoverningBodyVotingMembersCnt>10</GoverningBodyVotingMembersCnt>
+      <IndependentVotingMemberCnt>10</IndependentVotingMemberCnt>
+      <FamilyOrBusinessRlnInd>0</FamilyOrBusinessRlnInd>
+      <DelegationOfMgmtDutiesInd>0</DelegationOfMgmtDutiesInd>
+      <ChangeToOrgDocumentsInd>0</ChangeToOrgDocumentsInd>
+      <MaterialDiversionOrMisuseInd>0</MaterialDiversionOrMisuseInd>
+      <MembersOrStockholdersInd>1</MembersOrStockholdersInd>
+      <ElectionOfBoardMembersInd>1</ElectionOfBoardMembersInd>
+      <DecisionsSubjectToApprovaInd>1</DecisionsSubjectToApprovaInd>
+      <MinutesOfGoverningBodyInd>1</MinutesOfGoverningBodyInd>
+      <MinutesOfCommitteesInd>0</MinutesOfCommitteesInd>
+      <OfficerMailingAddressInd>0</OfficerMailingAddressInd>
+      <LocalChaptersInd>0</LocalChaptersInd>
+      <Form990ProvidedToGvrnBodyInd>0</Form990ProvidedToGvrnBodyInd>
+      <ConflictOfInterestPolicyInd>0</ConflictOfInterestPolicyInd>
+      <WhistleblowerPolicyInd>0</WhistleblowerPolicyInd>
+      <DocumentRetentionPolicyInd>0</DocumentRetentionPolicyInd>
+      <CompensationProcessCEOInd>0</CompensationProcessCEOInd>
+      <CompensationProcessOtherInd>0</CompensationProcessOtherInd>
+      <InvestmentInJointVentureInd>0</InvestmentInJointVentureInd>
+      <UponRequestInd>X</UponRequestInd>
+      <BooksInCareOfDetail>
+        <BusinessName>
+          <BusinessNameLine1>VP OF FINANCE</BusinessNameLine1>
+        </BusinessName>
+        <PhoneNum>6362560680</PhoneNum>
+        <USAddress>
+          <AddressLine1>890 11TH STREET</AddressLine1>
+          <City>BOULDER</City>
+          <State>CO</State>
+          <ZIPCode>803027515</ZIPCode>
+        </USAddress>
+      </BooksInCareOfDetail>
+      <NoListedPersonsCompensatedInd>X</NoListedPersonsCompensatedInd>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>JILL ST GEME 2013</PersonNm>
+        <TitleTxt>CHAPTER PRESIDENT</TitleTxt>
+        <AverageHoursPerWeekRt>5.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>MARGARET ROGAN 2013</PersonNm>
+        <TitleTxt>VP MEMBER DEVELOPMENT</TitleTxt>
+        <AverageHoursPerWeekRt>5.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>MAGGIE HULL 2013</PersonNm>
+        <TitleTxt>VP FRATERNITY DEVELOPMENT</TitleTxt>
+        <AverageHoursPerWeekRt>5.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>CARLY TUBBS 2013</PersonNm>
+        <TitleTxt>VP FINANCE</TitleTxt>
+        <AverageHoursPerWeekRt>9.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>SHAYNA KERRY 2013</PersonNm>
+        <TitleTxt>VP MEMBERSHIP</TitleTxt>
+        <AverageHoursPerWeekRt>6.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>JULIA LAMB 2013</PersonNm>
+        <TitleTxt>VP ADMINISTRATION</TitleTxt>
+        <AverageHoursPerWeekRt>5.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>KELSEY JONES 2013</PersonNm>
+        <TitleTxt>VP PHILANTHROPY</TitleTxt>
+        <AverageHoursPerWeekRt>3.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>ALEXA ADAMSON 2013</PersonNm>
+        <TitleTxt>VP COMMUNICATIONS</TitleTxt>
+        <AverageHoursPerWeekRt>3.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>RACHEL STANEK 2013</PersonNm>
+        <TitleTxt>VP EVENT PLANNING</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>MORGAN HARRIS 2013</PersonNm>
+        <TitleTxt>VP HOUSING</TitleTxt>
+        <AverageHoursPerWeekRt>3.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>SARA BERGMARK 2014</PersonNm>
+        <TitleTxt>CHAPTER PRESIDENT</TitleTxt>
+        <AverageHoursPerWeekRt>5.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>MALLORY RAWSON 2014</PersonNm>
+        <TitleTxt>VP MEMBER DEVELOPMENT</TitleTxt>
+        <AverageHoursPerWeekRt>5.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>ABIGAIL DELAMOTTE 2014</PersonNm>
+        <TitleTxt>VP FRATERNITY DEVELOPMENT</TitleTxt>
+        <AverageHoursPerWeekRt>5.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>ONILIA ZORIO 2014</PersonNm>
+        <TitleTxt>VP FINANCE</TitleTxt>
+        <AverageHoursPerWeekRt>9.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>JENNA ACCORD 2014</PersonNm>
+        <TitleTxt>VP MEMBERSHIP</TitleTxt>
+        <AverageHoursPerWeekRt>6.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>KENDALL YOUNGMAN 2014</PersonNm>
+        <TitleTxt>VP ADMINISTRATION</TitleTxt>
+        <AverageHoursPerWeekRt>5.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>MORGAN EDWARDS 2014</PersonNm>
+        <TitleTxt>VP PHILANTHROPY</TitleTxt>
+        <AverageHoursPerWeekRt>3.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>KELSEY KARST 2014</PersonNm>
+        <TitleTxt>VP COMMUNICATIONS</TitleTxt>
+        <AverageHoursPerWeekRt>3.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>LIESL BREUNER 2014</PersonNm>
+        <TitleTxt>VP EVENT PLANNING</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>MADDY RYAN 2014</PersonNm>
+        <TitleTxt>VP HOUSING</TitleTxt>
+        <AverageHoursPerWeekRt>3.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <TotalReportableCompFromOrgAmt>0</TotalReportableCompFromOrgAmt>
+      <TotReportableCompRltdOrgAmt>0</TotReportableCompRltdOrgAmt>
+      <TotalOtherCompensationAmt>0</TotalOtherCompensationAmt>
+      <IndivRcvdGreaterThan100KCnt>0</IndivRcvdGreaterThan100KCnt>
+      <FormerOfcrEmployeesListedInd>0</FormerOfcrEmployeesListedInd>
+      <TotalCompGreaterThan150KInd>0</TotalCompGreaterThan150KInd>
+      <CompensationFromOtherSrcsInd>0</CompensationFromOtherSrcsInd>
+      <CntrctRcvdGreaterThan100KCnt>0</CntrctRcvdGreaterThan100KCnt>
+      <ProgramServiceRevenueGrp>
+        <Desc>MEMBERSHIP DUES</Desc>
+        <BusinessCd>813410</BusinessCd>
+        <TotalRevenueColumnAmt>430481</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>430481</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <TotalProgramServiceRevenueAmt>430481</TotalProgramServiceRevenueAmt>
+      <InvestmentIncomeGrp>
+        <TotalRevenueColumnAmt>536</TotalRevenueColumnAmt>
+        <ExclusionAmt>536</ExclusionAmt>
+      </InvestmentIncomeGrp>
+      <FundraisingGrossIncomeAmt>2192</FundraisingGrossIncomeAmt>
+      <FundraisingDirectExpensesAmt>626</FundraisingDirectExpensesAmt>
+      <NetIncmFromFundraisingEvtGrp>
+        <TotalRevenueColumnAmt>1566</TotalRevenueColumnAmt>
+        <ExclusionAmt>1566</ExclusionAmt>
+      </NetIncmFromFundraisingEvtGrp>
+      <TotalRevenueGrp>
+        <TotalRevenueColumnAmt>432583</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>430481</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>2102</ExclusionAmt>
+      </TotalRevenueGrp>
+      <InfoInScheduleOPartIXInd>X</InfoInScheduleOPartIXInd>
+      <GrantsToDomesticOrgsGrp>
+        <TotalAmt>2001</TotalAmt>
+      </GrantsToDomesticOrgsGrp>
+      <FeesForServicesAccountingGrp>
+        <TotalAmt>5</TotalAmt>
+      </FeesForServicesAccountingGrp>
+      <FeesForServicesOtherGrp>
+        <TotalAmt>29748</TotalAmt>
+      </FeesForServicesOtherGrp>
+      <AdvertisingGrp>
+        <TotalAmt>5806</TotalAmt>
+      </AdvertisingGrp>
+      <OfficeExpensesGrp>
+        <TotalAmt>8227</TotalAmt>
+      </OfficeExpensesGrp>
+      <OccupancyGrp>
+        <TotalAmt>138966</TotalAmt>
+      </OccupancyGrp>
+      <ConferencesMeetingsGrp>
+        <TotalAmt>3766</TotalAmt>
+      </ConferencesMeetingsGrp>
+      <PaymentsToAffiliatesGrp>
+        <TotalAmt>11481</TotalAmt>
+      </PaymentsToAffiliatesGrp>
+      <OtherExpensesGrp>
+        <Desc>UBI TAX</Desc>
+        <TotalAmt>59</TotalAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>ENTERTAINMENT &amp; SOCIAL</Desc>
+        <TotalAmt>34631</TotalAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>CHAPTER PROGRAMMING</Desc>
+        <TotalAmt>25784</TotalAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>BAD DEBT</Desc>
+        <TotalAmt>12023</TotalAmt>
+      </OtherExpensesGrp>
+      <AllOtherExpensesGrp>
+        <TotalAmt>2763</TotalAmt>
+      </AllOtherExpensesGrp>
+      <TotalFunctionalExpensesGrp>
+        <TotalAmt>275260</TotalAmt>
+      </TotalFunctionalExpensesGrp>
+      <CashNonInterestBearingGrp>
+        <EOYAmt>151248</EOYAmt>
+      </CashNonInterestBearingGrp>
+      <SavingsAndTempCashInvstGrp>
+        <BOYAmt>181335</BOYAmt>
+        <EOYAmt>159905</EOYAmt>
+      </SavingsAndTempCashInvstGrp>
+      <AccountsReceivableGrp>
+        <BOYAmt>12918</BOYAmt>
+        <EOYAmt>38846</EOYAmt>
+      </AccountsReceivableGrp>
+      <OtherAssetsTotalGrp>
+        <BOYAmt>1767</BOYAmt>
+        <EOYAmt>2067</EOYAmt>
+      </OtherAssetsTotalGrp>
+      <TotalAssetsGrp>
+        <BOYAmt>196020</BOYAmt>
+        <EOYAmt>352066</EOYAmt>
+      </TotalAssetsGrp>
+      <AccountsPayableAccrExpnssGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>1075</EOYAmt>
+      </AccountsPayableAccrExpnssGrp>
+      <OtherLiabilitiesGrp>
+        <BOYAmt>2352</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </OtherLiabilitiesGrp>
+      <TotalLiabilitiesGrp>
+        <BOYAmt>2352</BOYAmt>
+        <EOYAmt>1075</EOYAmt>
+      </TotalLiabilitiesGrp>
+      <OrganizationFollowsSFAS117Ind>X</OrganizationFollowsSFAS117Ind>
+      <UnrestrictedNetAssetsGrp>
+        <BOYAmt>193668</BOYAmt>
+        <EOYAmt>350991</EOYAmt>
+      </UnrestrictedNetAssetsGrp>
+      <TotalNetAssetsFundBalanceGrp>
+        <BOYAmt>193668</BOYAmt>
+        <EOYAmt>350991</EOYAmt>
+      </TotalNetAssetsFundBalanceGrp>
+      <TotLiabNetAssetsFundBalanceGrp>
+        <BOYAmt>196020</BOYAmt>
+        <EOYAmt>352066</EOYAmt>
+      </TotLiabNetAssetsFundBalanceGrp>
+      <ReconcilationRevenueExpnssAmt>157323</ReconcilationRevenueExpnssAmt>
+      <OtherChangesInNetAssetsAmt>0</OtherChangesInNetAssetsAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AccountantCompileOrReviewInd>0</AccountantCompileOrReviewInd>
+      <FSAuditedInd>0</FSAuditedInd>
+      <FederalGrantAuditRequiredInd>0</FederalGrantAuditRequiredInd>
+    </IRS990>
+    <IRS990ScheduleO documentId="RetDoc1044400001">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION A, LINE 6</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE ORGANIZATION IS A MEMBERSHIP ORGANIZATION CONSISTING OF UNDERGRADUATE MEMBERS AND ALUMNAE MEMBERS WHO PARTICIPATE IN ACTIVITIES HELD BY THE CHAPTER.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION A, LINE 7A</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE EXECUTIVE COUNCIL OF THE CHAPTER IS ELECTED BY THE UNDERGRADUATE AND ALUMNAE MEMBERS.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION A, LINE 7B</FormAndLineReferenceDesc>
+        <ExplanationTxt>DECISIONS MADE BY THE EXECUTIVE COUNCIL OF THE ORGANIZATION MUST BE VOTED ON BY MEMBERS OF THE CHAPTER.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION A, LINE 8B</FormAndLineReferenceDesc>
+        <ExplanationTxt>THERE IS NO COMMITTEE WITH AUTHORITY TO ACT ON BEHALF OF THE GOVERNING BODY.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION B, LINE 11</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE VICE PRESIDENT OF FINANCE, UNDER THE GUIDANCE OF THE ALUMNAE ADVISORY COMMITTEE FINANCIAL ADVISOR, REVIEWED FORM 990 IN DETAIL ON BEHALF OF THE EXECUTIVE COUNCIL.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION C, LINE 19</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE ORGANIZATION MAKES ITS GOVERNING DOCUMENTS AVAILABLE TO THE PUBLIC UPON REQUEST.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART IX, LINE 11G</FormAndLineReferenceDesc>
+        <ExplanationTxt>GREEKBILL FEES 29,748.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+    <IRS990ScheduleR documentId="RetDoc1043400001">
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1>PI BETA PHI FRATERNITY HOUSING CORPORATION</BusinessNameLine1>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1>1154 TOWN COUNTRY COMMONS DRIVE</AddressLine1>
+          <City>TOWN COUNTRY</City>
+          <State>MO</State>
+          <ZIPCode>63017</ZIPCode>
+        </USAddress>
+        <EIN>262511045</EIN>
+        <PrimaryActivitiesTxt>MEMBERSHIP AND CHAPTER HOUSE ACTIVITIES</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>OK</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(7)</ExemptCodeSectionTxt>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <ReceiptOfIntAnntsRntsRyltsInd>0</ReceiptOfIntAnntsRntsRyltsInd>
+      <GiftGrntOrCapContriToOthOrgInd>0</GiftGrntOrCapContriToOthOrgInd>
+      <GiftGrntCapContriFromOthOrgInd>0</GiftGrntCapContriFromOthOrgInd>
+      <LoansOrGuaranteesToOtherOrgInd>0</LoansOrGuaranteesToOtherOrgInd>
+      <LoansOrGuaranteesFromOthOrgInd>0</LoansOrGuaranteesFromOthOrgInd>
+      <DivRelatedOrganizationInd>0</DivRelatedOrganizationInd>
+      <AssetSaleToOtherOrgInd>0</AssetSaleToOtherOrgInd>
+      <AssetPurchaseFromOtherOrgInd>0</AssetPurchaseFromOtherOrgInd>
+      <AssetExchangeInd>0</AssetExchangeInd>
+      <RentalOfFacilitiesToOthOrgInd>0</RentalOfFacilitiesToOthOrgInd>
+      <RentalOfFcltsFromOthOrgInd>0</RentalOfFcltsFromOthOrgInd>
+      <PerformOfServicesForOthOrgInd>1</PerformOfServicesForOthOrgInd>
+      <PerformOfServicesByOtherOrgInd>0</PerformOfServicesByOtherOrgInd>
+      <SharingOfFacilitiesInd>0</SharingOfFacilitiesInd>
+      <PaidEmployeesSharingInd>0</PaidEmployeesSharingInd>
+      <ReimbursementPaidToOtherOrgInd>0</ReimbursementPaidToOtherOrgInd>
+      <ReimbursementPaidByOtherOrgInd>0</ReimbursementPaidByOtherOrgInd>
+      <TransferToOtherOrgInd>0</TransferToOtherOrgInd>
+      <TransferFromOtherOrgInd>0</TransferFromOtherOrgInd>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE R, PART II</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE RELATIONSHIP WITH PI BETA PHI FRATERNITY HOUSING CORPORATION IS DISCLOSED AT PART II FOR INFORMATIONAL PURPOSES DESPITE THE FACT THAT THE RELATIONSHIP ARGUABLY MAY NOT MEET THE REQUIREMENTS FOR REQUIRED REPORTING. OTHER RELATED ENTITIES ARE INCLUDED IN THE GROUP RULING.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleR>
+  </ReturnData>
+</Return>

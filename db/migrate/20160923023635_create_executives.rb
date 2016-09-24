@@ -3,6 +3,7 @@ class CreateExecutives < ActiveRecord::Migration[5.0]
     create_table :executives do |t|
       t.integer :organisation_id
       t.string :name
+      t.string :title
       t.integer :salary
 
       t.timestamps
