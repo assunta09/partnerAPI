@@ -1,7 +1,53 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Organisation.delete_all
+Revenue.delete_all
+Expense.delete_all
+Executive.delete_all
+Balance.delete_all
+
+org = Organisation.create(
+  name: "Devbootcamp",
+  mission: "Make beautiful and meaningful shit",
+  address: "633 Folsom St.",
+  city: "San Fran",
+  state: "California",
+  zip: 12345,
+  year_formed: 2016,
+  number_of_employees: 1337,
+  domain: "Devbootcamp.com"
+  )
+
+Revenue.create(
+  organisation_id: org.id,
+  year: 2016,
+  contributions: 5,
+  service_revenue: 5,
+  investments: 5,
+  other: 5,
+  total: 20)
+
+Expense.create(
+  organisation_id: org.id,
+  year: 2016,
+  grants: 10,
+  member_benefits: 20,
+  salaries: 20,
+  fundraising_fees: 20,
+  total: 70
+  )
+
+Executive.create(
+  organisation_id: org.id,
+  name: "Tedmund Chua",
+  salary: 9999999
+  )
+
+Balance.create(
+  organisation_id: org.id,
+  year: 2016,
+  total_assets: 500,
+  total_liabilities: 400,
+  net_assets: 100
+  )
+
+
+

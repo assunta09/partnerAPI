@@ -23,3 +23,7 @@ test:
 production:
   <<: *default
   database: partner_production
+<<<<<<< HEAD
+=======
+
+>>>>>>> c41a7fde460557c410ee0a2b74713a0c289c7125
