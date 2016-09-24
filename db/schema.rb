@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20160923023720) do
   create_table "executives", force: :cascade do |t|
     t.integer  "organisation_id"
     t.string   "name"
+    t.string   "title"
     t.integer  "salary"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
@@ -49,6 +50,7 @@ ActiveRecord::Schema.define(version: 20160923023720) do
   create_table "organisations", force: :cascade do |t|
     t.string   "name"
     t.text     "mission"
+    t.string   "organisation_type"
     t.string   "address"
     t.string   "city"
     t.string   "state"
