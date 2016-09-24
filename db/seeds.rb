@@ -63,16 +63,9 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   leaves.each do |node|
   hash["#{node.name}"] = node.text
   end
-
+  puts hash["BusinessNameLine1"]
+  puts hash["WebsiteAddressTxt"]
 end
-
-name = data["Return"]["ReturnHeader"]["Filer"]["BusinessName"]["BusinessNameLine1"]
-mission = data["Return"]["ReturnData"]["IRS990"]["ActivityOrMissionDesc"]
-#We probably need to parse this out over a couple pieces in one string
-address1 = data["Return"]["ReturnHeader"]["Filer"]["USAddress"]["AddressLine1"]
-address2 = data["Return"]["ReturnHeader"]["Filer"]["USAddress"]["City"]
-address3 = data["Return"]["ReturnHeader"]["Filer"]["USAddress"]["State"]
-address4 = data["Return"]["ReturnHeader"]["Filer"]["USAddress"]["ZIPCode"]
 
 # name = data["Return"]["ReturnHeader"]["Filer"]["BusinessName"]["BusinessNameLine1"]
 # mission = data["Return"]["ReturnData"]["IRS990"]["ActivityOrMissionDesc"]
@@ -82,31 +75,39 @@ address4 = data["Return"]["ReturnHeader"]["Filer"]["USAddress"]["ZIPCode"]
 # address3 = data["Return"]["ReturnHeader"]["Filer"]["USAddress"]["State"]
 # address4 = data["Return"]["ReturnHeader"]["Filer"]["USAddress"]["ZIPCode"]
 
-# year_formed = data["Return"]["ReturnData"]["IRS990"]["FormationYr"]
-# number_of_employees = data["Return"]["ReturnData"]["IRS990"]["TotalEmployeeCnt"]
-# domain = data["Return"]["ReturnData"]["IRS990"]["WebsiteAddressTxt"]
-# address = address1 + " " + address2 + " " + address3 + " " + address4
+# # name = data["Return"]["ReturnHeader"]["Filer"]["BusinessName"]["BusinessNameLine1"]
+# # mission = data["Return"]["ReturnData"]["IRS990"]["ActivityOrMissionDesc"]
+# # #We probably need to parse this out over a couple pieces in one string
+# # address1 = data["Return"]["ReturnHeader"]["Filer"]["USAddress"]["AddressLine1"]
+# # address2 = data["Return"]["ReturnHeader"]["Filer"]["USAddress"]["City"]
+# # address3 = data["Return"]["ReturnHeader"]["Filer"]["USAddress"]["State"]
+# # address4 = data["Return"]["ReturnHeader"]["Filer"]["USAddress"]["ZIPCode"]
+
+# # year_formed = data["Return"]["ReturnData"]["IRS990"]["FormationYr"]
+# # number_of_employees = data["Return"]["ReturnData"]["IRS990"]["TotalEmployeeCnt"]
+# # domain = data["Return"]["ReturnData"]["IRS990"]["WebsiteAddressTxt"]
+# # address = address1 + " " + address2 + " " + address3 + " " + address4
 
 
 
-# json = ActiveSupport::JSON.decode(File.read('example2.json'))
+# # json = ActiveSupport::JSON.decode(File.read('example2.json'))
 
-# json.each do |a|
-#   Organisation.create!(['country'], without_protection: true)
+# # json.each do |a|
+# #   Organisation.create!(['country'], without_protection: true)
+# # end
+
+
+# #This is the new script for reading an xml file, parsing, and creating a
+# # ruby hash.
+
+# file = File.open("201510099349300436_public.xml")
+# xml_file = File.read(file)
+# doc = Nokogiri::XML(xml_file)
+# leaves = doc.xpath('//*[not(*)]')
+
+# hash = {}
+# leaves.each do |node|
+#   hash["#{node.name}"] = node.text
 # end
-
-
-#This is the new script for reading an xml file, parsing, and creating a
-# ruby hash.
-
-file = File.open("201510099349300436_public.xml")
-xml_file = File.read(file)
-doc = Nokogiri::XML(xml_file)
-leaves = doc.xpath('//*[not(*)]')
-
-hash = {}
-leaves.each do |node|
-  hash["#{node.name}"] = node.text
-end
 
 
