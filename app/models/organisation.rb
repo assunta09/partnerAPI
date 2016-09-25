@@ -17,7 +17,7 @@ class Organisation < ApplicationRecord
     1 - admin_expenses/total_expenses
   end
 
-  def general_expenses_overview
+  def general_expenses_percentages
     percentages = {}
     expense_data.attributes.each do |expense_type, value|
       if expense_type == 'other' || expense_type == 'member_benefits' || expense_type == 'salaries' || expense_type == 'fundraising_fees' || expense_type == 'grants'
@@ -29,11 +29,24 @@ class Organisation < ApplicationRecord
     percentages
   end
 
-
+  def general_revenue_absolutes
+    revenue_split = {}
+    revenue_data.attributes.each do |revenue_type, value|
+      if revenue_type == 'contributions' || revenue_type == 'service_revenue' || revenue_type == 'investments' || revenue_type == 'other'
+        if value != nil
+          revenue_split[revenue_type] = value
+        end
+      end
+    end
+    revenue_split
+  end
 
   def expense_data
     expenses = Expense.where(organisation_id: self.id).first
   end
 
+  def revenue_data
+    revenues = Revenue.where(organisation_id: self.id).first
+  end
 
 end
