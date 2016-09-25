@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160925200225) do
+ActiveRecord::Schema.define(version: 20160925200716) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -99,8 +99,16 @@ ActiveRecord::Schema.define(version: 20160925200225) do
     t.integer  "insurance"
     t.integer  "other"
     t.integer  "total"
-    t.datetime "created_at",            null: false
-    t.datetime "updated_at",            null: false
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+    t.integer  "management"
+    t.integer  "legal_fees"
+    t.integer  "accounting"
+    t.integer  "office_expenses"
+    t.integer  "information_technology"
+    t.integer  "royalties"
+    t.integer  "conventions_and_meetings"
+    t.integer  "occupancy"
   end
 
   create_table "programserviceaccomplishments", force: :cascade do |t|
@@ -124,6 +132,17 @@ ActiveRecord::Schema.define(version: 20160925200225) do
     t.integer  "total"
     t.datetime "created_at",            null: false
     t.datetime "updated_at",            null: false
+  end
+
+  create_table "salaries", force: :cascade do |t|
+    t.integer  "officers_and_key_employees"
+    t.integer  "general_salaries_and_wages"
+    t.integer  "employee_benefits"
+    t.integer  "payroll_taxes"
+    t.integer  "other_compensation"
+    t.integer  "total"
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
   end
 
   create_table "years", force: :cascade do |t|
