@@ -1,54 +1,35 @@
-## TEST SEED:
-# Organisation.delete_all
-# Revenue.delete_all
-# Expense.delete_all
-# Executive.delete_all
-# Balance.delete_all
+require 'csv'
 
-# org = Organisation.create(
-#   name: "Devbootcamp",
-#   mission: "Make beautiful and meaningful shit",
-#   address: "633 Folsom St.",
-#   city: "San Fran",
-#   state: "California",
-#   zip: 12345,
-#   year_formed: 2016,
-#   number_of_employees: 1337,
-#   domain: "Devbootcamp.com"
-#   )
+#SEEDING of the classification file
+classifications_csv = File.read(Rails.root.join('db', 'category_seeding', 'Subsections_Classifications.csv'))
+# classification = CSV.parse(classifications_csv, headers: true, :col_sep => ";",:encoding => 'ISO-8859-1')
+# classification.each do |line|
+#   Classification.create(line.to_hash)
+# end
 
-# Revenue.create(
-#   organisation_id: org.id,
-#   year: 2016,
-#   contributions: 5,
-#   service_revenue: 5,
-#   investments: 5,
-#   other: 5,
-#   total: 20)
+#Seeding MASTERFILE
+# source_path_csv = Rails.root.join('db', 'category_seeding', 'regional_files')
+# Dir.glob("#{source_path_csv}/*.csv").each do |csv_file|
+#   masterfile_csv = File.read(csv_file)
+#   masterfile = CSV.parse(masterfile_csv, headers: true, :encoding => 'ISO-8859-1')
+#   masterfile.each do |line|
+#     m = Masterfile.new
+#     m.ein = line['EIN']
+#     m.subsection_code = line['SUBSECTION']
+#     m.classification_codes = line['CLASSIFICATION']
+#     m.affiliation_code = line['AFFILIATION']
+#     m.activity_codes = line['ACTIVITY']
+#     m.organization_code = line['ORGANIZATION']
+#     classification_code = m.classification_codes.to_s.split('').first.to_i
+#     classification = Classification.find_by(subsection_code: m.subsection_code, classification_code: classification_code)
+#     # if  m.subsection_code != 0 && m.subsection_code != 91 && (classification_code != 0 && classification_code != 9)
+#     if classification != nil
+#       m.classification_id = classification.id
+#       m.save
+#     end
+#   end
+# end
 
-# Expense.create(
-#   organisation_id: org.id,
-#   year: 2016,
-#   grants: 10,
-#   member_benefits: 20,
-#   salaries: 20,
-#   fundraising_fees: 20,
-#   total: 70
-#   )
-
-# Executive.create(
-#   organisation_id: org.id,
-#   name: "Tedmund Chua",
-#   salary: 9999999
-#   )
-
-# Balance.create(
-#   organisation_id: org.id,
-#   year: 2016,
-#   total_assets: 500,
-#   total_liabilities: 400,
-#   net_assets: 100
-#   )
 
 
 # THIS is not used currently - needs to be altered to get all executive data
@@ -76,80 +57,65 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   xml = File.read(file)
   doc = Nokogiri::XML(xml)
   leaves = doc.xpath('//*[not(*)]')
+  p leaves
 
-  hash = {}
+  file_attributes = {}
   leaves.each do |node|
-  hash["#{node.name}"] = node.text
+  file_attributes["#{node.name}"] = node.text
   end
 
-  org = Organisation.create(
-    name: hash["BusinessNameLine1"],
-    mission: hash["ActivityOrMissionDesc"],
-    organisation_type: hash["TypeOfOrganizationCorpInd"],
-    address: hash["AddressLine1"],
-    city: hash["City"],
-    state: hash["State"],
-    zip: hash["ZIPCode"],
-    year_formed: hash["FormationYr"],
-    number_of_employees: hash["TotalEmployeeCnt"],
-    domain: hash["WebsiteAddressTxt"]
-  )
+  # org = Organisation.create(
+  #   name: file_attributes["BusinessNameLine1"],
+  #   mission: file_attributes["ActivityOrMissionDesc"],
+  #   organisation_type: file_attributes["TypeOfOrganizationCorpInd"],
+  #   address: file_attributes["AddressLine1"],
+  #   city: file_attributes["City"],
+  #   state: file_attributes["State"],
+  #   zip: file_attributes["ZIPCode"],
+  #   year_formed: file_attributes["FormationYr"],
+  #   number_of_employees: file_attributes["TotalEmployeeCnt"],
+  #   domain: file_attributes["WebsiteAddressTxt"]
+  # )
 
-  Revenue.create(
-   organisation_id: org.id,
-   year: hash["TaxYr"],
-   contributions: hash["CYContributionsGrantsAmt"],
-   service_revenue: hash["CYProgramServiceRevenueAmt"],
-   investments: hash["CYInvestmentIncomeAmt"],
-   other: hash["CYTotalRevenueAmt"],
-   total: hash["CYTotalRevenueAmt"]
-   )
+  # Revenue.create(
+  #  organisation_id: org.id,
+  #  year: file_attributes["TaxYr"],
+  #  contributions: file_attributes["CYContributionsGrantsAmt"],
+  #  service_revenue: file_attributes["CYProgramServiceRevenueAmt"],
+  #  investments: file_attributes["CYInvestmentIncomeAmt"],
+  #  other: file_attributes["CYTotalRevenueAmt"],
+  #  total: file_attributes["CYTotalRevenueAmt"]
+  #  )
 
-   Expense.create(
-   organisation_id: org.id,
-   year: hash["TaxYr"],
-   grants: hash["CYGrantsAndSimilarPaidAmt"],
-   member_benefits: hash["CYBenefitsPaidToMembersAmt"],
-   salaries: hash["CYSalariesCompEmpBnftPaidAmt"],
-   fundraising_fees: hash["CYTotalProfFndrsngExpnsAmt"],
-   other: hash["CYOtherExpensesAmt"],
-   total: hash["CYTotalExpensesAmt"]
-   )
+  #  Expense.create(
+  #  organisation_id: org.id,
+  #  year: file_attributes["TaxYr"],
+  #  grants: file_attributes["CYGrantsAndSimilarPaidAmt"],
+  #  member_benefits: file_attributes["CYBenefitsPaidToMembersAmt"],
+  #  salaries: file_attributes["CYSalariesCompEmpBnftPaidAmt"],
+  #  fundraising_fees: file_attributes["CYTotalProfFndrsngExpnsAmt"],
+  #  other: file_attributes["CYOtherExpensesAmt"],
+  #  total: file_attributes["CYTotalExpensesAmt"]
+  #  )
 
-  Balance.create(
-    organisation_id: org.id,
-    year: hash["TaxYr"],
-    total_assets: hash["TotalAssetsEOYAmt"],
-    total_liabilities: hash["TotalLiabilitiesEOYAmt"],
-    net_assets: hash["NetAssetsOrFundBalancesEOYAmt"]
-    )
+  # Balance.create(
+  #   organisation_id: org.id,
+  #   year: file_attributes["TaxYr"],
+  #   total_assets: file_attributes["TotalAssetsEOYAmt"],
+  #   total_liabilities: file_attributes["TotalLiabilitiesEOYAmt"],
+  #   net_assets: file_attributes["NetAssetsOrFundBalancesEOYAmt"]
+  #   )
 
-  Executive.create(
-  organisation_id: org.id,
-  name: hash["PersonNm"],
-  title: hash["TitleTxt"],
-  salary: hash["ReportableCompFromOrgAmt"],
-   )
+  # Executive.create(
+  # organisation_id: org.id,
+  # name: file_attributes["PersonNm"],
+  # title: file_attributes["TitleTxt"],
+  # salary: file_attributes["ReportableCompFromOrgAmt"],
+  #  )
 
     # seed_executives_table(doc)
 end
 
-
-  # This is the runner data
-
-  # puts hash["BusinessNameLine1"]
-  # puts hash["ActivityOrMissionDesc"]
-  # puts hash["AddressLine1"]
-  # puts hash["City"]
-  # puts hash["State"]
-  # puts hash["ZIPCode"]
-  # puts hash["TotalEmployeeCnt"]
-  # puts hash["WebsiteAddressTxt"]
-
-
-
-# Additional information we could add
-  # puts hash["TypeOfOrganizationCorpInd"]
 
 
 

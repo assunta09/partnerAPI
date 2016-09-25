@@ -3,6 +3,7 @@ class Organisation < ApplicationRecord
   has_many :balances
   has_many :revenues
   has_many :expenses
+  has_many :programserviceaccomplishments
 
   def impact_score
     total_expenses = expense_data.total
