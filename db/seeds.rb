@@ -1,54 +1,13 @@
-## TEST SEED:
-# Organisation.delete_all
-# Revenue.delete_all
-# Expense.delete_all
-# Executive.delete_all
-# Balance.delete_all
+require 'csv'
 
-# org = Organisation.create(
-#   name: "Devbootcamp",
-#   mission: "Make beautiful and meaningful shit",
-#   address: "633 Folsom St.",
-#   city: "San Fran",
-#   state: "California",
-#   zip: 12345,
-#   year_formed: 2016,
-#   number_of_employees: 1337,
-#   domain: "Devbootcamp.com"
-#   )
+classifications_csv = File.read(Rails.root.join('db', 'category_seeding', 'Subsections_Classifications.csv'))
 
-# Revenue.create(
-#   organisation_id: org.id,
-#   year: 2016,
-#   contributions: 5,
-#   service_revenue: 5,
-#   investments: 5,
-#   other: 5,
-#   total: 20)
+#SEEDING of the classification file
+# classification = CSV.parse(classifications_csv, headers: true, :col_sep => ";",:encoding => 'ISO-8859-1')
+# classification.each do |line|
+#   Classification.create(line.to_hash)
+# end
 
-# Expense.create(
-#   organisation_id: org.id,
-#   year: 2016,
-#   grants: 10,
-#   member_benefits: 20,
-#   salaries: 20,
-#   fundraising_fees: 20,
-#   total: 70
-#   )
-
-# Executive.create(
-#   organisation_id: org.id,
-#   name: "Tedmund Chua",
-#   salary: 9999999
-#   )
-
-# Balance.create(
-#   organisation_id: org.id,
-#   year: 2016,
-#   total_assets: 500,
-#   total_liabilities: 400,
-#   net_assets: 100
-#   )
 
 
 # THIS is not used currently - needs to be altered to get all executive data
@@ -134,22 +93,6 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
     # seed_executives_table(doc)
 end
 
-
-  # This is the runner data
-
-  # puts hash["BusinessNameLine1"]
-  # puts hash["ActivityOrMissionDesc"]
-  # puts hash["AddressLine1"]
-  # puts hash["City"]
-  # puts hash["State"]
-  # puts hash["ZIPCode"]
-  # puts hash["TotalEmployeeCnt"]
-  # puts hash["WebsiteAddressTxt"]
-
-
-
-# Additional information we could add
-  # puts hash["TypeOfOrganizationCorpInd"]
 
 
 
