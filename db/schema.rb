@@ -10,7 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-
 ActiveRecord::Schema.define(version: 20160925200716) do
 
   # These are extensions that must be enabled in order to support this database
@@ -76,7 +75,6 @@ ActiveRecord::Schema.define(version: 20160925200716) do
   end
 
   create_table "masterfiles", force: :cascade do |t|
-
     t.integer "ein"
     t.integer "subsection_code"
     t.integer "classification_codes"
@@ -84,9 +82,6 @@ ActiveRecord::Schema.define(version: 20160925200716) do
     t.integer "affiliation_code"
     t.integer "activity_codes"
     t.integer "organization_code"
-
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
   create_table "organisations", force: :cascade do |t|
@@ -114,10 +109,8 @@ ActiveRecord::Schema.define(version: 20160925200716) do
     t.integer  "insurance"
     t.integer  "other"
     t.integer  "total"
-
-    t.datetime "created_at",            null: false
-    t.datetime "updated_at",            null: false
-
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
     t.integer  "management"
     t.integer  "legal_fees"
     t.integer  "accounting"

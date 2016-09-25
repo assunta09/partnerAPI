@@ -1,7 +1,7 @@
 class CreateMasterfiles < ActiveRecord::Migration[5.0]
   def change
     create_table :masterfiles do |t|
-      t.integer :ein
+      t.string :ein
       t.integer :subsection_code
       t.integer :classification_codes
       t.integer :classification_id
