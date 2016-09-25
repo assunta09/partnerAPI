@@ -10,7 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160925181856) do
+
+ActiveRecord::Schema.define(version: 20160925200716) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -57,7 +58,7 @@ ActiveRecord::Schema.define(version: 20160925181856) do
     t.integer  "year"
     t.integer  "grant_id"
     t.integer  "member_benefits"
-    t.integer  "salaries"
+    t.integer  "salary_id"
     t.integer  "fundraising_fees"
     t.integer  "other_expense_id"
     t.integer  "total"
@@ -75,6 +76,7 @@ ActiveRecord::Schema.define(version: 20160925181856) do
   end
 
   create_table "masterfiles", force: :cascade do |t|
+
     t.integer "ein"
     t.integer "subsection_code"
     t.integer "classification_codes"
@@ -82,6 +84,9 @@ ActiveRecord::Schema.define(version: 20160925181856) do
     t.integer "affiliation_code"
     t.integer "activity_codes"
     t.integer "organization_code"
+
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "organisations", force: :cascade do |t|
@@ -109,8 +114,18 @@ ActiveRecord::Schema.define(version: 20160925181856) do
     t.integer  "insurance"
     t.integer  "other"
     t.integer  "total"
+
     t.datetime "created_at",            null: false
     t.datetime "updated_at",            null: false
+
+    t.integer  "management"
+    t.integer  "legal_fees"
+    t.integer  "accounting"
+    t.integer  "office_expenses"
+    t.integer  "information_technology"
+    t.integer  "royalties"
+    t.integer  "conventions_and_meetings"
+    t.integer  "occupancy"
   end
 
   create_table "programserviceaccomplishments", force: :cascade do |t|
@@ -134,6 +149,17 @@ ActiveRecord::Schema.define(version: 20160925181856) do
     t.integer  "total"
     t.datetime "created_at",            null: false
     t.datetime "updated_at",            null: false
+  end
+
+  create_table "salaries", force: :cascade do |t|
+    t.integer  "officers_and_key_employees"
+    t.integer  "general_salaries_and_wages"
+    t.integer  "employee_benefits"
+    t.integer  "payroll_taxes"
+    t.integer  "other_compensation"
+    t.integer  "total"
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
   end
 
 end
