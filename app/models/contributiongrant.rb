@@ -1,3 +1,3 @@
-class ContributionGrant < ApplicationRecord
+class Contributiongrant < ApplicationRecord
   has_one :revenue
 end
