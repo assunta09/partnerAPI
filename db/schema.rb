@@ -120,7 +120,7 @@ ActiveRecord::Schema.define(version: 20160925200716) do
     t.integer  "occupancy"
   end
 
-  create_table "programserviceaccomplishments", force: :cascade do |t|
+  create_table "program_service_accomplishments", force: :cascade do |t|
     t.integer  "organisation_id"
     t.integer  "expense_amount"
     t.integer  "grant_amount"

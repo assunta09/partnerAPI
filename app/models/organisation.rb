@@ -3,7 +3,7 @@ class Organisation < ApplicationRecord
   has_many :balances
   has_many :revenues
   has_many :expenses
-  has_many :programserviceaccomplishments
+  has_many :program_service_accomplishments
   belongs_to :masterfile
 
   def impact_score
