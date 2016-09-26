@@ -73,7 +73,6 @@ def create_organisation(file_attributes)
   end
 end
 
-
 def create_program_service_accomplishments(org, doc)
     # Different paths to access the program service accomplishment data
     prog_service_accomp_path = ['ReturnData/IRS990', 'ReturnData/IRS990/ProgSrvcAccomActy2Grp', 'ReturnData/IRS990/ProgSrvcAccomActy3Grp']
@@ -218,7 +217,6 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   leaves.each do |node|
     file_attributes["#{node.name}"] = node.text
   end
-
 
   # Call the different methods to seed files
   if create_organisation(file_attributes)
