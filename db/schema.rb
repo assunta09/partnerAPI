@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 20160925200716) do
     t.text    "description"
   end
 
-  create_table "contributiongrants", force: :cascade do |t|
+  create_table "contributions", force: :cascade do |t|
     t.integer  "membership_fees"
     t.integer  "campaigns"
     t.integer  "fundraising"
@@ -134,13 +134,13 @@ ActiveRecord::Schema.define(version: 20160925200716) do
   create_table "revenues", force: :cascade do |t|
     t.integer  "organisation_id"
     t.integer  "year"
-    t.integer  "contribution_grant_id"
+    t.integer  "contribution_id"
     t.integer  "service_revenue"
     t.integer  "investments"
     t.integer  "other"
     t.integer  "total"
-    t.datetime "created_at",            null: false
-    t.datetime "updated_at",            null: false
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
   end
 
   create_table "salaries", force: :cascade do |t|
