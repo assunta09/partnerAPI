@@ -53,13 +53,13 @@ require 'csv'
 
 
 def create_organisation(file_attributes)
-  masterfile = Masterfile.find_by(ein: file_attributes["EIN"])
+  masterfile = Masterfile.find_by(ein: '000019818')
   if masterfile != nil
     org = Organisation.create(
       name: file_attributes["BusinessNameLine1"],
       mission: file_attributes["ActivityOrMissionDesc"],
-      ein: file_attributes["EIN"],
-      # ein: '000019818',
+      # ein: file_attributes["EIN"],
+      ein: '000019818',
       address: file_attributes["AddressLine1"],
       city: file_attributes["City"],
       state: file_attributes["State"],
@@ -104,6 +104,7 @@ def create_expenses(org, doc, file_attributes)
   # salary attributes from XML file
   total_salary_expense = doc.search('ReturnData/IRS990/CYSalariesCompEmpBnftPaidAmt').text
   officers_and_key_employee_salary_total = doc.search('ReturnData/IRS990/CompCurrentOfcrDirectorsGrp/TotalAmt').text
+  general_salaries_total = doc.search('ReturnData/IRS990/OtherSalariesAndWagesGrp/TotalAmt').text
   disqual_persons_salary_total = doc.search('ReturnData/IRS990/CompDisqualPersonsGrp/TotalAmt').text
   pension_plan_accrual_total = doc.search('ReturnData/IRS990/PensionPlanContributionsGrp/TotalAmt').text
   employee_benefits_total = doc.search('ReturnData/IRS990/OtherEmployeeBenefitsGrp/TotalAmt').text
@@ -127,18 +128,18 @@ def create_expenses(org, doc, file_attributes)
   other_expenses_total = doc.search('ReturnData/IRS990/CYOtherExpensesAmt/TotalAmt').text
 
     if doc.search('ReturnData/IRS990/CompCurrentOfcrDirectorsGrp/TotalAmt') != nil
-      salary = Salary.create(
+     salary = Salary.create(
         officers_and_key_employees: officers_and_key_employee_salary_total,
         disqual_persons: disqual_persons_salary_total,
-        general_salaries_and_wages: pension_plan_accrual_total,
-        pension_plan_accruals: employee_benefits_total,
+        general_salaries_and_wages: general_salaries_total,
+        pension_plan_accruals: pension_plan_accrual_total,
         employee_benefits: employee_benefits_total,
         payroll_taxes: payroll_taxes_total,
         total: total_salary_expense
-          ),
+          )
 
       grant = Grant.create(
-        ),
+        )
 
       other_expense = OtherExpense.create(
         lobbying: lobbying_total,
@@ -156,7 +157,7 @@ def create_expenses(org, doc, file_attributes)
         occupancy: occupancy_total,
         other: nil, # need to write helper function later to calculate the other total
         total: other_expenses_total
-        ),
+        )
 
       Expense.create(
         organisation_id: org.id,
@@ -192,7 +193,9 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
 
   # Call the different methods to seed files
   if create_organisation(file_attributes)
-    org = Organisation.find_by(ein: file_attributes["EIN"])
+    # org = Organisation.find_by(ein: file_attributes["EIN"])
+    org = Organisation.find_by(ein: '000019818')
+
     create_program_service_accomplishments(org, doc)
     create_expenses(org, doc, file_attributes)
   end
