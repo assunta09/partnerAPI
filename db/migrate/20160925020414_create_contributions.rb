@@ -1,6 +1,6 @@
-class CreateContributionGrants < ActiveRecord::Migration[5.0]
+class CreateContributions < ActiveRecord::Migration[5.0]
   def change
-    create_table :contributiongrants do |t|
+    create_table :contributions do |t|
       t.integer :membership_fees
       t.integer :campaigns
       t.integer :fundraising

@@ -34,8 +34,6 @@ if Masterfile.all.length == 0
  end
 end
 
-
-
 # THIS is not used currently - needs to be altered to get all executive data
 def seed_executives_table(org, doc)
   puts "method call"
@@ -53,48 +51,73 @@ end
 
 
 def create_organisation(file_attributes)
-  masterfile = Masterfile.find_by(ein: file_attributes["EIN"])
-  if masterfile != nil
-    org = Organisation.create(
-      name: file_attributes["BusinessNameLine1"],
-      mission: file_attributes["ActivityOrMissionDesc"],
-      ein: file_attributes["EIN"],
-      # ein: '000019818',
-      address: file_attributes["AddressLine1"],
-      city: file_attributes["City"],
-      state: file_attributes["State"],
-      zip: file_attributes["ZIPCode"],
-      year_formed: file_attributes["FormationYr"],
-      number_of_employees: file_attributes["TotalEmployeeCnt"],
-      domain: file_attributes["WebsiteAddressTxt"],
-      masterfile_id: masterfile.id
-     )
-  else
-    false
-  end
+    masterfile = Masterfile.find_by(ein: "000019818")
+    if masterfile != nil
+      org = Organisation.create(
+        name: file_attributes["BusinessNameLine1"],
+        mission: file_attributes["ActivityOrMissionDesc"],
+        ein: file_attributes["EIN"],
+        # ein: '000019818',
+        address: file_attributes["AddressLine1"],
+        city: file_attributes["City"],
+        state: file_attributes["State"],
+        zip: file_attributes["ZIPCode"],
+        year_formed: file_attributes["FormationYr"],
+        number_of_employees: file_attributes["TotalEmployeeCnt"],
+        domain: file_attributes["WebsiteAddressTxt"],
+        masterfile_id: masterfile.id
+       )
+    else
+      false
+    end
 end
 
 
 def create_program_service_accomplishments(org, doc)
-  prog_service_accomp_path = ['ReturnData/IRS990', 'ReturnData/IRS990/ProgSrvcAccomActy2Grp', 'ReturnData/IRS990/ProgSrvcAccomActy3Grp']
+    # Different paths to access the program service accomplishment data
+    prog_service_accomp_path = ['ReturnData/IRS990', 'ReturnData/IRS990/ProgSrvcAccomActy2Grp', 'ReturnData/IRS990/ProgSrvcAccomActy3Grp']
 
-  prog_service_accomp_path.each do |path|
-    return_data = doc.search(path)
-    return_data_hash = {}
-    return_data.children.each do |node|
-      return_data_hash["#{node.name}"] = node.text
-    end
+    prog_service_accomp_path.each do |path|
+      return_data = doc.search(path)
+      return_data_hash = {}
+      return_data.children.each do |node|
+        return_data_hash["#{node.name}"] = node.text
+      end
 
-    if return_data_hash["ExpenseAmt"] != nil
-       ProgramServiceAccomplishment.create(
-         organisation_id: org.id,
-         expense_amount: return_data_hash["ExpenseAmt"] ,
-         grant_amount: return_data_hash["GrantAmt"],
-         revenues: return_data_hash["RevenueAmt"],
-         description: return_data_hash["Desc"],
-       )
+      if return_data_hash["ExpenseAmt"] != nil
+         ProgramServiceAccomplishment.create(
+           organisation_id: org.id,
+           expense_amount: return_data_hash["ExpenseAmt"] ,
+           grant_amount: return_data_hash["GrantAmt"],
+           revenues: return_data_hash["RevenueAmt"],
+           description: return_data_hash["Desc"],
+         )
+      end
     end
-  end
+end
+
+def create_revenues(org, file_attributes)
+  # if Revenue.all.length == 0
+    contribution_grant = Contribution.create(
+      membership_fees: file_attributes["MembershipDuesAmt"],
+      campaigns: file_attributes["FederatedCampaignsAmt"] ,
+      fundraising: file_attributes["FundraisingAmt"],
+      related_organisations: file_attributes["RelatedOrganizationsAmt"],
+      government_grants: nil, # **ToDo** NEED TO FIND OUT HOW THIS IS CALLED!!!
+      other_gifts_or_donations: file_attributes["AllOtherContributionsAmt"],
+      total: file_attributes["TotalContributionsAmt"]
+    )
+
+    r = Revenue.create(
+      organisation_id: org.id,
+      year: file_attributes["TaxYr"],
+      contribution_id: contribution_grant.id,
+      service_revenue: file_attributes["CYProgramServiceRevenueAmt"],
+      investments: file_attributes["CYInvestmentIncomeAmt"],
+      other: file_attributes["CYTotalRevenueAmt"],
+      total: file_attributes["CYTotalRevenueAmt"]
+    )
+  # end
 end
 
 
@@ -111,37 +134,17 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   leaves = doc.xpath('//*[not(*)]')
   file_attributes = {}
 
+  #Iterate through leaves (tags without children) and assign their name as key and their text as value
   leaves.each do |node|
     file_attributes["#{node.name}"] = node.text
   end
 
   #Call the different methods to seed files
   if create_organisation(file_attributes)
-    org = Organisation.find_by(ein: file_attributes["EIN"])
+    org = Organisation.find_by(ein: "131548339")
     create_program_service_accomplishments(org, doc)
-    # Different paths to access the program service accomplishment data
-
+    create_revenues(org, file_attributes)
   end
-
-  # ContributionGrant.create(
-    # membership_fees: file_attributes["TaxYr"],
-    # campaigns: ,
-    # fundraising: ,
-    # related_organisations: ,
-    # government_grants: ,
-    # other_gifts_or_donations: ,
-    # total:
-  # )
-
-  # Revenue.create(
-  #  organisation_id: org.id,
-  #  year: file_attributes["TaxYr"],
-  #  contributions: file_attributes["CYContributionsGrantsAmt"],
-  #  service_revenue: file_attributes["CYProgramServiceRevenueAmt"],
-  #  investments: file_attributes["CYInvestmentIncomeAmt"],
-  #  other: file_attributes["CYTotalRevenueAmt"],
-  #  total: file_attributes["CYTotalRevenueAmt"]
-  #  )
 
   #  Expense.create(
   #  organisation_id: org.id,
