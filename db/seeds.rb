@@ -79,6 +79,8 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   file = File.open(xml_file)
   xml = File.read(file)
   doc = Nokogiri::XML(xml)
+
+# Accessing children only - no parent tags
   leaves = doc.xpath('//*[not(*)]')
 
   file_attributes = {}
@@ -89,11 +91,22 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   #Call the different methods to seed files
   # org = create_organisation(file_attributes)
 
-  p file_attributes["SignificantChangeInd"]
-  p file_attributes["GrantAmt"]
-  p file_attributes["RevenueAmt"]
-   p file_attributes["Desc"]
-  puts "*************************************"
+
+  # puts "*************************************"
+
+
+  psa_data = doc.xpath('//ReturnHeader')
+  p psa_data
+  psa_data.each do |node|
+    p node.text
+    puts "*************************************"
+  end
+
+  # file_attributes["SignificantChangeInd"]
+  # p file_attributes["GrantAmt"]
+  # p file_attributes["RevenueAmt"]
+  #  p file_attributes["Desc"]
+
 
   # ProgramServiceAccomplishment.create(
   #   organisation_id: org.id,
