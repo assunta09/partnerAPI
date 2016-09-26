@@ -1,15 +1,18 @@
 require 'csv'
 
-#SEEDING of the classification file
-classifications_csv = File.read(Rails.root.join('db', 'category_seeding', 'Subsections_Classifications.csv'))
-# classification = CSV.parse(classifications_csv, headers: true, :col_sep => ";",:encoding => 'ISO-8859-1')
-# classification.each do |line|
+# if Classification.all.length != 0
+#   #SEEDING of the classification file
+#   classifications_csv = File.read(Rails.root.join('db', 'category_seeding', 'Subsections_Classifications.csv'))
+#   classification = CSV.parse(classifications_csv, headers: true, :col_sep => ";",:encoding => 'ISO-8859-1')
+#   classification.each do |line|
 #   Classification.create(line.to_hash)
+#   end
 # end
 
-#Seeding MASTERFILE
-# source_path_csv = Rails.root.join('db', 'category_seeding', 'regional_files')
-# Dir.glob("#{source_path_csv}/*.csv").each do |csv_file|
+# if Masterfile.all.length != 0
+#  #Seeding MASTERFILE
+#  source_path_csv = Rails.root.join('db', 'category_seeding', 'regional_files')
+#  Dir.glob("#{source_path_csv}/*.csv").each do |csv_file|
 #   masterfile_csv = File.read(csv_file)
 #   masterfile = CSV.parse(masterfile_csv, headers: true, :encoding => 'ISO-8859-1')
 #   masterfile.each do |line|
@@ -28,6 +31,7 @@ classifications_csv = File.read(Rails.root.join('db', 'category_seeding', 'Subse
 #       m.save
 #     end
 #   end
+#  end
 # end
 
 
@@ -48,6 +52,25 @@ def seed_executives_table(org, doc)
 end
 
 
+def create_organisation(file_attributes)
+  masterfile = Masterfile.find_by(ein: file_attributes["EIN"])
+
+  Organisation.create(
+    name: file_attributes["BusinessNameLine1"],
+    mission: file_attributes["ActivityOrMissionDesc"],
+    ein: file_attributes["EIN"],
+    address: file_attributes["AddressLine1"],
+    city: file_attributes["City"],
+    state: file_attributes["State"],
+    zip: file_attributes["ZIPCode"],
+    year_formed: file_attributes["FormationYr"],
+    number_of_employees: file_attributes["TotalEmployeeCnt"],
+    domain: file_attributes["WebsiteAddressTxt"],
+    masterfile_id: masterfile.id
+   )
+end
+
+
 #SEED SCRIPT
 source_path = Rails.root.join('db', 'xml_files')
 
@@ -57,24 +80,37 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   xml = File.read(file)
   doc = Nokogiri::XML(xml)
   leaves = doc.xpath('//*[not(*)]')
-  p leaves
 
   file_attributes = {}
   leaves.each do |node|
   file_attributes["#{node.name}"] = node.text
   end
 
-  # org = Organisation.create(
-  #   name: file_attributes["BusinessNameLine1"],
-  #   mission: file_attributes["ActivityOrMissionDesc"],
-  #   organisation_type: file_attributes["TypeOfOrganizationCorpInd"],
-  #   address: file_attributes["AddressLine1"],
-  #   city: file_attributes["City"],
-  #   state: file_attributes["State"],
-  #   zip: file_attributes["ZIPCode"],
-  #   year_formed: file_attributes["FormationYr"],
-  #   number_of_employees: file_attributes["TotalEmployeeCnt"],
-  #   domain: file_attributes["WebsiteAddressTxt"]
+  #Call the different methods to seed files
+  # org = create_organisation(file_attributes)
+
+  p file_attributes["SignificantChangeInd"]
+  p file_attributes["GrantAmt"]
+  p file_attributes["RevenueAmt"]
+   p file_attributes["Desc"]
+  puts "*************************************"
+
+  # ProgramServiceAccomplishment.create(
+  #   organisation_id: org.id,
+  #   expense_amount: file_attributes["ExpenseAmt"] ,
+  #   grant_amount: file_attributes["GrantAmt"],
+  #   revenues: file_attributes["RevenueAmt"],
+  #   description: ile_attributes["Desc"],
+  # )
+
+  # ContributionGrant.create(
+    # membership_fees: file_attributes["TaxYr"],
+    # campaigns: ,
+    # fundraising: ,
+    # related_organisations: ,
+    # government_grants: ,
+    # other_gifts_or_donations: ,
+    # total:
   # )
 
   # Revenue.create(

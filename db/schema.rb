@@ -75,19 +75,18 @@ ActiveRecord::Schema.define(version: 20160925200716) do
   end
 
   create_table "masterfiles", force: :cascade do |t|
-    t.integer "ein"
+    t.string  "ein"
     t.integer "subsection_code"
     t.integer "classification_codes"
     t.integer "classification_id"
     t.integer "affiliation_code"
-    t.integer "activity_codes"
+    t.string  "activity_codes"
     t.integer "organization_code"
   end
 
   create_table "organisations", force: :cascade do |t|
     t.string   "name"
     t.text     "mission"
-    t.string   "organisation_type"
     t.string   "address"
     t.string   "city"
     t.string   "state"
@@ -97,7 +96,7 @@ ActiveRecord::Schema.define(version: 20160925200716) do
     t.string   "domain"
     t.datetime "created_at",          null: false
     t.datetime "updated_at",          null: false
-    t.integer  "ein"
+    t.string   "ein"
     t.integer  "masterfile_id"
   end
 

@@ -4,6 +4,7 @@ class Organisation < ApplicationRecord
   has_many :revenues
   has_many :expenses
   has_many :programserviceaccomplishments
+  belongs_to :masterfile
 
   def impact_score
     total_expenses = expense_data.total
