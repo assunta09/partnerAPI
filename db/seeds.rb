@@ -72,6 +72,20 @@ def create_organisation(file_attributes)
     end
 end
 
+  def create_grants(doc, file_attributes)
+    domestic_orgs = doc.search('GrantsToDomesticOrgsGrp/TotalAmt').text
+    domestic_indiv = doc.search('GrantsToDomesticIndividualsGrp/TotalAmt').text
+    foreign_grants = doc.search('ForeignGrantsGrp/TotalAmt').text
+
+  Grant.create(
+    domestic_organisations: domestic_orgs,
+    domestic_individuals: domestic_indiv,
+    foreign_entities: foreign_grants,
+    total: file_attributes["CYGrantsAndSimilarPaidAmt"]
+    )
+  end
+
+
 
 def create_program_service_accomplishments(org, doc)
     # Different paths to access the program service accomplishment data
@@ -95,6 +109,8 @@ def create_program_service_accomplishments(org, doc)
       end
     end
 end
+
+
 
 def create_revenues(org, file_attributes)
   # if Revenue.all.length == 0
@@ -139,12 +155,14 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
     file_attributes["#{node.name}"] = node.text
   end
 
-  #Call the different methods to seed files
+  # Call the different methods to seed files
   if create_organisation(file_attributes)
     org = Organisation.find_by(ein: "131548339")
     create_program_service_accomplishments(org, doc)
     create_revenues(org, file_attributes)
+      create_grants(doc, file_attributes)
   end
+
 
   #  Expense.create(
   #  organisation_id: org.id,
