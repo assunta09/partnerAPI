@@ -6,7 +6,7 @@ class CreateMasterfiles < ActiveRecord::Migration[5.0]
       t.integer :classification_codes
       t.integer :classification_id
       t.integer :affiliation_code
-      t.integer :activity_codes
+      t.string :activity_codes
       t.integer :organization_code
     end
   end
