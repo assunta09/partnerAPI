@@ -98,6 +98,8 @@ def create_program_service_accomplishments(org, doc)
     end
 end
 
+
+
 def create_revenues(org, file_attributes)
   # if Revenue.all.length == 0
     contribution_grant = Contribution.create(
