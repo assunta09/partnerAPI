@@ -1,4 +1,4 @@
 class Revenue < ApplicationRecord
   belongs_to :organisation
-  belongs_to :contributiongrant
+  belongs_to :contribution
 end
