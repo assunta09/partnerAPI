@@ -34,6 +34,7 @@ if Masterfile.all.length == 0
  end
 end
 
+
 # THIS is not used currently - needs to be altered to get all executive data
 def seed_executives_table(org, doc)
   puts "method call"
@@ -51,25 +52,25 @@ end
 
 
 def create_organisation(file_attributes)
-    masterfile = Masterfile.find_by(ein: "000019818")
-    if masterfile != nil
-      org = Organisation.create(
-        name: file_attributes["BusinessNameLine1"],
-        mission: file_attributes["ActivityOrMissionDesc"],
-        ein: file_attributes["EIN"],
-        # ein: '000019818',
-        address: file_attributes["AddressLine1"],
-        city: file_attributes["City"],
-        state: file_attributes["State"],
-        zip: file_attributes["ZIPCode"],
-        year_formed: file_attributes["FormationYr"],
-        number_of_employees: file_attributes["TotalEmployeeCnt"],
-        domain: file_attributes["WebsiteAddressTxt"],
-        masterfile_id: masterfile.id
-       )
-    else
-      false
-    end
+  masterfile = Masterfile.find_by(ein: '000019818')
+  if masterfile != nil
+    org = Organisation.create(
+      name: file_attributes["BusinessNameLine1"],
+      mission: file_attributes["ActivityOrMissionDesc"],
+      # ein: file_attributes["EIN"],
+      ein: '000019818',
+      address: file_attributes["AddressLine1"],
+      city: file_attributes["City"],
+      state: file_attributes["State"],
+      zip: file_attributes["ZIPCode"],
+      year_formed: file_attributes["FormationYr"],
+      number_of_employees: file_attributes["TotalEmployeeCnt"],
+      domain: file_attributes["WebsiteAddressTxt"],
+      masterfile_id: masterfile.id
+     )
+  else
+    false
+  end
 end
 
 
@@ -97,7 +98,6 @@ def create_program_service_accomplishments(org, doc)
 end
 
 def create_revenues(org, file_attributes)
-  # if Revenue.all.length == 0
     contribution_grant = Contribution.create(
       membership_fees: file_attributes["MembershipDuesAmt"],
       campaigns: file_attributes["FederatedCampaignsAmt"] ,
@@ -117,7 +117,87 @@ def create_revenues(org, file_attributes)
       other: file_attributes["CYTotalRevenueAmt"],
       total: file_attributes["CYTotalRevenueAmt"]
     )
-  # end
+end
+
+def create_expenses(org, doc, file_attributes)
+  # salary attributes from XML file
+  total_salary_expense = doc.search('ReturnData/IRS990/CYSalariesCompEmpBnftPaidAmt').text
+  officers_and_key_employee_salary_total = doc.search('ReturnData/IRS990/CompCurrentOfcrDirectorsGrp/TotalAmt').text
+  general_salaries_total = doc.search('ReturnData/IRS990/OtherSalariesAndWagesGrp/TotalAmt').text
+  disqual_persons_salary_total = doc.search('ReturnData/IRS990/CompDisqualPersonsGrp/TotalAmt').text
+  pension_plan_accrual_total = doc.search('ReturnData/IRS990/PensionPlanContributionsGrp/TotalAmt').text
+  employee_benefits_total = doc.search('ReturnData/IRS990/OtherEmployeeBenefitsGrp/TotalAmt').text
+  payroll_taxes_total = doc.search('ReturnData/IRS990/PayrollTaxesGrp/TotalAmt').text
+
+  # other_expense attributes from XML files, if attribute is empty or nil then it should be 0
+  lobbying_total = doc.search('ReturnData/IRS990/FeesForServicesLegalGrp/TotalAmt').text
+  advertising_promotion_total = doc.search('ReturnData/IRS990/AdvertisingGrp/TotalAmt').text
+  travel_total = doc.search('ReturnData/IRS990/TravelGrp/TotalAmt').text
+  entertainment_total = doc.search('ReturnData/IRS990/PymtTravelEntrtnmntPubOfclGrp/TotalAmt').text
+  insurance_total = doc.search('ReturnData/IRS990/InsuranceGrp/TotalAmt').text
+  management_total = doc.search('ReturnData/IRS990/FeesForServicesManagementGrp/TotalAmt').text
+  legal_fees_total = doc.search('ReturnData/IRS990/FeesForServicesLegalGrp/TotalAmt').text
+  accounting_total = doc.search('ReturnData/IRS990/FeesForServicesAccountingGrp/TotalAmt').text
+  office_expenses_total = doc.search('ReturnData/IRS990/OfficeExpensesGrp/TotalAmt').text
+  information_technology_total = doc.search('ReturnData/IRS990/InformationTechnologyGrp/TotalAmt').text
+  royalties_total = doc.search('ReturnData/IRS990/RoyaltiesGrp/TotalAmt').text
+  conventions_and_meetings_total = doc.search('ReturnData/IRS990/ConferencesMeetingsGrp/TotalAmt').text
+  occupancy_total = doc.search('ReturnData/IRS990/OccupancyGrp/TotalAmt').text
+  #other_total = doc.search('ReturnData/IRS990/CYOtherExpensesAmt/TotalAmt').text
+  other_expenses_total = doc.search('ReturnData/IRS990/CYOtherExpensesAmt/TotalAmt').text
+  #Getting the data for Grants
+  domestic_orgs = doc.search('GrantsToDomesticOrgsGrp/TotalAmt').text
+  domestic_indiv = doc.search('GrantsToDomesticIndividualsGrp/TotalAmt').text
+  foreign_grants = doc.search('ForeignGrantsGrp/TotalAmt').text
+
+
+  if doc.search('ReturnData/IRS990/CompCurrentOfcrDirectorsGrp/TotalAmt') != nil
+   salary = Salary.create(
+      officers_and_key_employees: officers_and_key_employee_salary_total,
+      disqual_persons: disqual_persons_salary_total,
+      general_salaries_and_wages: general_salaries_total,
+      pension_plan_accruals: pension_plan_accrual_total,
+      employee_benefits: employee_benefits_total,
+      payroll_taxes: payroll_taxes_total,
+      total: total_salary_expense
+    )
+
+    grant = Grant.create(
+      domestic_organisations: domestic_orgs,
+      domestic_individuals: domestic_indiv,
+      foreign_entities: foreign_grants,
+      total: file_attributes["CYGrantsAndSimilarPaidAmt"]
+    )
+
+    other_expense = OtherExpense.create(
+      lobbying: lobbying_total,
+      advertising_promotion: advertising_promotion_total,
+      travel: travel_total,
+      entertainment: entertainment_total,
+      insurance: insurance_total,
+      management: management_total,
+      legal_fees: legal_fees_total,
+      accounting: accounting_total,
+      office_expenses: office_expenses_total,
+      information_technology: information_technology_total,
+      royalties: royalties_total,
+      conventions_and_meetings: conventions_and_meetings_total,
+      occupancy: occupancy_total,
+      other: nil, # need to write helper function later to calculate the other total
+      total: other_expenses_total
+    )
+
+    Expense.create(
+      organisation_id: org.id,
+      year: file_attributes["TaxYr"],
+      grant_id: grant.id,
+      member_benefits: file_attributes["CYBenefitsPaidToMembersAmt"],
+      salary_id: salary.id,
+      fundraising_fees: file_attributes["CYTotalFundraisingExpenseAmt"],
+      other_expense_id: other_expense.id,
+      total: file_attributes["CYTotalExpensesAmt"]
+    )
+  end
 end
 
 
@@ -139,23 +219,14 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
     file_attributes["#{node.name}"] = node.text
   end
 
-  #Call the different methods to seed files
+
+  # Call the different methods to seed files
   if create_organisation(file_attributes)
-    org = Organisation.find_by(ein: "131548339")
+    org = Organisation.find_by(ein: file_attributes["EIN"])
     create_program_service_accomplishments(org, doc)
+    create_expenses(org, doc, file_attributes)
     create_revenues(org, file_attributes)
   end
-
-  #  Expense.create(
-  #  organisation_id: org.id,
-  #  year: file_attributes["TaxYr"],
-  #  grants: file_attributes["CYGrantsAndSimilarPaidAmt"],
-  #  member_benefits: file_attributes["CYBenefitsPaidToMembersAmt"],
-  #  salaries: file_attributes["CYSalariesCompEmpBnftPaidAmt"],
-  #  fundraising_fees: file_attributes["CYTotalProfFndrsngExpnsAmt"],
-  #  other: file_attributes["CYOtherExpensesAmt"],
-  #  total: file_attributes["CYTotalExpensesAmt"]
-  #  )
 
   # Balance.create(
   #   organisation_id: org.id,
@@ -174,8 +245,3 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
 
     # seed_executives_table(doc)
 end
-
-
-
-
-

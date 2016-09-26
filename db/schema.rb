@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160925200716) do
+ActiveRecord::Schema.define(version: 20160926181213) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -100,7 +100,7 @@ ActiveRecord::Schema.define(version: 20160925200716) do
     t.integer  "masterfile_id"
   end
 
-  create_table "otherexpenses", force: :cascade do |t|
+  create_table "other_expenses", force: :cascade do |t|
     t.integer  "lobbying"
     t.integer  "advertising_promotion"
     t.integer  "travel"
@@ -148,10 +148,11 @@ ActiveRecord::Schema.define(version: 20160925200716) do
     t.integer  "general_salaries_and_wages"
     t.integer  "employee_benefits"
     t.integer  "payroll_taxes"
-    t.integer  "other_compensation"
+    t.integer  "pension_plan_accruals"
     t.integer  "total"
     t.datetime "created_at",                 null: false
     t.datetime "updated_at",                 null: false
+    t.integer  "disqual_persons"
   end
 
 end

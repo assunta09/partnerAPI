@@ -1,6 +1,6 @@
 class CreateOtherExpenses < ActiveRecord::Migration[5.0]
   def change
-    create_table :otherexpenses do |t|
+    create_table :other_expenses do |t|
       t.integer :lobbying
       t.integer :advertising_promotion
       t.integer :travel
