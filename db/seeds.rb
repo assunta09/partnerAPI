@@ -35,22 +35,6 @@ if Masterfile.all.length == 0
 end
 
 
-# THIS is not used currently - needs to be altered to get all executive data
-def seed_executives_table(org, doc)
-  puts "method call"
-  doc.search("Form990PartVIISectionAGrp").each do |person_element|
-    puts person_element.elements[1].text
-    # Executive.create(
-    # organisation_id: org.id,
-    # name: person_element.elements[0].text,
-    # title: person_element.elements[1].text,
-    # salary: person_element.elements[0].text
-
-    # )
-  end
-end
-
-
 def create_organisation(file_attributes)
   masterfile = Masterfile.find_by(ein: '000019818')
   if masterfile != nil
@@ -199,6 +183,38 @@ def create_expenses(org, doc, file_attributes)
   end
 end
 
+def create_balance(org)
+  Balance.create(
+    organisation_id: org.id,
+    year: file_attributes["TaxYr"],
+    total_assets: file_attributes["TotalAssetsEOYAmt"],
+    total_liabilities: file_attributes["TotalLiabilitiesEOYAmt"],
+    net_assets: file_attributes["NetAssetsOrFundBalancesEOYAmt"]
+    )
+end
+
+# def create_executive(org, doc, file_attributes)
+#   puts "method call"
+#   doc.search("Form990PartVIISectionAGrp").each do |person_element|
+
+#     # Executive.create(
+#     # organisation_id: org.id,
+#     # name: person_element.elements[0].text,
+#     # title: person_element.elements[1].text,
+#     # salary: person_element.elements[0].text
+
+#     # )
+#   end
+
+#    # Executive.create(
+#   # organisation_id: org.id,
+#   # name: file_attributes["PersonNm"],
+#   # title: file_attributes["TitleTxt"],
+#   # salary: file_attributes["ReportableCompFromOrgAmt"],
+#   #  )
+
+#     # seed_executives_table(doc)
+# end
 
 #SEED SCRIPT
 source_path = Rails.root.join('db', 'xml_files')
@@ -213,7 +229,7 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   leaves = doc.xpath('//*[not(*)]')
   file_attributes = {}
 
-  #Iterate through leaves (tags without children) and assign their name as key and their text as value
+  # Iterate through leaves (tags without children) and assign their name as key and their text as value
   leaves.each do |node|
     file_attributes["#{node.name}"] = node.text
   end
@@ -224,22 +240,8 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
     create_program_service_accomplishments(org, doc)
     create_expenses(org, doc, file_attributes)
     create_revenues(org, file_attributes)
+    create_balance(org)
+    # create_executive(org, doc, file_attributes)
   end
 
-  # Balance.create(
-  #   organisation_id: org.id,
-  #   year: file_attributes["TaxYr"],
-  #   total_assets: file_attributes["TotalAssetsEOYAmt"],
-  #   total_liabilities: file_attributes["TotalLiabilitiesEOYAmt"],
-  #   net_assets: file_attributes["NetAssetsOrFundBalancesEOYAmt"]
-  #   )
-
-  # Executive.create(
-  # organisation_id: org.id,
-  # name: file_attributes["PersonNm"],
-  # title: file_attributes["TitleTxt"],
-  # salary: file_attributes["ReportableCompFromOrgAmt"],
-  #  )
-
-    # seed_executives_table(doc)
 end
