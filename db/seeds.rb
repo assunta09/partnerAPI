@@ -183,7 +183,7 @@ def create_expenses(org, doc, file_attributes)
   end
 end
 
-def create_balance(org)
+def create_balance(org, file_attributes)
   Balance.create(
     organisation_id: org.id,
     year: file_attributes["TaxYr"],
@@ -193,28 +193,53 @@ def create_balance(org)
     )
 end
 
-# def create_executive(org, doc, file_attributes)
-#   puts "method call"
-#   doc.search("Form990PartVIISectionAGrp").each do |person_element|
+def create_executive(org, doc, file_attributes)
 
-#     # Executive.create(
-#     # organisation_id: org.id,
-#     # name: person_element.elements[0].text,
-#     # title: person_element.elements[1].text,
-#     # salary: person_element.elements[0].text
+  path = 'Form990PartVIISectionAGrp'
+  # nodes = doc.search(path).text.split("\n")
+  if doc.search(path) != nil
+    arr = []
+    nodes = doc.search(path).children
+    nodes.each do |node|
+      hash = {}
+      hash["#{node.name}"] = node.children.text
+      hash.delete('text')
+      arr << hash
+      arr.reject! {|c| c.empty? }
+    end
+    arr.each_slice(17).to_a[0..-1]
+  end
 
-#     # )
-#   end
+  executive_array = []
+  second_array = []
+  # make sub arrays split by the appearance of the hash containing "PersonNm" key
+  arr.length.times do |i|
+    if arr[i].has_key?("PersonNm")
+      executive_array.push(second_array)
+      second_array = []
+      second_array.push(arr[i])
+    else
+      second_array.push(arr[i])
+    end
+  end
+  # delete the first blank array in the executive array
+  executive_array.delete_at(0)
 
-#    # Executive.create(
-#   # organisation_id: org.id,
-#   # name: file_attributes["PersonNm"],
-#   # title: file_attributes["TitleTxt"],
-#   # salary: file_attributes["ReportableCompFromOrgAmt"],
-#   #  )
-
-#     # seed_executives_table(doc)
-# end
+  executive_array.each do |person_attributes|
+    executive_hash = {}
+    person_attributes.each do |hash|
+      hash.each do |key, value|
+        executive_hash[key] = value
+      end
+    end
+    Executive.create(
+      organisation_id: org.id,
+      name: executive_hash["PersonNm"],
+      title: executive_hash["TitleTxt"],
+      salary: executive_hash["ReportableCompFromOrgAmt"],
+    )
+  end
+end
 
 #SEED SCRIPT
 source_path = Rails.root.join('db', 'xml_files')
@@ -237,11 +262,13 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   # Call the different methods to seed files
   if create_organisation(file_attributes)
     org = Organisation.find_by(ein: file_attributes["EIN"])
+    # org = Organisation.find_by(ein: '000019818')
+
     create_program_service_accomplishments(org, doc)
     create_expenses(org, doc, file_attributes)
     create_revenues(org, file_attributes)
-    create_balance(org)
-    # create_executive(org, doc, file_attributes)
+    create_balance(org, file_attributes)
+    create_executive(org, doc, file_attributes)
   end
 
 end
