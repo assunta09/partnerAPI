@@ -10,7 +10,9 @@ class OrganisationsController < ApplicationController
     # impact_score = organisation.impact_score
     general_expenses_absolutes = organisation.general_expenses_absolutes
     general_revenue_absolutes = organisation.general_revenue_absolutes
-    render json: {organisation: organisation, generalExpensesAbsolutes: general_expenses_absolutes, generalRevenueAbsolutes: general_revenue_absolutes}
+    all_expenses = organisation.all_expenses_absolutes
+    all_revenues = organisation.all_revenues_absolutes
+    render json: {organisation: organisation, generalExpensesAbsolutes: general_expenses_absolutes, generalRevenueAbsolutes: general_revenue_absolutes, allExpenses: all_expenses, allRevenues: all_revenues}
   end
 
   private
