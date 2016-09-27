@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160923023720) do
+ActiveRecord::Schema.define(version: 20160926181213) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -25,6 +25,24 @@ ActiveRecord::Schema.define(version: 20160923023720) do
     t.datetime "updated_at",        null: false
   end
 
+  create_table "classifications", force: :cascade do |t|
+    t.integer "subsection_code"
+    t.integer "classification_code"
+    t.text    "description"
+  end
+
+  create_table "contributions", force: :cascade do |t|
+    t.integer  "membership_fees"
+    t.integer  "campaigns"
+    t.integer  "fundraising"
+    t.integer  "related_organisations"
+    t.integer  "government_grants"
+    t.integer  "other_gifts_or_donations"
+    t.integer  "total"
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+  end
+
   create_table "executives", force: :cascade do |t|
     t.integer  "organisation_id"
     t.string   "name"
@@ -37,20 +55,38 @@ ActiveRecord::Schema.define(version: 20160923023720) do
   create_table "expenses", force: :cascade do |t|
     t.integer  "organisation_id"
     t.integer  "year"
-    t.integer  "grants"
+    t.integer  "grant_id"
     t.integer  "member_benefits"
-    t.integer  "salaries"
+    t.integer  "salary_id"
     t.integer  "fundraising_fees"
-    t.integer  "other"
+    t.integer  "other_expense_id"
     t.integer  "total"
     t.datetime "created_at",       null: false
     t.datetime "updated_at",       null: false
   end
 
+  create_table "grants", force: :cascade do |t|
+    t.integer  "domestic_organisations"
+    t.integer  "domestic_individuals"
+    t.integer  "foreign_entities"
+    t.integer  "total"
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+  end
+
+  create_table "masterfiles", force: :cascade do |t|
+    t.string  "ein"
+    t.integer "subsection_code"
+    t.integer "classification_codes"
+    t.integer "classification_id"
+    t.integer "affiliation_code"
+    t.string  "activity_codes"
+    t.integer "organization_code"
+  end
+
   create_table "organisations", force: :cascade do |t|
     t.string   "name"
     t.text     "mission"
-    t.string   "organisation_type"
     t.string   "address"
     t.string   "city"
     t.string   "state"
@@ -60,18 +96,63 @@ ActiveRecord::Schema.define(version: 20160923023720) do
     t.string   "domain"
     t.datetime "created_at",          null: false
     t.datetime "updated_at",          null: false
+    t.string   "ein"
+    t.integer  "masterfile_id"
+  end
+
+  create_table "other_expenses", force: :cascade do |t|
+    t.integer  "lobbying"
+    t.integer  "advertising_promotion"
+    t.integer  "travel"
+    t.integer  "entertainment"
+    t.integer  "insurance"
+    t.integer  "other"
+    t.integer  "total"
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+    t.integer  "management"
+    t.integer  "legal_fees"
+    t.integer  "accounting"
+    t.integer  "office_expenses"
+    t.integer  "information_technology"
+    t.integer  "royalties"
+    t.integer  "conventions_and_meetings"
+    t.integer  "occupancy"
+  end
+
+  create_table "program_service_accomplishments", force: :cascade do |t|
+    t.integer  "organisation_id"
+    t.integer  "expense_amount"
+    t.integer  "grant_amount"
+    t.integer  "revenues"
+    t.text     "description"
+    t.integer  "year"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
   end
 
   create_table "revenues", force: :cascade do |t|
     t.integer  "organisation_id"
     t.integer  "year"
-    t.integer  "contributions"
+    t.integer  "contribution_id"
     t.integer  "service_revenue"
     t.integer  "investments"
     t.integer  "other"
     t.integer  "total"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
+  end
+
+  create_table "salaries", force: :cascade do |t|
+    t.integer  "officers_and_key_employees"
+    t.integer  "general_salaries_and_wages"
+    t.integer  "employee_benefits"
+    t.integer  "payroll_taxes"
+    t.integer  "pension_plan_accruals"
+    t.integer  "total"
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
+    t.integer  "disqual_persons"
   end
 
 end

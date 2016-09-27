@@ -3,7 +3,7 @@ class CreateRevenues < ActiveRecord::Migration[5.0]
     create_table :revenues do |t|
       t.integer :organisation_id
       t.integer :year
-      t.integer :contributions
+      t.integer :contribution_id
       t.integer :service_revenue
       t.integer :investments
       t.integer :other
