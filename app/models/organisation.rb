@@ -39,8 +39,10 @@ class Organisation < ApplicationRecord
           expense_split[expense_type] = value
         end
       elsif expense_type == 'salary_id'
-        salary_data = Salary.find(value)
-        expense_split['salaries'] = salary_data.total
+        if value != nil
+          salary_data = Salary.find(value)
+          expense_split['salaries'] = salary_data.total
+        end
       elsif expense_type == 'grant_id'
         grant_data = Grant.find(value)
         expense_split['grant'] = grant_data.total
