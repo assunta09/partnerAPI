@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160926181213) do
+ActiveRecord::Schema.define(version: 20160928041120) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 20160926181213) do
     t.text    "description"
   end
 
-  create_table "contributions", force: :cascade do |t|
+  create_table "contributiongrants", force: :cascade do |t|
     t.integer  "membership_fees"
     t.integer  "campaigns"
     t.integer  "fundraising"
@@ -50,6 +50,7 @@ ActiveRecord::Schema.define(version: 20160926181213) do
     t.integer  "salary"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
+    t.integer  "other_salary"
   end
 
   create_table "expenses", force: :cascade do |t|
@@ -134,13 +135,13 @@ ActiveRecord::Schema.define(version: 20160926181213) do
   create_table "revenues", force: :cascade do |t|
     t.integer  "organisation_id"
     t.integer  "year"
-    t.integer  "contribution_id"
+    t.integer  "contribution_grant_id"
     t.integer  "service_revenue"
     t.integer  "investments"
     t.integer  "other"
     t.integer  "total"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.datetime "created_at",            null: false
+    t.datetime "updated_at",            null: false
   end
 
   create_table "salaries", force: :cascade do |t|
