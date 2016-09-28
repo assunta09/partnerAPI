@@ -19,6 +19,12 @@ class Organisation < ApplicationRecord
   #   1 - admin_expenses/total_expenses
   # end
 
+  def fundraising_ratio
+    # fundraising_fees = expense_data.fundraising_fees
+    # funds_raised = Contribution.find(revenue_data.contribution_id).fundraising
+    fundraising_ratio = {fundraising_fees: expense_data.fundraising_fees, funds_raised: Contribution.find(revenue_data.contribution_id).fundraising}
+  end
+
   def general_expenses_percentages
     percentages = {}
     expense_data.attributes.each do |expense_type, value|
@@ -139,15 +145,11 @@ class Organisation < ApplicationRecord
 
 
   def all_expenses_absolutes
-    general_expenses = general_expenses_absolutes
-    salaries = salaries_absolutes
-    grants = grants_absolutes
-    other_expenses = other_expenses_absolutes
-    array = [general_expenses, salaries, grants, other_expenses]
-    variable = array.inject(:update)
-    variable.delete('salaries')
-    variable.delete('grant')
-    variable.delete('other_expenses')
+    different_expense_types = [general_expenses_absolutes, salaries_absolutes, grants_absolutes, other_expenses_absolutes]
+    variable = different_expense_types.inject(:update)
+    ['salaries','grant', 'other_expenses'].each do |item_to_delete|
+      variable.delete(item_to_delete)
+    end
     variable
   end
 
