@@ -36,7 +36,7 @@ end
 
 
 def create_organisation(file_attributes)
-  masterfile = Masterfile.find_by(file_attributes["EIN"])
+  masterfile = Masterfile.find_by(ein: file_attributes["EIN"])
   if masterfile != nil
     org = Organisation.create(
       name: file_attributes["BusinessNameLine1"],
