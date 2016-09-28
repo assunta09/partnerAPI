@@ -160,6 +160,18 @@ class Organisation < ApplicationRecord
     top_salaries
   end
 
+  def render_program_service_accomplishments
+    psa_get_data = ProgramServiceAccomplishment.where(organisation_id: self.id)
+    program_service_accomplishments = []
+    psa_get_data.each do |accomplishment|
+      program_service_accomplishments << {expense_amount: accomplishment.expense_amount,
+        grant_amount: accomplishment.grant_amount,
+        revenues: accomplishment.revenues,
+        description: accomplishment.description}
+    end
+    program_service_accomplishments
+  end
+
   def expense_data
     expenses = Expense.where(organisation_id: self.id).first
   end
