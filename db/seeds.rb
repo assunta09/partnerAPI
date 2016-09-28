@@ -88,7 +88,7 @@ def create_organisation(file_attributes)
   end
 end
 
-def create_program_service_accomplishments(org, doc)
+def create_program_service_accomplishments(org, doc, file_attributes)
     # Different paths to access the program service accomplishment data
     prog_service_accomp_path = ['ReturnData/IRS990', 'ReturnData/IRS990/ProgSrvcAccomActy2Grp', 'ReturnData/IRS990/ProgSrvcAccomActy3Grp']
 
@@ -106,6 +106,7 @@ def create_program_service_accomplishments(org, doc)
            grant_amount: return_data_hash["GrantAmt"],
            revenues: return_data_hash["RevenueAmt"],
            description: return_data_hash["Desc"],
+            year: file_attributes["TaxYr"]
          )
       end
     end
@@ -298,12 +299,12 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
     if org != nil
     # org = Organisation.find_by(ein: '000019818')
 
-    # create_program_service_accomplishments(org, doc)
+    create_program_service_accomplishments(org, doc, file_attributes)
     # create_expenses(org, doc, file_attributes)
-      create_revenues(org, doc, file_attributes)
-    end
+    # create_revenues(org, doc, file_attributes)
   #   create_balance(org, file_attributes)
-  #   create_executive(org, doc, file_attributes)
+    # create_executive(org, doc, file_attributes)
+    end
   # end
 
 end
