@@ -67,17 +67,20 @@ require 'json'
 # obtain_category_object_id
 
 # def create_organisation(doc, file_attributes)
+#   header_path = "ReturnHeader/Filer"
+#   attribute_path = "ReturnData/IRS990/ActivityOrMissionDesc"
+
 #   masterfile = Masterfile.find_by(ein: file_attributes["EIN"])
 #   if masterfile != nil
 #     org = Organisation.create(
-#       name: ("ReturnHeader/Filer/BusinessName/BusinessNameLine1").text,
-#       mission: file_attributes["ActivityOrMissionDesc"],
-#       ein: doc.search("ReturnHeader/Filer/EIN").text,
+#       name: doc.search("#{header_path}/BusinessName/BusinessNameLine1").text,
+#       mission: doc.search("#{attribute_path}/ActivityOrMissionDesc").text,
+#       ein: doc.search("#{header_path}/EIN").text,
 #       # ein: '000019818',
-#       address: file_attributes["AddressLine1"],
-#       city: file_attributes["City"],
-#       state: file_attributes["State"],
-#       zip: file_attributes["ZIPCode"],
+#       address: doc.search("{header_path}/USAddress/AddressLine1Txt).text,
+#       city: doc.search("{header_path}/USAddress/CityNm).text,
+#       state: doc.search("{header_path}/USAddress/StateAbbreviationCd).text,
+#       zip: doc.search("{header_path}/USAddress/ZIPCd).text,
 #       year_formed: file_attributes["FormationYr"],
 #       number_of_employees: file_attributes["TotalEmployeeCnt"],
 #       domain: file_attributes["WebsiteAddressTxt"],
@@ -292,6 +295,7 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   end
 
   p doc.search("ReturnHeader/Filer/BusinessName/BusinessNameLine1").text
+  p doc.search("ReturnData/IRS990/ActivityOrMissionDesc").text
 
   p "**************************************************************"
   p "**************************************************************"
