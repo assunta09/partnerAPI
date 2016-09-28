@@ -117,7 +117,7 @@ def create_revenues(org, file_attributes)
       campaigns: file_attributes["FederatedCampaignsAmt"] ,
       fundraising: file_attributes["FundraisingAmt"],
       related_organisations: file_attributes["RelatedOrganizationsAmt"],
-      government_grants: nil, # **ToDo** NEED TO FIND OUT HOW THIS IS CALLED!!!
+      government_grants: file_attributes["GovernmentGrantsAmt"],
       other_gifts_or_donations: file_attributes["AllOtherContributionsAmt"],
       total: file_attributes["CYContributionsGrantsAmt"]
     )
