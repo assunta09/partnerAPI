@@ -70,7 +70,7 @@ require 'json'
 #   masterfile = Masterfile.find_by(ein: file_attributes["EIN"])
 #   if masterfile != nil
 #     org = Organisation.create(
-#       name: file_attributes["BusinessNameLine1"],
+#       name: ("ReturnHeader/Filer/BusinessName/BusinessNameLine1").text,
 #       mission: file_attributes["ActivityOrMissionDesc"],
 #       ein: doc.search("ReturnHeader/Filer/EIN").text,
 #       # ein: '000019818',
@@ -291,7 +291,7 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
     file_attributes["#{node.name}"] = node.text
   end
 
-  p doc.search("ReturnHeader/Filer/EIN").text
+  p doc.search("ReturnHeader/Filer/BusinessName/BusinessNameLine1").text
 
   p "**************************************************************"
   p "**************************************************************"
