@@ -66,30 +66,29 @@ require 'json'
 
 # obtain_category_object_id
 
-# def create_organisation(doc, file_attributes)
-#   header_path = "ReturnHeader/Filer"
-#   attribute_path = "ReturnData/IRS990"
+def create_organisation(doc, file_attributes)
 
-#   masterfile = Masterfile.find_by(ein: file_attributes["EIN"])
-#   if masterfile != nil
-#     org = Organisation.create(
-#       name: doc.search("ReturnHeader/Filer/BusinessName/#{/BusinessNameLine}").text,
-#       mission: doc.search("ReturnHeader/Filer/ActivityOrMissionDesc#{NEED REGEX}").text,
-#       ein: doc.search("ReturnHeader/Filer/EIN").text,
-#       # ein: '000019818',
-#       address: doc.search("ReturnHeader/Filer/USAddress/AddressLine1Txt#{NEED REGEX}").text,
-#       city: doc.search("ReturnHeader/Filer/USAddress/CityNm#{NEED REGEX}").text,
-#       state: doc.search("ReturnHeader/Filer/USAddress/StateAbbreviationCd#{NEED REGEX}").text,
-#       zip: doc.search("ReturnHeader/Filer/USAddress/ZIPCd#{NEED REGEX}").text,
-#       year_formed: doc.search("ReturnData/IRS990/ActivityOrMissionDesc").text,
-#       number_of_employees: file_attributes["TotalEmployeeCnt"],
-#       domain: file_attributes["WebsiteAddressTxt"],
-#       masterfile_id: masterfile.id
-#      )
-#   else
-#     false
-#   end
-# end
+  masterfile = Masterfile.find_by(ein: file_attributes["EIN"])
+  if masterfile != nil
+    org = Organisation.create(
+      name: doc.search("ReturnHeader/Filer/BusinessName").text.gsub("\n", '').strip,
+      mission: doc.search("ReturnData/IRS990/ActivityOrMissionDesc").text,
+      ein: doc.search("ReturnHeader/Filer/EIN").text,
+      # ein: '000019818',
+      # put all USAddress elements into an array since individual tags differ between XML files
+      address: doc.search("ReturnHeader/Filer/USAddress").text.gsub("\n", '').strip.split,
+      # city: doc.search("ReturnHeader/Filer/USAddress/CityNm#{NEED REGEX}").text,
+      # state: doc.search("ReturnHeader/Filer/USAddress/StateAbbreviationCd#{NEED REGEX}").text,
+      # zip: doc.search("ReturnHeader/Filer/USAddress/ZIPCd#{NEED REGEX}").text,
+      year_formed: doc.search("ReturnData/IRS990/FormationYr").text,
+      number_of_employees: file_attributes["TotalEmployeeCnt"],
+      domain: file_attributes["WebsiteAddressTxt"],
+      masterfile_id: masterfile.id
+     )
+  else
+    false
+  end
+end
 
 # def create_program_service_accomplishments(org, doc)
 #     # Different paths to access the program service accomplishment data
@@ -294,9 +293,11 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   #   file_attributes["#{node.name}"] = node.text
   # end
 
-  p doc.search("ReturnHeader/Filer/BusinessName/#{Regexp.escape('BusinessNameLine1')}").text
-  # p doc.search("ReturnData/IRS990/ActivityOrMissionDesc").text
-  # p doc.search("ReturnHeader/Filer/USAddress/AddressLine1").text
+
+  p doc.search("ReturnHeader/Filer/BusinessName").text.gsub("\n", '').strip
+  p doc.search("ReturnData/IRS990/ActivityOrMissionDesc").text
+  p doc.search("ReturnHeader/Filer/USAddress").text.gsub("\n", '').strip.split
+  p doc.search("ReturnData/IRS990/FormationYr").text
   # p doc.search("ReturnHeader/Filer/USAddress/CityNm").text
   # p doc.search("ReturnHeader/Filer/USAddress/StateAbbreviationCd").text
   # p doc.search("ReturnHeader/Filer/USAddress/ZIPCd").text
