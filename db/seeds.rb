@@ -66,7 +66,7 @@ require 'json'
 
 # obtain_category_object_id
 
-# def create_organisation(file_attributes)
+# def create_organisation(doc, file_attributes)
 #   masterfile = Masterfile.find_by(ein: file_attributes["EIN"])
 #   if masterfile != nil
 #     org = Organisation.create(
@@ -298,7 +298,7 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   p "**************************************************************"
   p "**************************************************************"
   # # Call the different methods to seed files
-  # if create_organisation(file_attributes)
+  # if create_organisation(doc, file_attributes)
   #   org = Organisation.find_by(ein: file_attributes["EIN"])
   #   # org = Organisation.find_by(ein: '000019818')
 
