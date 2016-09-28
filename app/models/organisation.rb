@@ -19,20 +19,20 @@ class Organisation < ApplicationRecord
   #   1 - admin_expenses/total_expenses
   # end
 
+  # def general_expenses_percentages
+  #   percentages = {}
+  #   expense_data.attributes.each do |expense_type, value|
+  #     if expense_type == 'other' || expense_type == 'member_benefits' || expense_type == 'salaries' || expense_type == 'fundraising_fees' || expense_type == 'grants'
+  #       if value != nil
+  #         percentages[expense_type] = value.to_f/expense_data.total
+  #       end
+  #     end
+  #   end
+  #   percentages
+  # end
+
   def fundraising_ratio
     fundraising_ratio = {fundraising_fees: expense_data.fundraising_fees, funds_raised: Contribution.find(revenue_data.contribution_id).fundraising}
-  end
-
-  def general_expenses_percentages
-    percentages = {}
-    expense_data.attributes.each do |expense_type, value|
-      if expense_type == 'other' || expense_type == 'member_benefits' || expense_type == 'salaries' || expense_type == 'fundraising_fees' || expense_type == 'grants'
-        if value != nil
-          percentages[expense_type] = value.to_f/expense_data.total
-        end
-      end
-    end
-    percentages
   end
 
   def general_expenses_absolutes
@@ -121,7 +121,6 @@ class Organisation < ApplicationRecord
     grant_split
   end
 
-
   def contributions_absolutes
     contribution_split = {}
     contribution_data = Contribution.find(revenue_data.contribution_id)
@@ -136,14 +135,14 @@ class Organisation < ApplicationRecord
     contribution_split
   end
 
-  def all_revenues_absolutes
+  def revenues_split_absolutes
     array = [general_revenue_absolutes, contributions_absolutes]
     variable = array.inject(:update)
     variable.delete('contribution')
     variable
   end
 
-  def all_expenses_absolutes
+  def expenses_split_absolutes
     different_expense_types = [general_expenses_absolutes, salaries_absolutes, grants_absolutes, other_expenses_absolutes]
     variable = different_expense_types.inject(:update)
     ['salaries','grant', 'other_expenses'].each do |item_to_delete|
@@ -163,6 +162,7 @@ class Organisation < ApplicationRecord
   def render_program_service_accomplishments
     psa_get_data = ProgramServiceAccomplishment.where(organisation_id: self.id)
     program_service_accomplishments = []
+
     psa_get_data.each do |accomplishment|
       program_service_accomplishments << {expense_amount: accomplishment.expense_amount,
         grant_amount: accomplishment.grant_amount,
@@ -172,6 +172,7 @@ class Organisation < ApplicationRecord
     program_service_accomplishments
   end
 
+  private
   def expense_data
     expenses = Expense.where(organisation_id: self.id).first
   end

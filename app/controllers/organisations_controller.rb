@@ -7,19 +7,15 @@ class OrganisationsController < ApplicationController
 
   def show
     organisation = Organisation.find(params[:id])
-    # impact_score = organisation.impact_score
-    general_expenses_absolutes = organisation.general_expenses_absolutes
-    general_revenue_absolutes = organisation.general_revenue_absolutes
-    all_expenses = organisation.all_expenses_absolutes
-    all_revenues = organisation.all_revenues_absolutes
-    fundraising_ratio = organisation.fundraising_ratio
-    top_salaries = organisation.top_salaries_absolutes
-    program_service_accomplishments = organisation.render_program_service_accomplishments
-    render json: {organisation: organisation, generalExpensesAbsolutes: general_expenses_absolutes, generalRevenueAbsolutes: general_revenue_absolutes, allExpenses: all_expenses,
-      allRevenues: all_revenues,
-      fundraisingRatio: fundraising_ratio,
-      topSalaries: top_salaries,
-      programServiceAccomplishments: program_service_accomplishments
+
+    render json: {organisation: organisation,
+      generalExpensesAbsolutes: organisation.general_expenses_absolutes,
+      generalRevenueAbsolutes: organisation.general_revenue_absolutes,
+      allExpenses: organisation.expenses_split_absolutes,
+      allRevenues: organisation.revenues_split_absolutes,
+      fundraisingRatio: organisation.fundraising_ratio,
+      topSalaries: organisation.top_salaries_absolutes,
+      programServiceAccomplishments: organisation.render_program_service_accomplishments
    }
   end
 
