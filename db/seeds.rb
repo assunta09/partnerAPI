@@ -119,7 +119,7 @@ def create_revenues(org, file_attributes)
       related_organisations: file_attributes["RelatedOrganizationsAmt"],
       government_grants: nil, # **ToDo** NEED TO FIND OUT HOW THIS IS CALLED!!!
       other_gifts_or_donations: file_attributes["AllOtherContributionsAmt"],
-      total: file_attributes["TotalContributionsAmt"]
+      total: file_attributes["CYContributionsGrantsAmt"]
     )
 
     r = Revenue.create(
