@@ -3,11 +3,11 @@
 
 *Partner* accesses IRS 990 Filings for nonprofit organizations on Amazon Web Services and displays information about an individual organization's expenses, sources of revenue, and significant contributions to the community.
 
-## How the data was accessed
+## Synopsis
 
 ## About this API
 
-## Something else? idk
+## Contributors
 
 ### Notable organizations included in our dataset
 * St. Jude Children's Research Hospital
