@@ -135,9 +135,7 @@ class Organisation < ApplicationRecord
   end
 
   def all_revenues_absolutes
-    general_revenue = general_revenue_absolutes
-    contributions = contributions_absolutes
-    array = [general_revenue, contributions]
+    array = [general_revenue_absolutes, contributions_absolutes]
     variable = array.inject(:update)
     variable.delete('contribution')
     variable
