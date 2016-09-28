@@ -1,4 +1,6 @@
 require 'csv'
+require 'json'
+
 
 if Classification.all.length == 0
   #SEEDING of the classification file
@@ -34,6 +36,35 @@ if Masterfile.all.length == 0
  end
 end
 
+def obtain_category_object_id
+  file = File.read("db/category_seeding/index_2015.json")
+  data = JSON.parse(file)
+  json = data["Filings2015"]
+
+  json.each do |hash|
+    masterfile = Masterfile.find_by(ein: hash["EIN"])
+    if masterfile != nil
+      classification = Classification.find(masterfile.classification_id)
+      if classification != nil
+        if classification.description == "Organization to Prevent Cruelty to Children"
+            CSV.open("db/category_seeding/classification_children_cruelity_prevention.csv", 'a+') do |csv|
+              csv << [hash["ObjectId"]]
+            end
+        elsif classification.description == "Scientific Organization"
+            CSV.open("db/category_seeding/classification_scientific_organisation.csv", 'a+') do |csv|
+              csv << [hash["ObjectId"]]
+            end
+        elsif classification.description == "Organization to Prevent Cruelty to Animals"
+            CSV.open("db/category_seeding/classification_animal_cruelity_prevention.csv", 'a+') do |csv|
+              csv << [hash["ObjectId"]]
+            end
+        end
+      end
+    end
+  end
+end
+
+obtain_category_object_id
 
 def create_organisation(file_attributes)
   masterfile = Masterfile.find_by(file_attributes["EIN"])
@@ -272,3 +303,5 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   end
 
 end
+
+
