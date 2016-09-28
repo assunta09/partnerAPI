@@ -68,20 +68,20 @@ require 'json'
 
 # def create_organisation(doc, file_attributes)
 #   header_path = "ReturnHeader/Filer"
-#   attribute_path = "ReturnData/IRS990/ActivityOrMissionDesc"
+#   attribute_path = "ReturnData/IRS990"
 
 #   masterfile = Masterfile.find_by(ein: file_attributes["EIN"])
 #   if masterfile != nil
 #     org = Organisation.create(
-#       name: doc.search("#{header_path}/BusinessName/BusinessNameLine1").text,
-#       mission: doc.search("#{attribute_path}/ActivityOrMissionDesc").text,
-#       ein: doc.search("#{header_path}/EIN").text,
+#       name: doc.search("ReturnHeader/Filer/BusinessName/#{/BusinessNameLine}").text,
+#       mission: doc.search("ReturnHeader/Filer/ActivityOrMissionDesc#{NEED REGEX}").text,
+#       ein: doc.search("ReturnHeader/Filer/EIN").text,
 #       # ein: '000019818',
-#       address: doc.search("{header_path}/USAddress/AddressLine1Txt).text,
-#       city: doc.search("{header_path}/USAddress/CityNm).text,
-#       state: doc.search("{header_path}/USAddress/StateAbbreviationCd).text,
-#       zip: doc.search("{header_path}/USAddress/ZIPCd).text,
-#       year_formed: file_attributes["FormationYr"],
+#       address: doc.search("ReturnHeader/Filer/USAddress/AddressLine1Txt#{NEED REGEX}").text,
+#       city: doc.search("ReturnHeader/Filer/USAddress/CityNm#{NEED REGEX}").text,
+#       state: doc.search("ReturnHeader/Filer/USAddress/StateAbbreviationCd#{NEED REGEX}").text,
+#       zip: doc.search("ReturnHeader/Filer/USAddress/ZIPCd#{NEED REGEX}").text,
+#       year_formed: doc.search("ReturnData/IRS990/ActivityOrMissionDesc").text,
 #       number_of_employees: file_attributes["TotalEmployeeCnt"],
 #       domain: file_attributes["WebsiteAddressTxt"],
 #       masterfile_id: masterfile.id
@@ -286,16 +286,20 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   doc = Nokogiri::XML(xml)
 
   # Accessing children only - no parent tags
-  leaves = doc.xpath('//*[not(*)]')
-  file_attributes = {}
+  # leaves = doc.xpath('//*[not(*)]')
+  # file_attributes = {}
 
   # Iterate through leaves (tags without children) and assign their name as key and their text as value
-  leaves.each do |node|
-    file_attributes["#{node.name}"] = node.text
-  end
+  # leaves.each do |node|
+  #   file_attributes["#{node.name}"] = node.text
+  # end
 
-  p doc.search("ReturnHeader/Filer/BusinessName/BusinessNameLine1").text
-  p doc.search("ReturnData/IRS990/ActivityOrMissionDesc").text
+  p doc.search("ReturnHeader/Filer/BusinessName/#{Regexp.escape('BusinessNameLine1')}").text
+  # p doc.search("ReturnData/IRS990/ActivityOrMissionDesc").text
+  # p doc.search("ReturnHeader/Filer/USAddress/AddressLine1").text
+  # p doc.search("ReturnHeader/Filer/USAddress/CityNm").text
+  # p doc.search("ReturnHeader/Filer/USAddress/StateAbbreviationCd").text
+  # p doc.search("ReturnHeader/Filer/USAddress/ZIPCd").text
 
   p "**************************************************************"
   p "**************************************************************"
