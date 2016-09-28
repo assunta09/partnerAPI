@@ -2,39 +2,39 @@ require 'csv'
 require 'json'
 
 
-if Classification.all.length == 0
-  #SEEDING of the classification file
-  classifications_csv = File.read(Rails.root.join('db', 'category_seeding', 'Subsections_Classifications.csv'))
-  classification = CSV.parse(classifications_csv, headers: true, :col_sep => ";",:encoding => 'ISO-8859-1')
-  classification.each do |line|
-  Classification.create(line.to_hash)
-  end
-end
+# if Classification.all.length == 0
+#   #SEEDING of the classification file
+#   classifications_csv = File.read(Rails.root.join('db', 'category_seeding', 'Subsections_Classifications.csv'))
+#   classification = CSV.parse(classifications_csv, headers: true, :col_sep => ";",:encoding => 'ISO-8859-1')
+#   classification.each do |line|
+#   Classification.create(line.to_hash)
+#   end
+# end
 
-if Masterfile.all.length == 0
- #Seeding MASTERFILE
- source_path_csv = Rails.root.join('db', 'category_seeding', 'regional_files')
- Dir.glob("#{source_path_csv}/*.csv").each do |csv_file|
-  masterfile_csv = File.read(csv_file)
-  masterfile = CSV.parse(masterfile_csv, headers: true, :encoding => 'ISO-8859-1')
-  masterfile.each do |line|
-    m = Masterfile.new
-    m.ein = line['EIN']
-    m.subsection_code = line['SUBSECTION']
-    m.classification_codes = line['CLASSIFICATION']
-    m.affiliation_code = line['AFFILIATION']
-    m.activity_codes = line['ACTIVITY']
-    m.organization_code = line['ORGANIZATION']
-    classification_code = m.classification_codes.to_s.split('').first.to_i
-    classification = Classification.find_by(subsection_code: m.subsection_code, classification_code: classification_code)
-    # if  m.subsection_code != 0 && m.subsection_code != 91 && (classification_code != 0 && classification_code != 9)
-    if classification != nil
-      m.classification_id = classification.id
-      m.save
-    end
-  end
- end
-end
+# if Masterfile.all.length == 0
+#  #Seeding MASTERFILE
+#  source_path_csv = Rails.root.join('db', 'category_seeding', 'regional_files')
+#  Dir.glob("#{source_path_csv}/*.csv").each do |csv_file|
+#   masterfile_csv = File.read(csv_file)
+#   masterfile = CSV.parse(masterfile_csv, headers: true, :encoding => 'ISO-8859-1')
+#   masterfile.each do |line|
+#     m = Masterfile.new
+#     m.ein = line['EIN']
+#     m.subsection_code = line['SUBSECTION']
+#     m.classification_codes = line['CLASSIFICATION']
+#     m.affiliation_code = line['AFFILIATION']
+#     m.activity_codes = line['ACTIVITY']
+#     m.organization_code = line['ORGANIZATION']
+#     classification_code = m.classification_codes.to_s.split('').first.to_i
+#     classification = Classification.find_by(subsection_code: m.subsection_code, classification_code: classification_code)
+#     # if  m.subsection_code != 0 && m.subsection_code != 91 && (classification_code != 0 && classification_code != 9)
+#     if classification != nil
+#       m.classification_id = classification.id
+#       m.save
+#     end
+#   end
+#  end
+# end
 
 def obtain_category_object_id
   file = File.read("db/category_seeding/index_2015.json")
@@ -64,7 +64,7 @@ def obtain_category_object_id
   end
 end
 
-obtain_category_object_id
+# obtain_category_object_id
 
 def create_organisation(file_attributes)
   masterfile = Masterfile.find_by(ein: file_attributes["EIN"])
@@ -88,7 +88,7 @@ def create_organisation(file_attributes)
   end
 end
 
-def create_program_service_accomplishments(org, doc)
+def create_program_service_accomplishments(org, doc, file_attributes)
     # Different paths to access the program service accomplishment data
     prog_service_accomp_path = ['ReturnData/IRS990', 'ReturnData/IRS990/ProgSrvcAccomActy2Grp', 'ReturnData/IRS990/ProgSrvcAccomActy3Grp']
 
@@ -106,16 +106,18 @@ def create_program_service_accomplishments(org, doc)
            grant_amount: return_data_hash["GrantAmt"],
            revenues: return_data_hash["RevenueAmt"],
            description: return_data_hash["Desc"],
+            year: file_attributes["TaxYr"]
          )
       end
     end
 end
 
-def create_revenues(org, file_attributes)
+def create_revenues(org, doc, file_attributes)
     contribution_grant = Contribution.create(
       membership_fees: file_attributes["MembershipDuesAmt"],
       campaigns: file_attributes["FederatedCampaignsAmt"] ,
-      fundraising: file_attributes["FundraisingAmt"],
+      # fundraising: file_attributes["FundraisingAmt"],
+      fundraising: doc.search("ReturnData/IRS990/FundraisingAmt").text,
       related_organisations: file_attributes["RelatedOrganizationsAmt"],
       government_grants: nil, # **ToDo** NEED TO FIND OUT HOW THIS IS CALLED!!!
       other_gifts_or_donations: file_attributes["AllOtherContributionsAmt"],
@@ -292,16 +294,18 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   end
 
   # Call the different methods to seed files
-  if create_organisation(file_attributes)
+  # if create_organisation(file_attributes)
     org = Organisation.find_by(ein: file_attributes["EIN"])
+    if org != nil
     # org = Organisation.find_by(ein: '000019818')
 
-    create_program_service_accomplishments(org, doc)
-    create_expenses(org, doc, file_attributes)
-    create_revenues(org, file_attributes)
-    create_balance(org, file_attributes)
-    create_executive(org, doc, file_attributes)
-  end
+    create_program_service_accomplishments(org, doc, file_attributes)
+    # create_expenses(org, doc, file_attributes)
+    # create_revenues(org, doc, file_attributes)
+  #   create_balance(org, file_attributes)
+    # create_executive(org, doc, file_attributes)
+    end
+  # end
 
 end
 
