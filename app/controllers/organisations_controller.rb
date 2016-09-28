@@ -13,9 +13,11 @@ class OrganisationsController < ApplicationController
     all_expenses = organisation.all_expenses_absolutes
     all_revenues = organisation.all_revenues_absolutes
     fundraising_ratio = organisation.fundraising_ratio
+    top_salaries = organisation.top_salaries_absolutes
     render json: {organisation: organisation, generalExpensesAbsolutes: general_expenses_absolutes, generalRevenueAbsolutes: general_revenue_absolutes, allExpenses: all_expenses,
       allRevenues: all_revenues,
-      fundraisingRatio: fundraising_ratio
+      fundraisingRatio: fundraising_ratio,
+      topSalaries: top_salaries
    }
   end
 
