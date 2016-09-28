@@ -237,6 +237,7 @@ def create_executive(org, doc, file_attributes)
       name: executive_hash["PersonNm"],
       title: executive_hash["TitleTxt"],
       salary: executive_hash["ReportableCompFromOrgAmt"],
+      other_salary: executive_hash["ReportableCompFromRltdOrgAmt"]
     )
   end
 end
