@@ -119,7 +119,7 @@ def create_revenues(org, doc, file_attributes)
       # fundraising: file_attributes["FundraisingAmt"],
       fundraising: doc.search("ReturnData/IRS990/FundraisingAmt").text,
       related_organisations: file_attributes["RelatedOrganizationsAmt"],
-      government_grants: nil, # **ToDo** NEED TO FIND OUT HOW THIS IS CALLED!!!
+      government_grants: file_attributes["GovernmentGrantsAmt"],
       other_gifts_or_donations: file_attributes["AllOtherContributionsAmt"],
       total: file_attributes["CYContributionsGrantsAmt"]
     )
