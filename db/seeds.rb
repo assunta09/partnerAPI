@@ -36,6 +36,7 @@ require 'json'
 #  end
 # end
 
+# Run this method to grab AWS's object ID's for specific forms for a specific category
 # def obtain_category_object_id
 #   file = File.read("db/category_seeding/index_2015.json")
 #   data = JSON.parse(file)
@@ -74,15 +75,14 @@ def create_organisation(doc, file_attributes)
       name: doc.search("ReturnHeader/Filer/BusinessName").text.gsub("\n", '').strip,
       mission: doc.search("ReturnData/IRS990/ActivityOrMissionDesc").text,
       ein: doc.search("ReturnHeader/Filer/EIN").text,
-      # ein: '000019818',
       # put all USAddress elements into an array since individual tags differ between XML files
       address: doc.search("ReturnHeader/Filer/USAddress").text.gsub("\n", '').strip.split,
       # city: doc.search("ReturnHeader/Filer/USAddress/CityNm#{NEED REGEX}").text,
       # state: doc.search("ReturnHeader/Filer/USAddress/StateAbbreviationCd#{NEED REGEX}").text,
       # zip: doc.search("ReturnHeader/Filer/USAddress/ZIPCd#{NEED REGEX}").text,
       year_formed: doc.search("ReturnData/IRS990/FormationYr").text,
-      number_of_employees: file_attributes["TotalEmployeeCnt"],
-      domain: file_attributes["WebsiteAddressTxt"],
+      number_of_employees: doc.search("ReturnData/IRS990/TotalEmployeeCnt").text,
+      domain: doc.search("ReturnData/IRS990/WebsiteAddressTxt").text,
       masterfile_id: masterfile.id
      )
   else
@@ -226,54 +226,54 @@ end
 #     )
 # end
 
-# def create_executive(org, doc, file_attributes)
+def create_executive(org, doc, file_attributes)
 
-#   path = 'Form990PartVIISectionAGrp'
-#   # nodes = doc.search(path).text.split("\n")
-#   if doc.search(path) != nil
-#     arr = []
-#     nodes = doc.search(path).children
-#     nodes.each do |node|
-#       hash = {}
-#       hash["#{node.name}"] = node.children.text
-#       hash.delete('text')
-#       arr << hash
-#       arr.reject! {|c| c.empty? }
-#     end
-#     arr.each_slice(17).to_a[0..-1]
-#   end
+  path = 'Form990PartVIISectionAGrp'
+  # nodes = doc.search(path).text.split("\n")
+  if doc.search(path) != nil
+    arr = []
+    nodes = doc.search(path).children
+    nodes.each do |node|
+      hash = {}
+      hash["#{node.name}"] = node.children.text
+      hash.delete('text')
+      arr << hash
+      arr.reject! {|c| c.empty? }
+    end
+    arr.each_slice(17).to_a[0..-1]
+  end
 
-#   executive_array = []
-#   second_array = []
-#   # make sub arrays split by the appearance of the hash containing "PersonNm" key
-#   arr.length.times do |i|
-#     if arr[i].has_key?("PersonNm")
-#       executive_array.push(second_array)
-#       second_array = []
-#       second_array.push(arr[i])
-#     else
-#       second_array.push(arr[i])
-#     end
-#   end
-#   # delete the first blank array in the executive array
-#   executive_array.delete_at(0)
+  executive_array = []
+  second_array = []
+  # make sub arrays split by the appearance of the hash containing "PersonNm" key
+  arr.length.times do |i|
+    if arr[i].has_key?("PersonNm")
+      executive_array.push(second_array)
+      second_array = []
+      second_array.push(arr[i])
+    else
+      second_array.push(arr[i])
+    end
+  end
+  # delete the first blank array in the executive array
+  executive_array.delete_at(0)
 
-#   executive_array.each do |person_attributes|
-#     executive_hash = {}
-#     person_attributes.each do |hash|
-#       hash.each do |key, value|
-#         executive_hash[key] = value
-#       end
-#     end
-#     Executive.create(
-#       organisation_id: org.id,
-#       name: executive_hash["PersonNm"],
-#       title: executive_hash["TitleTxt"],
-#       salary: executive_hash["ReportableCompFromOrgAmt"],
-#       other_salary: executive_hash["ReportableCompFromRltdOrgAmt"]
-#     )
-#   end
-# end
+  executive_array.each do |person_attributes|
+    executive_hash = {}
+    person_attributes.each do |hash|
+      hash.each do |key, value|
+        executive_hash[key] = value
+      end
+    end
+    Executive.create(
+      organisation_id: org.id,
+      name: executive_hash["PersonNm"],
+      title: executive_hash["TitleTxt"],
+      salary: executive_hash["ReportableCompFromOrgAmt"],
+      other_salary: executive_hash["ReportableCompFromRltdOrgAmt"]
+    )
+  end
+end
 
 #SEED SCRIPT
 source_path = Rails.root.join('db', 'xml_files')
@@ -285,38 +285,24 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   doc = Nokogiri::XML(xml)
 
   # Accessing children only - no parent tags
-  # leaves = doc.xpath('//*[not(*)]')
-  # file_attributes = {}
+  leaves = doc.xpath('//*[not(*)]')
+  file_attributes = {}
 
   # Iterate through leaves (tags without children) and assign their name as key and their text as value
-  # leaves.each do |node|
-  #   file_attributes["#{node.name}"] = node.text
-  # end
+  leaves.each do |node|
+    file_attributes["#{node.name}"] = node.text
+  end
 
+  # Call the different methods to seed files
+  if create_organisation(doc, file_attributes)
+    org = Organisation.find_by(ein: file_attributes["EIN"])
 
-  p doc.search("ReturnHeader/Filer/BusinessName").text.gsub("\n", '').strip
-  p doc.search("ReturnData/IRS990/ActivityOrMissionDesc").text
-  p doc.search("ReturnHeader/Filer/USAddress").text.gsub("\n", '').strip.split
-  p doc.search("ReturnData/IRS990/FormationYr").text
-  # p doc.search("ReturnHeader/Filer/USAddress/CityNm").text
-  # p doc.search("ReturnHeader/Filer/USAddress/StateAbbreviationCd").text
-  # p doc.search("ReturnHeader/Filer/USAddress/ZIPCd").text
-
-  p "**************************************************************"
-  p "**************************************************************"
-  p "**************************************************************"
-  p "**************************************************************"
-  # # Call the different methods to seed files
-  # if create_organisation(doc, file_attributes)
-  #   org = Organisation.find_by(ein: file_attributes["EIN"])
-  #   # org = Organisation.find_by(ein: '000019818')
-
-  #   create_program_service_accomplishments(org, doc)
-  #   create_expenses(org, doc, file_attributes)
-  #   create_revenues(org, file_attributes)
-  #   create_balance(org, file_attributes)
-  #   create_executive(org, doc, file_attributes)
-  # end
+    create_program_service_accomplishments(org, doc)
+    create_expenses(org, doc, file_attributes)
+    create_revenues(org, file_attributes)
+    create_balance(org, file_attributes)
+    create_executive(org, doc, file_attributes)
+  end
 
 end
 
