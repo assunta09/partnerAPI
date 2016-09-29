@@ -208,7 +208,7 @@ def create_expenses(org, doc, file_attributes)
       royalties: royalties_total,
       conventions_and_meetings: conventions_and_meetings_total,
       occupancy: occupancy_total,
-      other: nil,
+      # other: ,
       total: other_expenses_total
     )
 
@@ -219,10 +219,12 @@ def create_expenses(org, doc, file_attributes)
           expenses_form += value.to_i
         end
       end
-      expenses_other = other_expense.total - expenses_form
+      expenses_other = other_expense.total.to_i - expenses_form
+      expenses_other.to_i
     end
 
-    other_expense.other = calculate_other_expenses(other_expense)
+    other =  calculate_other_expenses(other_expense)
+    other_expense.update(other: other)
 
     Expense.create(
       organisation_id: org.id,
