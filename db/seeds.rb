@@ -75,8 +75,8 @@ end
 
 def create_organisation(doc, file_attributes)
 
-  masterfile = Masterfile.find_by(ein: file_attributes["EIN"])
-  if masterfile != nil
+  # masterfile = Masterfile.find_by(ein: file_attributes["EIN"])
+  # if masterfile != nil
     org = Organisation.create(
       name: doc.search("ReturnHeader/Filer/BusinessName").text.gsub("\n", '').strip,
       mission: doc.search("ReturnData/IRS990/ActivityOrMissionDesc").text,
@@ -91,10 +91,10 @@ def create_organisation(doc, file_attributes)
       domain: doc.search("ReturnData/IRS990/WebsiteAddressTxt").text,
       masterfile_id: 1
      )
-    p org
-  else
-    false
-  end
+  #   p org
+  # else
+  #   false
+  # end
 end
 
 def create_program_service_accomplishments(org, doc, file_attributes)
@@ -208,21 +208,23 @@ def create_expenses(org, doc, file_attributes)
       royalties: royalties_total,
       conventions_and_meetings: conventions_and_meetings_total,
       occupancy: occupancy_total,
-      other: nil,
+      # other: ,
       total: other_expenses_total
     )
 
-    # def calculate_other_expenses(other_expense)
-    #   expenses_form = 0
-    #    other_expense.attributes.each do |expense_type, value|
-    #     if expense_type != 'other' && expense_type != 'total' && expense_type != "created_at" && expense_type != "updated_at"
-    #       expenses_form += value
-    #     end
-    #   end
-    #   expenses_other = other_expense.total - expenses_form
-    # end
+    def calculate_other_expenses(other_expense)
+      expenses_form = 0
+       other_expense.attributes.each do |expense_type, value|
+        if expense_type != 'other' && expense_type != 'total' && expense_type != "created_at" && expense_type != "updated_at"
+          expenses_form += value.to_i
+        end
+      end
+      expenses_other = other_expense.total.to_i - expenses_form
+      expenses_other.to_i
+    end
 
-    # other_expense.other = calculate_other_expenses(other_expense)
+    other =  calculate_other_expenses(other_expense)
+    other_expense.update(other: other)
 
     Expense.create(
       organisation_id: org.id,
