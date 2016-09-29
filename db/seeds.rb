@@ -36,51 +36,53 @@ require 'json'
 #  end
 # end
 
-def obtain_category_object_id
-  file = File.read("db/category_seeding/index_2015.json")
-  data = JSON.parse(file)
-  json = data["Filings2015"]
 
-  json.each do |hash|
-    masterfile = Masterfile.find_by(ein: hash["EIN"])
-    if masterfile != nil
-      classification = Classification.find(masterfile.classification_id)
-      if classification != nil
-        if classification.description == "Organization to Prevent Cruelty to Children"
-            CSV.open("db/category_seeding/classification_children_cruelity_prevention.csv", 'a+') do |csv|
-              csv << [hash["ObjectId"]]
-            end
-        elsif classification.description == "Scientific Organization"
-            CSV.open("db/category_seeding/classification_scientific_organisation.csv", 'a+') do |csv|
-              csv << [hash["ObjectId"]]
-            end
-        elsif classification.description == "Organization to Prevent Cruelty to Animals"
-            CSV.open("db/category_seeding/classification_animal_cruelity_prevention.csv", 'a+') do |csv|
-              csv << [hash["ObjectId"]]
-            end
-        end
-      end
-    end
-  end
-end
+# Run this method to grab AWS's object ID's for specific forms for a specific category
+# def obtain_category_object_id
+#   file = File.read("db/category_seeding/index_2015.json")
+#   data = JSON.parse(file)
+#   json = data["Filings2015"]
+
+#   json.each do |hash|
+#     masterfile = Masterfile.find_by(ein: hash["EIN"])
+#     if masterfile != nil
+#       classification = Classification.find(masterfile.classification_id)
+#       if classification != nil
+#         if classification.description == "Organization to Prevent Cruelty to Children"
+#             CSV.open("db/category_seeding/classification_children_cruelity_prevention.csv", 'a+') do |csv|
+#               csv << [hash["ObjectId"]]
+#             end
+#         elsif classification.description == "Scientific Organization"
+#             CSV.open("db/category_seeding/classification_scientific_organisation.csv", 'a+') do |csv|
+#               csv << [hash["ObjectId"]]
+#             end
+#         elsif classification.description == "Organization to Prevent Cruelty to Animals"
+#             CSV.open("db/category_seeding/classification_animal_cruelity_prevention.csv", 'a+') do |csv|
+#               csv << [hash["ObjectId"]]
+#             end
+#         end
+#       end
+#     end
+#   end
+# end
 
 # obtain_category_object_id
 
-def create_organisation(file_attributes)
+def create_organisation(doc, file_attributes)
   masterfile = Masterfile.find_by(ein: file_attributes["EIN"])
   if masterfile != nil
     org = Organisation.create(
-      name: file_attributes["BusinessNameLine1"],
-      mission: file_attributes["ActivityOrMissionDesc"],
-      ein: file_attributes["EIN"],
-      # ein: '000019818',
-      address: file_attributes["AddressLine1"],
-      city: file_attributes["City"],
-      state: file_attributes["State"],
-      zip: file_attributes["ZIPCode"],
-      year_formed: file_attributes["FormationYr"],
-      number_of_employees: file_attributes["TotalEmployeeCnt"],
-      domain: file_attributes["WebsiteAddressTxt"],
+      name: doc.search("ReturnHeader/Filer/BusinessName").text.gsub("\n", '').strip,
+      mission: doc.search("ReturnData/IRS990/ActivityOrMissionDesc").text,
+      ein: doc.search("ReturnHeader/Filer/EIN").text,
+      # put all USAddress elements into an array since individual tags differ between XML files
+      address: doc.search("ReturnHeader/Filer/USAddress").text.gsub("\n", '').strip.split,
+      # city: doc.search("ReturnHeader/Filer/USAddress/CityNm#{NEED REGEX}").text,
+      # state: doc.search("ReturnHeader/Filer/USAddress/StateAbbreviationCd#{NEED REGEX}").text,
+      # zip: doc.search("ReturnHeader/Filer/USAddress/ZIPCd#{NEED REGEX}").text,
+      year_formed: doc.search("ReturnData/IRS990/FormationYr").text,
+      number_of_employees: doc.search("ReturnData/IRS990/TotalEmployeeCnt").text,
+      domain: doc.search("ReturnData/IRS990/WebsiteAddressTxt").text,
       masterfile_id: masterfile.id
      )
   else
@@ -294,18 +296,16 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   end
 
   # Call the different methods to seed files
-  # if create_organisation(file_attributes)
-    org = Organisation.find_by(ein: file_attributes["EIN"])
-    if org != nil
-    # org = Organisation.find_by(ein: '000019818')
 
+  if create_organisation(doc, file_attributes)
+    org = Organisation.find_by(ein: file_attributes["EIN"])
     create_program_service_accomplishments(org, doc, file_attributes)
     # create_expenses(org, doc, file_attributes)
     # create_revenues(org, doc, file_attributes)
   #   create_balance(org, file_attributes)
     # create_executive(org, doc, file_attributes)
-    end
-  # end
+
+  end
 
 end
 
