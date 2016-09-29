@@ -4,9 +4,9 @@ class CreateExpenses < ActiveRecord::Migration[5.0]
       t.integer :organisation_id
       t.integer :year
       t.integer :grants
-      t.integer :member_benefits
+      t.integer :member_benefits, default: 0
       t.integer :salaries
-      t.integer :fundraising_fees
+      t.integer :fundraising_fees, default: 0
       t.integer :other
       t.integer :total
 

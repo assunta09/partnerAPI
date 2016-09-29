@@ -4,7 +4,7 @@ class CreateExecutives < ActiveRecord::Migration[5.0]
       t.integer :organisation_id
       t.string :name
       t.string :title
-      t.integer :salary
+      t.integer :salary, default: 0
 
       t.timestamps
     end

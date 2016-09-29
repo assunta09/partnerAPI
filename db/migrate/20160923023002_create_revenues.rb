@@ -4,10 +4,10 @@ class CreateRevenues < ActiveRecord::Migration[5.0]
       t.integer :organisation_id
       t.integer :year
       t.integer :contribution_id
-      t.integer :service_revenue
-      t.integer :investments
-      t.integer :other
-      t.integer :total
+      t.integer :service_revenue, default: 0
+      t.integer :investments, default: 0
+      t.integer :other, default: 0
+      t.integer :total, default: 0
 
       t.timestamps
     end
