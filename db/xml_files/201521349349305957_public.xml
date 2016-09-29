@@ -1,0 +1,2280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2013v4.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2015-05-14T14:31:04-05:00</ReturnTs>
+    <TaxPeriodEndDt>2014-06-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>861065772</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1>DELOITTE TAX LLP</BusinessNameLine1>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1>100 PEABODY PLACE STE 800</AddressLine1>
+        <City>MEMPHIS</City>
+        <State>TN</State>
+        <ZIPCode>38103</ZIPCode>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990</ReturnTypeCd>
+    <TaxPeriodBeginDt>2013-07-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>620646012</EIN>
+      <BusinessName>
+        <BusinessNameLine1>ST JUDE CHILDREN'S RESEARCH HOSPITAL INC</BusinessNameLine1>
+      </BusinessName>
+      <BusinessNameControlTxt>STJU</BusinessNameControlTxt>
+      <PhoneNum>9015952261</PhoneNum>
+      <USAddress>
+        <AddressLine1>262 DANNY THOMAS PLACE</AddressLine1>
+        <City>MEMPHIS</City>
+        <State>TN</State>
+        <ZIPCode>381053678</ZIPCode>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>JAMES R DOWNING</PersonNm>
+      <PersonTitleTxt>PRESIDENT AND CEO</PersonTitleTxt>
+      <PhoneNum>9015953301</PhoneNum>
+      <SignatureDt>2015-05-14</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PTIN>P00752421</PTIN>
+      <PhoneNum>9013226700</PhoneNum>
+    </PreparerPersonGrp>
+    <TaxYr>2013</TaxYr>
+    <BuildTS>2016-03-07 17:11:31Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCount="13">
+    <IRS990 documentId="RetDoc1038000001" referenceDocumentId="RetDoc1044400001">
+      <PrincipalOfficerNm>JAMES R DOWNING</PrincipalOfficerNm>
+      <USAddress>
+        <AddressLine1>262 DANNY THOMAS PLACE</AddressLine1>
+        <City>MEMPHIS</City>
+        <State>TN</State>
+        <ZIPCode>381053678</ZIPCode>
+      </USAddress>
+      <GrossReceiptsAmt>742255019</GrossReceiptsAmt>
+      <GroupReturnForAffiliatesInd>0</GroupReturnForAffiliatesInd>
+      <Organization501c3Ind>X</Organization501c3Ind>
+      <WebsiteAddressTxt>WWW.STJUDE.ORG</WebsiteAddressTxt>
+      <TypeOfOrganizationCorpInd>X</TypeOfOrganizationCorpInd>
+      <FormationYr>1959</FormationYr>
+      <LegalDomicileStateCd>TN</LegalDomicileStateCd>
+      <ActivityOrMissionDesc>ST. JUDE CHILDREN'S RESEARCH HOSPITAL IS A RESEARCH, TREATMENT AND EDUCATION CENTER. THE MISSION OF ST. JUDE CHILDREN'S RESEARCH HOSPITAL IS TO ADVANCE CURES, AND MEANS OF PREVENTION, FOR PEDIATRIC CATASTROPHIC DISEASES THROUGH RESEARCH AND TREATMENT. CONSISTENT WITH THE VISION OF OUR FOUNDER, DANNY THOMAS, NO CHILD IS DENIED TREATMENT BASED ON RACE, RELIGION OR A FAMILY'S ABILITY TO PAY.</ActivityOrMissionDesc>
+      <VotingMembersGoverningBodyCnt>49</VotingMembersGoverningBodyCnt>
+      <VotingMembersIndependentCnt>45</VotingMembersIndependentCnt>
+      <TotalEmployeeCnt>4331</TotalEmployeeCnt>
+      <TotalVolunteersCnt>2693</TotalVolunteersCnt>
+      <TotalGrossUBIAmt>0</TotalGrossUBIAmt>
+      <NetUnrelatedBusTxblIncmAmt>0</NetUnrelatedBusTxblIncmAmt>
+      <PYContributionsGrantsAmt>581788213</PYContributionsGrantsAmt>
+      <CYContributionsGrantsAmt>611432510</CYContributionsGrantsAmt>
+      <PYProgramServiceRevenueAmt>104014142</PYProgramServiceRevenueAmt>
+      <CYProgramServiceRevenueAmt>97421430</CYProgramServiceRevenueAmt>
+      <PYInvestmentIncomeAmt>-378425</PYInvestmentIncomeAmt>
+      <CYInvestmentIncomeAmt>-1220243</CYInvestmentIncomeAmt>
+      <PYOtherRevenueAmt>10303717</PYOtherRevenueAmt>
+      <CYOtherRevenueAmt>33097275</CYOtherRevenueAmt>
+      <PYTotalRevenueAmt>695727647</PYTotalRevenueAmt>
+      <CYTotalRevenueAmt>740730972</CYTotalRevenueAmt>
+      <PYGrantsAndSimilarPaidAmt>544459</PYGrantsAndSimilarPaidAmt>
+      <CYGrantsAndSimilarPaidAmt>1326841</CYGrantsAndSimilarPaidAmt>
+      <PYBenefitsPaidToMembersAmt>0</PYBenefitsPaidToMembersAmt>
+      <CYBenefitsPaidToMembersAmt>0</CYBenefitsPaidToMembersAmt>
+      <PYSalariesCompEmpBnftPaidAmt>354098337</PYSalariesCompEmpBnftPaidAmt>
+      <CYSalariesCompEmpBnftPaidAmt>374130447</CYSalariesCompEmpBnftPaidAmt>
+      <PYTotalProfFndrsngExpnsAmt>0</PYTotalProfFndrsngExpnsAmt>
+      <CYTotalProfFndrsngExpnsAmt>0</CYTotalProfFndrsngExpnsAmt>
+      <CYTotalFundraisingExpenseAmt>0</CYTotalFundraisingExpenseAmt>
+      <PYOtherExpensesAmt>299591255</PYOtherExpensesAmt>
+      <CYOtherExpensesAmt>307818741</CYOtherExpensesAmt>
+      <PYTotalExpensesAmt>654234051</PYTotalExpensesAmt>
+      <CYTotalExpensesAmt>683276029</CYTotalExpensesAmt>
+      <PYRevenuesLessExpensesAmt>41493596</PYRevenuesLessExpensesAmt>
+      <CYRevenuesLessExpensesAmt>57454943</CYRevenuesLessExpensesAmt>
+      <TotalAssetsBOYAmt>3282127347</TotalAssetsBOYAmt>
+      <TotalAssetsEOYAmt>3880303145</TotalAssetsEOYAmt>
+      <TotalLiabilitiesBOYAmt>309797905</TotalLiabilitiesBOYAmt>
+      <TotalLiabilitiesEOYAmt>320485796</TotalLiabilitiesEOYAmt>
+      <NetAssetsOrFundBalancesBOYAmt>2972329442</NetAssetsOrFundBalancesBOYAmt>
+      <NetAssetsOrFundBalancesEOYAmt>3559817349</NetAssetsOrFundBalancesEOYAmt>
+      <InfoInScheduleOPartIIIInd>X</InfoInScheduleOPartIIIInd>
+      <MissionDesc>ST. JUDE CHILDREN'S RESEARCH HOSPITAL IS A RESEARCH, TREATMENT AND EDUCATION CENTER. THE MISSION OF ST. JUDE CHILDREN'S RESEARCH HOSPITAL IS TO ADVANCE CURES, AND MEANS OF PREVENTION, FOR PEDIATRIC CATASTROPHIC DISEASES THROUGH RESEARCH AND TREATMENT. CONSISTENT WITH THE VISION OF OUR FOUNDER DANNY THOMAS, NO CHILD IS DENIED TREATMENT BASED ON RACE, RELIGION OR A FAMILY'S ABILITY TO PAY.</MissionDesc>
+      <SignificantNewProgramSrvcInd>0</SignificantNewProgramSrvcInd>
+      <SignificantChangeInd>0</SignificantChangeInd>
+      <ExpenseAmt>323357158</ExpenseAmt>
+      <GrantAmt>43200</GrantAmt>
+      <Desc>RESEARCH: THE CURRENT BASIC SCIENCE AND CLINICAL RESEARCH AT THE HOSPITAL INCLUDES WORK IN GENE THERAPY, CHEMOTHERAPY, THE BIOCHEMISTRY OF NORMAL AND CANCEROUS CELLS, RADIATION TREATMENT, BLOOD DISEASES, RESISTANCE TO THERAPY, VIRUSES, HEREDITARY DISEASES, INFLUENZA, PEDIATRIC AIDS AND PHYSIOLOGICAL EFFECTS OF CATASTROPHIC ILLNESSES. THE HOSPITAL AWARDS NO GRANTS TO OUTSIDE AGENCIES. ALL RESEARCH ACTIVITIES ARE CONDUCTED BY HOSPITAL PERSONNEL.</Desc>
+      <ProgSrvcAccomActy2Grp>
+        <ExpenseAmt>9954454</ExpenseAmt>
+        <Desc>EDUCATION AND TRAINING: AS PART OF ITS EDUCATIONAL MISSION, THE HOSPITAL PROVIDES AN INTERNATIONAL OUTREACH PROGRAM. THE MISSION OF THE INTERNATIONAL OUTREACH PROGRAM (IOP) IS TO IMPROVE THE SURVIVAL RATES OF CHILDREN WITH CANCER AND OTHER CATASTROPHIC DISEASES WORLDWIDE. THE IOP ACCOMPLISHES THIS BY SHARING KNOWLEDGE, TECHNOLOGY AND ORGANIZATIONAL SKILLS, IMPLEMENTING NEW APPROACHES TO TREAT PEDIATRIC CANCER GLOBALLY, AND GENERATING INTERNATIONAL NETWORKS COMMITTED TO ERADICATING CANCER IN CHILDREN. THESE INITIATIVES ARE SPEARHEADED BY ST. JUDE EXPERTS WHO WORK CLOSELY WITH HEALTHCARE PROFESSIONALS AT OUR PARTNER SITES.</Desc>
+      </ProgSrvcAccomActy2Grp>
+      <ProgSrvcAccomActy3Grp>
+        <ExpenseAmt>317682384</ExpenseAmt>
+        <GrantAmt>1283641</GrantAmt>
+        <RevenueAmt>97421430</RevenueAmt>
+        <Desc>PATIENT CARE: THE HOSPITAL PROVIDED 14,767 INPATIENT DAYS OF CARE DURING THE YEAR. OUR BONE MARROW TRANSPLANTATION PROGRAM ACCOUNTED FOR 3,779 OR 26% OF THOSE INPATIENT DAYS. PATIENTS MADE 66,540 CLINIC VISITS DURING THE YEAR.</Desc>
+      </ProgSrvcAccomActy3Grp>
+      <TotalProgramServiceExpensesAmt>650993996</TotalProgramServiceExpensesAmt>
+      <DescribedInSection501c3Ind referenceDocumentId="RetDoc1039100001">1</DescribedInSection501c3Ind>
+      <ScheduleBRequiredInd referenceDocumentId="RetDoc1234500001">1</ScheduleBRequiredInd>
+      <PoliticalCampaignActyInd referenceDocumentId="RetDoc1039700001">0</PoliticalCampaignActyInd>
+      <LobbyingActivitiesInd referenceDocumentId="RetDoc1039700001">1</LobbyingActivitiesInd>
+      <SubjectToProxyTaxInd referenceDocumentId="RetDoc1039700001">0</SubjectToProxyTaxInd>
+      <DonorAdvisedFundInd referenceDocumentId="RetDoc1040000001">0</DonorAdvisedFundInd>
+      <ConservationEasementsInd referenceDocumentId="RetDoc1040000001">0</ConservationEasementsInd>
+      <CollectionsOfArtInd referenceDocumentId="RetDoc1040000001">0</CollectionsOfArtInd>
+      <CreditCounselingInd referenceDocumentId="RetDoc1040000001">0</CreditCounselingInd>
+      <TempOrPermanentEndowmentsInd referenceDocumentId="RetDoc1040000001">0</TempOrPermanentEndowmentsInd>
+      <ReportLandBuildingEquipmentInd referenceDocumentId="RetDoc1040000001">1</ReportLandBuildingEquipmentInd>
+      <ReportInvestmentsOtherSecInd referenceDocumentId="RetDoc1040000001">0</ReportInvestmentsOtherSecInd>
+      <ReportProgramRelatedInvstInd referenceDocumentId="RetDoc1040000001">0</ReportProgramRelatedInvstInd>
+      <ReportOtherAssetsInd referenceDocumentId="RetDoc1040000001">1</ReportOtherAssetsInd>
+      <ReportOtherLiabilitiesInd referenceDocumentId="RetDoc1040000001">1</ReportOtherLiabilitiesInd>
+      <IncludeFIN48FootnoteInd referenceDocumentId="RetDoc1040000001">1</IncludeFIN48FootnoteInd>
+      <IndependentAuditFinclStmtInd referenceDocumentId="RetDoc1040000001">1</IndependentAuditFinclStmtInd>
+      <ConsolidatedAuditFinclStmtInd referenceDocumentId="RetDoc1040000001">1</ConsolidatedAuditFinclStmtInd>
+      <SchoolOperatingInd>0</SchoolOperatingInd>
+      <ForeignOfficeInd>1</ForeignOfficeInd>
+      <ForeignActivitiesInd referenceDocumentId="RetDoc1040500001">1</ForeignActivitiesInd>
+      <MoreThan5000KToOrgInd referenceDocumentId="RetDoc1040500001">0</MoreThan5000KToOrgInd>
+      <MoreThan5000KToIndividualsInd referenceDocumentId="RetDoc1040500001">0</MoreThan5000KToIndividualsInd>
+      <ProfessionalFundraisingInd>0</ProfessionalFundraisingInd>
+      <FundraisingActivitiesInd>0</FundraisingActivitiesInd>
+      <GamingActivitiesInd>0</GamingActivitiesInd>
+      <OperateHospitalInd referenceDocumentId="RetDoc1041500001">1</OperateHospitalInd>
+      <AuditedFinancialStmtAttInd>1</AuditedFinancialStmtAttInd>
+      <GrantsToOrganizationsInd referenceDocumentId="RetDoc1041900001">1</GrantsToOrganizationsInd>
+      <GrantsToIndividualsInd referenceDocumentId="RetDoc1041900001">0</GrantsToIndividualsInd>
+      <ScheduleJRequiredInd referenceDocumentId="RetDoc1042400001">1</ScheduleJRequiredInd>
+      <TaxExemptBondsInd referenceDocumentId="RetDoc1053100001">1</TaxExemptBondsInd>
+      <InvestTaxExemptBondsInd>0</InvestTaxExemptBondsInd>
+      <EscrowAccountInd>0</EscrowAccountInd>
+      <OnBehalfOfIssuerInd>0</OnBehalfOfIssuerInd>
+      <EngagedInExcessBenefitTransInd referenceDocumentId="RetDoc1042800001">0</EngagedInExcessBenefitTransInd>
+      <PYExcessBenefitTransInd referenceDocumentId="RetDoc1042800001">0</PYExcessBenefitTransInd>
+      <LoanOutstandingInd referenceDocumentId="RetDoc1042800001">0</LoanOutstandingInd>
+      <GrantToRelatedPersonInd referenceDocumentId="RetDoc1042800001">0</GrantToRelatedPersonInd>
+      <BusinessRlnWithOrgMemInd referenceDocumentId="RetDoc1042800001">0</BusinessRlnWithOrgMemInd>
+      <BusinessRlnWithFamMemInd referenceDocumentId="RetDoc1042800001">1</BusinessRlnWithFamMemInd>
+      <BusinessRlnWithOfficerEntInd referenceDocumentId="RetDoc1042800001">0</BusinessRlnWithOfficerEntInd>
+      <DeductibleNonCashContriInd>0</DeductibleNonCashContriInd>
+      <DeductibleArtContributionInd>0</DeductibleArtContributionInd>
+      <TerminateOperationsInd>0</TerminateOperationsInd>
+      <PartialLiquidationInd>0</PartialLiquidationInd>
+      <DisregardedEntityInd referenceDocumentId="RetDoc1043400001">1</DisregardedEntityInd>
+      <RelatedEntityInd referenceDocumentId="RetDoc1043400001">1</RelatedEntityInd>
+      <RelatedOrganizationCtrlEntInd>1</RelatedOrganizationCtrlEntInd>
+      <TransactionWithControlEntInd referenceDocumentId="RetDoc1043400001">0</TransactionWithControlEntInd>
+      <TrnsfrExmptNonChrtblRltdOrgInd referenceDocumentId="RetDoc1043400001">0</TrnsfrExmptNonChrtblRltdOrgInd>
+      <ActivitiesConductedPrtshpInd referenceDocumentId="RetDoc1043400001">0</ActivitiesConductedPrtshpInd>
+      <ScheduleORequiredInd>1</ScheduleORequiredInd>
+      <IRPDocumentCnt>990</IRPDocumentCnt>
+      <IRPDocumentW2GCnt>0</IRPDocumentW2GCnt>
+      <BackupWthldComplianceInd>1</BackupWthldComplianceInd>
+      <EmployeeCnt>4331</EmployeeCnt>
+      <EmploymentTaxReturnsFiledInd>1</EmploymentTaxReturnsFiledInd>
+      <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+      <ForeignFinancialAccountInd>0</ForeignFinancialAccountInd>
+      <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+      <TaxablePartyNotificationInd>0</TaxablePartyNotificationInd>
+      <NondeductibleContributionsInd>0</NondeductibleContributionsInd>
+      <Form8282FiledCnt>0</Form8282FiledCnt>
+      <IndoorTanningServicesInd>0</IndoorTanningServicesInd>
+      <InfoInScheduleOPartVIInd>X</InfoInScheduleOPartVIInd>
+      <GoverningBodyVotingMembersCnt>49</GoverningBodyVotingMembersCnt>
+      <IndependentVotingMemberCnt>45</IndependentVotingMemberCnt>
+      <FamilyOrBusinessRlnInd>1</FamilyOrBusinessRlnInd>
+      <DelegationOfMgmtDutiesInd>0</DelegationOfMgmtDutiesInd>
+      <ChangeToOrgDocumentsInd>1</ChangeToOrgDocumentsInd>
+      <MaterialDiversionOrMisuseInd>0</MaterialDiversionOrMisuseInd>
+      <MembersOrStockholdersInd>0</MembersOrStockholdersInd>
+      <ElectionOfBoardMembersInd>0</ElectionOfBoardMembersInd>
+      <DecisionsSubjectToApprovaInd>0</DecisionsSubjectToApprovaInd>
+      <MinutesOfGoverningBodyInd>1</MinutesOfGoverningBodyInd>
+      <MinutesOfCommitteesInd>1</MinutesOfCommitteesInd>
+      <OfficerMailingAddressInd>0</OfficerMailingAddressInd>
+      <LocalChaptersInd>1</LocalChaptersInd>
+      <PoliciesReferenceChaptersInd>1</PoliciesReferenceChaptersInd>
+      <Form990ProvidedToGvrnBodyInd>1</Form990ProvidedToGvrnBodyInd>
+      <ConflictOfInterestPolicyInd>1</ConflictOfInterestPolicyInd>
+      <AnnualDisclosureCoveredPrsnInd>1</AnnualDisclosureCoveredPrsnInd>
+      <RegularMonitoringEnfrcInd>1</RegularMonitoringEnfrcInd>
+      <WhistleblowerPolicyInd>1</WhistleblowerPolicyInd>
+      <DocumentRetentionPolicyInd>1</DocumentRetentionPolicyInd>
+      <CompensationProcessCEOInd>1</CompensationProcessCEOInd>
+      <CompensationProcessOtherInd>1</CompensationProcessOtherInd>
+      <InvestmentInJointVentureInd>0</InvestmentInJointVentureInd>
+      <StatesWhereCopyOfReturnIsFldCd>TN</StatesWhereCopyOfReturnIsFldCd>
+      <OwnWebsiteInd>X</OwnWebsiteInd>
+      <UponRequestInd>X</UponRequestInd>
+      <BooksInCareOfDetail>
+        <BusinessName>
+          <BusinessNameLine1>MICHAEL C CANARIOS</BusinessNameLine1>
+        </BusinessName>
+        <PhoneNum>9015952261</PhoneNum>
+        <USAddress>
+          <AddressLine1>262 DANNY THOMAS PLACE</AddressLine1>
+          <City>MEMPHIS</City>
+          <State>TN</State>
+          <ZIPCode>381053678</ZIPCode>
+        </USAddress>
+      </BooksInCareOfDetail>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>JOYCE ABOUSSIE</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>SALEM ABRAHAM</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>SUSAN MACK AGUILLARD MD</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>MAHIR AWDEH MD</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>JOSEPH S AYOUB JR ESQ</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>PAUL J AYOUB ESQ</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>8.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>FREDERICK M AZAR MD</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>JAMES B BARKATE</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>8.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>MARTHA PERINE BEARD</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>8.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>SHERYL BOURISK</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>ROBERT A BREIT MD</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>TERRY BURMAN</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>8.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>STEPHEN J CAMER MD</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>ANN M DANNER</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>PATRICIA DONAHOE MD</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>MICHAEL FRANCIS</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>FRED P GATTAS JR</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>8.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>FRED P GATTAS III PHARMD</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>RUTH GAVIRIA</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>CHRISTOPHER GEORGE MD</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>JUDY HABIB</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>GABRIEL GABY HADDAD MD</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>PAUL K HAJAR</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>CHUCK HAJJAR</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>FOUAD HAJJAR MD</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>FRED R HARRIS</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>8.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>BRUCE B HOPKINS</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>SALLI LEVAN</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>MICHAEL D MCCOY</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>ROBERT T MOLINET ESQ</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>DWAYNE M MURRAY ESQ</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>JIM NAIFEH JR</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>HELEN NUGENT</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>RAMZI NUWAYHID</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>THOMAS PENN III</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>CAMILLE F SARROUF SR ESQ</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>CAMILLE F SARROUF JR ESQ</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>8.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>JOSEPH C SHAKER</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>JOSEPH G SHAKER</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>GEORGE A SIMON II</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>MICHAEL SIMON</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>PAUL J SIMON</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>TERRE THOMAS</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>TONY THOMAS</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>RICHARD M UNES</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>8.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>PAUL H WEIN ESQ</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>TOM WERTZ</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>RAMZI YOUNIS MD</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>TAMA ZAYDON</PersonNm>
+        <TitleTxt>VOTING DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>4.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>RICHARD SHADYAC JR</PersonNm>
+        <TitleTxt>EX-OFFICIO DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>1.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>55.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>646921</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>42534</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>WILLIAM E EVANS</PersonNm>
+        <TitleTxt>PRESIDENT AND CEO</TitleTxt>
+        <AverageHoursPerWeekRt>55.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>1299281</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>36555</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>MICHAEL C CANARIOS</PersonNm>
+        <TitleTxt>SVP/CHIEF FINANCIAL OFFICER</TitleTxt>
+        <AverageHoursPerWeekRt>55.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>390601</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>88699</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>JAMES R DOWNING</PersonNm>
+        <TitleTxt>EVP/SCIENTIFIC DIR/DEP DIR</TitleTxt>
+        <AverageHoursPerWeekRt>55.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>807913</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>126675</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>RICHARD GILBERTSON</PersonNm>
+        <TitleTxt>EVP/DIRECTOR CANCER CENTER</TitleTxt>
+        <AverageHoursPerWeekRt>55.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>548983</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>169457</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>LARRY KUN</PersonNm>
+        <TitleTxt>EVP/CLINICAL DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>55.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>775161</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>46317</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>ANDREW DAVIDOFF</PersonNm>
+        <TitleTxt>CHAIR/FACULTY</TitleTxt>
+        <AverageHoursPerWeekRt>55.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>635903</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>101376</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>AMAR J GAJJAR</PersonNm>
+        <TitleTxt>CO-CHAIR/FACULTY</TitleTxt>
+        <AverageHoursPerWeekRt>55.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>723012</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>54175</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>GERARD C GROSVELD</PersonNm>
+        <TitleTxt>CHAIR/FACULTY</TitleTxt>
+        <AverageHoursPerWeekRt>55.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>672507</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>36572</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>ROBERT A KAUFMAN</PersonNm>
+        <TitleTxt>FACULTY</TitleTxt>
+        <AverageHoursPerWeekRt>55.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>823115</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>46317</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>CHING-HON PUI</PersonNm>
+        <TitleTxt>CHAIR/FACULTY</TitleTxt>
+        <AverageHoursPerWeekRt>55.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>592478</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>36458</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>JOSEPH H LAVER</PersonNm>
+        <TitleTxt>FORMER EVP/CLINICAL DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>55.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <FormerOfcrDirectorTrusteeInd>X</FormerOfcrDirectorTrusteeInd>
+        <ReportableCompFromOrgAmt>564163</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>90437</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <TotalReportableCompFromOrgAmt>7833117</TotalReportableCompFromOrgAmt>
+      <TotReportableCompRltdOrgAmt>646921</TotReportableCompRltdOrgAmt>
+      <TotalOtherCompensationAmt>875572</TotalOtherCompensationAmt>
+      <IndivRcvdGreaterThan100KCnt>516</IndivRcvdGreaterThan100KCnt>
+      <FormerOfcrEmployeesListedInd>1</FormerOfcrEmployeesListedInd>
+      <TotalCompGreaterThan150KInd>1</TotalCompGreaterThan150KInd>
+      <CompensationFromOtherSrcsInd>0</CompensationFromOtherSrcsInd>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1>FLINTCO LLC</BusinessNameLine1>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1>2179 HILLSHIRE CIRCLE</AddressLine1>
+            <City>MEMPHIS</City>
+            <State>TN</State>
+            <ZIPCode>38133</ZIPCode>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>GENERAL CONTRACTOR</ServicesDesc>
+        <CompensationAmt>56807678</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1>CERNER CORPORATION</BusinessNameLine1>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1>2800 ROCKCREEK PARKWAY</AddressLine1>
+            <City>KANSAS CITY</City>
+            <State>MO</State>
+            <ZIPCode>64117</ZIPCode>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>CONSULTING</ServicesDesc>
+        <CompensationAmt>5771514</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1>DYNAMIX GROUP INC</BusinessNameLine1>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1>PO BOX 116609</AddressLine1>
+            <City>ATLANTA</City>
+            <State>GA</State>
+            <ZIPCode>303686609</ZIPCode>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>MAINTENANCE SERVICE</ServicesDesc>
+        <CompensationAmt>4765951</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1>UNIVERSITY OF TENNESSEE</BusinessNameLine1>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1>62 SOUTH DUNLAP ST SUITE 300</AddressLine1>
+            <City>MEMPHIS</City>
+            <State>TN</State>
+            <ZIPCode>38163</ZIPCode>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>MEDICAL SERVICE</ServicesDesc>
+        <CompensationAmt>4632042</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1>BARNES &amp; BROWER INC</BusinessNameLine1>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1>3787 OLD GETWELL RD</AddressLine1>
+            <City>MEMPHIS</City>
+            <State>TN</State>
+            <ZIPCode>38118</ZIPCode>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>GENERAL CONTRACTOR</ServicesDesc>
+        <CompensationAmt>3963387</CompensationAmt>
+      </ContractorCompensationGrp>
+      <CntrctRcvdGreaterThan100KCnt>169</CntrctRcvdGreaterThan100KCnt>
+      <RelatedOrganizationsAmt>530494893</RelatedOrganizationsAmt>
+      <GovernmentGrantsAmt>69343568</GovernmentGrantsAmt>
+      <AllOtherContributionsAmt>11594049</AllOtherContributionsAmt>
+      <TotalContributionsAmt>611432510</TotalContributionsAmt>
+      <ProgramServiceRevenueGrp>
+        <Desc>PATIENT CARE</Desc>
+        <BusinessCd>621110</BusinessCd>
+        <TotalRevenueColumnAmt>97421430</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>97421430</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <TotalProgramServiceRevenueAmt>97421430</TotalProgramServiceRevenueAmt>
+      <InvestmentIncomeGrp>
+        <TotalRevenueColumnAmt>13967</TotalRevenueColumnAmt>
+        <ExclusionAmt>13967</ExclusionAmt>
+      </InvestmentIncomeGrp>
+      <GrossAmountSalesAssetsGrp>
+        <SecuritiesAmt>261891</SecuritiesAmt>
+        <OtherAmt>27946</OtherAmt>
+      </GrossAmountSalesAssetsGrp>
+      <LessCostOthBasisSalesExpnssGrp>
+        <SecuritiesAmt>191781</SecuritiesAmt>
+        <OtherAmt>1332266</OtherAmt>
+      </LessCostOthBasisSalesExpnssGrp>
+      <GainOrLossGrp>
+        <SecuritiesAmt>70110</SecuritiesAmt>
+        <OtherAmt>-1304320</OtherAmt>
+      </GainOrLossGrp>
+      <NetGainOrLossInvestmentsGrp>
+        <TotalRevenueColumnAmt>-1234210</TotalRevenueColumnAmt>
+        <ExclusionAmt>-1234210</ExclusionAmt>
+      </NetGainOrLossInvestmentsGrp>
+      <OtherRevenueMiscGrp>
+        <Desc>PATENTS/LICENSING INCO</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>24399968</TotalRevenueColumnAmt>
+        <ExclusionAmt>24399968</ExclusionAmt>
+      </OtherRevenueMiscGrp>
+      <OtherRevenueMiscGrp>
+        <Desc>CAFETERIA/VENDING</Desc>
+        <BusinessCd>722212</BusinessCd>
+        <TotalRevenueColumnAmt>3314275</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>3314275</RelatedOrExemptFuncIncomeAmt>
+      </OtherRevenueMiscGrp>
+      <OtherRevenueMiscGrp>
+        <Desc>CHGME/CHCA</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>1955292</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>1955292</RelatedOrExemptFuncIncomeAmt>
+      </OtherRevenueMiscGrp>
+      <MiscellaneousRevenueGrp>
+        <TotalRevenueColumnAmt>3427740</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>3427740</RelatedOrExemptFuncIncomeAmt>
+      </MiscellaneousRevenueGrp>
+      <OtherRevenueTotalAmt>33097275</OtherRevenueTotalAmt>
+      <TotalRevenueGrp>
+        <TotalRevenueColumnAmt>740730972</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>106118737</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>23179725</ExclusionAmt>
+      </TotalRevenueGrp>
+      <GrantsToDomesticOrgsGrp>
+        <TotalAmt>1326841</TotalAmt>
+        <ProgramServicesAmt>1326841</ProgramServicesAmt>
+      </GrantsToDomesticOrgsGrp>
+      <CompCurrentOfcrDirectorsGrp>
+        <TotalAmt>4462978</TotalAmt>
+        <ProgramServicesAmt>2621986</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>1840992</ManagementAndGeneralAmt>
+      </CompCurrentOfcrDirectorsGrp>
+      <OtherSalariesAndWagesGrp>
+        <TotalAmt>291494679</TotalAmt>
+        <ProgramServicesAmt>273043390</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>18451289</ManagementAndGeneralAmt>
+      </OtherSalariesAndWagesGrp>
+      <PensionPlanContributionsGrp>
+        <TotalAmt>18705939</TotalAmt>
+        <ProgramServicesAmt>17521874</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>1184065</ManagementAndGeneralAmt>
+      </PensionPlanContributionsGrp>
+      <OtherEmployeeBenefitsGrp>
+        <TotalAmt>39571931</TotalAmt>
+        <ProgramServicesAmt>37067072</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>2504859</ManagementAndGeneralAmt>
+      </OtherEmployeeBenefitsGrp>
+      <PayrollTaxesGrp>
+        <TotalAmt>19894920</TotalAmt>
+        <ProgramServicesAmt>18635594</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>1259326</ManagementAndGeneralAmt>
+      </PayrollTaxesGrp>
+      <FeesForServicesManagementGrp>
+        <TotalAmt>18754594</TotalAmt>
+        <ProgramServicesAmt>17855054</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>899540</ManagementAndGeneralAmt>
+      </FeesForServicesManagementGrp>
+      <FeesForServicesLegalGrp>
+        <TotalAmt>4386072</TotalAmt>
+        <ProgramServicesAmt>4175700</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>210372</ManagementAndGeneralAmt>
+      </FeesForServicesLegalGrp>
+      <FeesForServicesAccountingGrp>
+        <TotalAmt>182393</TotalAmt>
+        <ProgramServicesAmt>173645</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>8748</ManagementAndGeneralAmt>
+      </FeesForServicesAccountingGrp>
+      <FeesForServicesLobbyingGrp>
+        <TotalAmt>31376</TotalAmt>
+        <ProgramServicesAmt>31376</ProgramServicesAmt>
+      </FeesForServicesLobbyingGrp>
+      <FeesForServicesOtherGrp>
+        <TotalAmt>62776086</TotalAmt>
+        <ProgramServicesAmt>56544293</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>6231793</ManagementAndGeneralAmt>
+      </FeesForServicesOtherGrp>
+      <AdvertisingGrp>
+        <TotalAmt>856343</TotalAmt>
+        <ProgramServicesAmt>815270</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>41073</ManagementAndGeneralAmt>
+      </AdvertisingGrp>
+      <OfficeExpensesGrp>
+        <TotalAmt>2514716</TotalAmt>
+        <ProgramServicesAmt>2470823</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>43893</ManagementAndGeneralAmt>
+      </OfficeExpensesGrp>
+      <InformationTechnologyGrp>
+        <TotalAmt>11676441</TotalAmt>
+        <ProgramServicesAmt>11116396</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>560045</ManagementAndGeneralAmt>
+      </InformationTechnologyGrp>
+      <OccupancyGrp>
+        <TotalAmt>23508955</TotalAmt>
+        <ProgramServicesAmt>20744302</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>2764653</ManagementAndGeneralAmt>
+      </OccupancyGrp>
+      <TravelGrp>
+        <TotalAmt>9936402</TotalAmt>
+        <ProgramServicesAmt>9451321</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>485081</ManagementAndGeneralAmt>
+      </TravelGrp>
+      <ConferencesMeetingsGrp>
+        <TotalAmt>1455621</TotalAmt>
+        <ProgramServicesAmt>1038170</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>417451</ManagementAndGeneralAmt>
+      </ConferencesMeetingsGrp>
+      <InterestGrp>
+        <TotalAmt>3082928</TotalAmt>
+        <ProgramServicesAmt>3079528</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>3400</ManagementAndGeneralAmt>
+      </InterestGrp>
+      <DepreciationDepletionGrp>
+        <TotalAmt>61003690</TotalAmt>
+        <ProgramServicesAmt>58509897</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>2493793</ManagementAndGeneralAmt>
+      </DepreciationDepletionGrp>
+      <InsuranceGrp>
+        <TotalAmt>1224084</TotalAmt>
+        <ProgramServicesAmt>817228</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>406856</ManagementAndGeneralAmt>
+      </InsuranceGrp>
+      <OtherExpensesGrp>
+        <Desc>PHAMACEUTICAL SUPPLIES</Desc>
+        <TotalAmt>38017955</TotalAmt>
+        <ProgramServicesAmt>37354372</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>663583</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>LABORATORY SUPPLIES</Desc>
+        <TotalAmt>32026678</TotalAmt>
+        <ProgramServicesAmt>31467669</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>559009</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>TELEPHONE</Desc>
+        <TotalAmt>1274219</TotalAmt>
+        <ProgramServicesAmt>1142461</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>131758</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>ALLOCATION ADJUSTMENTS</Desc>
+        <TotalAmt>0</TotalAmt>
+        <ProgramServicesAmt>12554084</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>-12554084</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </OtherExpensesGrp>
+      <AllOtherExpensesGrp>
+        <TotalAmt>35110188</TotalAmt>
+        <ProgramServicesAmt>31435650</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>3674538</ManagementAndGeneralAmt>
+      </AllOtherExpensesGrp>
+      <TotalFunctionalExpensesGrp>
+        <TotalAmt>683276029</TotalAmt>
+        <ProgramServicesAmt>650993996</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>32282033</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </TotalFunctionalExpensesGrp>
+      <CashNonInterestBearingGrp>
+        <BOYAmt>6872920</BOYAmt>
+        <EOYAmt>18460</EOYAmt>
+      </CashNonInterestBearingGrp>
+      <SavingsAndTempCashInvstGrp>
+        <BOYAmt>10327250</BOYAmt>
+        <EOYAmt>10445000</EOYAmt>
+      </SavingsAndTempCashInvstGrp>
+      <PledgesAndGrantsReceivableGrp>
+        <BOYAmt>5664796</BOYAmt>
+        <EOYAmt>5247477</EOYAmt>
+      </PledgesAndGrantsReceivableGrp>
+      <AccountsReceivableGrp>
+        <BOYAmt>13424312</BOYAmt>
+        <EOYAmt>15892018</EOYAmt>
+      </AccountsReceivableGrp>
+      <InventoriesForSaleOrUseGrp>
+        <BOYAmt>4829227</BOYAmt>
+        <EOYAmt>5315567</EOYAmt>
+      </InventoriesForSaleOrUseGrp>
+      <PrepaidExpensesDefrdChargesGrp>
+        <BOYAmt>7884421</BOYAmt>
+        <EOYAmt>8746958</EOYAmt>
+      </PrepaidExpensesDefrdChargesGrp>
+      <LandBldgEquipCostOrOtherBssAmt>1177208191</LandBldgEquipCostOrOtherBssAmt>
+      <LandBldgEquipAccumDeprecAmt>644412317</LandBldgEquipAccumDeprecAmt>
+      <LandBldgEquipBasisNetGrp>
+        <BOYAmt>461343613</BOYAmt>
+        <EOYAmt>532795874</EOYAmt>
+      </LandBldgEquipBasisNetGrp>
+      <InvestmentsPubTradedSecGrp>
+        <BOYAmt>1612504</BOYAmt>
+        <EOYAmt>1847027</EOYAmt>
+      </InvestmentsPubTradedSecGrp>
+      <OtherAssetsTotalGrp>
+        <BOYAmt>2770168304</BOYAmt>
+        <EOYAmt>3299994764</EOYAmt>
+      </OtherAssetsTotalGrp>
+      <TotalAssetsGrp>
+        <BOYAmt>3282127347</BOYAmt>
+        <EOYAmt>3880303145</EOYAmt>
+      </TotalAssetsGrp>
+      <AccountsPayableAccrExpnssGrp>
+        <BOYAmt>77214992</BOYAmt>
+        <EOYAmt>92820914</EOYAmt>
+      </AccountsPayableAccrExpnssGrp>
+      <DeferredRevenueGrp>
+        <BOYAmt>5893607</BOYAmt>
+        <EOYAmt>6906828</EOYAmt>
+      </DeferredRevenueGrp>
+      <TaxExemptBondLiabilitiesGrp>
+        <BOYAmt>223667040</BOYAmt>
+        <EOYAmt>217904956</EOYAmt>
+      </TaxExemptBondLiabilitiesGrp>
+      <OtherLiabilitiesGrp>
+        <BOYAmt>3022266</BOYAmt>
+        <EOYAmt>2853098</EOYAmt>
+      </OtherLiabilitiesGrp>
+      <TotalLiabilitiesGrp>
+        <BOYAmt>309797905</BOYAmt>
+        <EOYAmt>320485796</EOYAmt>
+      </TotalLiabilitiesGrp>
+      <OrganizationFollowsSFAS117Ind>X</OrganizationFollowsSFAS117Ind>
+      <UnrestrictedNetAssetsGrp>
+        <BOYAmt>2068341902</BOYAmt>
+        <EOYAmt>2578631115</EOYAmt>
+      </UnrestrictedNetAssetsGrp>
+      <TemporarilyRstrNetAssetsGrp>
+        <BOYAmt>60144267</BOYAmt>
+        <EOYAmt>66082159</EOYAmt>
+      </TemporarilyRstrNetAssetsGrp>
+      <PermanentlyRstrNetAssetsGrp>
+        <BOYAmt>843843273</BOYAmt>
+        <EOYAmt>915104075</EOYAmt>
+      </PermanentlyRstrNetAssetsGrp>
+      <TotalNetAssetsFundBalanceGrp>
+        <BOYAmt>2972329442</BOYAmt>
+        <EOYAmt>3559817349</EOYAmt>
+      </TotalNetAssetsFundBalanceGrp>
+      <TotLiabNetAssetsFundBalanceGrp>
+        <BOYAmt>3282127347</BOYAmt>
+        <EOYAmt>3880303145</EOYAmt>
+      </TotLiabNetAssetsFundBalanceGrp>
+      <InfoInScheduleOPartXIInd>X</InfoInScheduleOPartXIInd>
+      <ReconcilationRevenueExpnssAmt>57454943</ReconcilationRevenueExpnssAmt>
+      <NetUnrlzdGainsLossesInvstAmt>136502</NetUnrlzdGainsLossesInvstAmt>
+      <OtherChangesInNetAssetsAmt>529896462</OtherChangesInNetAssetsAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AccountantCompileOrReviewInd>0</AccountantCompileOrReviewInd>
+      <FSAuditedInd>1</FSAuditedInd>
+      <FSAuditedBasisGrp>
+        <ConsolAndSepBasisFinclStmtInd>X</ConsolAndSepBasisFinclStmtInd>
+      </FSAuditedBasisGrp>
+      <AuditCommitteeInd>1</AuditCommitteeInd>
+      <FederalGrantAuditRequiredInd>1</FederalGrantAuditRequiredInd>
+      <FederalGrantAuditPerformedInd>1</FederalGrantAuditPerformedInd>
+    </IRS990>
+    <IRS990ScheduleA documentId="RetDoc1039100001">
+      <HospitalInd>X</HospitalInd>
+    </IRS990ScheduleA>
+    <IRS990ScheduleB documentId="RetDoc1234500001">
+      <ContributorInformationGrp>
+        <ContributorNum>RESTRICTED</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1>RESTRICTED</BusinessNameLine1>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1>RESTRICTED</AddressLine1>
+          <AddressLine2>RESTRICTED</AddressLine2>
+          <City>RESTRICTED</City>
+          <State>RESTRICTED</State>
+          <ZIPCode>RESTRICTED</ZIPCode>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>RESTRICTED</TotalContributionsAmt>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <IRS990ScheduleC documentId="RetDoc1039700001">
+      <VolunteersInd>0</VolunteersInd>
+      <PaidStaffOrManagementInd>1</PaidStaffOrManagementInd>
+      <MediaAdvertisementsInd>0</MediaAdvertisementsInd>
+      <MailingsMembersInd>0</MailingsMembersInd>
+      <PublicationsOrBroadcastInd>0</PublicationsOrBroadcastInd>
+      <GrantsOtherOrganizationsInd>0</GrantsOtherOrganizationsInd>
+      <DirectContactLegislatorsInd>1</DirectContactLegislatorsInd>
+      <DirectContactLegislatorsAmt>15761</DirectContactLegislatorsAmt>
+      <RalliesDemonstrationsInd>0</RalliesDemonstrationsInd>
+      <OtherActivitiesInd>1</OtherActivitiesInd>
+      <OtherActivitiesAmt>15615</OtherActivitiesAmt>
+      <TotalLobbyingExpendituresAmt>31376</TotalLobbyingExpendituresAmt>
+      <NotDescribedSection501c3Ind>0</NotDescribedSection501c3Ind>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART II-B, LINE 1:</FormAndLineReferenceDesc>
+        <ExplanationTxt>B) ST. JUDE EMPLOYS A DIRECTOR OF GOVERNMENT AFFAIRS; G) PRORATED SALAY OF DIRECTOR OF GOVERNMENT AFFAIRS; I) ST. JUDE RETAINED ALSTON &amp; BIRD FOR FEDERAL POLICY CONSULTING AND SMITH HARRIS &amp; CARR FOR STATE POLICY CONSULTING. AMOUNT LISTED IS RETAINER FEES PRORATED FOR DIRECT AND STATE LEGISLATIVE CONTACTS.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleC>
+    <IRS990ScheduleD documentId="RetDoc1040000001">
+      <BuildingsGrp>
+        <OtherCostOrOtherBasisAmt>830864267</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>393180853</DepreciationAmt>
+        <BookValueAmt>437683414</BookValueAmt>
+      </BuildingsGrp>
+      <EquipmentGrp>
+        <OtherCostOrOtherBasisAmt>339673821</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>247431879</DepreciationAmt>
+        <BookValueAmt>92241942</BookValueAmt>
+      </EquipmentGrp>
+      <OtherLandBuildingsGrp>
+        <OtherCostOrOtherBasisAmt>6670103</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>3799585</DepreciationAmt>
+        <BookValueAmt>2870518</BookValueAmt>
+      </OtherLandBuildingsGrp>
+      <TotalBookValueLandBuildingsAmt>532795874</TotalBookValueLandBuildingsAmt>
+      <OtherAssetsOrgGrp>
+        <Desc>INTEREST IN THE NET ASSETS OF AMERICAN SYRIAN LEBANESE ASSOCIATED CHARITIES</Desc>
+        <BookValueAmt>3298839134</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <OtherAssetsOrgGrp>
+        <Desc>UNAMORTIZED BOND ISSUANCE COSTS</Desc>
+        <BookValueAmt>1155630</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <TotalBookValueOtherAssetsAmt>3299994764</TotalBookValueOtherAssetsAmt>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>SELF INSURANCE LIABILITY</Desc>
+        <Amt>1669893</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>WORKER'S COMPENSATION</Desc>
+        <Amt>1183205</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <TotalLiabilityAmt>2853098</TotalLiabilityAmt>
+      <FootnoteTextInd>X</FootnoteTextInd>
+      <TotalRevEtcAuditedFinclStmtAmt>211676901</TotalRevEtcAuditedFinclStmtAmt>
+      <NetUnrealizedGainsInvstAmt>136502</NetUnrealizedGainsInvstAmt>
+      <RevenueNotReportedAmt>136502</RevenueNotReportedAmt>
+      <RevenueSubtotalAmt>211540399</RevenueSubtotalAmt>
+      <OtherRevenuesNotIncludedAmt>529190573</OtherRevenuesNotIncludedAmt>
+      <RevenueNotReportedFinclStmtAmt>529190573</RevenueNotReportedFinclStmtAmt>
+      <TotalRevenuePerForm990Amt>740730972</TotalRevenuePerForm990Amt>
+      <TotExpnsEtcAuditedFinclStmtAmt>683276029</TotExpnsEtcAuditedFinclStmtAmt>
+      <ExpensesNotReportedAmt>0</ExpensesNotReportedAmt>
+      <ExpensesSubtotalAmt>683276029</ExpensesSubtotalAmt>
+      <ExpensesNotRptFinclStmtAmt>0</ExpensesNotRptFinclStmtAmt>
+      <TotalExpensesPerForm990Amt>683276029</TotalExpensesPerForm990Amt>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART X, LINE 2:</FormAndLineReferenceDesc>
+        <ExplanationTxt>AS OF JUNE 30, 2014, THE HOSPITAL HAD NOT IDENTIFIED ANY UNCERTAIN TAX POSITIONS UNDER ASC TOPIC 740, INCOME TAXES, REQUIRING ADJUSTMENTS TO ITS CONSOLIDATED FINANCIAL STATEMENTS. IN THE EVENT THE HOSPITAL WERE TO RECOGNIZE INTEREST AND PENALTIES RELATED TO UNCERTAIN TAX POSITIONS, IT WOULD BE RECOGNIZED IN THE CONSOLIDATED FINANCIAL STATEMENTS AS INTEREST EXPENSE FOR INTEREST AND MISCELLANEOUS FOR PENALTIES. GENERALLY, TAX YEARS ENDING IN 2010 THROUGH 2014 ARE OPEN TO EXAMINATION BY THE FEDERAL AND STATE TAXING AUTHORITIES, RESPECTIVELY. THERE ARE NO INCOME TAX EXAMINATIONS CURRENTLY IN PROCESS.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART XI, LINE 4B - OTHER ADJUSTMENTS:</FormAndLineReferenceDesc>
+        <ExplanationTxt>NET SUPPORT RECEIVED FROM ALSAC 530,494,893. LOSS FROM DISPOSAL OF PROPERTY AND EQUIPMENT -1,304,320.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleD>
+    <IRS990ScheduleF documentId="RetDoc1040500001">
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>CENTRAL AMERICA &amp; THE CARIBBEAN</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>PROGRAM SERVICES</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>EDUCATION AND TRAINING</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>961047</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>EAST ASIA AND THE PACIFIC</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>PROGRAM SERVICES</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>EDUCATION AND TRAINING</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>446063</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>MIDDLE EAST AND NORTH AFRICA</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>1</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>PROGRAM SERVICES</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>EDUCATION AND TRAINING</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>3153716</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>SOUTH AMERICA</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>PROGRAM SERVICES</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>EDUCATION AND TRAINING</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>652575</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>NORTH AMERICA</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>PROGRAM SERVICES</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>EDUCATION AND TRAINING</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>232472</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <SubtotalOfficesCnt>0</SubtotalOfficesCnt>
+      <SubtotalEmployeesCnt>1</SubtotalEmployeesCnt>
+      <ContinutationTotalOfficeCnt>0</ContinutationTotalOfficeCnt>
+      <ContinutationTotalEmployeeCnt>0</ContinutationTotalEmployeeCnt>
+      <TotalOfficeCnt>0</TotalOfficeCnt>
+      <TotalEmployeeCnt>1</TotalEmployeeCnt>
+      <SubtotalSpentAmt>5445873</SubtotalSpentAmt>
+      <ContinuationSpentAmt>0</ContinuationSpentAmt>
+      <TotalSpentAmt>5445873</TotalSpentAmt>
+      <TransferToForeignCorpInd>0</TransferToForeignCorpInd>
+      <InterestInForeignTrustInd>0</InterestInForeignTrustInd>
+      <ForeignCorpOwnershipInd>0</ForeignCorpOwnershipInd>
+      <PassiveForeignInvestmestCoInd>0</PassiveForeignInvestmestCoInd>
+      <ForeignPartnershipInd>0</ForeignPartnershipInd>
+      <BoycottCountriesInd>0</BoycottCountriesInd>
+    </IRS990ScheduleF>
+    <IRS990ScheduleH documentId="RetDoc1041500001">
+      <FinancialAssistancePolicyInd>1</FinancialAssistancePolicyInd>
+      <WrittenPolicyInd>1</WrittenPolicyInd>
+      <FPGReferenceFreeCareInd>0</FPGReferenceFreeCareInd>
+      <FPGReferenceDiscountedCareInd>0</FPGReferenceDiscountedCareInd>
+      <FreeCareMedicallyIndigentInd>1</FreeCareMedicallyIndigentInd>
+      <FinancialAssistanceBudgetInd>1</FinancialAssistanceBudgetInd>
+      <ExpensesExceedBudgetInd>1</ExpensesExceedBudgetInd>
+      <UnableToProvideCareInd>0</UnableToProvideCareInd>
+      <AnnualCommunityBnftReportInd>0</AnnualCommunityBnftReportInd>
+      <FinancialAssistanceAtCostTyp>
+        <TotalCommunityBenefitExpnsAmt>50841840</TotalCommunityBenefitExpnsAmt>
+        <DirectOffsettingRevenueAmt>66957</DirectOffsettingRevenueAmt>
+        <NetCommunityBenefitExpnsAmt>50774883</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.07430</TotalExpensePct>
+      </FinancialAssistanceAtCostTyp>
+      <UnreimbursedMedicaidGrp>
+        <TotalCommunityBenefitExpnsAmt>116963640</TotalCommunityBenefitExpnsAmt>
+        <DirectOffsettingRevenueAmt>31099805</DirectOffsettingRevenueAmt>
+        <NetCommunityBenefitExpnsAmt>85863835</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.12570</TotalExpensePct>
+      </UnreimbursedMedicaidGrp>
+      <TotalFinancialAssistanceTyp>
+        <TotalCommunityBenefitExpnsAmt>167805480</TotalCommunityBenefitExpnsAmt>
+        <DirectOffsettingRevenueAmt>31166762</DirectOffsettingRevenueAmt>
+        <NetCommunityBenefitExpnsAmt>136638718</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.20000</TotalExpensePct>
+      </TotalFinancialAssistanceTyp>
+      <CommunityHealthServicesGrp>
+        <TotalCommunityBenefitExpnsAmt>15726235</TotalCommunityBenefitExpnsAmt>
+        <DirectOffsettingRevenueAmt>1060</DirectOffsettingRevenueAmt>
+        <NetCommunityBenefitExpnsAmt>15725175</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.02300</TotalExpensePct>
+      </CommunityHealthServicesGrp>
+      <HealthProfessionsEducationGrp>
+        <TotalCommunityBenefitExpnsAmt>7840415</TotalCommunityBenefitExpnsAmt>
+        <DirectOffsettingRevenueAmt>302700</DirectOffsettingRevenueAmt>
+        <NetCommunityBenefitExpnsAmt>7537715</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.01100</TotalExpensePct>
+      </HealthProfessionsEducationGrp>
+      <SubsidizedHealthServicesGrp>
+        <TotalCommunityBenefitExpnsAmt>17981472</TotalCommunityBenefitExpnsAmt>
+        <NetCommunityBenefitExpnsAmt>17981472</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.02630</TotalExpensePct>
+      </SubsidizedHealthServicesGrp>
+      <ResearchGrp>
+        <TotalCommunityBenefitExpnsAmt>292380454</TotalCommunityBenefitExpnsAmt>
+        <DirectOffsettingRevenueAmt>92191843</DirectOffsettingRevenueAmt>
+        <NetCommunityBenefitExpnsAmt>200188611</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.29300</TotalExpensePct>
+      </ResearchGrp>
+      <CashAndInKindContributionsGrp>
+        <TotalCommunityBenefitExpnsAmt>1262331</TotalCommunityBenefitExpnsAmt>
+        <NetCommunityBenefitExpnsAmt>1262331</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.00180</TotalExpensePct>
+      </CashAndInKindContributionsGrp>
+      <TotalOtherBenefitsGrp>
+        <TotalCommunityBenefitExpnsAmt>335190907</TotalCommunityBenefitExpnsAmt>
+        <DirectOffsettingRevenueAmt>92495603</DirectOffsettingRevenueAmt>
+        <NetCommunityBenefitExpnsAmt>242695304</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.35510</TotalExpensePct>
+      </TotalOtherBenefitsGrp>
+      <TotalCommunityBenefitsGrp>
+        <TotalCommunityBenefitExpnsAmt>502996387</TotalCommunityBenefitExpnsAmt>
+        <DirectOffsettingRevenueAmt>123662365</DirectOffsettingRevenueAmt>
+        <NetCommunityBenefitExpnsAmt>379334022</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.55510</TotalExpensePct>
+      </TotalCommunityBenefitsGrp>
+      <EconomicDevelopmentGrp>
+        <TotalCommunityBenefitExpnsAmt>106816</TotalCommunityBenefitExpnsAmt>
+        <NetCommunityBenefitExpnsAmt>106816</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.00020</TotalExpensePct>
+      </EconomicDevelopmentGrp>
+      <CoalitionBuildingGrp>
+        <TotalCommunityBenefitExpnsAmt>19931</TotalCommunityBenefitExpnsAmt>
+        <NetCommunityBenefitExpnsAmt>19931</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.00000</TotalExpensePct>
+      </CoalitionBuildingGrp>
+      <WorkforceDevelopmentGrp>
+        <TotalCommunityBenefitExpnsAmt>38883</TotalCommunityBenefitExpnsAmt>
+        <NetCommunityBenefitExpnsAmt>38883</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.00010</TotalExpensePct>
+      </WorkforceDevelopmentGrp>
+      <TotalCommuntityBuildingActyGrp>
+        <TotalCommunityBenefitExpnsAmt>165630</TotalCommunityBenefitExpnsAmt>
+        <NetCommunityBenefitExpnsAmt>165630</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.00030</TotalExpensePct>
+      </TotalCommuntityBuildingActyGrp>
+      <BadDebtExpenseReportedInd>0</BadDebtExpenseReportedInd>
+      <BadDebtExpenseAmt>681000</BadDebtExpenseAmt>
+      <CostOfCareReimbursedByMedcrAmt>859199</CostOfCareReimbursedByMedcrAmt>
+      <MedicareSurplusOrShortfallAmt>-859199</MedicareSurplusOrShortfallAmt>
+      <CostingMethodologyUsedGrp>
+        <CostToChargeRatioInd>X</CostToChargeRatioInd>
+      </CostingMethodologyUsedGrp>
+      <WrittenDebtCollectionPolicyInd>1</WrittenDebtCollectionPolicyInd>
+      <FinancialAssistancePrvsnInd>1</FinancialAssistancePrvsnInd>
+      <HospitalFacilitiesCnt>1</HospitalFacilitiesCnt>
+      <HospitalFacilitiesGrp>
+        <FacilityNum>1</FacilityNum>
+        <BusinessName>
+          <BusinessNameLine1>ST JUDE CHILDREN'S RESEARCH HOSPITAL</BusinessNameLine1>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1>262 DANNY THOMAS PLACE</AddressLine1>
+          <City>MEMPHIS</City>
+          <State>TN</State>
+          <ZIPCode>381053678</ZIPCode>
+        </USAddress>
+        <WebsiteAddressTxt>WWW.STJUDE.ORG</WebsiteAddressTxt>
+        <StateLicenseNum>TN STATE LI</StateLicenseNum>
+        <LicensedHospitalInd>X</LicensedHospitalInd>
+        <ChildrensHospitalInd>X</ChildrensHospitalInd>
+        <ResearchFacilityInd>X</ResearchFacilityInd>
+      </HospitalFacilitiesGrp>
+      <HospitalFcltyPoliciesPrctcGrp>
+        <HospitalFacilityName>
+          <BusinessNameLine1>ST JUDE CHILDREN'S RESEARCH HOSPITAL</BusinessNameLine1>
+        </HospitalFacilityName>
+        <FacilityNum>1</FacilityNum>
+        <CHNAConductedInd>1</CHNAConductedInd>
+        <CommunityDefinitionInd>X</CommunityDefinitionInd>
+        <CommunityDemographicsInd>X</CommunityDemographicsInd>
+        <ExistingResourcesInd>X</ExistingResourcesInd>
+        <HowDataObtainedInd>X</HowDataObtainedInd>
+        <CommunityHealthNeedsInd>X</CommunityHealthNeedsInd>
+        <OtherHealthIssuesInd>X</OtherHealthIssuesInd>
+        <CommunityHlthNeedsIdProcessInd>X</CommunityHlthNeedsIdProcessInd>
+        <ConsultingProcessInd>X</ConsultingProcessInd>
+        <CHNAConductedYr>12</CHNAConductedYr>
+        <TakeIntoAccountOthersInputInd>1</TakeIntoAccountOthersInputInd>
+        <CHNAConductedWithOtherFcltsInd>0</CHNAConductedWithOtherFcltsInd>
+        <CHNAReportWidelyAvailableInd>1</CHNAReportWidelyAvailableInd>
+        <RptAvailableOnOwnWebsiteInd>X</RptAvailableOnOwnWebsiteInd>
+        <OwnWebsiteURLTxt>WWW.STJUDE.ORG/CHNA</OwnWebsiteURLTxt>
+        <AdoptImplementationStrategyInd>X</AdoptImplementationStrategyInd>
+        <ExecImplementationStrategyInd>X</ExecImplementationStrategyInd>
+        <AdoptBudgetInd>X</AdoptBudgetInd>
+        <PrioritizeHealthNeedsInd>X</PrioritizeHealthNeedsInd>
+        <PrioritizeServicesInd>X</PrioritizeServicesInd>
+        <OtherNeedsAddressedInd>X</OtherNeedsAddressedInd>
+        <AllNeedsAddressedInd>0</AllNeedsAddressedInd>
+        <OrganizationIncurExciseTaxInd>0</OrganizationIncurExciseTaxInd>
+        <EligCriteriaExplainedInd>1</EligCriteriaExplainedInd>
+        <FPGUsedDeterEligFreeCareInd>0</FPGUsedDeterEligFreeCareInd>
+        <FPGUsedDetermEligDscntCareInd>0</FPGUsedDetermEligDscntCareInd>
+        <ExplainedBasisInd>0</ExplainedBasisInd>
+        <AppFinancialAsstExplnInd>1</AppFinancialAsstExplnInd>
+        <IncludesPublicityMeasuresInd>1</IncludesPublicityMeasuresInd>
+        <PostedOnWebsiteInd>X</PostedOnWebsiteInd>
+        <PostedInAdmissionOfficeInd>X</PostedInAdmissionOfficeInd>
+        <ProvidedOnAdmissionInd>X</ProvidedOnAdmissionInd>
+        <AvailableOnRequestInd>X</AvailableOnRequestInd>
+        <FAPActionsOnNonpaymentInd>1</FAPActionsOnNonpaymentInd>
+        <PermitOtherActionsInd>X</PermitOtherActionsInd>
+        <CollectionActivitiesInd>0</CollectionActivitiesInd>
+        <NondisEmergencyCarePolicyInd>1</NondisEmergencyCarePolicyInd>
+        <OtherMethodUsedInd>X</OtherMethodUsedInd>
+        <AmountsGenerallyBilledInd>0</AmountsGenerallyBilledInd>
+        <GrossChargesInd>0</GrossChargesInd>
+      </HospitalFcltyPoliciesPrctcGrp>
+      <SupplementalInformationGrp>
+        <FormAndLineReferenceDesc>ST. JUDE CHILDREN'S RESEARCH HOSPITAL</FormAndLineReferenceDesc>
+        <ExplanationTxt>PART V, SECTION B, LINE 3: THE COMMUNITY HEALTH NEEDS ASSESSMENT WAS CONDUCTED BY TRIPP UMBACH UNDER THE DIRECTION OF LEADERSHIP FROM ST. JUDE CHILDREN'S RESEARCH HOSPITAL. INTERVIEWS WITH KEY STAKEHOLDERS: TRIPP UMBACH WORKED CLOSELY WITH HOSPITAL LEADERSHIP TO IDENTIFY LEADERS FROM ORGANIZATIONS WITH SPECIAL KNOWLEDGE AND/OR EXPERTISE IN PUBLIC HEALTH AND IN SPECIALTY AREAS WHERE ST. JUDE PROVIDES SERVICES. SUCH PERSONS WERE INTERVIEWED AS PART OF THE NEEDS ASSESSMENT PLANNING PROCESS. REPRESENTATIVES FROM THE FOLLOWING ORGANIZATIONS PROVIDED DETAILED INPUT DURING THE COMMUNITY HEALTH NEEDS ASSESSMENT PROCESS: -THE ST. JUDE AFFILIATE CLINIC AT HUNTSVILLE, AL: HOSPITAL FOR WOMEN AND CHILDREN -DEPARTMENT OF PEDIATRICS FOR THE UNIVERSITY OF TENNESSEE HEALTH SCIENCE CENTER -RYAN WHITE PROGRAM -UNIVERSITY OF TENNESSEE HEALTH SCIENCE CENTER COLLEGE OF MEDICINE -METHODIST AFFILIATED SERVICES' HOME CARE, HOSPICE AND PALLIATIVE SERVICES-AMERICAN SOCIETY FOR CLINICAL PHARMACOLOGY AND THERAPEUTICS -DEPARTMENTS OF BIOPHARMACEUTICAL SCIENCES AND PHARMACEUTICAL CHEMISTRY, UCSF -VANDERBILT UNIVERSITY SCHOOL OF MEDICINE -DEPARTMENT OF MEDICINE, SECTION OF HEMATOLOGY/ONCOLOGY, CANCER RESEARCH CENTER, UNIVERSITY OF CHICAGO -COMPREHENSIVE SICKLE CELL CENTER/BENIGN HEMATOLOGY, METHODIST UNIVERSITY HOSPITAL -METHODIST UNIVERSITY YOUNG ADULT TRANSITION UNIT -UNIVERSITY OF MICHIGAN: SPECIALTY: PEDIATRIC HEMATOLOGY/ONCOLOGY -TENNESSEE CANCER COALITION -THE ST. JUDE AFFILIATE CLINIC IN JOHNSON CITY, TN -BRISTOL MEYERS MEDICAL MONITOR -THE HENRY J. KAISER FAMILY FOUNDATION -THE WEST CLINIC, MEMPHIS, TN -CHILDREN'S HOSPITAL OF ILLINOIS -LE BONHEUR CHILDREN'S MEDICAL CENTER-SARROUF LAW, LLP -STATE OF TENNESSEE DEPARTMENT OF HEALTH -ST. JUDE CHILDREN'S RESEARCH HOSPITAL FOCUS GROUPS WITH RELEVANT COMMITTEES: TRIPP UMBACH WORKED CLOSELY WITH THE HOSPITAL TO IDENTIFY GROUPS WITH KNOWLEDGE OF SPECIALIZED CHILDREN'S HEALTH ISSUES WHO COULD BE REPRESENTED IN A FOCUS GROUP. ST. JUDE IDENTIFIED THE FAMILY ADVISORY COUNCIL AND THE MEDICAL EXECUTIVE COMMITTEE AS GROUPS WITH EXPERIENCE AND UNDERSTANDING OF CHILDREN'S HEALTH NATIONALLY, REGIONALLY, AND WITHIN ST. JUDE. TWO FOCUS GROUPS WERE CONDUCTED WITH A TOTAL OF APPROXIMATELY 50 PARTICIPANTS.</ExplanationTxt>
+      </SupplementalInformationGrp>
+      <SupplementalInformationGrp>
+        <FormAndLineReferenceDesc>ST. JUDE CHILDREN'S RESEARCH HOSPITAL</FormAndLineReferenceDesc>
+        <ExplanationTxt>PART V, SECTION B, LINE 6I: THE COMMUNITY HEALTH NEEDS ASSESSMENT IMPLEMENTATION PLAN CAN BE ACCESSED AT THE WEBSITE WWW.STJUDE.ORG/IMPLEMENTATIONPLAN</ExplanationTxt>
+      </SupplementalInformationGrp>
+      <SupplementalInformationGrp>
+        <FormAndLineReferenceDesc>ST. JUDE CHILDREN'S RESEARCH HOSPITAL</FormAndLineReferenceDesc>
+        <ExplanationTxt>PART V, SECTION B, LINE 7: NATIONAL PEDIATRIC HEALTH NEEDS THAT WERE IDENTIFIED IN THE ASSESSMENT INCLUDE: 1) IMPROVING ACCESS TO HEALTHCARE SERVICES 2) IMPROVING COORDINATION OF CARE 3) IMPROVING CHILD HEALTH STATUS THROUGH BEHAVIORAL MODIFICATION 4) IMPROVING ACCESS TO MENTAL HEALTH SERVICES IN ORDER TO EFFECTIVELY ADDRESS THE NEEDS IDENTIFIED, ST. JUDE IS FOCUSING ON THE FIRST THREE NEEDS LISTED ABOVE. THERE WERE OTHER ISSUES THAT WERE IDENTIFIED IN THE COMMUNITY HEALTH NEEDS ASSESSMENT WHICH HAVE LESS IMMEDIATE IMPACT ON THE ST. JUDE COMMUNITY, OR ARE OUTSIDE OF THE MISSION AND PRIMARY EXPERTISE OF ST. JUDE. THESE ISSUES MAY BE ADDRESSED IN A FUTURE PLAN IF THE OPPORTUNITY ARISES, OR MAY BE ADDRESSED BY OTHER COMMUNITY PROVIDERS. ONE OF THE FOUR NATIONAL PEDIATRIC HEALTH NEEDS IDENTIFIED IN THE CHNA, BUT NOT ADDRESSED IN THIS IMPLEMENTATION PLAN, IS MENTAL HEALTH. ALTHOUGH IMPROVING ACCESS TO MENTAL HEALTH EMERGED AS A NEED, IT IS OUTSIDE OF THE MISSION FOR ST. JUDE. THE MENTAL HEALTH CHALLENGES FACING THE ST. JUDE COMMUNITY ARE SIMILAR TO THOSE FACING HOSPITALS ACROSS THE COUNTRY. WHILE ST. JUDE DOES NOT PLAN TO ADDRESS THIS NEED IN THE COMMUNITY, ITS PSYCHOLOGY AND SOCIAL WORK DEPARTMENTS OFFER INTERVENTIONS AND REFERRALS TO OUTSIDE RESOURCES AS NECESSARY, AND ARE DEVELOPING OTHERS TO ADDRESS MENTAL HEALTH NEEDS OF THE ST, JUDE PATIENT POPULATION.</ExplanationTxt>
+      </SupplementalInformationGrp>
+      <SupplementalInformationGrp>
+        <FormAndLineReferenceDesc>ST. JUDE CHILDREN'S RESEARCH HOSPITAL</FormAndLineReferenceDesc>
+        <ExplanationTxt>PART V, SECTION B, LINE 10: SEE NARRATIVE FOR PART I, LINE 3C REGARDING THE ORGANIZATION'S FINANCIAL ASSISTANCE POLICY.</ExplanationTxt>
+      </SupplementalInformationGrp>
+      <SupplementalInformationGrp>
+        <FormAndLineReferenceDesc>ST. JUDE CHILDREN'S RESEARCH HOSPITAL</FormAndLineReferenceDesc>
+        <ExplanationTxt>PART V, SECTION B, LINE 11: SEE NARRATIVE FOR PART I, LINE 3C REGARDING THE ORGANIZATION'S FINANCIAL ASSISTANCE POLICY.</ExplanationTxt>
+      </SupplementalInformationGrp>
+      <SupplementalInformationGrp>
+        <FormAndLineReferenceDesc>ST. JUDE CHILDREN'S RESEARCH HOSPITAL</FormAndLineReferenceDesc>
+        <ExplanationTxt>PART V, SECTION B, LINE 16E: SEE NARRATIVE FOR PART I, LINE 3C REGARDING THE ORGANIZATION'S FINANCIAL ASSISTANCE POLICY.</ExplanationTxt>
+      </SupplementalInformationGrp>
+      <SupplementalInformationGrp>
+        <FormAndLineReferenceDesc>ST. JUDE CHILDREN'S RESEARCH HOSPITAL</FormAndLineReferenceDesc>
+        <ExplanationTxt>PART V, SECTION B, LINE 20D: SEE NARRATIVE FOR PART I, LINE 3C REGARDING THE ORGANIZATION'S FINANCIAL ASSISTANCE POLICY.</ExplanationTxt>
+      </SupplementalInformationGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART I, LINE 3C:</FormAndLineReferenceDesc>
+        <ExplanationTxt>NO FAMILY EVER PAYS ST. JUDE FOR TREATMENT. A BILLING SYSTEM IS MAINTAINED FOR EACH PATIENT SO THAT THE HOSPITAL CAN RECOVER INSURANCE IF IT IS AVAILABLE, BUT ST. JUDE COVERS ALL COSTS NOT REIMBURSED BY INSURANCE, INCLUDING CO-PAYS AND DEDUCTIBLES. WE COVER TOTAL COSTS FOR THOSE WITHOUT INSURANCE. IN ADDITION, ST. JUDE PROVIDES AN UNPARALLELED LEVEL OF SUPPORT SERVICES AT NO COST TO FAMILIES. THIS INCLUDES LODGING FOR UP TO FOUR FAMILY MEMBERS AND TRANSPORTATION FOR THE PATIENT AND ONE GUARDIAN TRAVELING TO ST. JUDE FOR CARE. WE ALSO PROVIDE GENEROUS MEAL ALLOWANCES FOR FAMILIES. THANKS LARGELY TO DONATIONS FROM THE PUBLIC, WE ARE ABLE TO PROVIDE THESE SERVICES TO ALL PATIENTS, REGARDLESS OF INCOME, SO WE DO NOT NEED TO DETERMINE ELIGIBILITY FOR THIS ASSISTANCE. BY DEFAULT, ALL PATIENTS ARE ELIGIBLE TO RECEIVE MEDICAL CARE AND SUPPORT SERVICES AT NO COST.TO ENSURE FAMILIES ARE MAKING USE OF ALL RESOURCES FOR WHICH THEY ARE ELIGIBLE, WE HAVE PROGRAMS TO ASSIST FAMILIES IN ENROLLING IN VARIOUS PUBLIC ASSISTANCE PROGRAMS FOR WHICH THEY MAY QUALIFY, INCLUDING BUT NOT LIMITED TO TENNCARE/MEDICAID, COVERKIDS, CHIPS AND SOCIAL SECURITY. DOING SO ENSURES AN APPROPRIATE SAFETY NET SHOULD THE FAMILY SEEK TREATMENT OUTSIDE OF ST. JUDE AND IT ALLOWS US TO BE GOOD STEWARDS OF DONOR DOLLARS.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART I, LINE 7:</FormAndLineReferenceDesc>
+        <ExplanationTxt>COST-TO-CHARGE RATIO DERIVED FROM WORKSHEET 2, RATIO OF PATIENT CARE COST TO CHARGES. COST-TO-CHARGE RATIO USED FOR LINE 7A FINANCIAL ASSISTANCE AT COST AND LINE 7B MEDICAID.PART I, LINE 7C: CHIPS IS INCLUDED IN MEDICAID IN PART I, LINE 7B BECAUSE IN MANY STATES THE CHIPS PROGRAMS ARE MANAGED BY THE SAME THIRD PARTY ADMINISTRATORS AND IT IS DIFFICULT TO DISTINGUISH BETWEEN CHIPS AND MEDICAID COVERAGE.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART I, LINE 7G:</FormAndLineReferenceDesc>
+        <ExplanationTxt>ST. JUDE CHILDREN'S RESEARCH HOSPITAL INCLUDED AS SUBSIDIZED HEALTH SERVICES SUPPORT FOR SIX AFFILIATE CLINICS TOTALING APPROXIMATELY $7 MILLION.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART II, COMMUNITY BUILDING ACTIVITIES:</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE ST. JUDE CHILDREN'S RESEARCH HOSPITAL CEO IS A MEMBER OF MEMPHIS TOMORROW. MEMPHIS TOMORROW IS AN ASSOCIATION OF CHIEF EXECUTIVE OFFICERS OF MEMPHIS' LARGEST ENTERPRISES. THE PURPOSE IS TO BRING TOP BUSINESS LEADERS TOGETHER WITH GOVERNMENT AND CIVIC LEADERS TO FOSTER ECONOMIC PROSPERITY FOR ALL WHO LIVE IN OUR COMMUNITY. ST. JUDE ALSO PARTICIPATES WITH MEMPHIS FAST FORWARD WHOSE STRATEGIES ARE BASED ON THE COMMON SENSE PREMISE THAT ECONOMIC GROWTH AND PROSPERITY, AND IMPROVED QUALITY OF LIFE, WILL FOLLOW ONCE MEMPHIS AND SHELBY COUNTY SUCCESSFULLY ADDRESS THE BASICS: GOOD JOBS, QUALITY EDUCATION, SAFE STREETS AND EFFICIENT GOVERNMENT. ST. JUDE IS A MEMBER OF THE THE MIDSOUTH EHEALTH ALLIANCE (MSEHA), A NON-PROFIT INITIATIVE TO IMPROVE THE QUALITY, SAFETY, AND EFFICIENCY OF HEALTH CARE IN THE MID-SOUTH REGION. BY PROVIDING FOR THE ELECTRONIC EXCHANGE OF HEALTH INFORMATION, HEALTHCARE PROVIDERS CAN SECURELY ACCESS PATIENTS' VITAL HEALTH INFORMATION WHEN AND WHERE IT IS NEEDED. THE MSEHA CURRENTLY EXCHANGES DATA AMONG 14 HOSPITALS AND 12 AMBULATORY CLINICS IN THE REGION. THE MSEHA IS CURRENTLY SHARING MEDICAL INFORMATION BETWEEN HOSPITAL EMERGENCY DEPARTMENTS AND AMBULATORY CLINICS TO PROVIDE BETTER TREATMENT AND DIAGNOSTIC SERVICES FOR PATIENTS. HEALTH CARE PROVIDERS CAN MAKE BETTER CHOICES ABOUT A PATIENT'S CARE AND TREATMENT WHEN THEY HAVE AS MUCH INFORMATION AS POSSIBLE ABOUT THAT PATIENT'S HEALTH FROM LAB TESTS, MEDICAL HISTORY, MEDICINES, AND OTHER REPORTS. THE ALLIANCE PERMITS PROVIDERS TO REVIEW MEDICAL INFORMATION IN A SYSTEM THAT IS FASTER THAN CONTACTING A PATIENT'S OTHER PROVIDERS ONE BY ONE. THE ALLIANCE SHARES INFORMATION ABOUT A PATIENT'S MEDICAL CONDITION WITH HEALTH CARE PROVIDERS INVOLVED IN THAT PATIENT'S CARE FOR COORDINATION OF CARE.THE ST. JUDE CHIEF INFORMATION OFFICER SERVED AS CHAIRMAN OF THE BOARD OF THE MEMPHIS COALITION FOR ADVANCED NETWORKING (MCAN) AND SERVES ON THE BOARD OF THE MEMPHIS RESEARCH CONSORTIUM. MCAN SERVES TO ADVANCE EDUCATION, RESEARCH, PUBLIC SERVICE, AND ECONOMIC DEVELOPMENT INITIATIVES. MCAN ESTABLISHES VERY HIGH SPEED OPTICAL BROADBAND COMMUNICATION CONNECTIONS WITH OTHER REGIONAL INITIATIVES IN TENNESSEE TO FORM A STATEWIDE HIGH SPEED RESEARCH BACKBONE. FURTHER, MCAN CONNECTS THE MEMPHIS REGION WITH NATIONAL AND INTERNATIONAL RESEARCH AND SCIENTIFIC NETWORKS, ENABLING MEMPHIS AND TENNESSEE A SIGNIFICANT COMPETITIVE ADVANTAGE IN RESEARCH-DRIVEN ECONOMIC DEVELOPMENT. THE MEMPHIS RESEARCH CONSORTIUM FUNDS COLLABORATIVE RESEARCH CONDUCTED BY ITS MEMBERS INCLUDING ST. JUDE, THE UNIVERSITY OF TENNESSEE HEALTH SCIENCES CENTER AND THE UNIVERSITY OF MEMPHIS. ST. JUDE IS A MEMBER OF THE ASPIRING FOR PURCHASING EXCELLENCE (APEX) ASSOCIATION OF MEMPHIS. APEX IS AN ASSOCIATION OF PURCHASING AND PROCUREMENT PROFESSIONALS FROM MEMPHIS ORGANIZATIONS WHOSE PURPOSE IS TO PROMOTE BEST PRACTICES IN SUPPLIER DIVERSITY. ADDITIONALLY, ST. JUDE IS SILVER SPONSOR FOR THE MID-SOUTH MINORITY BUSINESS COUNCIL (MMBC) ECONOMIC DEVELOPMENT FAIR. THE MMBC SERVES AS THE MID-SOUTH'S FOREMOST MINORITY BUSINESS DEVELOPMENT ORGANIZATION. THE MMBC HELPS TO DEVELOP A STRONG MINORITY AND WOMEN BUSINESS COMMUNITY IN AN EFFORT TO IMPACT ECONOMICALLY THE ENTIRE MID-SOUTH REGION. THE ST. JUDE OFFICE OF GOVERNMENT AFFAIRS DIRECTOR CONTINUES TO CHAIR THE ADVOCACY COMMITTEE OF THE TENNESSEE CANCER COALITION WHICH EXISTS TO IDENTIFY AREAS OF GREATEST CANCER BURDEN ON THE CITIZENS OF TENNESSEE. THE ST. JUDE OFFICE OF GOVERNMENT AFFAIRS DIRECTOR CONTINUES TO SERVE ON THE BOARD OF DIRECTORS OF THE RIVERFRONT DEVELOPMENT CORPORATION (RDC). IN ADDITION TO MANAGING ALL THE PARKS ON THE MEMPHIS RIVERFRONT WHICH FOSTER HEALTHY LIFESTYLES, THE RDC HAS CONSTRUCTED A PLAYGROUND DESIGNED SPECIFICALLY FOR CHILDREN AT BEALE ST. LANDING. THIS IS THE ONLY CHILD-DESIGNATED PLAYGROUND ON THE MEMPHIS RIVERFRONT AND FOSTERS EXERCISE FOR CHILDREN LIVING DOWNTOWN.THE PEDIATRIC ONCOLOGY PROGRAM BRINGS FIFTY TO SIXTY STUDENTS EACH SUMMER FOR INTERNSHIPS IN BASIC SCIENCE OR CLINICAL RESEARCH. ADDITIONALLY, EXPERIENTIAL LEARNING INTERNSHIPS ARE STRUCTURED BY AND MANAGED BY ACADEMIC PROGRAMS IN MANY AREAS FROM SCIENCE TO ACCOUNTING. THESE PROGRAMS SUPPORT INCREASING THE AWARENESS OF CAREERS IN RESEARCH SCIENCE, HEALTHCARE, OR HEALTHCARE MANAGEMENT AND CONTRIBUTE TO PREPARING STUDENTS TO ENTER THESE CAREERS. IN THE SUMMER OF 2014 ACADEMIC PROGRAMS SUPPORTED FOUR HIGH SCHOOL STUDENTS FROM SHELBY COUNTY AS A PART OF THE AFTER SCHOOL PROGRAM OF THE SHELBY COUNTY SCHOOL SYSTEM. THESE STUDENTS PARTICIPATED IN NON-LAB BASED ASSIGNMENTS SUCH AS COMPLETING DATA PROJECTS FOR THE INTERNATIONAL OUTREACH DEPARTMENT. THEY WERE ALSO INVOLVED IN A SERIES OF CAREER EXPLORATION AND INFORMATION SESSIONS STRUCTURED BY ACADEMIC PROGRAMS. THE CLINICAL EDUCATION AND TRAINING OFFICE HOSTS THIRTY TO FORTY STUDENTS AS PATIENT CARE OBSERVERS. THESE STUDENTS ARE AT DIFFERENT STAGES OF TRAINING FROM HIGH SCHOOL TO COLLEGE OR PROFESSIONAL HEALTHCARE SCHOOLS INCLUDING MEDICAL SCHOOLS. THE OBSERVERS ARE DECIDING ON OR CONFIRMING CAREER HEALTHCARE DECISIONS. THE DOMICILIARY SERVICES AND VOLUNTEER SERVICES DEPARTMENTS PROVIDE SUMMER PROGRAMS FOR HIGH SCHOOL AND COLLEGE STUDENTS THAT DRIVE ENTRY INTO HEALTH CAREERS. THE VOLUNTEER SERVICES DEPARTMENT ALSO ENGAGES TWO TO THREE INTERNS WHO ASSIST IN PLANNING AND COORDINATING DEPARTMENT EVENTS AND ACTIVITIES. UNDERGRAD AND MASTERS LEVEL STUDENTS ARE OFFERED EXPERIENTIAL LEARNING IN FIELDS SUCH AS MARKETING AND COMMUNICATIONS, HEALTH AND PUBLIC ADMINISTRATION, AND NON-PROFIT MANAGEMENT. THE OFFICE OF LEGAL SERVICES OFFERS LEGAL INTERNSHIPS TO LOCAL (UNIVERSITY OF MEMPHIS, OLE MISS) LAW STUDENTS DURING THE ACADEMIC YEAR AND TO NATIONAL LAW SCHOOLS DURING THE SUMMER. MINIMUM REQUIREMENTS ARE UNDERGRADUATE DEGREE AND COMPLETION OF AT LEAST THE FIRST YEAR IN AN ABA ACCREDITED LAW SCHOOL. INTERNS PERFORM LEGAL RESEARCH; DRAFT MEMORANDA, LETTERS, AND OTHER DOCUMENTS; DRAFT AND REVIEW CONTRACTUAL AGREEMENTS; PREPARE PRESENTATIONS TO ST. JUDE PERSONNEL; AND ASSIST WITH IDENTIFYING LEGAL FRAMEWORK FOR POLICIES. INTERNS ALSO LEARN THROUGH OBSERVATION OF AND PARTICIPATION IN DAY-TO-DAY LAW PRACTICE ACTIVITIES, INCLUDING LEGAL PROCEEDINGS, NEGOTIATIONS, MEETINGS, TRAININGS, AND COUNSELING SESSIONS. WHEN POSSIBLE, INTERNS WORK WITH CLIENT DEPARTMENTS AND DEPARTMENTAL STAFF TO GATHER INFORMATION AND TO GAIN INSIGHT INTO AND UNDERSTANDING OF RESEARCH,CLINICAL,BUSINESS, AND HEALTH CARE OPERATIONS.ST. JUDE'S SCHOOL-BASED OUTREACH PROGRAM, CURE4KIDS FOR KIDS, USES EDUCATION AND POSITIVE REINFORCEMENT TO ENCOURAGE STUDENTS TO MAKE HEALTHY LIFESTYLE CHOICES AND TEACHES THEM WAYS TO REDUCE THE RISK OF DEVELOPING CANCER OVER THEIR LIFETIME. THE PROGRAM'S EDUCATIONAL OBJECTIVES ARE TO (A) TEACH SCHOOL-AGE CHILDREN ABOUT CANCER AND DISPEL COMMON MISCONCEPTIONS, (B) EDUCATE ABOUT AND PROMOTE THE CONCEPT OF MAKING HEALTHY LIFESTYLE CHOICES IN ORDER TO REDUCE THEIR RISK OF DEVELOPING CANCER IN ADULTHOOD, AND (C) INSPIRE AN INTEREST IN SCIENCE AND SCIENTIFIC CAREERS. IT SPECIFICALLY ADDRESSES OBESITY, NUTRITION, SMOKING, AND SUN EXPOSURE, WHICH ARE IMPORTANT ISSUES IN PROMOTING CHILDHOOD HEALTH AND CANCER PREVENTION. THE PROGRAM PROVIDES PROFESSIONAL DEVELOPMENT TRAINING FOR K-12 EDUCATORS AS WELL AS ESSENTIAL TOOLS NEEDED FOR EFFECTIVELY TEACHING CANCER EDUCATION IN THE CLASSROOM. THE PROGRAM COORDINATOR IS AN ADVISOR FOR THE FOOD ADVISORY COUNCIL OF MEMPHIS. THIS AGENCY FOCUSES ON LOCAL FOOD POLICIES TO BUILD HEALTHIER COMMUNITIES IN THE MEMPHIS AREA. ST. JUDE IS ALSO INVOLVED IN THE CHRISTIAN BROTHERS HIGH SCHOOL STEMM COLAB, WHICH PROVIDES TEACHERS PROFESSIONAL DEVELOPMENT IN THE AREAS OF SCIENCE, TECHNOLOGY, ENGINEERING, MATH, AND MEDICINE IN THE MEMPHIS AREA.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART III, LINE 2:</FormAndLineReferenceDesc>
+        <ExplanationTxt>BAD DEBT EXPENSE IS EQUAL TO CHARGES ON ACCOUNTS DETERMINED TO BE UNCOLLECTIBLE. SEE NARRATIVE FOR PART I, LINE 3C REGARDING THE ORGANIZATION'S FINANCIAL ASSISTANCE POLICY. PART III, LINE 4BAD DEBT EXPENSE EXPLANATION IN FINANCIAL STATEMENTS FOOTNOTES IS AS FOLLOWS:"NET PATIENT SERVICE REVENUES AND RECEIVABLES -- NO FAMILY EVER PAYS THE HOSPITAL FOR THE CARE THEIR CHILD RECEIVES. ACCORDINGLY, NET PATIENT SERVICE REVENUE CONSISTS ONLY OF ESTIMATED NET REALIZABLE AMOUNTS FROM THIRD-PARTY PAYORS FOR SERVICES RENDERED, INCLUDING ESTIMATED RETROACTIVE REVENUE ADJUSTMENTS (IF NECESSARY) DUE TO FUTURE AUDITS, REVIEWS, AND INVESTIGATIONS. RETROACTIVE ADJUSTMENTS ARE CONSIDERED IN THE RECOGNITION OF REVENUE ON AN ESTIMATED BASIS IN THE PERIOD THE RELATED SERVICES ARE RENDERED, AND SUCH AMOUNTS ARE ADJUSTED IN FUTURE PERIODS AS ADJUSTMENTS BECOME KNOWN OR AS YEARS ARE NO LONGER SUBJECT TO SUCH AUDITS, REVIEWS, AND INVESTIGATIONS. PATIENT SERVICE REVENUE HAS BEEN REDUCED BY ADJUSTMENTS FOR UNCOLLECTIBLE ACCOUNTS TOTALING APPROXIMATELY $681,000 AND $492,000 IN 2014 AND 2013 RESPECTIVELY."ST. JUDE CHILDREN'S RESEARCH HOSPITAL DOES NOT CONSIDER BAD DEBT EXPENSE A COMMUNITY BENEFIT.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART III, LINE 8:</FormAndLineReferenceDesc>
+        <ExplanationTxt>ST. JUDE CHILDREN'S RESEARCH HOSPITAL DOES NOT CONSIDER THE MEDICARE SHORTFALL A COMMUNITY BENEFIT. THE COST TO CHARGE RATIO WAS USED TO DETERMINE MEDICARE ALLOWABLE COSTS OF CARE.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART III, LINE 9B:</FormAndLineReferenceDesc>
+        <ExplanationTxt>COLLECTION POLICIES ARE THE SAME FOR ALL PATIENTS. ANY LEGAL OBLIGATION OF PAYMENT FOR A PATIENT'S COSTS NOT COVERED BY INSURANCE IS COVERED BY THE GENEROUS ASSISTANCE OF ST. JUDE DONORS. BECAUSE OF THIS SUPPORT, ST. JUDE DOES NOT ASK ANY PATIENT TO PAY.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART VI, LINE 2:</FormAndLineReferenceDesc>
+        <ExplanationTxt>ST. JUDE'S PRIMARY CLINICAL EFFORT CENTERS ON PROVIDING GROUND-BREAKING, RESEARCH-DRIVEN TREATMENTS FOR CHILDHOOD CANCERS AND OTHER CATASTROPHIC DISEASES IN CHILDREN. CANCERCHILDHOOD CANCERS ARE RARE. ONLY 10,450 NEW CASES ARE EXPECTED TO OCCUR AMONG CHILDREN 14 YEARS OF AGE AND YOUNGER IN 2014; HOWEVER, CANCER IS THE LEADING CAUSE OF DISEASE RELATED DEATH IN U.S. CHILDREN (FOOTNOTE 1). THE PRINCIPLE FOCUS OF ST. JUDE CHILDREN'S RESEARCH HOSPITAL IS CANCER. SEVENTY-FIVE PERCENT OF ALL RESOURCES AT ST. JUDE ARE INVESTED IN ELUCIDATING BASIC BIOLOGICAL MECHANISMS OF PEDIATRIC CANCERS, AND TRANSLATING THIS KNOWLEDGE INTO IMPROVED DIAGNOSTIC TOOLS AND CURATIVE THERAPIES, WHILE MINIMIZING LONG-TERM SIDE EFFECTS. SEVENTY PERCENT OF OUR CANCER PATIENTS ARE FROM A 10-STATE REGION. THIS INCLUDES THE IMMEDIATE VICINITY STATES OF TN, MS, AR, MO, AL, KY, GA, FL AND STATES WITH ST. JUDE AFFILIATE CLINICS (LA, IL, MO, AL, EASTERN TN). THE DISTRIBUTION OF ST. JUDE CANCER CASES IN RELATION TO RACE, ETHNICITY, AND GENDER IS CONSISTENTLY ALIGNED WITH THE GENERAL DEMOGRAPHICS OF THAT 10-STATE REGION (BASED ON 2010 DATA FROM THE US CENSUS BUREAU) AND WITH THE CANCER SPECIFIC DEMOGRAPHICS (BASED ON SURVEILLANCE EPIDEMIOLOGY AND END RESULTS (SEER) 2009 DATA). FOR EXAMPLE, ESTIMATES FROM THE 2009 SEER DATA SUGGEST THAT WHITES COMPRISE 63%, BLACKS 18.8% AND HISPANICS 15.9% OF THE PEDIATRIC CANCER CASES IN THE 10-STATE REGION. REMARKABLY, 69%, 19%, AND 13%, RESPECTIVELY, OF WHITES, BLACKS AND HISPANICS CONSTITUTE OUR CANCER PATIENT POPULATION (FOOTNOTE 2). (NOT EQUAL TO 100% SINCE SUMMARIZES RACE AND ETHNICITY.) DEMOGRAPHICS FROM THE ST. JUDE PEDIATRIC CANCER COHORT ARE COMPARED WITH THE DEMOGRAPHICS OF THE 10-STATE REGION ANNUALLY TO MONITOR DEMOGRAPHIC REPRESENTATION OF OUR CANCER PATIENTS IN RELATION TO THE 10-STATE REGION. ALSO MONITORED ANNUALLY IS THE DISTRIBUTION OF SPECIFIC CANCERS IN THE 10-STATE REGION AND COMPARED WITH THE ST. JUDE CANCER POPULATION.OUR RESEARCH AND CLINICAL TRIALS ARE INFORMED BY THE CHILDREN TREATED AT ST. JUDE AND OUR AFFILIATE CLINICS. ST. JUDE OFFERS THERAPEUTIC TRIALS FOR A VARIETY OF CANCERS INCLUDING CENTRAL NERVOUS SYSTEM (CNS) TUMORS, NON-CNS SOLID TUMORS, AND LEUKEMIA/LYMPHOMA. MANY OF THESE TRIALS ARE INSTITUTIONALLY SPONSORED; HOWEVER, ST. JUDE ALSO PARTICIPATES IN A NUMBER OF CLINICAL TRIALS CONSORTIA PROVIDING OUR CANCER PATIENTS ACCESS TO A VARIETY OF THERAPEUTIC STUDIES. PEDIATRIC CANCER PATIENTS MAY EXPERIENCE TREATMENT-RELATED SIDE EFFECTS MANY YEARS AFTER DIAGNOSIS. THE CHILDHOOD CANCER SURVIVOR STUDY AND ST. JUDE LIFE ARE TWO STUDIES, ACTIVE AT ST. JUDE, ASSESSING LATE EFFECTS OF CANCER THERAPY ON PEDIATRIC CANCER SURVIVORS. INFORMATION FROM THESE STUDIES WILL BE USED TO DEFINE RISK GROUPS FOR VARIOUS LATE EFFECTS AND ASSESS INTERVENTIONS.THE RARITY OF PEDIATRIC CANCERS AND OUR UNIQUE POSITION AS A NATIONAL RESOURCE FOR THE RESEARCH AND TREATMENT OF CANCER MEANS THAT OUR REACH IS EXTENSIVE, INCLUDING LOCAL, REGIONAL, NATIONAL, AND INTERNATIONAL LEVELS. MANY OF OUR INITIATIVES ARE DESIGNED TO IMPACT PEDIATRIC CANCER TREATMENT ON A GLOBAL SCALE. THE NATIONAL COMPREHENSIVE CANCER NETWORK (NCCN), A NOT-FOR-PROFIT ALLIANCE OF 23 OF THE WORLD'S LEADING CANCER CENTERS, IS DEDICATED TO IMPROVING THE QUALITY, EFFECTIVENESS AND EFFICIENCY OF CARE PROVIDED TO PATIENTS WITH CANCER (WWW.NCCN.ORG). ST. JUDE, A NCCN MEMBER IN COLLABORATION WITH THE UNIVERSITY OF TENNESSEE HEALTH SCIENCE CENTER/THE WEST CLINIC, PARTICIPATES IN A NUMBER OF THE VARIOUS COMMITTEES AND GUIDELINES PANELS THAT WORK TOWARD THE GOAL OF IMPROVING THE QUALITY AND EFFECTIVENESS OF CARE PROVIDED TO PATIENTS WITH CANCER. THE NCCN GUIDELINES HAVE BECOME THE MOST WIDELY USED GUIDELINES IN ONCOLOGY PRACTICE AND HAVE BEEN REQUESTED BY CANCER CARE PROFESSIONALS IN MORE THAN 115 COUNTRIES.HEMATOLOGY THE GEOGRAPHIC CATCHMENT AREA FOR ST. JUDE ENCOMPASSES 21 COUNTIES IN WESTERN TENNESSEE INCLUDING MEMPHIS, AND AREAS IN EAST ARKANSAS (14 COUNTIES), NORTH MISSISSIPPI (22 COUNTIES) AND A FEW COUNTIES IN MISSOURI. MORE THAN 70,000 PEOPLE IN THE UNITED STATES HAVE SICKLE CELL DISEASE (SCD), AND IT IS ESTIMATED THAT MORE THAN 1 MILLION PEOPLE WORLDWIDE SUFFER FROM THE DISEASE. IT IS THE MOST FREQUENT GENETIC BLOOD DISORDER IN THE WORLD. ST. JUDE HAS ONE OF THE LARGEST PEDIATRIC SCD PROGRAMS IN THE COUNTRY AND PROVIDES COMPREHENSIVE TREATMENT AND EDUCATION TO ABOUT 900 CHILDREN WITH SCD IN THE GEOGRAPHIC CATCHMENT AREA. SCD IS DIAGNOSED BY STATE-WIDE NEWBORN SCREENING THROUGH THE TENNESSEE STATE NEWBORN SCREENING (NBS) AGENCY. THE PARTNERSHIP WITH TN STATE NBS PROGRAM ENSURES A STABLE RELATIONSHIP AMONG PARENTS, PATIENTS, PRIMARY CARE PROVIDERS AND THE STATE. ABOUT 50 NEWBORNS WITH SCD ARE IDENTIFIED EACH YEAR IN OUR GEOGRAPHIC CATCHMENT AREA. OUR SCD INFANT TODDLER PROGRAM CONTACTS AND ACCEPTS ALL CHILDREN DIAGNOSED WITH THE DISEASE OR TRAIT TO ITS COMPREHENSIVE CARE SERVICE OR TRAIT COUNSELING SERVICE. ST. JUDE PROVIDES CONFIRMATORY TESTING, EDUCATION AND COMPREHENSIVE CARE AND FOLLOW-UP THROUGHOUT CHILDHOOD FOR CHILDREN WITH DISEASE. FROM BIRTH TO AGE 18 YEARS, PATIENTS ARE CLINICALLY EVALUATED AT LEAST EVERY 6 MONTHS, RECEIVE EDUCATION AND MULTI-DISCIPLINARY SERVICES ACCORDING TO STANDARDIZED TREATMENT AND EDUCATION GUIDELINES. SERVICES ALSO INCLUDE COMMUNITY OUTREACH AND EDUCATION OF THE LOCAL COMMUNITY. ST. JUDE HAS ESTABLISHED A FORMAL TRANSITION PROGRAM TO ADULT CARE FOR PATIENTS WITH SCD AND PROVIDES SUPPORT TO PATIENTS AND FAMILIES THROUGHOUT THE TRANSITION PROCESS BY WORKING CLOSELY WITH THE ADULT SCD PROGRAMS AT METHODIST UNIVERSITY HOSPITAL AND REGIONAL ONE HOSPITAL. THE SCD PROGRAM AT ST. JUDE CLOSELY COLLABORATES WITH SEVERAL FEDERALLY QUALIFIED HEALTH CARE CENTERS, WITH COMMUNITY PRIMARY CARE PHYSICIANS, LATINO MEMPHIS (THE LARGEST HISPANIC SOCIAL AGENCY IN TENNESSEE) AND WITH THE SICKLE CELL FOUNDATION OF TENNESSEE (A COMMUNITY-BASED SCD ORGANIZATION) TO ENSURE A MEDICAL HOME AND ADEQUATE SOCIAL SUPPORT FOR ALL SCD PATIENTS IN THE AREA. ST. JUDE ASSESSES PATIENT NEEDS THROUGH PARENT AND PATIENT SURVEYS, INTER-ACTIVE EDUCATION, MATERIALS REVIEW, AND THROUGH GROUP DISCUSSIONS WITH PARENTS AND PATIENTS.ST. JUDE ALSO PROVIDES CLINICAL SERVICES FOR APPROXIMATELY 800 CHILDREN PER YEAR WITH OTHER NON-MALIGNANT HEMATOLOGICAL DISORDERS THROUGH A STRONG RELATIONSHIP WITH LOCAL COMMUNITY PHYSICIANS. ALL CHILDREN FROM THE GEOGRAPHIC CATCHMENT AREA OF ST. JUDE (AS OUTLINED ABOVE) WITH ILLNESSES SUCH AS HEMOPHILIA, APLASTIC ANEMIA, THROMBOSIS, THALASSEMIA, SPHEROCYTOSIS, AND IMMUNE THROMBOCYTOPENIC PURPURA AND OTHERS ARE REFERRED TO AND RECEIVE STATE-OF THE-ART CARE FROM ST. JUDE PHYSICIANS AND MEDICAL STAFF. SPECIFICALLY FOR THE LOCAL POPULATION OF ABOUT 300 CHILDREN SEEN FOR EVALUATION AND CARE FOR BLEEDING AND THROMBOSIS DISORDERS, ST. JUDE HOUSES A FEDERALLY ACKNOWLEDGED PEDIATRIC HEMOPHILIA TREATMENT CENTER WHICH PROVIDES STATE-OF-THE-ART COMPREHENSIVE CARE.IN ADDITION TO PROVIDING AND CONTINUOUSLY IMPROVING STANDARD CARE TO THESE PATIENT POPULATIONS, ST. JUDE HEMATOLOGY DEDICATES A SIGNIFICANT AMOUNT OF RESOURCES TO CLINICAL, TRANSLATIONAL AND BASIC RESEARCH TO IMPROVE SURVIVAL AND DECREASE MORBIDITY OF CHILDREN WITH NON-MALIGNANT CHRONIC BLOOD DISEASES. MOST PATIENTS PARTICIPATE IN RESEARCH STUDIES, WHICH HAVE RESULTED IN MAJOR IMPROVEMENTS IN CLINICAL CARE. FOR EXAMPLE, RECENT RESULTS FROM THE BABY HUG TRIAL SHOWED THAT DAILY ORAL HYDROXYUREA IS SAFE AND EFFECTIVE FOR INFANTS AND YOUNG CHILDREN WITH SCD, WHICH LED TO THE RECOMMENDATION OF ITS GENERAL USE IN THIS SUBPOPULATION. ALSO, IN A FIRST-IN-MAN TRIAL, ST. JUDE HEMATOLOGY SHOWED THE SAFETY AND EFFICACY OF A NOVEL GENE TRANSFER AGENT CARRYING THE FACTOR IX GENE FOR TREATMENT OF HEMOPHILIA B; ALL TEN ADULT PARTICIPANTS WITH SEVERE HEMOPHILIA B HAD NO SERIOUS UNEXPECTED SIDE EFFECTS AND ALL PARTICIPANTS SHOWED AN INCREASE IN FACTOR IX LEVELS LEADING TO A SUBSTANTIAL REDUCTION IN THEIR BLEEDING TENDENCY. FUTURE EFFORTS WILL CONTINUE TO FOCUS ON FINDING VIABLE CURES AND/OR TREATMENTS TO PREVENT COMPLICATIONS IN CHILDREN WITH SCD AND OTHER NON-MALIGNANT, CHRONIC HEMATOLOGIC DISEASES.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART VI, LINE 2:</FormAndLineReferenceDesc>
+        <ExplanationTxt>HIVTHE ADOLESCENT MEDICINE TRIALS NETWORK (ATN)-SPONSORED NATIONAL PROJECT, CONNECT TO PROTECT (C2P), HAS BEEN A MAJOR CONTRIBUTION TO THE STRONG COMMUNITY TIES THAT THE ST. JUDE ADOLESCENT TRIALS UNIT HAS ESTABLISHED AND STRENGTHENED OVER THE PAST EIGHT YEARS. THE C2P COALITION, THROUGH ITS WORK TO DEVELOP SUSTAINABLE POLICIES, PROGRAMS AND PRACTICES OR STRUCTURAL CHANGE OBJECTIVES FOR THE SOLE PURPOSE OF REDUCING THE NUMBER OF INFECTED INDIVIDUALS IN VULNERABLE POPULATIONS; INCLUDES 28 LOCAL AGENCIES REPRESENTING A RICH AND DIVERSE MIX OF INDIVIDUALS FROM VARIOUS SECTORS IN THE MEMPHIS COMMUNITY. THESE INCLUDE KEY STAKEHOLDERS FROM THE FAITH-BASED COMMUNITY, SCHOOLS, BUSINESS SECTOR, CIVIC/COMMUNITY ORGANIZATIONS, HOSPITALS, YOUTH/YOUNG ADULTS AND HEALTH CARE ORGANIZATIONS. THESE STRATEGIC PARTNERSHIPS HAVE ALLOWED FOR SHARED RESPONSIBILITY IN THE TRANSFORMATION OF OUR COMMUNITIES. THIS IS ESPECIALLY IMPORTANT TO ENSURE OUR EFFORTS ARE DEVELOPED IN A MANNER THAT GUARANTEES SUSTAINABILITY.THE C2P MEMPHIS COALITION HAS COMPLETED A TOTAL OF 79 COMMUNITY ACTIONS, AND ACCOMPLISHED THIRTEEN (13) ADDITIONAL STRUCTURAL CHANGE OBJECTIVES (NEW POLICIES, PRACTICE, OR PROGRAMS) DURING THIS REPORTING PERIOD. SEVERAL NEW STAKEHOLDERS FROM VARIOUS ENTITIES WERE ENGAGED DURING THE YEAR; AN IMPORTANT SIGN OF MOBILIZATION AND COALITION GROWTH. ADDITIONALLY, THE COALITION HAS CO-FACILITATED AND/OR PARTICIPATED IN APPROXIMATELY 51 COMMUNITY BASED EDUCATIONAL AND TESTING EVENTS, IMPACTING WELL OVER 4500 INDIVIDUALS. OTHER COMMUNITY INITIATIVE INCLUDES THE STRATEGIC MULTISITE INITIATIVE FOR THE IDENTIFICATION, LINKAGE AND ENGAGEMENT IN CARE OF YOUTH WITH &amp; UNDIAGNOSED HIV INFECTION (SMILE). OUR SMILE OUTREACH STAFF OFFERS INDIVIDUAL SUPPORT SERVICES AND USES MOTIVATIONAL INTERVIEWING, A HIGHLY SPECIFIED FRAMEWORK FOR IMPROVING PATIENT-PROVIDER COMMUNICATION, TO ENSURE LINKAGE AND FULL ENGAGEMENT IN MEDICAL CARE FOR HIV POSITIVE YOUTH AND YOUNG ADULTS AGES 13-24. SINCE THE LAST REPORTING PERIOD, THE SMILE PROGRAM HAS INITIATED CONTACT WITH APPROXIMATELY 175 NEWLY INFECTED YOUTH AND YOUNG ADULTS WITH 82%(143/175) BEING LINKED TO CARE. PARTICIPANTS IN THE SMILE PROGRAM RECEIVE ASSISTANCE WITH LINKAGE AND ENGAGEMENT IN CARE, CASE MANAGEMENT, CRISIS INTERVENTION, AND REFERRALS TO COMMUNITY SERVICES AND RESOURCES AS INDIVIDUAL BARRIERS ARE IDENTIFIED. IT IS OF IMPORTANCE TO NOTE THAT THE SMILE PROGRAM DATA HAS BEEN USED TO FACILITATE CONTINUED DIALOGUE WITHIN THE C2P COALITION DURING THE REPORTING PERIOD. THIS INTEGRATION OF BOTH PROGRAMS HAS ENCOURAGED THE COALITION TO PRIORITIZE ALIGNMENT OF THE STRATEGIC PLAN WITH THE HIV CARE CONTINUUM THEREBY IMPROVING ENGAGEMENT 95% (130/137) AND RETENTION IN CARE 90% (81/90) OUTCOMES FOR INDIVIDUALS THAT PARTICIPATE IN THE SMILE PROGRAM. 1. AMERICAN CANCER SOCIETY. CANCER FACTS &amp; FIGURES 2014. ATLANTA: AMERICAN CANCER SOCIETY; 2014. 2. FOR THE PERIOD FROM JULY 1, 2013 TO JUNE 30, 2014</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART VI, LINE 3:</FormAndLineReferenceDesc>
+        <ExplanationTxt>AS NOTED IN PART I, LINE 3C, NO FAMILY EVER PAYS ST. JUDE FOR TREATMENT. IN ADDITION, ST. JUDE PROVIDES AN UNPARALLED LEVEL OF SUPPORT SERVICES AT NO COST TO FAMILIES. WE ALSO HAVE PROGRAMS TO ASSIST FAMILIES IN ENROLLING IN VARIOUS PUBLIC ASSISTANCE PROGRAMS FOR WHICH THEY MAY QUALIFY, INCLUDING BUT NOT LIMITED TO TENNCARE/MEDICAID, COVERKIDS, CHIPS AND SOCIAL SECURITY. DOING SO ENSURES AN APPROPRIATE SAFETY NET SHOULD THE FAMILY SEEK TREATMENT OUTSIDE OF ST. JUDE AND IT ALLOWS US TO BE GOOD STEWARDS OF DONOR DOLLARS. WE UTILIZE AN OUTSIDE CONTRACTOR TO PROVIDE APPLICATION ASSISTANCE. THE HOSPITAL'S FINANCIAL ASSISTANCE POLICY IS POSTED ON WWW.STJUDE.ORG. THE POLICY IS COMMUNICATED IN ENGLISH AND SPANISH. FOR FAMILIES SPEAKING OTHER LANGUAGES, WE UTILIZE ONSITE INTERPRETER SERVICES AND/OR PROFESSIONAL CONTRACTED TRANSLATION SERVICES.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART VI, LINE 4:</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE COMMUNITY SERVED BY ST. JUDE CAN BEST BE DEFINED BY UNDERSTANDING ST. JUDE'S PATIENT POPULATION AND SCOPE OF CLINICAL SERVICES. ST. JUDE IS A SPECIALTY HOSPITAL THAT TREATS PEDIATRIC CANCER AND BLOOD DISORDERS, AND CHILDREN AND ADOLESCENTS WITH HIV INFECTION. IT SERVES AS A NATIONAL REFERRAL CENTER FOR CHILDREN WITH CANCER AS WELL AS A LOCAL REFERRAL CENTER FOR CHILDREN WITH CANCER, BLOOD DISORDERS, AND HIV/AIDS. ST. JUDE ONLY ADMITS CHILDREN WITH THESE DIAGNOSES AND DOES NOT OFFER MEDICAL SERVICES BEYOND THOSE NECESSARY TO CARE FOR CHILDREN WITH THESE DISEASES. ST. JUDE DOES NOT HAVE AN EMERGENCY ROOM. ABOUT 8,000 ACTIVE PATIENTS ARE SEEN AT ST. JUDE YEARLY, MOST OF WHO ARE ENROLLED ON CLINICAL TRIALS FOR NEW TREATMENTS DEVELOPED BY ST. JUDE AND WHO ARE TREATED ON A CONTINUOUS OUTPATIENT BASIS. THE HOSPITAL IS LICENSED FOR 78 INPATIENT BEDS FOR PATIENTS REQUIRING HOSPITALIZATION DURING TREATMENT. IT SHOULD BE NOTED THAT ST. JUDE HAS DEVELOPED UNIQUE RESOURCES THAT ALLOW A SIGNIFICANT PORTION OF PATIENTS TO BE TREATED AS OUTPATIENTS WHO MAY HAVE BEEN ADMITTED AS INPATIENTS AT MOST HOSPITALS. THIS IS ACCOMPLISHED THROUGH PATIENT HOUSING DEDICATED SOLELY TO ST. JUDE PATIENT FAMILIES (CAPACITY FOR 996 PATIENTS/FAMILY MEMBERS) DESIGNED WITH INFECTION CONTROL MEASURES SUCH AS HEPA AIR FILTRATION, INFECTION-RESISTANT SURFACES AND OTHER MEDICAL SAFEGUARDS THAT ARE NOT AVAILABLE IN HOTELS OR PATIENTS' HOMES. THE HOSPITAL'S OUTREACH INCLUDES THE LOCAL MARKET, AFFILIATE INSTITUTIONS, OTHER AREAS OF THE UNITED STATES/U.S. TERRITORIES, AND THE INTERNATIONAL COMMUNITY. THE LOCAL MARKET ENCOMPASSES MEMPHIS, TENNESSEE AND THE SURROUNDING GEOGRAPHIC AREA WITH APPROXIMATELY 27% OF NEW ONCOLOGY PATIENTS RESIDING WITHIN THIS AREA. FY 14 NEW CANCER PATIENTSREFERRAL AREA NUMBER OF PATIENTS % OF TOTALMEMPHIS, TN AND SURROUNDING AREA 135 27 %AFFILIATE REFERRAL 167 33 %NATIONAL REFERRAL (OTHER AREAS OF US) 170 33 %INTERNATIONAL REFERRAL 36 7 %GRAND TOTAL 508 100 %THE ST. JUDE AFFILIATE PROGRAM (AP) IS A NETWORK OF SIX AFFILIATED PEDIATRIC HEMATOLOGY/ONCOLOGY CLINICS IN THE U.S., ALLOWING ST. JUDE TO EXTEND CARE AND BENEFITS TO MORE CHILDREN AND INCREASE THE NUMBER OF CHILDREN ABLE TO BE TREATED ON ST. JUDE CLINICAL TRIALS. THE PHYSICIANS AND STAFF AT THESE SITES WORK IN COLLABORATION WITH THE STAFF AT ST. JUDE TO DELIVER PROTOCOL RELATED CARE TO PEDIATRIC HEMATOLOGY-ONCOLOGY PATIENTS, SO THAT PATIENTS CAN RECEIVE CARE CLOSER TO HOME. AFFILIATES ARE CURRENTLY LOCATED IN BATON ROUGE, LA, HUNTSVILLE, AL, JOHNSON CITY, TN, PEORIA, IL, SHREVEPORT, LA, AND SPRINGFIELD, MO. THE AFFILIATES' ENROLLMENT OF PATIENTS ON ST. JUDE CLINICAL TRIALS HELPS ST. JUDE FIND CURES FASTER AND SAVE MORE CHILDREN. ST. JUDE PROVIDES FINANCIAL SUPPORT FOR CLINICAL OPERATIONS TO ENSURE EXCELLENT QUALITY OF CARE THAT MEETS ST. JUDE PROTOCOL GUIDELINES AND TO PROVIDE PATIENT ASSISTANCE. THE AP AND OTHER STAFF ASSIST THE AFFILIATES IN THE DEVELOPMENT OF NEW PEDIATRIC HEMATOLOGY-ONCOLOGY PROGRAMS; PROVIDE MONITORING AND CONSULTATION TO IMPROVE PATIENT CARE AND CLINICAL PROCESSES FOR THE AFFILIATE CLINIC AND CHILDREN'S HOSPITAL; AND PROVIDE NUMEROUS EDUCATIONAL OFFERINGS AND MENTORING FOR AFFILIATE STAFF. IN ADDITION, ST. JUDE HAS MANY PROCESSES TO ENSURE GOOD CONTINUITY OF CARE BETWEEN THE AFFILIATES AND ST. JUDE. THE AFFILIATES' CLINICAL RECORDS FOR SHARED PATIENTS ARE AVAILABLE IN ST. JUDE MEDICAL RECORDS AND EVERY AFFILIATE HAS ACCESS TO ST. JUDE ELECTRONIC MEDICAL RECORDS OF SHARED PATIENTS. THE AFFILIATES ALSO HAVE ACCESS TO ALL ELECTRONIC RESOURCES, E.G., PATIENT EDUCATION MATERIALS, RESEARCH PROTOCOLS, CLINICAL GUIDELINES AND RESOURCES; EVERYTHING ON THE ST. JUDE INTRANET. IN ADDITION TO ASSISTING THE AFFILIATES, ST. JUDE PROVIDES CONSULTATION SERVICES FOR MORE THAN 2300 NATIONAL AND 600 INTERNATIONAL PHYSICIAN REQUESTS. FOR FY14 PATIENT CONSULTATIONS BY CONTINENT TOTALED 2,980 AS FOLLOWS:CONTINENT NUMBER OF PATIENT CONSULTATIONSNORTH AMERICA 2,502SOUTH AMERICA 83EUROPE 122AFRICA 40ASIA 193AUSTRALIA 20UNKNOWN LOCATION 20TOTAL 2,980 ST. JUDE ALSO OPERATES AN INTERNATIONAL OUTREACH PROGRAM (IOP) AIMED AT IMPROVING SURVIVAL RATES OF CHILDREN WITH CANCER AND OTHER CATASTROPHIC DISEASES WORLDWIDE. ST. JUDE ACCOMPLISHES THIS BY SHARING KNOWLEDGE, TECHNOLOGY AND ORGANIZATIONAL SKILLS, IMPLEMENTING NEW APPROACHES TO TREAT PEDIATRIC CANCER GLOBALLY, AND GENERATING INTERNATIONAL NETWORKS COMMITTED TO ERADICATING CANCER IN CHILDREN. THERE ARE AN ESTIMATED 176,000 NEWLY DIAGNOSED CASES OF CHILDHOOD CANCER WORLDWIDE EACH YEAR, AND 84% OCCUR IN LOW- AND MIDDLE-INCOME COUNTRIES. CANCER IS EMERGING AS A MAJOR CAUSE OF CHILDHOOD DEATH IN ALL DEVELOPING COUNTRIES, REPLACING OTHER CAUSES OF CHILDHOOD MORTALITY (E.G. HIV, MALNUTRITION, INFECTIONS). DESPITE VAST IMPROVEMENTS IN THERAPY AND SURVIVAL IN HIGH-INCOME COUNTRIES OVER THE PAST 30 YEARS, AN ESTIMATED 60% DO NOT HAVE ACCESS TO ADEQUATE DIAGNOSIS AND MODERN CARE. ST. JUDE STRIVES TO ADDRESS THE NEEDS OF THOSE CHILDREN IN COUNTRIES THAT LACK SUFFICIENT RESOURCES AND HELP THEM MANAGE THEIR OWN BURDEN OF CASES EFFECTIVELY. WHILE SICK CHILDREN FROM AROUND THE WORLD HAVE TRAVELED TO OUR HOSPITAL IN MEMPHIS, RECEIVING TREATMENT IN THEIR OWN COUNTRIES IS MORE EFFICIENT AND LESS DISRUPTIVE FOR THEM AND THEIR FAMILIES. BECAUSE OF OUR INTERNATIONAL EFFORTS, WE ARE ABLE TO REACH FAR MORE CHILDREN THAN WOULD EVER BE ABLE TO COME TO MEMPHIS. A BASIC HEALTHCARE INFRASTRUCTURE IS NEEDED TO SUPPORT PEDIATRIC ONCOLOGY PROGRAMS, WHICH IN TURN FURTHER IMPROVES THE DEVELOPMENT OF BASIC HEALTHCARE. AT THE LOCAL LEVEL, THE IOP DEVELOPS PARTNERSHIPS WITH MEDICAL INSTITUTIONS AND FUND-RAISING ORGANIZATIONS AND FACILITATES THE INVOLVEMENT OF OTHER AND GOVERNMENT ORGANIZATIONS TO SUPPORT KEY PROGRAMS AND THE EDUCATION OF LOCAL PERSONNEL. AT THE REGIONAL LEVEL, THE IOP DEVELOPS PROGRAMS THROUGH THE USE OF TECHNOLOGY AND FOSTERS REGIONAL AND INTERNATIONAL COLLABORATIONS WITH OTHER PEDIATRIC MEDICAL INSTITUTIONS. THE PRIMARY GOAL IS TO DEVELOP LOCAL AND REGIONAL SELF-SUFFICIENCY. THIS MODEL RESULTS IN SIGNIFICANT OVERALL IMPROVEMENT IN HEALTHCARE FACILITIES, THE LEVEL OF PRACTICE, THE CONFIDENCE OF HEALTHCARE PROVIDERS, AND LOCAL COMMUNITY INVOLVEMENT. ST. JUDE EMPHASIZES THE BUILDING OF REGIONAL EXPERTISE AND DIAGNOSTIC CAPABILITIES, WHICH PROVIDE A CRITICAL MASS OF PROFESSIONALS WHO CONTINUALLY LEARN FROM AND ASSIST EACH OTHER. COST EFFICIENCY IS ALSO REALIZED BECAUSE OF SHARED RESOURCES.ST. JUDE HAS PARTNERSHIPS WITH 25 INSTITUTIONS ACROSS 17 DIFFERENT COUNTRIES-BRAZIL, CHILE, CHINA, COSTA RICA, DOMINICAN REPUBLIC, ECUADOR, EL SALVADOR, GUATEMALA, HAITI, HONDURAS, JORDAN, LEBANON, MEXICO, MOROCCO, NICARAGUA, PHILIPPINES, VENEZUELA. ST. JUDE WORKS WITH ITS PARTNERS TO DEVELOP EVIDENCED-BASED TREATMENT PROTOCOLS TAILORED TO REGIONAL NEEDS AND RESOURCES. ADDITIONALLY, ST. JUDE PHYSICIANS AND NURSES SERVE AS MENTORS TO CLINICAL PERSONNEL AT PARTNER SITES, PROVIDE LOCAL AND ONLINE TRAINING FOR ONCOLOGY CARE, DIAGNOSIS, AND SUPPORTIVE CARE, AND PARTICIPATE IN ONLINE MEETINGS TO DISCUSS CLINICAL CARE BEST PRACTICES. THE MAJORITY OF ONLINE MEETINGS HELD AND TRAINING PROVIDED IS VIA ST. JUDE'S WEB-BASED PLATFORM, ST. JUDE CURE4KIDS (TM), A FREE RESOURCE FOR ALL GLOBAL PEDIATRIC ONCOLOGY PROFESSIONALS, REGARDLESS OF THEIR AFFILIATION WITH ST. JUDE OR ITS PARTNERS. FINALLY, ST. JUDE PARTNERS WITH LOCAL FUNDRAISING ORGANIZATIONS THAT SUPPORT THE MEDICAL PROGRAMS. THIS MODEL HAS PROVEN TO BE HIGHLY EFFECTIVE IN PROVIDING POOR CHILDREN IN DEVELOPING COUNTRIES ACCESS TO MODERN TREATMENT AND CARE.ST. JUDE IS A RESEARCH ORGANIZATION, AND THERE ARE TIMES WHEN BASIC RESEARCH DISCOVERIES PERTAIN TO DISEASES THAT ARE BEYOND THE SCOPE OF DISEASES TREATED AS A PRIMARY DIAGNOSIS AT ST. JUDE.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART VI, LINE 5:</FormAndLineReferenceDesc>
+        <ExplanationTxt>ST. JUDE CHILDREN'S RESEARCH HOSPITAL WAS OPENED IN 1962 BY ENTERTAINER DANNY THOMAS, WITH THE PURPOSE OF "IMPROVING CHILD HEALTH THROUGH RESEARCH IN BIOLOGY AND PEDIATRICS." OUR MISSION IS TO ADVANCE CURES, AND MEANS OF PREVENTION, FOR PEDIATRIC CATASTROPHIC DISEASES THROUGH RESEARCH AND TREATMENT. CONSISTENT WITH THE VISION OF OUR FOUNDER, NO CHILD IS DENIED TREATMENT BASED ON RACE, RELIGION OR A FAMILY'S ABILITY TO PAY. OUR VISION IS TO BE THE WORLD LEADER IN ADVANCING THE TREATMENT AND PREVENTION OF CATASTROPHIC DISEASES IN CHILDREN. THIS VISION IS PURSUED BY PROVIDING OUTSTANDING PATIENT CARE; BY CONDUCTING BASIC, TRANSLATIONAL AND CLINICAL RESEARCH DESIGNED TO ELUCIDATE BIOLOGICAL MECHANISMS, UNDERSTAND DISEASE PATHOGENESIS, IMPROVE DIAGNOSIS, ENHANCE TREATMENT OUTCOME, PREVENT DISEASES AND MINIMIZE ADVERSE CONSEQUENCES OF TREATMENT; AND BY EDUCATING HEALTHCARE AND SCIENTIFIC RESEARCH PROFESSIONALS. THROUGH THESE EFFORTS WE SEEK TO CURE AND ENHANCE THE QUALITY OF LIFE FOR AN INCREASING PROPORTION OF CHILDREN WHO COME TO US FOR TREATMENT, AND BY EXPANDING AND SHARING KNOWLEDGE, TO ADVANCE TREATMENT OF CHILDREN WITH CATASTROPHIC DISEASES WORLD-WIDE, WHILE DEVELOPING STRATEGIES TO PREVENT CATASTROPHIC DISEASES IN CHILDREN.ST. JUDE COMBINES LABORATORY AND CLINICAL RESEARCH TO ADVANCE THE CARE OF CHILDREN WITH CANCER AND OTHER CATASTROPHIC DISEASES. FOCUSING ON PROVIDING OUTSTANDING PATIENT CARE RESULTS IN RESEARCH FINDINGS THAT TRANSLATE INTO IMPROVED PATIENT OUTCOME. ST. JUDE HAS AN ACADEMIC FACULTY ENGAGED IN A BROAD SPECTRUM OF RESEARCH INCLUDING THERAPEUTIC TRIALS, INVESTIGATION OF DISEASE PATHOGENESIS AND DISCOVERY-ORIENTED BASIC RESEARCH.HOSPITAL OPERATIONS ARE OVERSEEN BY A BOARD OF GOVERNORS; THE MAJORITY ARE NEITHER EMPLOYEES NOR INDEPENDENT CONTRACTORS OF THE ORGANIZATION, NOR FAMILY MEMBERS THEREOF. RESEARCH ACTIVITIES ARE REVIEWED ANNUALLY BY A SCIENTIFIC ADVISORY BOARD COMPOSED OF INTERNATIONALLY PROMINENT PHYSICIANS AND SCIENTISTS.ST. JUDE CONTRIBUTED TO THE BUILDING OF A STATE-OF-THE ART NEUROSURGICAL FACILITY FOR TREATING PEDIATRIC PATIENTS IN THE SURROUNDING VICINITY AND ST. JUDE BRAIN TUMOR PATIENTS. THE FACILITY IS EQUIPPED WITH INTRA-OPERATIVE IMAGING EQUIPMENT (IMRI). WHEN PURCHASED, ONLY TWO NEUROSURGICAL FACILITIES IN THE UNITED STATES PROVIDED PATIENTS THIS LEVEL OF TREATMENT WHICH ALLOWS IMAGING TO TAKE PLACE DURING SURGICAL PROCEDURES. IMRI EQUIPMENT ALLOWS SURGEONS TO MAKE INFORMED DECISIONS DURING THE SURGERY. LIVE WEB CASTS ALLOW OTHERS TO VIEW PROCEDURES. OUR ASSISTANCE WITH THIS FACILITY HELPS ASSURE THAT CHILDREN IN THE AREA HAVE ACCESS TO THE BEST NEUROSURGICAL TREATMENT AVAILABLE.ST. JUDE COMPLETED THE FIRST PHASE OF THE PEDIATRIC CANCER GENOME PROJECT IN JANUARY 2013--A COLLABORATION WITH WASHINGTON UNIVERSITY TO FIND CLUES TO THE CAUSES OF CHILDHOOD CANCER AND POTENTIAL NEW TREATMENTS AND CURES. THE PROJECT INVOLVED RESEARCHERS SEQUENCING THE COMPLETE CANCEROUS AND HEALTHY GENOMES OF 600 CHILDHOOD CANCER PATIENTS WITHIN THREE YEARS. BEFORE THIS PROJECT, NOT EVEN ONE WHOLE PEDIATRIC CANCER GENOME HAD EVER BEEN SEQUENCED. THE $65 MILLION PROJECT EXCEEDED ITS GOAL OF SEQUENCING THE COMPLETE CANCEROUS AND HEALTHY GENOMES OF 600 CHILDHOOD CANCER PATIENTS WITHIN THREE YEARS, COMPLETING 700 SEQUENCE SETS. THE PROJECT HAS RESULTED IN GROUND-BREAKING DISCOVERIES IN A NUMBER OF DIFFERENT AGGRESSIVE CHILDHOOD CANCERS INCLUDING RETINOBLASTOMA, MEDULLOBLASTOMA, NEUROBLASTOMA, DIFFUSE INTRINSIC PONTINE GLIOMA, TWO AGGRESSIVE FORMS OF LEUKEMIA AND LOW-GRADE GLIOMAS. IN DECEMBER 2012, THE PEDIATRIC CANCER GENOME PROJECT WAS RECOGNIZED AS ONE OF TIME MAGAZINE'S TOP 10 MEDICAL BREAKTHROUGHS AND, IN 2013, AS ONE OF TIME MAGAZINE'S TOP 100 NEW SCIENTIFIC DISCOVERIES. ST. JUDE IS NOW ENGAGED IN A SECOND PHASE FOR THE PROJECT, SEQUENCING AN ADDITIONAL 300 SETS OF NORMAL AND CANCER GENOMES. ST. JUDE HAS ALSO LAUNCHED A CLINICAL GENOMICS EFFORT TO SEQUENCING THE NORMAL AND CANCER DNA OF EVERY NEW PATIENT AT ST. JUDE (WITH PARENTAL APPROVAL). THE INFORMATION WILL BE USED TO DISCOVER WHETHER THE SEQUENCING CAN ULTIMATELY INFORM ACTUAL DIAGNOSIS AND TREATMENT, ALLOWING FURTHER PERSONALIZATION OF TREATMENTS. HTTP://EXPLORE.PEDIATRICCANCERGENOMEPROJECT.ORG/ THE CYCLOTRON (PARTICLE ACCELERATOR) AT ST. JUDE ENABLES RESEARCHERS TO TRACK THE GROWTH OF CANCER CELLS, PINPOINT THE PRODUCTION OF NEW DNA BY TUMOR CELLS AND STUDY THE HEARTS OF ADULT PATIENTS RETURNING TO ST. JUDE FOR LIFETIME FOLLOW-UP. THE CYCLOTRON HELPS RESEARCHERS BETTER UNDERSTAND CHILDHOOD CANCER BY ENABLING THEM TO PRODUCE NEW, VERY SHORT-ACTING TRACERS.ST. JUDE UTILIZES THE SERVICES OF CHILDREN'S GMP, LLC (OF WHICH ST. JUDE IS THE SOLE MEMBER). CHILDREN'S GMP, LLC MANAGES AND OPERATES A GOOD MANUFACTURING PRACTICE (GMP) FACILITY WHICH ENGAGES IN THE PRODUCTION OF BIOLOGICS AND DRUGS FOR RESEARCH. THE GMP OFFERS RESOURCES TO STUDY RARE DISEASES OVERLOOKED BY PHARMACEUTICAL COMPANIES BECAUSE THERE IS LITTLE PROFIT IN MANUFACTURING DRUGS FOR LESSER KNOWN DISEASES. THE FACILITY, OPERATING ACCORDING TO APPROVED FDA STANDARDS, ALLOWS DOCTORS TO TAILOR TREATMENTS SPECIFICALLY FOR AN INDIVIDUAL CHILD.THE CELL AND TISSUE IMAGING CENTER INCLUDES ELECTRON MICROSCOPY AND LIGHT MICROSCOPY. THE FACILITY PROVIDES INVESTIGATORS ACCESS TO TRANSMISSION ELECTRON MICROSCOPY, CONFOCAL LASER SCANNING MICROSCOPY, MULTIPHOTON MICROSCOPY, IMAGE ANALYSIS, CELL MICROINJECTION AND LIVE CELL IMAGING. THE FEI TECNAI 20 200KV FEG ELECTRON MICROSCOPE, WHICH CAN MAGNIFY AN OBJECT 700,000 TIMES, IS AT THE HEART OF THIS PROGRAM. THE ELECTRON MICROSCOPE INSTRUMENT IS ONE OF ONLY 200 OF ITS TYPE IN THE WORLD. THIS TECHNOLOGY ALLOWS RESEARCHERS TO GET A CLOSER LOOK AT CANCER TO BETTER UNDERSTAND HOW IT GROWS AND SPREADS AND RESPONDS TO THERAPY. USING THE ELECTRON MICROSCOPE, RESEARCHERS LEARN HOW CANCER CELLS BREAK AWAY FROM THE TUMOR AND SPREAD THROUGHOUT THE BODY.CONSTRUCTION OF A NEW PATIENT CARE AND RESEARCH BUILDING ON THE ST. JUDE CAMPUS IS UNDERWAY. THE FACILITY WILL HOUSE PROTON BEAM RADIATION THERAPY TECHNOLOGY DESIGNED TO DELIVER RADIATION THERAPY FOR TREATING CHILDREN WITH BRAIN TUMORS AND SEVERAL OTHER CHILDHOOD CANCERS. PROTON THERAPY IS FAR LESS DAMAGING TO SURROUNDING HEALTHY TISSUE THAN OTHER CURRENT RADIATION THERAPIES. THIS EQUIPMENT WILL ENABLE ST. JUDE TO PROVIDE THIS THERAPY IN A MORE INTEGRATED MANNER TO OUTPATIENTS AND ALLOW OUR RADIATION ONCOLOGISTS TO LEAD THE DEVELOPMENT OF NEW TREATMENTS WITH PROTONS. CURRENTLY THERE ARE NO OTHER PROTON THERAPY CENTERS IN THE WORLD DEDICATED SOLELY TO THE TREATMENT OF CHILDREN.TO FURTHER PALLIATIVE SERVICES IN THE COMMUNITY, ST. JUDE PARTICIPATED WITH LE BONHEUR CHILDREN'S HOSPITAL IN DEVELOPING THE QUALITY OF LIFE FOR ALL KIDS PALLIATIVE PROGRAM FOR SERIOUSLY ILL CHILDREN. HOSPICE STAFF, BOTH IN THE HOME AND IN THE HOSPICE RESIDENCE, PROVIDES INTERDISCIPLINARY CARE TO CHILDREN THROUGHOUT THE ILLNESS TRAJECTORY AND CONCURRENT THERAPIES.ST. JUDE ADMINISTRATIVE LEADERS AND PHARMACEUTICAL DEPARTMENT FACULTY MEMBERS HAVE BEEN AT THE FOREFRONT OF BRINGING NATIONAL ATTENTION TO THE PEDIATRIC CANCER DRUG SHORTAGE TOPIC, ACTIVELY ENGAGING REGULATORY AND LEGISLATIVE BODIES TO UNDERSTAND THE IMPACT THESE DRUG SHORTAGES HAVE ON PEDIATRIC CARE AND RESEARCH. PRESENTATIONS OR WRITTEN TESTIMONY HAVE BEEN PROVIDED TO THE FDA CENTER FOR DRUG EVALUATION AND RESEARCH WORKSHOP, TWO SENATE HEARINGS, AND HEALTH SUBCOMMITTEE OF THE HOUSE COMMITTEE ON ENERGY AND COMMERCE. ST. JUDE FOCUSES ON EDUCATING AND TRAINING THE NEXT GENERATION OF DOCTORS, NURSES, RESEARCHERS AND ACADEMIC LEADERS. FROM PROGRAMS FOR HIGH SCHOOL STUDENTS TO THE POST-DOCTORAL LEVEL, THE HOSPITAL PLAYS A MAJOR ROLE IN PREPARING FUTURE LEADERS OF SCIENCE AND MEDICINE. IN ADDITION TO ONSITE EDUCATION, THE INTERNATIONAL OUTREACH PROGRAM PROVIDES AN EDUCATION AND COLLABORATION WEB SITE, CURE4KIDS (TM) (WWW.CURE4KIDS.ORG). THE WEB SITE HAS OVER 40,000 USERS IN 188 COUNTRIES. THE ONLINE CONTENT HAS BEEN ACCESSED MORE THAN 9 MILLION TIMES SINCE ITS INCEPTION IN 2002.VIA THE CONNECT2PROTECT PROGRAM, ST. JUDE COLLABORATES WITH CHURCHES, OTHER HEALTHCARE ORGANIZATIONS AND CIVIC GROUPS TO RAISE AWARENESS ABOUT PREVENTING THE SPREAD OF HIV/AIDS. THE PRIMARY TARGET IS THE AFRICAN AMERICAN COMMUNITY ALTHOUGH OTHER ETHNIC GROUPS ARE ALSO SERVED INCLUDING ASIAN, CAUCASIAN, AND HISPANIC.THE CANCER EDUCATION PROGRAM FOR SCHOOL STUDENTS TEACHES HEALTHY EATING AND EXERCISE HABITS AS WELL AS DISCOURAGES SMOKING.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART VI, LINE 5:</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE FUNDRAISING SOURCE FOR ST. JUDE IS ALSAC WHICH RAISES FUNDS SOLELY FOR THE HOSPITAL. BECAUSE OF THE HOSPITAL'S MISSION, PEOPLE NATIONWIDE CONTRIBUTE VIA TENS OF THOUSANDS OF FUNDRAISING EFFORTS. ALSAC CONTRIBUTED $530 MILLION IN FY14 TO SUPPORT ST. JUDE.VOLUNTEERS ENHANCE THE QUALITY OF PATIENT CARE BY PARTNERING WITH CLINICAL STAFF TO PROVIDE THAT ADDITIONAL PERSONAL TOUCH. VOLUNTEERS ALSO HELP ENSURE A SAFE ENVIRONMENT. THEY LEND ASSISTANCE AND PROVIDE COMPASSIONATE CONCERN BY OFFERING A LISTENING EAR TO FAMILIES AT A TIME WHEN THEY NEED IT MOST. THEY ARE VITAL AMBASSADORS FOR THE HOSPITAL AND COMMUNITY.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleH>
+    <IRS990ScheduleI documentId="RetDoc1041900001">
+      <GrantRecordsMaintainedInd>0</GrantRecordsMaintainedInd>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>CHILD LIFE COUNCIL INC</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>11821 PARKLAWN DRIVE</AddressLine1>
+          <City>ROCKVILLE</City>
+          <State>MD</State>
+          <ZIPCode>208522539</ZIPCode>
+        </USAddress>
+        <RecipientEIN>521799846</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>12500</CashGrantAmt>
+        <PurposeOfGrantTxt>SPONSOR ANNUAL CONFERENCES</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>RONALD MCDONALD HOUSE CHARITIES OF MEMPHIS</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>535 ALABAMA AVE</AddressLine1>
+          <City>MEMPHIS</City>
+          <State>TN</State>
+          <ZIPCode>38105</ZIPCode>
+        </USAddress>
+        <RecipientEIN>621220396</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>225000</CashGrantAmt>
+        <PurposeOfGrantTxt>FACILITY SUPPORT</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>UNIVERSITY OF TENNESSEE</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>50 NORTH DUNLAP SUITE 462R</AddressLine1>
+          <City>MEMPHIS</City>
+          <State>TN</State>
+          <ZIPCode>38105</ZIPCode>
+        </USAddress>
+        <RecipientEIN>626001636</RecipientEIN>
+        <IRCSectionDesc>GOV'T ENTITY</IRCSectionDesc>
+        <CashGrantAmt>527363</CashGrantAmt>
+        <PurposeOfGrantTxt>COLLABORATION AND SUPPORT AGREEMENT</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>SAINT FRANCIS MEDICAL CENTER</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>530 NE GLEN OAK AVE</AddressLine1>
+          <City>PEORIA</City>
+          <State>IL</State>
+          <ZIPCode>61637</ZIPCode>
+        </USAddress>
+        <RecipientEIN>370662569</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>490909</CashGrantAmt>
+        <PurposeOfGrantTxt>OPERATION OF ST. JUDE CLINIC</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>PEDIATRIC CHAPLAINS NETWORK</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>1207 SAINT CHARLES BLVD</AddressLine1>
+          <City>LITTLE ROCK</City>
+          <State>AR</State>
+          <ZIPCode>722112105</ZIPCode>
+        </USAddress>
+        <RecipientEIN>752854427</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>5000</CashGrantAmt>
+        <PurposeOfGrantTxt>SPONSOR NATIONAL CONFERENCE</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>ASSOCIATION OF PEDIATRIC HEMATOLOGYONCOLOGY NURSES INC</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>8735 W HIGGINS ROAD ROOM/SUITE 300</AddressLine1>
+          <City>CHICAGO</City>
+          <State>IL</State>
+          <ZIPCode>60631</ZIPCode>
+        </USAddress>
+        <RecipientEIN>237446224</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>40000</CashGrantAmt>
+        <PurposeOfGrantTxt>SUPPORT AND SPONSORSHIP OF ANNUAL CONFERENCE</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>MIDSOUTH MINORITY BUSINESS COUNCIL CONTINUUM INC</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>158 MADISON AVENUE</AddressLine1>
+          <City>MEMPHIS</City>
+          <State>TN</State>
+          <ZIPCode>38103</ZIPCode>
+        </USAddress>
+        <RecipientEIN>621198163</RecipientEIN>
+        <IRCSectionDesc>501(C)(6)</IRCSectionDesc>
+        <CashGrantAmt>7500</CashGrantAmt>
+        <PurposeOfGrantTxt>SPONSOR ECONOMIC DEVELOPMENT FORUM</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>NATIONAL ASSOCIATION OF HISPANIC NURSES INC</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>C/O CMI 6301 RANCH DRIVE</AddressLine1>
+          <City>LITTLE ROCK</City>
+          <State>AR</State>
+          <ZIPCode>72223</ZIPCode>
+        </USAddress>
+        <RecipientEIN>911010677</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>9500</CashGrantAmt>
+        <PurposeOfGrantTxt>SPONSOR CONFERENCE</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>SCIENTISTS CENTER FOR ANIMAL WELFARE</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>2660 NE HWY 20</AddressLine1>
+          <City>BEND</City>
+          <State>OR</State>
+          <ZIPCode>97701</ZIPCode>
+        </USAddress>
+        <RecipientEIN>521116693</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>5000</CashGrantAmt>
+        <PurposeOfGrantTxt>SPONSOR TRAINING WORKSHOP</PurposeOfGrantTxt>
+      </RecipientTable>
+      <Total501c3OrgCnt>8</Total501c3OrgCnt>
+      <TotalOtherOrgCnt>1</TotalOtherOrgCnt>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART I, LINE 2:</FormAndLineReferenceDesc>
+        <ExplanationTxt>ST. JUDE CHILDREN'S RESEARCH HOSPITAL IS ACTIVELY INVOLVED WITH THE DONEE. THROUGH THIS ACTIVE INVOLVEMENT, THE ORGANIZATIONS ARE MONITORED TO ENSURE THE SUPPORT IS USED APPROPRIATELY.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleI>
+    <IRS990ScheduleJ documentId="RetDoc1042400001">
+      <FirstClassOrCharterTravelInd>X</FirstClassOrCharterTravelInd>
+      <TravelForCompanionsInd>X</TravelForCompanionsInd>
+      <IdemnificationGrossUpPmtsInd>X</IdemnificationGrossUpPmtsInd>
+      <WrittenPolicyRefTAndEExpnssInd>1</WrittenPolicyRefTAndEExpnssInd>
+      <SubstantiationRequiredInd>1</SubstantiationRequiredInd>
+      <CompensationCommitteeInd>X</CompensationCommitteeInd>
+      <IndependentConsultantInd>X</IndependentConsultantInd>
+      <Form990OfOtherOrganizationsInd>X</Form990OfOtherOrganizationsInd>
+      <WrittenEmploymentContractInd>X</WrittenEmploymentContractInd>
+      <CompensationSurveyInd>X</CompensationSurveyInd>
+      <BoardOrCommitteeApprovalInd>X</BoardOrCommitteeApprovalInd>
+      <SeverancePaymentInd>0</SeverancePaymentInd>
+      <SupplementalNonqualRtrPlanInd>1</SupplementalNonqualRtrPlanInd>
+      <EquityBasedCompArrngmInd>0</EquityBasedCompArrngmInd>
+      <CompBasedOnRevenueOfFlngOrgInd>0</CompBasedOnRevenueOfFlngOrgInd>
+      <CompBsdOnRevRelatedOrgsInd>0</CompBsdOnRevRelatedOrgsInd>
+      <CompBsdNetEarnsFlngOrgInd>0</CompBsdNetEarnsFlngOrgInd>
+      <CompBsdNetEarnsRltdOrgsInd>0</CompBsdNetEarnsRltdOrgsInd>
+      <AnyNonFixedPaymentsInd>0</AnyNonFixedPaymentsInd>
+      <InitialContractExceptionInd>0</InitialContractExceptionInd>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>RICHARD SHADYAC JR</PersonNm>
+        <TitleTxt>EX-OFFICIO DIRECTOR</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>644599</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>2322</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>25904</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>16630</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>689455</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>WILLIAM E EVANS</PersonNm>
+        <TitleTxt>PRESIDENT AND CEO</TitleTxt>
+        <BaseCompensationFilingOrgAmt>856100</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>443181</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>28050</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>8505</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>1335836</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>MICHAEL C CANARIOS</PersonNm>
+        <TitleTxt>SVP/CHIEF FINANCIAL OFFICER</TitleTxt>
+        <BaseCompensationFilingOrgAmt>386382</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>4219</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>62588</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>26111</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>479300</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>JAMES R DOWNING</PersonNm>
+        <TitleTxt>EVP/SCIENTIFIC DIR/DEP DIR</TitleTxt>
+        <BaseCompensationFilingOrgAmt>730684</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>77229</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>103050</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>23625</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>934588</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>RICHARD GILBERTSON</PersonNm>
+        <TitleTxt>EVP/DIRECTOR CANCER CENTER</TitleTxt>
+        <BaseCompensationFilingOrgAmt>526065</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>22918</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>147330</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>22127</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>718440</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>LARRY KUN</PersonNm>
+        <TitleTxt>EVP/CLINICAL DIRECTOR</TitleTxt>
+        <BaseCompensationFilingOrgAmt>716627</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>50000</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>8534</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>28050</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>18267</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>821478</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>ANDREW DAVIDOFF</PersonNm>
+        <TitleTxt>CHAIR/FACULTY</TitleTxt>
+        <BaseCompensationFilingOrgAmt>589957</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>45946</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>77919</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>23457</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>737279</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>AMAR J GAJJAR</PersonNm>
+        <TitleTxt>CO-CHAIR/FACULTY</TitleTxt>
+        <BaseCompensationFilingOrgAmt>419646</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>10000</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>293366</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>28050</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>26125</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>777187</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>GERARD C GROSVELD</PersonNm>
+        <TitleTxt>CHAIR/FACULTY</TitleTxt>
+        <BaseCompensationFilingOrgAmt>366735</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>12500</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>293272</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>28050</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>8522</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>709079</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>ROBERT A KAUFMAN</PersonNm>
+        <TitleTxt>FACULTY</TitleTxt>
+        <BaseCompensationFilingOrgAmt>489001</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>12500</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>321614</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>28050</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>18267</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>869432</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>CHING-HON PUI</PersonNm>
+        <TitleTxt>CHAIR/FACULTY</TitleTxt>
+        <BaseCompensationFilingOrgAmt>525912</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>15941</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>50625</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>28050</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>8408</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>628936</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>JOSEPH H LAVER</PersonNm>
+        <TitleTxt>FORMER EVP/CLINICAL DIRECTOR</TitleTxt>
+        <BaseCompensationFilingOrgAmt>446886</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>87500</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>29777</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>72719</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>17718</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>654600</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART I, LINE 1A</FormAndLineReferenceDesc>
+        <ExplanationTxt>FIRST CLASS OR CHARTER TRAVEL: ONE OFFICER FLEW ON A CHARTER FLIGHT WITH SEVERAL OTHER EMPLOYEES OF THE HOSPITAL. THE COST OF THE CHARTER FLIGHT WAS LESS THAN PURCHASING INDIVIDUAL TICKETS FOR EACH TRAVELER. TRAVEL FOR COMPANIONS: FAMILY MEMBER OF ONE OFFICER AND AN EMPLOYEE OF THE HOSPITAL, TRAVELS ON HOSPITAL BUSINESS AS REQUIRED BY THE POSITION. TRAVEL EXPENSES ARE REIMBURSED UNDER AN ACCOUNTABLE PLAN AND NOT RECORDED AS COMPENSATION. TAX INDEMNICATIONS AND GROSS UP PAYMENTS: THREE OFFICERS/HIGHEST COMPENSATED WERE REIMBURSED GROSS UP DEPENDENT TUITION WHICH IS INCLUDED AS COMPENSATION TO THE OFFICER/HIGHEST COMPENSATED.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART I, LINE 4B</FormAndLineReferenceDesc>
+        <ExplanationTxt>ST JUDE CHILDREN'S RESEARCH HOSPITAL HAS ESTABLISHED A NON-QUALIFIED PLAN PURSUANT TO 457(F) OF THE INTERNAL REVENUE CODE. THE AMOUNTS LISTED ARE SUBJECT TO SUBSTANTIAL FUTURE SERVICE REQUIREMENTS TO THE ORGANIZATION AND ARE SUBJECT TO SUBSTANTIAL RISK OF FORFEITURE. VESTING IS BASED ON MILESTONE YEARS - 10 YEARS AT 50%, 15 YEARS AT 75% AND 20 YEARS AT 100%. ONCE VESTED,THE AMOUNTS UNDER THIS PLAN ARE REPORTED ON THE FORM W-2 AS TAXABLE COMPENSATION TO THE INDIVIDUAL. WILLIAM E. EVANS, $438,797; JAMES R. DOWNING, $149,340; MICHAEL C. CANARIOS, $34,538; RICHARD GILBERTSON, $119,280; JOSEPH H. LAVER, $44,669; ANDREW DAVIDOFF, $49,869; ROBERT A. KAUFMAN, $313,153; AMAR J. GAJJAR, $271,173; GERARD C. GROSVELD, $289,146; CHING-HON PUI, $46,269</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE J, PART II</FormAndLineReferenceDesc>
+        <ExplanationTxt>RICHARD C. SHADYAC, JR. SERVES AS A VOTING DIRECTOR OF THE BOARD OF ST. JUDE. MR. SHADYAC IS EMPLOYED AS AN OFFICER OF ALSAC, A RELATED ORGANIZATION TO ST. JUDE. THE COMPENSATION SHOWN IN COLUMNS (B), (C), (D) AND (E) WAS PAID TO MR. SHADYAC BY ALSAC FOR HIS DUTIES AS CEO OF ALSAC.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleJ>
+    <IRS990ScheduleK documentId="RetDoc1053100001">
+      <TaxExemptBondsIssuesGrp>
+        <BondReferenceCd>A</BondReferenceCd>
+        <IssuerName>
+          <BusinessNameLine1>THE HEALTH EDUCATIONAL &amp; HOUSING FACILITY BOARD OF THE COUNTY OF SHELBYTN</BusinessNameLine1>
+        </IssuerName>
+        <BondIssuerEIN>521283414</BondIssuerEIN>
+        <CUSIPNum>821697XJ3</CUSIPNum>
+        <BondIssuedDt>2006-12-21</BondIssuedDt>
+        <IssuePriceAmt>250725271</IssuePriceAmt>
+        <PurposeDesc>$130.7 MILLION FOR CONSTRUCTION OF INTEGRATED PATIENT CARE AND RESEARCH</PurposeDesc>
+        <DefeasedInd>0</DefeasedInd>
+        <OnBehalfOfIssuerInd>0</OnBehalfOfIssuerInd>
+        <PoolFinancingInd>0</PoolFinancingInd>
+      </TaxExemptBondsIssuesGrp>
+      <TaxExemptBondsProceedsGrp>
+        <BondReferenceCd>A</BondReferenceCd>
+        <RetiredAmt>32820315</RetiredAmt>
+        <TotalProceedsAmt>252012996</TotalProceedsAmt>
+        <CapitalizedInterestAmt>3026125</CapitalizedInterestAmt>
+        <IssuanceCostsFromProceedsAmt>1658551</IssuanceCostsFromProceedsAmt>
+        <WorkingCapitalExpendituresAmt>2188865</WorkingCapitalExpendituresAmt>
+        <CapitalExpendituresAmt>129840961</CapitalExpendituresAmt>
+        <OtherSpentProceedsAmt>115298494</OtherSpentProceedsAmt>
+        <SubstantialCompletionYr>2008</SubstantialCompletionYr>
+        <CurrentRefundingInd>0</CurrentRefundingInd>
+        <AdvanceRefundingInd>1</AdvanceRefundingInd>
+        <FinalAllocationMadeInd>1</FinalAllocationMadeInd>
+        <AdequateBooksAndRecMaintInd>1</AdequateBooksAndRecMaintInd>
+      </TaxExemptBondsProceedsGrp>
+      <TaxExemptBondsPrivateBusUseGrp>
+        <BondReferenceCd>A</BondReferenceCd>
+        <OwningBondFinancedPropertyInd>0</OwningBondFinancedPropertyInd>
+        <AnyLeaseArrangementsInd>0</AnyLeaseArrangementsInd>
+        <MgmtContractBondFincdPropInd>0</MgmtContractBondFincdPropInd>
+        <AnyResearchAgreementsInd>1</AnyResearchAgreementsInd>
+        <EngageBondCounselResearchInd>1</EngageBondCounselResearchInd>
+        <PrivateBusUseByOthersPct>0.01290</PrivateBusUseByOthersPct>
+        <TotalPrivateBusinessUsePct>0.01290</TotalPrivateBusinessUsePct>
+        <BondIssMeetPrvtSecPymtTestInd>0</BondIssMeetPrvtSecPymtTestInd>
+        <ChangeInUseBondFinancedPropInd>0</ChangeInUseBondFinancedPropInd>
+        <ProcsNonqualifiedBondRemdtdInd>0</ProcsNonqualifiedBondRemdtdInd>
+      </TaxExemptBondsPrivateBusUseGrp>
+      <TaxExemptBondsArbitrageGrp>
+        <BondReferenceCd>A</BondReferenceCd>
+        <Form8038TFiledInd>0</Form8038TFiledInd>
+        <RebateNotDueYetInd>0</RebateNotDueYetInd>
+        <ExceptionToRebateInd>0</ExceptionToRebateInd>
+        <NoRebateDueInd>1</NoRebateDueInd>
+        <VariableRateIssueInd>0</VariableRateIssueInd>
+        <HedgeIdentifiedInBksAndRecInd>0</HedgeIdentifiedInBksAndRecInd>
+        <GrossProceedsInvestedInGICInd>0</GrossProceedsInvestedInGICInd>
+        <GrossProceedsInvestedInd>0</GrossProceedsInvestedInd>
+        <WrittenProcToMonitorReqsInd>1</WrittenProcToMonitorReqsInd>
+      </TaxExemptBondsArbitrageGrp>
+      <ProceduresCorrectiveActionGrp>
+        <BondReferenceCd>A</BondReferenceCd>
+        <ProceduresCorrectiveActionInd>1</ProceduresCorrectiveActionInd>
+      </ProceduresCorrectiveActionGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE K, PART I, BOND ISSUES - (F) DESCRIPTION OF PURPOSE (CON'T)</FormAndLineReferenceDesc>
+        <ExplanationTxt>FACILITY; $120 MILLION TO ADVANCE REFUND 1999 SERIES ISSUE.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART II, LINE 3</FormAndLineReferenceDesc>
+        <ExplanationTxt>TOTAL PROCEEDS OF ISSUE INCLUDE INVESTMENT EARNINGS IN THE AMOUNT OF $1,278,726.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE K, PART IV, ARBITRAGE, LINE 2C:</FormAndLineReferenceDesc>
+        <ExplanationTxt>DATE THE REBATE COMPUTATION WAS PERFORMED: 12/21/2011</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleK>
+    <IRS990ScheduleL documentId="RetDoc1042800001">
+      <BusTrInvolveInterestedPrsnGrp>
+        <NameOfInterested>
+          <BusinessName>
+            <BusinessNameLine1>SUSANNA DOWNING</BusinessNameLine1>
+          </BusinessName>
+        </NameOfInterested>
+        <RelationshipDescriptionTxt>FAMILY MEMBER OF JAMES R. DOWNING, EVP/ SCIENTIFIC DIR/DEPUTY DIR</RelationshipDescriptionTxt>
+        <TransactionAmt>36567</TransactionAmt>
+        <TransactionDesc>EMPLOYMENT</TransactionDesc>
+        <SharingOfRevenuesInd>0</SharingOfRevenuesInd>
+      </BusTrInvolveInterestedPrsnGrp>
+      <BusTrInvolveInterestedPrsnGrp>
+        <NameOfInterested>
+          <BusinessName>
+            <BusinessNameLine1>MARY RELLING</BusinessNameLine1>
+          </BusinessName>
+        </NameOfInterested>
+        <RelationshipDescriptionTxt>FAMILY MEMBER OF WILLIAM E. EVANS, PRESIDENT AND CEO</RelationshipDescriptionTxt>
+        <TransactionAmt>427739</TransactionAmt>
+        <TransactionDesc>EMPLOYMENT</TransactionDesc>
+        <SharingOfRevenuesInd>0</SharingOfRevenuesInd>
+      </BusTrInvolveInterestedPrsnGrp>
+      <BusTrInvolveInterestedPrsnGrp>
+        <NameOfInterested>
+          <BusinessName>
+            <BusinessNameLine1>JULIE GATTAS</BusinessNameLine1>
+          </BusinessName>
+        </NameOfInterested>
+        <RelationshipDescriptionTxt>FAMILY MEMBER OF FRED P GATTAS, JR., DIRECTOR</RelationshipDescriptionTxt>
+        <TransactionAmt>45743</TransactionAmt>
+        <TransactionDesc>EMPLOYMENT</TransactionDesc>
+        <SharingOfRevenuesInd>0</SharingOfRevenuesInd>
+      </BusTrInvolveInterestedPrsnGrp>
+    </IRS990ScheduleL>
+    <IRS990ScheduleO documentId="RetDoc1044400001">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION A, LINE 1</FormAndLineReferenceDesc>
+        <ExplanationTxt>LINE 1B: DIRECTOR JUDY HABIB IS NOT AN INDEPENDENT VOTING MEMBER OF ST. JUDE BECAUSE SHE WAS INVOLVED IN A TRANSACTION WITH AMERICAN LEBANESE SYRIAN ASSOCIATED CHARITIES, INC., A TAX-EXEMPT RELATED ORGANIZATION, REPORTED ON ITS 2013 FORM 990, SCHEDULE L, TRANSACTIONS WITH INTERESTED PERSONS.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION A, LINE 2</FormAndLineReferenceDesc>
+        <ExplanationTxt>FAMILY RELATIONSHIP AMONG DIRECTORS: JOSEPH S. AYOUB, JR., ESQ. AND PAUL AYOUB, ESQ.; FRED P. GATTAS, III AND FRED P. GATTAS, JR.; CAMILLE F. SARROUF, SR., ESQ. AND CAMILLE F. SARROUF, JR., ESQ.; GEORGE A. SIMON, II AND PAUL J. SIMON; TERRE THOMAS AND TONY THOMAS; ROBERT A. BREIT, MD AND JOSEPH G. SHAKER; JOSEPH C. SHAKER AND JOSPEH G. SHAKER; PAUL J. SIMON AND MICHAEL SIMON. BUSINESS RELATIONSHIP AMONG DIRECTORS: ROBERT A. BREIT, MD AND JOSEPH G. SHAKER.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION A, LINE 4</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE BOARD OF GOVERNORS BYLAWS WERE AMENDED AS FOLLOWS: ELIMINATED THE POSITION OF SECOND VICE CHAIRPERSON, BUT GRANDFATHERED IN THE PERSON CURRENTLY SERVING AS SECOND VICE CHAIR. REVISED THE ROLE AND RESPONSIBILITIES OF THE CEO. DELETED THE PROVISIONS MAKING THE CHAIRPERSON AND VICE CHAIRPERSON EX OFFICIO VOTING MEMBERS OF ALL COMMITTEES, AND PROVIDING THAT THE CHAIRPERSON, OR, IF DESIGNATED BY THE CHAIRPERSON, THE VICE CHAIRPERSON, SHALL BE AN EX OFFICIO VOTING MEMBER OF EACH. GAVE THE DIRECTOR OF SJCRH THE ADDITIONAL TITLE OF "PRESIDENT." CLARIFIED THAT ONLY ELECTED MEMBERS ARE PROHIBITED FROM RECEIVING COMPENSATION, SO AS NOT TO CREATE ANY CONFUSION ABOUT THE ABILITY OF THE CEO TO BE COMPENSATED.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION B, LINE 11</FormAndLineReferenceDesc>
+        <ExplanationTxt>IN FEBRUARY OF EACH YEAR, THE AUDIT COMMITTEE AND OFFICERS OF THE BOARD ARE PROVIDED WITH A DRAFT COPY OF THE FORM 990 AND ALL REQUIRED SCHEDULES. THE AUDIT COMMITTEE MEETS WITH ITS TAX PREPARER TO REVIEW THE DRAFT FORM 990 BEFORE IT IS FILED WITH THE IRS. ADDITIONALLY THE COMPENSATION COMMITTEE OF THE BOARD IS PROVIDED WITH A DRAFT COPY OF THE COMPENSATION SECTIONS OF THE FORM 990 FOR REVIEW BEFORE IT IS FILED WITH THE IRS. EACH VOTING MEMBER OF THE BOARD IS PROVIDED WITH A FINAL COPY OF THE FORM 990 AND ALL REQURIED SCHEDULES BEFORE IT IS FILED WITH THE IRS.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION B, LINE 12C</FormAndLineReferenceDesc>
+        <ExplanationTxt>NEW BOARD MEMBERS ARE GIVEN A COPY OF THE CONFLICTS OF INTEREST POLICY, COMPLETE THE ORGANIZATION'S CONFLICTS OF INTEREST DISCLOSURE FORM AND RECEIVE TRAINING ON CONFLICTS OF INTEREST. THERE IS A CONFLICTS OF INTEREST COMMITTEE OF THE BOARD OF DIRECTORS THAT REVIEWS THE ANNUAL CONFLICTS OF INTEREST DISCLOSURE STATEMENTS THAT ARE COMPLETED BY EACH BOARD MEMBER AND DISCUSSES AND RESOLVES CONFLICTS OF INTEREST WITH APPEAL TO THE FULL BOARD. IN ADDITION TO THE CONFLICTS OF INTEREST COMMITTEE, THE ORGANIZATION HAS A COMPLIANCE OFFICER. AMONG OTHER THINGS, THE COMPLIANCE OFFICER CONDUCTS ANNUAL TRAINING FOR ALL EMPLOYEES ON CONFLICTS OF INTEREST. CERTAIN EMPLOYEES ANNUALLY COMPLETE A CONFLICTS OF INTEREST DISCLOSURE FORM WHICH IS REVIEWED BY THE COMPLIANCE OFFICER. CONFLICTS OF INTEREST OF EMPLOYEES ARE HANDLED BY THE COMPLIANCE OFFICER WITH INVOLVEMENT FROM THE BOARD AS APPROPRIATE. DEPENDING UPON THE FACTS AND CIRCUMSTANCES OF THE CONFLICT, POTENTIAL RESTRICTIONS RANGE FROM PROHIBITING A TRANSACTION TO PROHIBITING SOMEONE FROM PARTICIPATING IN A DELIBERATION OR TRANSACTION TO DISCLOSURE TO THE BOARD OF THE CONFLICT OF INTEREST.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION B, LINE 15</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE EXECUTIVE COMPENSATION COMMITTEE OF THE BOARD COMMISSIONS BIANNUAL THIRD PARTY SALARY SURVEYS TO DETERMINE COMPENSATION FOR THE FOLLOWING OFFICERS: CHIEF EXECUTIVE OFFICER, CHIEF FINANCIAL OFFICER, SCIENTIFIC DIRECTOR, CANCER CENTER DIRECTOR, CLINICAL DIRECTOR, AND CHIEF LEGAL OFFICER. IN ADDITION, THERE ARE TWO FAMILY MEMBERS OF EXECUTIVES WHO ARE CONSIDERED "DISQUALIFIED" BECAUSE THEY ARE RELATIVES OF EXECUTIVES AND THUS THEIR COMPENSATION FALLS UNDER THE PURVIEW OF THE COMPENSATION COMMITTEE. ALL CHANGES TO SALARY FOR THE OFFICERS ARE APPROVED BY THE BOARD. THE LAST REVIEW WAS COMPLETED IN 2014.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION C, LINE 19</FormAndLineReferenceDesc>
+        <ExplanationTxt>FINANCIAL STATEMENTS ARE AVAILABLE UPON REQUEST, GOVERNING DOCUMENTS AND THE CONFLICT OF INTEREST POLICY ARE MADE AVAILABLE ONLY AS REQUIRED BY APPLICABLE STATE LAW.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART XI, LINE 9:</FormAndLineReferenceDesc>
+        <ExplanationTxt>CHANGE IN INTEREST IN UNRESTRICTED NET ASSETS ALSAC 452,697,768. CHANGE IN INTEREST IN NET ASSETS OF ALSAC 77,198,694.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+    <IRS990ScheduleR documentId="RetDoc1043400001">
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1>CHILDREN'S GMP LLC</BusinessNameLine1>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1>262 DANNY THOMAS PLACE</AddressLine1>
+          <City>MEMPHIS</City>
+          <State>TN</State>
+          <ZIPCode>381053678</ZIPCode>
+        </USAddress>
+        <EIN>620646012</EIN>
+        <PrimaryActivitiesTxt>VACCINE MANUFACTURER</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>TN</LegalDomicileStateCd>
+        <TotalIncomeAmt>-2059492</TotalIncomeAmt>
+        <EndOfYearAssetsAmt>675871</EndOfYearAssetsAmt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1>ST JUDE CHILDREN'S RESEARCH HOSPITAL</BusinessNameLine1>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1>THANKS &amp; GIVING LLC</BusinessNameLine1>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1>262 DANNY THOMAS PLACE</AddressLine1>
+          <City>MEMPHIS</City>
+          <State>TN</State>
+          <ZIPCode>381053678</ZIPCode>
+        </USAddress>
+        <EIN>201310435</EIN>
+        <PrimaryActivitiesTxt>ROYALTY INCOME FROM RECORD SALES</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>TN</LegalDomicileStateCd>
+        <TotalIncomeAmt>0</TotalIncomeAmt>
+        <EndOfYearAssetsAmt>10632</EndOfYearAssetsAmt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1>ST JUDE CHILDREN'S RESEARCH HOSPITAL</BusinessNameLine1>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1>THE RIGHT WORDS LLC</BusinessNameLine1>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1>262 DANNY THOMAS PLACE</AddressLine1>
+          <City>MEMPHIS</City>
+          <State>TN</State>
+          <ZIPCode>381053678</ZIPCode>
+        </USAddress>
+        <EIN>954878579</EIN>
+        <PrimaryActivitiesTxt>ROYALTY INCOME FROM BOOK SALES</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>NY</LegalDomicileStateCd>
+        <TotalIncomeAmt>0</TotalIncomeAmt>
+        <EndOfYearAssetsAmt>0</EndOfYearAssetsAmt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1>ST JUDE CHILDREN'S RESEARCH HOSPITAL</BusinessNameLine1>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1>AMERICAN LEBANESE SYRIAN ASSOCIATED CHARITIES INC</BusinessNameLine1>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1>501 ST JUDE PLACE</AddressLine1>
+          <City>MEMPHIS</City>
+          <State>TN</State>
+          <ZIPCode>38105</ZIPCode>
+        </USAddress>
+        <EIN>351044585</EIN>
+        <PrimaryActivitiesTxt>SOLICIT SUPPORT FOR THE OPERATION OF ST. JUDE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>IL</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>170(B)(1)(A) (VI)</PublicCharityStatusTxt>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <ReceiptOfIntAnntsRntsRyltsInd>0</ReceiptOfIntAnntsRntsRyltsInd>
+      <GiftGrntOrCapContriToOthOrgInd>0</GiftGrntOrCapContriToOthOrgInd>
+      <GiftGrntCapContriFromOthOrgInd>1</GiftGrntCapContriFromOthOrgInd>
+      <LoansOrGuaranteesToOtherOrgInd>0</LoansOrGuaranteesToOtherOrgInd>
+      <LoansOrGuaranteesFromOthOrgInd>0</LoansOrGuaranteesFromOthOrgInd>
+      <DivRelatedOrganizationInd>0</DivRelatedOrganizationInd>
+      <AssetSaleToOtherOrgInd>0</AssetSaleToOtherOrgInd>
+      <AssetPurchaseFromOtherOrgInd>0</AssetPurchaseFromOtherOrgInd>
+      <AssetExchangeInd>0</AssetExchangeInd>
+      <RentalOfFacilitiesToOthOrgInd>0</RentalOfFacilitiesToOthOrgInd>
+      <RentalOfFcltsFromOthOrgInd>0</RentalOfFcltsFromOthOrgInd>
+      <PerformOfServicesForOthOrgInd>0</PerformOfServicesForOthOrgInd>
+      <PerformOfServicesByOtherOrgInd>1</PerformOfServicesByOtherOrgInd>
+      <SharingOfFacilitiesInd>0</SharingOfFacilitiesInd>
+      <PaidEmployeesSharingInd>0</PaidEmployeesSharingInd>
+      <ReimbursementPaidToOtherOrgInd>1</ReimbursementPaidToOtherOrgInd>
+      <ReimbursementPaidByOtherOrgInd>1</ReimbursementPaidByOtherOrgInd>
+      <TransferToOtherOrgInd>0</TransferToOtherOrgInd>
+      <TransferFromOtherOrgInd>0</TransferFromOtherOrgInd>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>AMERICAN LEBANESE SYRIAN ASSOCIATED CHARITIES INC</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>C</TransactionTypeTxt>
+        <InvolvedAmt>530494893</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>CASH</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>AMERICAN LEBANESE SYRIAN ASSOCIATED CHARITIES INC</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>M</TransactionTypeTxt>
+        <InvolvedAmt>530494893</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>CASH</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>AMERICAN LEBANESE SYRIAN ASSOCIATED CHARITIES INC</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>P</TransactionTypeTxt>
+        <InvolvedAmt>1039100</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>CASH</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>AMERICAN LEBANESE SYRIAN ASSOCIATED CHARITIES INC</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>Q</TransactionTypeTxt>
+        <InvolvedAmt>1243454</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>CASH</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+    </IRS990ScheduleR>
+  </ReturnData>
+</Return>

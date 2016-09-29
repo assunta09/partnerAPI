@@ -1,0 +1,3048 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2013v4.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2015-08-06T14:35:25-05:00</ReturnTs>
+    <TaxPeriodEndDt>2014-09-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>135565207</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1>KPMG LLP</BusinessNameLine1>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1>1676 International Drive</AddressLine1>
+        <City>McLean</City>
+        <State>VA</State>
+        <ZIPCode>22102</ZIPCode>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990</ReturnTypeCd>
+    <TaxPeriodBeginDt>2013-10-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>530206027</EIN>
+      <BusinessName>
+        <BusinessNameLine1>Smithsonian Institution</BusinessNameLine1>
+      </BusinessName>
+      <BusinessNameControlTxt>SMIT</BusinessNameControlTxt>
+      <PhoneNum>2026331000</PhoneNum>
+      <USAddress>
+        <AddressLine1>1000 Jefferson Drive S W</AddressLine1>
+        <City>Washington</City>
+        <State>DC</State>
+        <ZIPCode>20560</ZIPCode>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>Albert Horvath</PersonNm>
+      <PersonTitleTxt>Chief Financial Officer</PersonTitleTxt>
+      <PhoneNum>2026331000</PhoneNum>
+      <SignatureDt>2015-08-06</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>Margaret A Bradshaw</PreparerPersonNm>
+      <PTIN>P00501222</PTIN>
+      <PhoneNum>7032868000</PhoneNum>
+    </PreparerPersonGrp>
+    <TaxYr>2013</TaxYr>
+    <BuildTS>2016-04-25 22:37:26Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCount="12">
+    <IRS990 documentId="RetDoc1038000001" referenceDocumentId="RetDoc1044400001">
+      <PrincipalOfficerNm>Dr David J Skorton</PrincipalOfficerNm>
+      <USAddress>
+        <AddressLine1>1000 Jefferson Dr SW</AddressLine1>
+        <City>Washington</City>
+        <State>DC</State>
+        <ZIPCode>20560</ZIPCode>
+      </USAddress>
+      <GrossReceiptsAmt>1642484221</GrossReceiptsAmt>
+      <GroupReturnForAffiliatesInd>0</GroupReturnForAffiliatesInd>
+      <Organization501c3Ind>X</Organization501c3Ind>
+      <WebsiteAddressTxt>www.si.edu</WebsiteAddressTxt>
+      <TypeOfOrganizationOtherInd>X</TypeOfOrganizationOtherInd>
+      <OtherOrganizationDsc>Sch O</OtherOrganizationDsc>
+      <FormationYr>1846</FormationYr>
+      <ActivityOrMissionDesc>"Increase and diffusion of knowledge" is the mission set forth by James Smithson.</ActivityOrMissionDesc>
+      <VotingMembersGoverningBodyCnt>17</VotingMembersGoverningBodyCnt>
+      <VotingMembersIndependentCnt>17</VotingMembersIndependentCnt>
+      <TotalEmployeeCnt>6736</TotalEmployeeCnt>
+      <TotalVolunteersCnt>5451</TotalVolunteersCnt>
+      <TotalGrossUBIAmt>14525079</TotalGrossUBIAmt>
+      <NetUnrelatedBusTxblIncmAmt>-2008036</NetUnrelatedBusTxblIncmAmt>
+      <PYContributionsGrantsAmt>1120530769</PYContributionsGrantsAmt>
+      <CYContributionsGrantsAmt>1190256002</CYContributionsGrantsAmt>
+      <PYProgramServiceRevenueAmt>97940513</PYProgramServiceRevenueAmt>
+      <CYProgramServiceRevenueAmt>100635585</CYProgramServiceRevenueAmt>
+      <PYInvestmentIncomeAmt>92511140</PYInvestmentIncomeAmt>
+      <CYInvestmentIncomeAmt>98427515</CYInvestmentIncomeAmt>
+      <PYOtherRevenueAmt>60604609</PYOtherRevenueAmt>
+      <CYOtherRevenueAmt>63091363</CYOtherRevenueAmt>
+      <PYTotalRevenueAmt>1371587031</PYTotalRevenueAmt>
+      <CYTotalRevenueAmt>1452410465</CYTotalRevenueAmt>
+      <PYGrantsAndSimilarPaidAmt>16574449</PYGrantsAndSimilarPaidAmt>
+      <CYGrantsAndSimilarPaidAmt>17165104</CYGrantsAndSimilarPaidAmt>
+      <PYBenefitsPaidToMembersAmt>0</PYBenefitsPaidToMembersAmt>
+      <CYBenefitsPaidToMembersAmt>0</CYBenefitsPaidToMembersAmt>
+      <PYSalariesCompEmpBnftPaidAmt>605995552</PYSalariesCompEmpBnftPaidAmt>
+      <CYSalariesCompEmpBnftPaidAmt>614452414</CYSalariesCompEmpBnftPaidAmt>
+      <PYTotalProfFndrsngExpnsAmt>7065864</PYTotalProfFndrsngExpnsAmt>
+      <CYTotalProfFndrsngExpnsAmt>5934928</CYTotalProfFndrsngExpnsAmt>
+      <CYTotalFundraisingExpenseAmt>39855892</CYTotalFundraisingExpenseAmt>
+      <PYOtherExpensesAmt>532694000</PYOtherExpensesAmt>
+      <CYOtherExpensesAmt>535528876</CYOtherExpensesAmt>
+      <PYTotalExpensesAmt>1162329865</PYTotalExpensesAmt>
+      <CYTotalExpensesAmt>1173081322</CYTotalExpensesAmt>
+      <PYRevenuesLessExpensesAmt>209257166</PYRevenuesLessExpensesAmt>
+      <CYRevenuesLessExpensesAmt>279329143</CYRevenuesLessExpensesAmt>
+      <TotalAssetsBOYAmt>4046308079</TotalAssetsBOYAmt>
+      <TotalAssetsEOYAmt>4399539233</TotalAssetsEOYAmt>
+      <TotalLiabilitiesBOYAmt>805065458</TotalLiabilitiesBOYAmt>
+      <TotalLiabilitiesEOYAmt>811435593</TotalLiabilitiesEOYAmt>
+      <NetAssetsOrFundBalancesBOYAmt>3241242621</NetAssetsOrFundBalancesBOYAmt>
+      <NetAssetsOrFundBalancesEOYAmt>3588103640</NetAssetsOrFundBalancesEOYAmt>
+      <InfoInScheduleOPartIIIInd>X</InfoInScheduleOPartIIIInd>
+      <MissionDesc>"Increase and diffusion of knowledge" is the mission set forth by James Smithson. The Smithsonian endeavors to shape the future by preserving our heritage, discovering new knowledge, and sharing our resources with the world.</MissionDesc>
+      <SignificantNewProgramSrvcInd>0</SignificantNewProgramSrvcInd>
+      <SignificantChangeInd>0</SignificantChangeInd>
+      <ExpenseAmt>411866682</ExpenseAmt>
+      <GrantAmt>16035241</GrantAmt>
+      <RevenueAmt>35566056</RevenueAmt>
+      <Desc>4A Research and Collections (See Schedule O)Research and Collections - The Smithsonian collections of nearly 137 million objects (art, artifacts and scientific specimens) are the heart of the Institution. Research, public programs and exhibitions are based on the collections as is much of our online material. Care of the collections involves the work of registrars, conservators, museum specialists, designers, curators and editors. About 126 million objects and specimens are part of the National Museum of Natural History collections and primarily used for research by both Smithsonian scientists and researchers from around the world. In some cases, the museum has the definitive, irreplaceable collection of a certain species which is essential for comparative studies.Among the major scientific discoveries this year was the announcement that toxic algae caused the death of 6-9 million-year-old marine vertebrate skeletons found at a large fossil site in northern Chile. Smithsonian and Chilean paleontologists found four separate layers of skeletons indicating four distinct strandings over time. The ancient whale graveyard research solved a mystery about the mass death of whales that has intrigued scientists for centuries.In more fossil news, the Smithsonian acquired a nearly-complete Tyrannosaurus rex (T.-rex) fossil skeleton from Montana that will become the centerpiece of the new dinosaur hall. The skeleton will be conserved and recorded using the latest 3-D technology. The most popular living animal at the Smithsonian is BaoBao, the giant panda born at the National Zoo, who made her public debut January 18, 2014.</Desc>
+      <ProgSrvcAccomActy2Grp>
+        <ExpenseAmt>424205656</ExpenseAmt>
+        <GrantAmt>1129863</GrantAmt>
+        <RevenueAmt>48175629</RevenueAmt>
+        <Desc>4B Education, Public Programs and Exhibitions (See Schedule O)Education, Public Programs and Exhibitions - The National Museum of American History celebrated the 200th anniversary of the Star Spangled Banner in June with concerts, exhibition tours, a naturalization ceremony, a national sing-along on Flag Day, June 14, and a Smithsonian Channel documentary, "A Star-Spangled Story: Battle for America." At the Sackler Gallery, the first major exhibition devoted to American artist James McNeill Whistler, "An American in London: Whistler and the Thames" opened in spring with 80 works from major museums in the United States and Britain.The National Museum of the American Indian's exhibition, "Nation to Nation," presents the history of the United States and Indian nations through their treaties and more than 125 historical objects from the museum's vast collection. The first original treaty to be exhibited (on loan from the National Archives) was the 1794 treaty signed by President George Washington and leaders of the Six Nations or Iroquois Confederacy. The Smithsonian's Asian-Pacific American Center presented its first exhibition, "Beyond Bollywood" focusing on the contributions of Indian immigrants in the United States. The display included a dress worn by First Lady Michelle Obama designed by Indian American Naeem Khan. A traveling version of the exhibition also began circulating this year.</Desc>
+      </ProgSrvcAccomActy2Grp>
+      <ProgSrvcAccomActy3Grp>
+        <ExpenseAmt>80110623</ExpenseAmt>
+        <RevenueAmt>66127653</RevenueAmt>
+        <Desc>4C Membership (See Schedule O)Membership - The National Associate program is our largest and most basic membership program. The program provides members with "Smithsonian" magazine which is published 11 times a year.The print and online publication provides in-depth coverage of history, science, nature, the arts, and world cultures. "Smithsonian" magazine also hosts the annual Ingenuity Awards, honoring the best and the brightest innovators who are making a difference in the world in a variety of fields. "Friends of the Smithsonian" is a higher level membership program for people interested in a deeper philanthropic connection to the Smithsonian. Friends receive "Smithsonian" magazine, plus they are invited to various events and are given the opportunity to learn about and support through donations to the Institution's exhibits and research.The Smithsonian Associates offers unparalleled access to the Smithsonian's world of knowledge through innovative and engaging programming that promotes learning, enrichment, and creativity for people of all ages.The largest museum-based educational program in the world, The Smithsonian Associates annually offers more than 750 seminars, performances, lectures, studio art classes, and local and regional study tours. Performances at Discovery Theater and more than 80 educationally focused summer camps are among the programs that foster the joys of learning for young people and their families. In FY 2014, notable guests included Justice Sonia Sotomayor, General Colin Powell, jazz legend Quincy Jones, filmmaker Ken Burns, and author Bill Nye.</Desc>
+      </ProgSrvcAccomActy3Grp>
+      <ProgSrvcAccomActyOtherGrp>
+        <ExpenseAmt>0</ExpenseAmt>
+        <GrantAmt>0</GrantAmt>
+        <RevenueAmt>0</RevenueAmt>
+      </ProgSrvcAccomActyOtherGrp>
+      <TotalProgramServiceExpensesAmt>916182961</TotalProgramServiceExpensesAmt>
+      <DescribedInSection501c3Ind referenceDocumentId="RetDoc1039100001">1</DescribedInSection501c3Ind>
+      <ScheduleBRequiredInd>0</ScheduleBRequiredInd>
+      <PoliticalCampaignActyInd referenceDocumentId="RetDoc1039700001">0</PoliticalCampaignActyInd>
+      <LobbyingActivitiesInd referenceDocumentId="RetDoc1039700001">1</LobbyingActivitiesInd>
+      <SubjectToProxyTaxInd referenceDocumentId="RetDoc1039700001">0</SubjectToProxyTaxInd>
+      <DonorAdvisedFundInd referenceDocumentId="RetDoc1040000001">0</DonorAdvisedFundInd>
+      <ConservationEasementsInd referenceDocumentId="RetDoc1040000001">0</ConservationEasementsInd>
+      <CollectionsOfArtInd referenceDocumentId="RetDoc1040000001">1</CollectionsOfArtInd>
+      <CreditCounselingInd referenceDocumentId="RetDoc1040000001">0</CreditCounselingInd>
+      <TempOrPermanentEndowmentsInd referenceDocumentId="RetDoc1040000001">1</TempOrPermanentEndowmentsInd>
+      <ReportLandBuildingEquipmentInd referenceDocumentId="RetDoc1040000001">1</ReportLandBuildingEquipmentInd>
+      <ReportInvestmentsOtherSecInd referenceDocumentId="RetDoc1040000001">1</ReportInvestmentsOtherSecInd>
+      <ReportProgramRelatedInvstInd referenceDocumentId="RetDoc1040000001">0</ReportProgramRelatedInvstInd>
+      <ReportOtherAssetsInd referenceDocumentId="RetDoc1040000001">0</ReportOtherAssetsInd>
+      <ReportOtherLiabilitiesInd referenceDocumentId="RetDoc1040000001">1</ReportOtherLiabilitiesInd>
+      <IncludeFIN48FootnoteInd referenceDocumentId="RetDoc1040000001">1</IncludeFIN48FootnoteInd>
+      <IndependentAuditFinclStmtInd referenceDocumentId="RetDoc1040000001">1</IndependentAuditFinclStmtInd>
+      <ConsolidatedAuditFinclStmtInd referenceDocumentId="RetDoc1040000001">0</ConsolidatedAuditFinclStmtInd>
+      <SchoolOperatingInd>0</SchoolOperatingInd>
+      <ForeignOfficeInd>1</ForeignOfficeInd>
+      <ForeignActivitiesInd referenceDocumentId="RetDoc1040500001">1</ForeignActivitiesInd>
+      <MoreThan5000KToOrgInd referenceDocumentId="RetDoc1040500001">1</MoreThan5000KToOrgInd>
+      <MoreThan5000KToIndividualsInd referenceDocumentId="RetDoc1040500001">1</MoreThan5000KToIndividualsInd>
+      <ProfessionalFundraisingInd referenceDocumentId="RetDoc1041200001">1</ProfessionalFundraisingInd>
+      <FundraisingActivitiesInd referenceDocumentId="RetDoc1041200001">1</FundraisingActivitiesInd>
+      <GamingActivitiesInd referenceDocumentId="RetDoc1041200001">0</GamingActivitiesInd>
+      <OperateHospitalInd>0</OperateHospitalInd>
+      <GrantsToOrganizationsInd referenceDocumentId="RetDoc1041900001">1</GrantsToOrganizationsInd>
+      <GrantsToIndividualsInd referenceDocumentId="RetDoc1041900001">1</GrantsToIndividualsInd>
+      <ScheduleJRequiredInd referenceDocumentId="RetDoc1042400001">1</ScheduleJRequiredInd>
+      <TaxExemptBondsInd referenceDocumentId="RetDoc1053100001">1</TaxExemptBondsInd>
+      <InvestTaxExemptBondsInd>0</InvestTaxExemptBondsInd>
+      <EscrowAccountInd>0</EscrowAccountInd>
+      <OnBehalfOfIssuerInd>0</OnBehalfOfIssuerInd>
+      <EngagedInExcessBenefitTransInd>0</EngagedInExcessBenefitTransInd>
+      <PYExcessBenefitTransInd>0</PYExcessBenefitTransInd>
+      <LoanOutstandingInd>0</LoanOutstandingInd>
+      <GrantToRelatedPersonInd>0</GrantToRelatedPersonInd>
+      <BusinessRlnWithOrgMemInd>0</BusinessRlnWithOrgMemInd>
+      <BusinessRlnWithFamMemInd>0</BusinessRlnWithFamMemInd>
+      <BusinessRlnWithOfficerEntInd>0</BusinessRlnWithOfficerEntInd>
+      <DeductibleNonCashContriInd referenceDocumentId="RetDoc1042900001">1</DeductibleNonCashContriInd>
+      <DeductibleArtContributionInd referenceDocumentId="RetDoc1042900001">1</DeductibleArtContributionInd>
+      <TerminateOperationsInd>0</TerminateOperationsInd>
+      <PartialLiquidationInd>0</PartialLiquidationInd>
+      <DisregardedEntityInd referenceDocumentId="RetDoc1043400001">0</DisregardedEntityInd>
+      <RelatedEntityInd referenceDocumentId="RetDoc1043400001">1</RelatedEntityInd>
+      <RelatedOrganizationCtrlEntInd>0</RelatedOrganizationCtrlEntInd>
+      <TrnsfrExmptNonChrtblRltdOrgInd referenceDocumentId="RetDoc1043400001">0</TrnsfrExmptNonChrtblRltdOrgInd>
+      <ActivitiesConductedPrtshpInd referenceDocumentId="RetDoc1043400001">0</ActivitiesConductedPrtshpInd>
+      <ScheduleORequiredInd>1</ScheduleORequiredInd>
+      <IRPDocumentCnt>4279</IRPDocumentCnt>
+      <IRPDocumentW2GCnt>0</IRPDocumentW2GCnt>
+      <BackupWthldComplianceInd>1</BackupWthldComplianceInd>
+      <EmployeeCnt>6736</EmployeeCnt>
+      <EmploymentTaxReturnsFiledInd>1</EmploymentTaxReturnsFiledInd>
+      <UnrelatedBusIncmOverLimitInd>1</UnrelatedBusIncmOverLimitInd>
+      <Form990TFiledInd>1</Form990TFiledInd>
+      <ForeignFinancialAccountInd>1</ForeignFinancialAccountInd>
+      <ForeignCountryCd>PM</ForeignCountryCd>
+      <ForeignCountryCd>GB</ForeignCountryCd>
+      <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+      <TaxablePartyNotificationInd>0</TaxablePartyNotificationInd>
+      <NondeductibleContributionsInd>0</NondeductibleContributionsInd>
+      <QuidProQuoContributionsInd>1</QuidProQuoContributionsInd>
+      <QuidProQuoContriDisclInd>1</QuidProQuoContriDisclInd>
+      <Form8282PropertyDisposedOfInd>0</Form8282PropertyDisposedOfInd>
+      <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+      <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+      <IndoorTanningServicesInd>0</IndoorTanningServicesInd>
+      <InfoInScheduleOPartVIInd>X</InfoInScheduleOPartVIInd>
+      <GoverningBodyVotingMembersCnt>17</GoverningBodyVotingMembersCnt>
+      <IndependentVotingMemberCnt>17</IndependentVotingMemberCnt>
+      <FamilyOrBusinessRlnInd>0</FamilyOrBusinessRlnInd>
+      <DelegationOfMgmtDutiesInd>0</DelegationOfMgmtDutiesInd>
+      <ChangeToOrgDocumentsInd>0</ChangeToOrgDocumentsInd>
+      <MaterialDiversionOrMisuseInd>0</MaterialDiversionOrMisuseInd>
+      <MembersOrStockholdersInd>0</MembersOrStockholdersInd>
+      <ElectionOfBoardMembersInd>1</ElectionOfBoardMembersInd>
+      <DecisionsSubjectToApprovaInd>0</DecisionsSubjectToApprovaInd>
+      <MinutesOfGoverningBodyInd>1</MinutesOfGoverningBodyInd>
+      <MinutesOfCommitteesInd>1</MinutesOfCommitteesInd>
+      <OfficerMailingAddressInd>0</OfficerMailingAddressInd>
+      <LocalChaptersInd>0</LocalChaptersInd>
+      <Form990ProvidedToGvrnBodyInd>1</Form990ProvidedToGvrnBodyInd>
+      <ConflictOfInterestPolicyInd>1</ConflictOfInterestPolicyInd>
+      <AnnualDisclosureCoveredPrsnInd>1</AnnualDisclosureCoveredPrsnInd>
+      <RegularMonitoringEnfrcInd>1</RegularMonitoringEnfrcInd>
+      <WhistleblowerPolicyInd>1</WhistleblowerPolicyInd>
+      <DocumentRetentionPolicyInd>1</DocumentRetentionPolicyInd>
+      <CompensationProcessCEOInd>1</CompensationProcessCEOInd>
+      <CompensationProcessOtherInd>1</CompensationProcessOtherInd>
+      <InvestmentInJointVentureInd>1</InvestmentInJointVentureInd>
+      <WrittenPolicyOrProcedureInd>1</WrittenPolicyOrProcedureInd>
+      <OwnWebsiteInd>X</OwnWebsiteInd>
+      <UponRequestInd>X</UponRequestInd>
+      <BooksInCareOfDetail>
+        <BusinessName>
+          <BusinessNameLine1>Jean Garvin</BusinessNameLine1>
+        </BusinessName>
+        <PhoneNum>2026337218</PhoneNum>
+        <USAddress>
+          <AddressLine1>2011 Crystal Dr</AddressLine1>
+          <City>Arlington</City>
+          <State>VA</State>
+          <ZIPCode>22202</ZIPCode>
+        </USAddress>
+      </BooksInCareOfDetail>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Honorable John Roberts Jr</PersonNm>
+        <TitleTxt>Regent</TitleTxt>
+        <AverageHoursPerWeekRt>0.50</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Honorable Joseph Biden</PersonNm>
+        <TitleTxt>Regent</TitleTxt>
+        <AverageHoursPerWeekRt>0.50</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Honorable Xavier Becerra</PersonNm>
+        <TitleTxt>Regent</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Honorable Thad Cochran</PersonNm>
+        <TitleTxt>Regent</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Honorable Thomas Cole</PersonNm>
+        <TitleTxt>Regent</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Honorable Sam Johnson</PersonNm>
+        <TitleTxt>Regent</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Honorable Patrick Leahy</PersonNm>
+        <TitleTxt>Regent</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Honorable Jack Reed</PersonNm>
+        <TitleTxt>Regent</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Ms Barbara Barrett</PersonNm>
+        <TitleTxt>Regent</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Mr Steve Case</PersonNm>
+        <TitleTxt>Regent</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Dr France Cordova</PersonNm>
+        <TitleTxt>Regent (10/1/13-3/13/14)</TitleTxt>
+        <AverageHoursPerWeekRt>16.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Mr John Fahey</PersonNm>
+        <TitleTxt>Regent (2/21/14-present)</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Dr Shirley Ann Jackson</PersonNm>
+        <TitleTxt>Regent</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Mr Robert Kogod</PersonNm>
+        <TitleTxt>Regent</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Dr Risa Lavizzo-Mourey</PersonNm>
+        <TitleTxt>Regent (2/21/14-present)</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Mr Michael M Lynton</PersonNm>
+        <TitleTxt>Regent (9/29/14-present)</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Mr John McCarter</PersonNm>
+        <TitleTxt>Regent</TitleTxt>
+        <AverageHoursPerWeekRt>16.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Mr David Rubenstein</PersonNm>
+        <TitleTxt>Regent</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Mr Roger Sant</PersonNm>
+        <TitleTxt>Regent (10/1-24/13)</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Ms Patricia Stonesifer</PersonNm>
+        <TitleTxt>Regent (10/1-12/21/13)</TitleTxt>
+        <AverageHoursPerWeekRt>4.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>G Wayne Clough</PersonNm>
+        <TitleTxt>Secretary</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>531231</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>39324</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Epin Christensen11313-7121</PersonNm>
+        <TitleTxt>Acting Inspector General</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>93274</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>18245</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Scott Dahl thru 11213</PersonNm>
+        <TitleTxt>Inspector General</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>175738</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>24542</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Cathy Helm 71314-present</PersonNm>
+        <TitleTxt>Inspector General</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Albert Horvath</PersonNm>
+        <TitleTxt>Under Sec - Fin &amp; Adm/CFO</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>367162</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>54505</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>John Lapiana thru 12113</PersonNm>
+        <TitleTxt>Chief of Staff - Regents</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>180927</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>30750</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Judith Leonard</PersonNm>
+        <TitleTxt>General Counsel</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>177582</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>31260</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Porter Wilkinson 12213-present</PersonNm>
+        <TitleTxt>Chief of Staff - Regents</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>6911</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Sudeep Anand thru 123113</PersonNm>
+        <TitleTxt>Treasurer</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>221710</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>41892</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Nancy Bechtol</PersonNm>
+        <TitleTxt>Director - Facilities</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>175287</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>24348</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Gregory Bokman thru 93013</PersonNm>
+        <TitleTxt>CFO-Smithsonian Enterprises</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>329521</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>35941</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Claudine Brown</PersonNm>
+        <TitleTxt>Asst Sec - Education and Access</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>245134</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>67242</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Deron Burba</PersonNm>
+        <TitleTxt>Chief Information Officer</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>184741</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>39019</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Amy Chen</PersonNm>
+        <TitleTxt>Chief Investment Officer</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>430372</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>34843</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Virginia Clark</PersonNm>
+        <TitleTxt>Director - Advancement &amp; Giving</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>331039</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>54505</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Bruce Dauer</PersonNm>
+        <TitleTxt>VP Finance/Adm - (SE)</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>218180</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>31489</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>James Douglas</PersonNm>
+        <TitleTxt>Dir - Office of Human Resourses</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>183309</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>29364</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Richard Kurin</PersonNm>
+        <TitleTxt>Under Sec - History, Art &amp; Culture</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>294033</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>53280</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Christopher Liedel</PersonNm>
+        <TitleTxt>President - Smithsonian Enterprises (SE)</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>512899</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>56745</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Evelyn Lieberman</PersonNm>
+        <TitleTxt>Director - Comm &amp; External Affairs</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>196816</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>26066</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Era Marshall</PersonNm>
+        <TitleTxt>Dir-Equal Emplymt &amp; Minority Affairs</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>164004</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>15320</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Mary Payne</PersonNm>
+        <TitleTxt>Director - Office of Govt Relations</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>183980</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>31796</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Eva Pell thru 32214</PersonNm>
+        <TitleTxt>Under Secretary - Science</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>318940</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>39910</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>David Voyles</PersonNm>
+        <TitleTxt>Director - OPMB</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>169344</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>13868</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Michael Caruso</PersonNm>
+        <TitleTxt>Editor in Chief - (SE)</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>342107</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>58330</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>John Dailey</PersonNm>
+        <TitleTxt>Director - NASM</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>295042</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>36145</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Edward Howell</PersonNm>
+        <TitleTxt>SVP Retail-Smithsonian Enterprises</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>312708</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>55860</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Kirk Johnson</PersonNm>
+        <TitleTxt>Director - NMNH</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>303636</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>49995</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Carol LeBlanc</PersonNm>
+        <TitleTxt>SVP Consumer &amp; Educ Products - (SE)</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>303700</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>41875</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Michael Pickett</PersonNm>
+        <TitleTxt>Former Acting Inspector General</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <FormerOfcrDirectorTrusteeInd>X</FormerOfcrDirectorTrusteeInd>
+        <ReportableCompFromOrgAmt>135761</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>8015</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Marsha Shaines</PersonNm>
+        <TitleTxt>Former Acting General Counsel</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <FormerOfcrDirectorTrusteeInd>X</FormerOfcrDirectorTrusteeInd>
+        <ReportableCompFromOrgAmt>165063</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>8185</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Charles R Alcock</PersonNm>
+        <TitleTxt>Former Acting Under Sec - Science</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <FormerOfcrDirectorTrusteeInd>X</FormerOfcrDirectorTrusteeInd>
+        <ReportableCompFromOrgAmt>149214</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>20367</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Kenneth Johnson</PersonNm>
+        <TitleTxt>Former Acting Director - OPMB</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <FormerOfcrDirectorTrusteeInd>X</FormerOfcrDirectorTrusteeInd>
+        <ReportableCompFromOrgAmt>174736</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>8237</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Scott Miller</PersonNm>
+        <TitleTxt>Former Acting Under Sec - Science</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <FormerOfcrDirectorTrusteeInd>X</FormerOfcrDirectorTrusteeInd>
+        <ReportableCompFromOrgAmt>163596</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>25198</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Andrew Zino thru 61513</PersonNm>
+        <TitleTxt>Former Comptroller</TitleTxt>
+        <AverageHoursPerWeekRt>50.00</AverageHoursPerWeekRt>
+        <FormerOfcrDirectorTrusteeInd>X</FormerOfcrDirectorTrusteeInd>
+        <ReportableCompFromOrgAmt>159319</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>24465</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <TotalReportableCompFromOrgAmt>8197016</TotalReportableCompFromOrgAmt>
+      <TotReportableCompRltdOrgAmt>0</TotReportableCompRltdOrgAmt>
+      <TotalOtherCompensationAmt>1130926</TotalOtherCompensationAmt>
+      <IndivRcvdGreaterThan100KCnt>1285</IndivRcvdGreaterThan100KCnt>
+      <FormerOfcrEmployeesListedInd>1</FormerOfcrEmployeesListedInd>
+      <TotalCompGreaterThan150KInd>1</TotalCompGreaterThan150KInd>
+      <CompensationFromOtherSrcsInd>0</CompensationFromOtherSrcsInd>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1>ClarkSmootRussell A Joint Venture</BusinessNameLine1>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1>7500 Old Georgetown Road</AddressLine1>
+            <City>Bethesda</City>
+            <State>MD</State>
+            <ZIPCode>20814</ZIPCode>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>Construction</ServicesDesc>
+        <CompensationAmt>58304570</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1>Grunley Construction Company</BusinessNameLine1>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1>888 17th Street NW</AddressLine1>
+            <City>Washington</City>
+            <State>DC</State>
+            <ZIPCode>20006</ZIPCode>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>Construction</ServicesDesc>
+        <CompensationAmt>21835527</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1>Hensel Phelps Construction Company</BusinessNameLine1>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1>4437 Brookefield Corp Dr</AddressLine1>
+            <City>Chantilly</City>
+            <State>VA</State>
+            <ZIPCode>20151</ZIPCode>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>Construction</ServicesDesc>
+        <CompensationAmt>20561679</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1>EW Howell Company</BusinessNameLine1>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1>245 Newtown Road 600</AddressLine1>
+            <City>Plainview</City>
+            <State>NY</State>
+            <ZIPCode>11803</ZIPCode>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>Construction</ServicesDesc>
+        <CompensationAmt>14965314</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1>Freelon Group 5310 S Alston Ave #300</BusinessNameLine1>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1>5310 S alston Ave 300</AddressLine1>
+            <City>Durham</City>
+            <State>NC</State>
+            <ZIPCode>277134381</ZIPCode>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>Construction</ServicesDesc>
+        <CompensationAmt>9363479</CompensationAmt>
+      </ContractorCompensationGrp>
+      <CntrctRcvdGreaterThan100KCnt>465</CntrctRcvdGreaterThan100KCnt>
+      <FederatedCampaignsAmt>57242</FederatedCampaignsAmt>
+      <MembershipDuesAmt>12910983</MembershipDuesAmt>
+      <FundraisingAmt>2170323</FundraisingAmt>
+      <RelatedOrganizationsAmt>18861</RelatedOrganizationsAmt>
+      <GovernmentGrantsAmt>996826671</GovernmentGrantsAmt>
+      <AllOtherContributionsAmt>178271922</AllOtherContributionsAmt>
+      <NoncashContributionsAmt>10850591</NoncashContributionsAmt>
+      <TotalContributionsAmt>1190256002</TotalContributionsAmt>
+      <ProgramServiceRevenueGrp>
+        <Desc>Visitors/Members/Emplo</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>42342800</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>26181805</RelatedOrExemptFuncIncomeAmt>
+        <ExclusionAmt>16160995</ExclusionAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>Subscriptions-magazine</Desc>
+        <BusinessCd>511120</BusinessCd>
+        <TotalRevenueColumnAmt>37477378</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>37477378</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>Tours/Classes</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>9365729</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>9352624</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>13105</UnrelatedBusinessRevenueAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>Theater Income</Desc>
+        <BusinessCd>711110</BusinessCd>
+        <TotalRevenueColumnAmt>8404947</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>8281105</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>123842</UnrelatedBusinessRevenueAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>Traveling Exhibitions</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>2944731</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>2944731</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <TotalOthProgramServiceRevGrp>
+        <TotalRevenueColumnAmt>100000</TotalRevenueColumnAmt>
+        <UnrelatedBusinessRevenueAmt>100000</UnrelatedBusinessRevenueAmt>
+      </TotalOthProgramServiceRevGrp>
+      <TotalProgramServiceRevenueAmt>100635585</TotalProgramServiceRevenueAmt>
+      <InvestmentIncomeGrp>
+        <TotalRevenueColumnAmt>22472173</TotalRevenueColumnAmt>
+        <ExclusionAmt>22472173</ExclusionAmt>
+      </InvestmentIncomeGrp>
+      <RoyaltiesRevenueGrp>
+        <TotalRevenueColumnAmt>12841623</TotalRevenueColumnAmt>
+        <ExclusionAmt>12841623</ExclusionAmt>
+      </RoyaltiesRevenueGrp>
+      <GrossAmountSalesAssetsGrp>
+        <SecuritiesAmt>242939961</SecuritiesAmt>
+        <OtherAmt>262659</OtherAmt>
+      </GrossAmountSalesAssetsGrp>
+      <LessCostOthBasisSalesExpnssGrp>
+        <SecuritiesAmt>167247278</SecuritiesAmt>
+        <OtherAmt>0</OtherAmt>
+      </LessCostOthBasisSalesExpnssGrp>
+      <GainOrLossGrp>
+        <SecuritiesAmt>75692683</SecuritiesAmt>
+        <OtherAmt>262659</OtherAmt>
+      </GainOrLossGrp>
+      <NetGainOrLossInvestmentsGrp>
+        <TotalRevenueColumnAmt>75955342</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>262659</RelatedOrExemptFuncIncomeAmt>
+        <ExclusionAmt>75692683</ExclusionAmt>
+      </NetGainOrLossInvestmentsGrp>
+      <FundraisingGrossIncomeAmt>358909</FundraisingGrossIncomeAmt>
+      <ContriRptFundraisingEventAmt>2170323</ContriRptFundraisingEventAmt>
+      <FundraisingDirectExpensesAmt>870564</FundraisingDirectExpensesAmt>
+      <NetIncmFromFundraisingEvtGrp>
+        <TotalRevenueColumnAmt>-511655</TotalRevenueColumnAmt>
+        <ExclusionAmt>-511655</ExclusionAmt>
+      </NetIncmFromFundraisingEvtGrp>
+      <GrossSalesOfInventoryAmt>58781865</GrossSalesOfInventoryAmt>
+      <CostOfGoodsSoldAmt>21955914</CostOfGoodsSoldAmt>
+      <NetIncomeOrLossGrp>
+        <TotalRevenueColumnAmt>36825951</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>34945621</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>1880330</UnrelatedBusinessRevenueAmt>
+      </NetIncomeOrLossGrp>
+      <OtherRevenueMiscGrp>
+        <Desc>Magazine/Website Adver</Desc>
+        <BusinessCd>541800</BusinessCd>
+        <TotalRevenueColumnAmt>12407802</TotalRevenueColumnAmt>
+        <UnrelatedBusinessRevenueAmt>12407802</UnrelatedBusinessRevenueAmt>
+      </OtherRevenueMiscGrp>
+      <OtherRevenueMiscGrp>
+        <Desc>Restitution (PMI)</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>1527642</TotalRevenueColumnAmt>
+        <ExclusionAmt>1527642</ExclusionAmt>
+      </OtherRevenueMiscGrp>
+      <OtherRevenueTotalAmt>13935444</OtherRevenueTotalAmt>
+      <TotalRevenueGrp>
+        <TotalRevenueColumnAmt>1452410465</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>119445923</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>14525079</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>128183461</ExclusionAmt>
+      </TotalRevenueGrp>
+      <GrantsToDomesticOrgsGrp>
+        <TotalAmt>279207</TotalAmt>
+        <ProgramServicesAmt>279207</ProgramServicesAmt>
+      </GrantsToDomesticOrgsGrp>
+      <GrantsToDomesticIndividualsGrp>
+        <TotalAmt>11854024</TotalAmt>
+        <ProgramServicesAmt>11854024</ProgramServicesAmt>
+      </GrantsToDomesticIndividualsGrp>
+      <ForeignGrantsGrp>
+        <TotalAmt>5031873</TotalAmt>
+        <ProgramServicesAmt>5031873</ProgramServicesAmt>
+      </ForeignGrantsGrp>
+      <CompCurrentOfcrDirectorsGrp>
+        <TotalAmt>6761603</TotalAmt>
+        <ProgramServicesAmt>1840510</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>4519525</ManagementAndGeneralAmt>
+        <FundraisingAmt>401568</FundraisingAmt>
+      </CompCurrentOfcrDirectorsGrp>
+      <CompDisqualPersonsGrp>
+        <TotalAmt>3918134</TotalAmt>
+        <ProgramServicesAmt>3582421</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>335713</ManagementAndGeneralAmt>
+      </CompDisqualPersonsGrp>
+      <OtherSalariesAndWagesGrp>
+        <TotalAmt>464758577</TotalAmt>
+        <ProgramServicesAmt>338974460</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>107676202</ManagementAndGeneralAmt>
+        <FundraisingAmt>18107915</FundraisingAmt>
+      </OtherSalariesAndWagesGrp>
+      <PensionPlanContributionsGrp>
+        <TotalAmt>57143242</TotalAmt>
+        <ProgramServicesAmt>40412252</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>14496506</ManagementAndGeneralAmt>
+        <FundraisingAmt>2234484</FundraisingAmt>
+      </PensionPlanContributionsGrp>
+      <OtherEmployeeBenefitsGrp>
+        <TotalAmt>50458434</TotalAmt>
+        <ProgramServicesAmt>38338220</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>10150279</ManagementAndGeneralAmt>
+        <FundraisingAmt>1969935</FundraisingAmt>
+      </OtherEmployeeBenefitsGrp>
+      <PayrollTaxesGrp>
+        <TotalAmt>31412424</TotalAmt>
+        <ProgramServicesAmt>22489353</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>7706596</ManagementAndGeneralAmt>
+        <FundraisingAmt>1216475</FundraisingAmt>
+      </PayrollTaxesGrp>
+      <FeesForServicesLegalGrp>
+        <TotalAmt>701849</TotalAmt>
+        <ProgramServicesAmt>337620</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>354161</ManagementAndGeneralAmt>
+        <FundraisingAmt>10068</FundraisingAmt>
+      </FeesForServicesLegalGrp>
+      <FeesForServicesAccountingGrp>
+        <TotalAmt>918912</TotalAmt>
+        <ManagementAndGeneralAmt>918912</ManagementAndGeneralAmt>
+      </FeesForServicesAccountingGrp>
+      <FeesForServicesProfFundraising>
+        <TotalAmt>5934928</TotalAmt>
+        <FundraisingAmt>5934928</FundraisingAmt>
+      </FeesForServicesProfFundraising>
+      <FeesForSrvcInvstMgmntFeesGrp>
+        <TotalAmt>1892569</TotalAmt>
+        <ManagementAndGeneralAmt>1892569</ManagementAndGeneralAmt>
+      </FeesForSrvcInvstMgmntFeesGrp>
+      <FeesForServicesOtherGrp>
+        <TotalAmt>90278027</TotalAmt>
+        <ProgramServicesAmt>70882420</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>15308957</ManagementAndGeneralAmt>
+        <FundraisingAmt>4086650</FundraisingAmt>
+      </FeesForServicesOtherGrp>
+      <AdvertisingGrp>
+        <TotalAmt>4275618</TotalAmt>
+        <ProgramServicesAmt>3966268</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>116574</ManagementAndGeneralAmt>
+        <FundraisingAmt>192776</FundraisingAmt>
+      </AdvertisingGrp>
+      <OfficeExpensesGrp>
+        <TotalAmt>44298438</TotalAmt>
+        <ProgramServicesAmt>35589988</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>7620350</ManagementAndGeneralAmt>
+        <FundraisingAmt>1088100</FundraisingAmt>
+      </OfficeExpensesGrp>
+      <InformationTechnologyGrp>
+        <TotalAmt>40911351</TotalAmt>
+        <ProgramServicesAmt>9183290</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>31649447</ManagementAndGeneralAmt>
+        <FundraisingAmt>78614</FundraisingAmt>
+      </InformationTechnologyGrp>
+      <RoyaltiesGrp>
+        <TotalAmt>328334</TotalAmt>
+        <ProgramServicesAmt>348729</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>-20443</ManagementAndGeneralAmt>
+        <FundraisingAmt>48</FundraisingAmt>
+      </RoyaltiesGrp>
+      <OccupancyGrp>
+        <TotalAmt>113443305</TotalAmt>
+        <ProgramServicesAmt>96587895</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>15354591</ManagementAndGeneralAmt>
+        <FundraisingAmt>1500819</FundraisingAmt>
+      </OccupancyGrp>
+      <TravelGrp>
+        <TotalAmt>13670302</TotalAmt>
+        <ProgramServicesAmt>11001252</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>1735757</ManagementAndGeneralAmt>
+        <FundraisingAmt>933293</FundraisingAmt>
+      </TravelGrp>
+      <ConferencesMeetingsGrp>
+        <TotalAmt>3832572</TotalAmt>
+        <ProgramServicesAmt>2625150</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>1049308</ManagementAndGeneralAmt>
+        <FundraisingAmt>158114</FundraisingAmt>
+      </ConferencesMeetingsGrp>
+      <InterestGrp>
+        <TotalAmt>2568115</TotalAmt>
+        <ProgramServicesAmt>2568115</ProgramServicesAmt>
+      </InterestGrp>
+      <DepreciationDepletionGrp>
+        <TotalAmt>126415338</TotalAmt>
+        <ProgramServicesAmt>108679114</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>17490840</ManagementAndGeneralAmt>
+        <FundraisingAmt>245384</FundraisingAmt>
+      </DepreciationDepletionGrp>
+      <InsuranceGrp>
+        <TotalAmt>1110119</TotalAmt>
+        <ProgramServicesAmt>499881</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>610237</ManagementAndGeneralAmt>
+        <FundraisingAmt>1</FundraisingAmt>
+      </InsuranceGrp>
+      <OtherExpensesGrp>
+        <Desc>Periodical Prod Costs</Desc>
+        <TotalAmt>44515418</TotalAmt>
+        <ProgramServicesAmt>41989274</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>828014</ManagementAndGeneralAmt>
+        <FundraisingAmt>1698130</FundraisingAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>Research/Subcontracts</Desc>
+        <TotalAmt>34365153</TotalAmt>
+        <ProgramServicesAmt>34364929</ProgramServicesAmt>
+        <FundraisingAmt>224</FundraisingAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>Collections &amp; Equipmnt</Desc>
+        <TotalAmt>12003456</TotalAmt>
+        <ProgramServicesAmt>11270756</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>734334</ManagementAndGeneralAmt>
+        <FundraisingAmt>-1634</FundraisingAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>OH Cost Recovery Grants</Desc>
+        <TotalAmt>0</TotalAmt>
+        <ProgramServicesAmt>23485960</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>-23485960</ManagementAndGeneralAmt>
+      </OtherExpensesGrp>
+      <TotalFunctionalExpensesGrp>
+        <TotalAmt>1173081322</TotalAmt>
+        <ProgramServicesAmt>916182961</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>217042469</ManagementAndGeneralAmt>
+        <FundraisingAmt>39855892</FundraisingAmt>
+      </TotalFunctionalExpensesGrp>
+      <JointCostsInd>X</JointCostsInd>
+      <TotalJointCostsGrp>
+        <TotalAmt>10800267</TotalAmt>
+        <ProgramServicesAmt>5545877</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>0</ManagementAndGeneralAmt>
+        <FundraisingAmt>5254390</FundraisingAmt>
+      </TotalJointCostsGrp>
+      <CashNonInterestBearingGrp>
+        <BOYAmt>498183220</BOYAmt>
+        <EOYAmt>520731243</EOYAmt>
+      </CashNonInterestBearingGrp>
+      <SavingsAndTempCashInvstGrp>
+        <BOYAmt>56691155</BOYAmt>
+        <EOYAmt>22508876</EOYAmt>
+      </SavingsAndTempCashInvstGrp>
+      <PledgesAndGrantsReceivableGrp>
+        <BOYAmt>256777273</BOYAmt>
+        <EOYAmt>270293495</EOYAmt>
+      </PledgesAndGrantsReceivableGrp>
+      <AccountsReceivableGrp>
+        <BOYAmt>41497121</BOYAmt>
+        <EOYAmt>51557351</EOYAmt>
+      </AccountsReceivableGrp>
+      <InventoriesForSaleOrUseGrp>
+        <BOYAmt>10218715</BOYAmt>
+        <EOYAmt>12545158</EOYAmt>
+      </InventoriesForSaleOrUseGrp>
+      <PrepaidExpensesDefrdChargesGrp>
+        <BOYAmt>11993467</BOYAmt>
+        <EOYAmt>12126528</EOYAmt>
+      </PrepaidExpensesDefrdChargesGrp>
+      <LandBldgEquipCostOrOtherBssAmt>3813205763</LandBldgEquipCostOrOtherBssAmt>
+      <LandBldgEquipAccumDeprecAmt>1762856953</LandBldgEquipAccumDeprecAmt>
+      <LandBldgEquipBasisNetGrp>
+        <BOYAmt>1886245677</BOYAmt>
+        <EOYAmt>2050348810</EOYAmt>
+      </LandBldgEquipBasisNetGrp>
+      <InvestmentsPubTradedSecGrp>
+        <BOYAmt>332008630</BOYAmt>
+        <EOYAmt>380090163</EOYAmt>
+      </InvestmentsPubTradedSecGrp>
+      <InvestmentsOtherSecuritiesGrp>
+        <BOYAmt>926210038</BOYAmt>
+        <EOYAmt>1043791503</EOYAmt>
+      </InvestmentsOtherSecuritiesGrp>
+      <InvestmentsProgramRelatedGrp>
+        <BOYAmt>15692679</BOYAmt>
+        <EOYAmt>18050199</EOYAmt>
+      </InvestmentsProgramRelatedGrp>
+      <OtherAssetsTotalGrp>
+        <BOYAmt>10790104</BOYAmt>
+        <EOYAmt>17495907</EOYAmt>
+      </OtherAssetsTotalGrp>
+      <TotalAssetsGrp>
+        <BOYAmt>4046308079</BOYAmt>
+        <EOYAmt>4399539233</EOYAmt>
+      </TotalAssetsGrp>
+      <AccountsPayableAccrExpnssGrp>
+        <BOYAmt>287731437</BOYAmt>
+        <EOYAmt>293663307</EOYAmt>
+      </AccountsPayableAccrExpnssGrp>
+      <DeferredRevenueGrp>
+        <BOYAmt>341886107</BOYAmt>
+        <EOYAmt>267746658</EOYAmt>
+      </DeferredRevenueGrp>
+      <TaxExemptBondLiabilitiesGrp>
+        <BOYAmt>106297914</BOYAmt>
+        <EOYAmt>104745929</EOYAmt>
+      </TaxExemptBondLiabilitiesGrp>
+      <UnsecuredNotesLoansPayableGrp>
+        <EOYAmt>100000000</EOYAmt>
+      </UnsecuredNotesLoansPayableGrp>
+      <OtherLiabilitiesGrp>
+        <BOYAmt>69150000</BOYAmt>
+        <EOYAmt>45279699</EOYAmt>
+      </OtherLiabilitiesGrp>
+      <TotalLiabilitiesGrp>
+        <BOYAmt>805065458</BOYAmt>
+        <EOYAmt>811435593</EOYAmt>
+      </TotalLiabilitiesGrp>
+      <OrganizationFollowsSFAS117Ind>X</OrganizationFollowsSFAS117Ind>
+      <UnrestrictedNetAssetsGrp>
+        <BOYAmt>2164167948</BOYAmt>
+        <EOYAmt>2377492874</EOYAmt>
+      </UnrestrictedNetAssetsGrp>
+      <TemporarilyRstrNetAssetsGrp>
+        <BOYAmt>683991907</BOYAmt>
+        <EOYAmt>769470517</EOYAmt>
+      </TemporarilyRstrNetAssetsGrp>
+      <PermanentlyRstrNetAssetsGrp>
+        <BOYAmt>393082766</BOYAmt>
+        <EOYAmt>441140249</EOYAmt>
+      </PermanentlyRstrNetAssetsGrp>
+      <TotalNetAssetsFundBalanceGrp>
+        <BOYAmt>3241242621</BOYAmt>
+        <EOYAmt>3588103640</EOYAmt>
+      </TotalNetAssetsFundBalanceGrp>
+      <TotLiabNetAssetsFundBalanceGrp>
+        <BOYAmt>4046308079</BOYAmt>
+        <EOYAmt>4399539233</EOYAmt>
+      </TotLiabNetAssetsFundBalanceGrp>
+      <InfoInScheduleOPartXIInd>X</InfoInScheduleOPartXIInd>
+      <ReconcilationRevenueExpnssAmt>279329143</ReconcilationRevenueExpnssAmt>
+      <NetUnrlzdGainsLossesInvstAmt>36865812</NetUnrlzdGainsLossesInvstAmt>
+      <OtherChangesInNetAssetsAmt>30666064</OtherChangesInNetAssetsAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AccountantCompileOrReviewInd>0</AccountantCompileOrReviewInd>
+      <FSAuditedInd>1</FSAuditedInd>
+      <FSAuditedBasisGrp>
+        <SeparateBasisFinclStmtInd>X</SeparateBasisFinclStmtInd>
+      </FSAuditedBasisGrp>
+      <AuditCommitteeInd>1</AuditCommitteeInd>
+      <FederalGrantAuditRequiredInd>1</FederalGrantAuditRequiredInd>
+      <FederalGrantAuditPerformedInd>1</FederalGrantAuditPerformedInd>
+    </IRS990>
+    <IRS990ScheduleA documentId="RetDoc1039100001">
+      <PublicOrganization170Ind>X</PublicOrganization170Ind>
+      <GiftsGrantsContriRcvd170Grp>
+        <CurrentTaxYearMinus4YearsAmt>1032198872</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>1040181349</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>1126869412</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>1120530769</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>1190256002</CurrentTaxYearAmt>
+        <TotalAmt>5510036404</TotalAmt>
+      </GiftsGrantsContriRcvd170Grp>
+      <TotalCalendarYear170Grp>
+        <CurrentTaxYearMinus4YearsAmt>1032198872</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>1040181349</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>1126869412</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>1120530769</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>1190256002</CurrentTaxYearAmt>
+        <TotalAmt>5510036404</TotalAmt>
+      </TotalCalendarYear170Grp>
+      <PublicSupportTotal170Amt>5510036404</PublicSupportTotal170Amt>
+      <GrossInvestmentIncome170Grp>
+        <CurrentTaxYearMinus4YearsAmt>11201417</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>17547653</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>17395111</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>20622076</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>35313796</CurrentTaxYearAmt>
+        <TotalAmt>102080053</TotalAmt>
+      </GrossInvestmentIncome170Grp>
+      <TotalSupportAmt>5612116457</TotalSupportAmt>
+      <GrossReceiptsRltdActivitiesAmt>766566886</GrossReceiptsRltdActivitiesAmt>
+      <PublicSupportCY170Pct>0.98180</PublicSupportCY170Pct>
+      <PublicSupportPY170Pct>0.98490</PublicSupportPY170Pct>
+      <ThirtyThrPctSuprtTestsCY170Ind>X</ThirtyThrPctSuprtTestsCY170Ind>
+    </IRS990ScheduleA>
+    <IRS990ScheduleC documentId="RetDoc1039700001">
+      <VolunteersInd>0</VolunteersInd>
+      <PaidStaffOrManagementInd>1</PaidStaffOrManagementInd>
+      <MediaAdvertisementsInd>0</MediaAdvertisementsInd>
+      <MailingsMembersInd>0</MailingsMembersInd>
+      <PublicationsOrBroadcastInd>0</PublicationsOrBroadcastInd>
+      <GrantsOtherOrganizationsInd>0</GrantsOtherOrganizationsInd>
+      <DirectContactLegislatorsInd>1</DirectContactLegislatorsInd>
+      <DirectContactLegislatorsAmt>587</DirectContactLegislatorsAmt>
+      <RalliesDemonstrationsInd>0</RalliesDemonstrationsInd>
+      <OtherActivitiesInd>0</OtherActivitiesInd>
+      <TotalLobbyingExpendituresAmt>587</TotalLobbyingExpendituresAmt>
+      <NotDescribedSection501c3Ind>0</NotDescribedSection501c3Ind>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part II-B, Line 1:</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Smithsonian Institution requested support for capital improvements and educational programs for the Cooper-Hewitt National Design Museum in New York City from NYC and the State of New York. Smithsonian staff met with public officials on one occasion, and the value of staff time and direct expenses spent in connection with this meeting was $587.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleC>
+    <IRS990ScheduleD documentId="RetDoc1040000001">
+      <CollectionUsedPubExhibitionInd>X</CollectionUsedPubExhibitionInd>
+      <CollUsedScholarlyRsrchInd>X</CollUsedScholarlyRsrchInd>
+      <CollectionUsedPreservationInd>X</CollectionUsedPreservationInd>
+      <CollUsedLoanOrExchProgInd>X</CollUsedLoanOrExchProgInd>
+      <SolicitedAssetsSaleInd>1</SolicitedAssetsSaleInd>
+      <CYEndwmtFundGrp>
+        <BeginningYearBalanceAmt>1191094313</BeginningYearBalanceAmt>
+        <ContributionsAmt>37894600</ContributionsAmt>
+        <InvestmentEarningsOrLossesAmt>130483529</InvestmentEarningsOrLossesAmt>
+        <OtherExpendituresAmt>57266941</OtherExpendituresAmt>
+        <AdministrativeExpensesAmt>2997377</AdministrativeExpensesAmt>
+        <EndYearBalanceAmt>1299208124</EndYearBalanceAmt>
+      </CYEndwmtFundGrp>
+      <CYMinus1YrEndwmtFundGrp>
+        <BeginningYearBalanceAmt>1074356857</BeginningYearBalanceAmt>
+        <ContributionsAmt>34861990</ContributionsAmt>
+        <InvestmentEarningsOrLossesAmt>139875394</InvestmentEarningsOrLossesAmt>
+        <OtherExpendituresAmt>55408994</OtherExpendituresAmt>
+        <AdministrativeExpensesAmt>2590934</AdministrativeExpensesAmt>
+        <EndYearBalanceAmt>1191094313</EndYearBalanceAmt>
+      </CYMinus1YrEndwmtFundGrp>
+      <CYMinus2YrEndwmtFundGrp>
+        <BeginningYearBalanceAmt>971279043</BeginningYearBalanceAmt>
+        <ContributionsAmt>34505912</ContributionsAmt>
+        <InvestmentEarningsOrLossesAmt>121707182</InvestmentEarningsOrLossesAmt>
+        <OtherExpendituresAmt>51207144</OtherExpendituresAmt>
+        <AdministrativeExpensesAmt>1928136</AdministrativeExpensesAmt>
+        <EndYearBalanceAmt>1074356857</EndYearBalanceAmt>
+      </CYMinus2YrEndwmtFundGrp>
+      <CYMinus3YrEndwmtFundGrp>
+        <BeginningYearBalanceAmt>990868000</BeginningYearBalanceAmt>
+        <ContributionsAmt>23507002</ContributionsAmt>
+        <InvestmentEarningsOrLossesAmt>6268193</InvestmentEarningsOrLossesAmt>
+        <OtherExpendituresAmt>47426653</OtherExpendituresAmt>
+        <AdministrativeExpensesAmt>1937499</AdministrativeExpensesAmt>
+        <EndYearBalanceAmt>971279043</EndYearBalanceAmt>
+      </CYMinus3YrEndwmtFundGrp>
+      <CYMinus4YrEndwmtFundGrp>
+        <BeginningYearBalanceAmt>883509000</BeginningYearBalanceAmt>
+        <ContributionsAmt>56665000</ContributionsAmt>
+        <InvestmentEarningsOrLossesAmt>101203000</InvestmentEarningsOrLossesAmt>
+        <OtherExpendituresAmt>49782000</OtherExpendituresAmt>
+        <AdministrativeExpensesAmt>727000</AdministrativeExpensesAmt>
+        <EndYearBalanceAmt>990868000</EndYearBalanceAmt>
+      </CYMinus4YrEndwmtFundGrp>
+      <BoardDesignatedBalanceEOYPct>0.48440</BoardDesignatedBalanceEOYPct>
+      <PrmnntEndowmentBalanceEOYPct>0.28440</PrmnntEndowmentBalanceEOYPct>
+      <TermEndowmentBalanceEOYPct>0.23120</TermEndowmentBalanceEOYPct>
+      <EndowmentsHeldUnrelatedOrgInd>0</EndowmentsHeldUnrelatedOrgInd>
+      <EndowmentsHeldRelatedOrgInd>0</EndowmentsHeldRelatedOrgInd>
+      <LandGrp>
+        <OtherCostOrOtherBasisAmt>12582149</OtherCostOrOtherBasisAmt>
+        <BookValueAmt>12582149</BookValueAmt>
+      </LandGrp>
+      <BuildingsGrp>
+        <OtherCostOrOtherBasisAmt>2766485177</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>1475183658</DepreciationAmt>
+        <BookValueAmt>1291301519</BookValueAmt>
+      </BuildingsGrp>
+      <LeaseholdImprovementsGrp>
+        <OtherCostOrOtherBasisAmt>119729748</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>57887604</DepreciationAmt>
+        <BookValueAmt>61842144</BookValueAmt>
+      </LeaseholdImprovementsGrp>
+      <EquipmentGrp>
+        <OtherCostOrOtherBasisAmt>309725676</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>229785691</DepreciationAmt>
+        <BookValueAmt>79939985</BookValueAmt>
+      </EquipmentGrp>
+      <OtherLandBuildingsGrp>
+        <OtherCostOrOtherBasisAmt>604683013</OtherCostOrOtherBasisAmt>
+        <BookValueAmt>604683013</BookValueAmt>
+      </OtherLandBuildingsGrp>
+      <TotalBookValueLandBuildingsAmt>2050348810</TotalBookValueLandBuildingsAmt>
+      <OtherSecuritiesGrp>
+        <Desc>Global &amp; emerging markets</Desc>
+        <BookValueAmt>374479126</BookValueAmt>
+        <MethodValuationCd>F</MethodValuationCd>
+      </OtherSecuritiesGrp>
+      <OtherSecuritiesGrp>
+        <Desc>Hedge funds</Desc>
+        <BookValueAmt>344782917</BookValueAmt>
+        <MethodValuationCd>F</MethodValuationCd>
+      </OtherSecuritiesGrp>
+      <OtherSecuritiesGrp>
+        <Desc>Private equity &amp; venture capital</Desc>
+        <BookValueAmt>179694756</BookValueAmt>
+        <MethodValuationCd>F</MethodValuationCd>
+      </OtherSecuritiesGrp>
+      <OtherSecuritiesGrp>
+        <Desc>Natural Resources</Desc>
+        <BookValueAmt>54616560</BookValueAmt>
+        <MethodValuationCd>F</MethodValuationCd>
+      </OtherSecuritiesGrp>
+      <OtherSecuritiesGrp>
+        <Desc>Real Estate</Desc>
+        <BookValueAmt>79409192</BookValueAmt>
+        <MethodValuationCd>F</MethodValuationCd>
+      </OtherSecuritiesGrp>
+      <OtherSecuritiesGrp>
+        <Desc>Fixed Income</Desc>
+        <BookValueAmt>10808952</BookValueAmt>
+        <MethodValuationCd>F</MethodValuationCd>
+      </OtherSecuritiesGrp>
+      <TotalBookValueSecuritiesAmt>1043791503</TotalBookValueSecuritiesAmt>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>Environmental remediation obligation</Desc>
+        <Amt>45279699</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <TotalLiabilityAmt>45279699</TotalLiabilityAmt>
+      <FootnoteTextInd>X</FootnoteTextInd>
+      <TotalRevEtcAuditedFinclStmtAmt>1581768490</TotalRevEtcAuditedFinclStmtAmt>
+      <NetUnrealizedGainsInvstAmt>36865812</NetUnrealizedGainsInvstAmt>
+      <DonatedServicesAndUseFcltsAmt>7959643</DonatedServicesAndUseFcltsAmt>
+      <OtherRevenueAmt>63598661</OtherRevenueAmt>
+      <RevenueNotReportedAmt>108424116</RevenueNotReportedAmt>
+      <RevenueSubtotalAmt>1473344374</RevenueSubtotalAmt>
+      <InvestmentExpensesNotIncldAmt>1892569</InvestmentExpensesNotIncldAmt>
+      <OtherRevenuesNotIncludedAmt>-22826478</OtherRevenuesNotIncludedAmt>
+      <RevenueNotReportedFinclStmtAmt>-20933909</RevenueNotReportedFinclStmtAmt>
+      <TotalRevenuePerForm990Amt>1452410465</TotalRevenuePerForm990Amt>
+      <TotExpnsEtcAuditedFinclStmtAmt>1234907471</TotExpnsEtcAuditedFinclStmtAmt>
+      <DonatedServicesUseFcltsAmt>7959643</DonatedServicesUseFcltsAmt>
+      <OtherExpensesIncludedAmt>55759075</OtherExpensesIncludedAmt>
+      <ExpensesNotReportedAmt>63718718</ExpensesNotReportedAmt>
+      <ExpensesSubtotalAmt>1171188753</ExpensesSubtotalAmt>
+      <InvestmentExpensesNotIncld2Amt>1892569</InvestmentExpensesNotIncld2Amt>
+      <ExpensesNotRptFinclStmtAmt>1892569</ExpensesNotRptFinclStmtAmt>
+      <TotalExpensesPerForm990Amt>1173081322</TotalExpensesPerForm990Amt>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part III, Line 1a:</FormAndLineReferenceDesc>
+        <ExplanationTxt>In conformity with the practice generally followed by museums, no value is assigned to the collections in the statement of financial position. Purchases of collection items are recognized as reductions in unrestricted net assets in the period of acquisition. Proceeds from deaccessions or insurance recoveries for lost or destroyed collection items are recognized as increases in the approriate net asset class and are generally designated for future collection acquisitions.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part III, Line 4:</FormAndLineReferenceDesc>
+        <ExplanationTxt>The acquisition, preservation, management, and study of collections are fundamental to the Smithsonian's mission to increase and diffuse knowledge and have been the foundation upon which its reputation rests. Smithsonian collections are a national and global resource accessed each year by millions of visitors and researchers who use traditional methods and cutting-edge technologies to explore subjects from aeronautics to zoology. Through its collections, the Smithsonian presents the astonishing record of American and international artistic, historical, cultural, and scientific achievement, with a scope and depth no other institution in the world can match. Assembled over more than 160 years, the collections are central to the core activities and to the vitality and significance of the Smithsonian. Smithsonian collections contribute to population recovery of endangered species, advances in reproductive biology, genome resource banking, medical research, forensic analysis, bio-security, and conservation policy worldwide.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part V, Line 4:</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Endowment includes approximately 500 individual endowment funds. The Endowment provides stable financial support for scholarship, research activities, other programs, acquisitions for collections and other Institutional activities. It plays a critical role in enabling the Institution to achieve its mission - "the increase and diffusion of knowledge". The Endowment includes both Donor-restricted endowment funds and funds designated by the Board of Regents to function as endowments and are consistent with the Institution's mission. Classification and reporting of net assets associated with the Endowment reflect Donor-imposed restrictions.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part X, Line 2:</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Smithsonian recognizes the effect of income tax positions only if those positions are more likely than not of being sustained. The Smithsonian does not believe its financial statements include any uncertain tax positions.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part XI, Line 2d - Other Adjustments:</FormAndLineReferenceDesc>
+        <ExplanationTxt>Deferred gain on building 3,908,586. Change in FONZ net assets 529,657. Change in minority interest - SI Networks 2,357,520. Imputed Benefit Revenue 32,932,597. Environmental Remediation liability adjustment 23,870,301.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part XI, Line 4b - Other Adjustments:</FormAndLineReferenceDesc>
+        <ExplanationTxt>Direct expenses - fundraising -870,564. Direct expenses - cost of goods sold -21,955,914.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part XII, Line 2d - Other Adjustments:</FormAndLineReferenceDesc>
+        <ExplanationTxt>Direct expenses - fundraising 870,564. Direct expenses - cost of goods sold 21,955,914. Imputed benefit costs 32,932,597.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleD>
+    <IRS990ScheduleF documentId="RetDoc1040500001">
+      <GrantRecordsMaintainedInd>1</GrantRecordsMaintainedInd>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Central America and the Caribbean</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Academic appointment stipends to recipients located in the region</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>1578169</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Central America and the Caribbean</RegionTxt>
+        <OfficesCnt>7</OfficesCnt>
+        <EmployeeCnt>600</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Program services</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>Research facilitiesresearch &amp; conferences</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>24092557</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>East Asia &amp; Pacific</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Academic appointment stipends to recipients located in the region</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>716488</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Europe</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Academic appointment stipends to recipients located in the region</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>1996824</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Middle East &amp; North Africa</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Academic appointment stipends to recipients located in the region</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>76906</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>North America</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Academic appointment stipends to recipients located in the region</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>170817</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Russia &amp; Neighboring States</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Academic appointment stipends to recipients located in the region</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>144296</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>South America</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Academic appointment stipends to recipients located in the region</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>300737</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>South Asia</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Academic appointment stipends to recipients located in the region</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>11596</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Sub-Saharan Africa</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Academic appointment stipends to recipients located in the region</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>36041</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Europe</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Program Services</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>Research/conferences</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>1336757</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Sub-Saharan Africa</RegionTxt>
+        <OfficesCnt>1</OfficesCnt>
+        <EmployeeCnt>8</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Program Services</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>Research/conferences</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>1292817</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>South America</RegionTxt>
+        <OfficesCnt>2</OfficesCnt>
+        <EmployeeCnt>7</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Program Services</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>Research/conferences</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>1160829</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>East Asia &amp; Pacific</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Program Services</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>Research/conferences</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>1171269</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Middle East &amp; North Africa</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Program Services</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>Research/conferences</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>62142</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>North America</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Program Services</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>Research/conferences</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>363875</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Russia &amp; Neighboring States</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Program Services</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>Research/conferences</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>96547</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>South Asia</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Program Services</TypeOfActivitiesConductedTxt>
+        <SpecificServicesProvidedTxt>Research/conferences</SpecificServicesProvidedTxt>
+        <RegionTotalExpendituresAmt>58031</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Central America and the Caribbean</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Investments</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>606337863</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Europe</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>InvestmentsInvestments</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>108453893</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>North America</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Investments</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>1401322</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Sub-Saharan Africa</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Investments</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>4596746</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>East Asia &amp; Pacific</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Investments</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>24615978</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <SubtotalOfficesCnt>7</SubtotalOfficesCnt>
+      <SubtotalEmployeesCnt>600</SubtotalEmployeesCnt>
+      <ContinutationTotalOfficeCnt>3</ContinutationTotalOfficeCnt>
+      <ContinutationTotalEmployeeCnt>15</ContinutationTotalEmployeeCnt>
+      <TotalOfficeCnt>10</TotalOfficeCnt>
+      <TotalEmployeeCnt>615</TotalEmployeeCnt>
+      <SubtotalSpentAmt>29076794</SubtotalSpentAmt>
+      <ContinuationSpentAmt>750995706</ContinuationSpentAmt>
+      <TotalSpentAmt>780072500</TotalSpentAmt>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>Europe</RegionTxt>
+        <PurposeOfGrantTxt>Academic appointment stipend</PurposeOfGrantTxt>
+        <CashGrantAmt>21408</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>EFT</MannerOfCashDisbursementTxt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>Europe</RegionTxt>
+        <PurposeOfGrantTxt>Academic appointment stipend</PurposeOfGrantTxt>
+        <CashGrantAmt>3465</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>EFT</MannerOfCashDisbursementTxt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>North America</RegionTxt>
+        <PurposeOfGrantTxt>Academic appointment stipend</PurposeOfGrantTxt>
+        <CashGrantAmt>10000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>EFT</MannerOfCashDisbursementTxt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>North America</RegionTxt>
+        <PurposeOfGrantTxt>Academic appointment stipend</PurposeOfGrantTxt>
+        <CashGrantAmt>13680</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>EFT</MannerOfCashDisbursementTxt>
+      </GrantsToOrgOutsideUSGrp>
+      <Total501c3OrgCnt>4</Total501c3OrgCnt>
+      <TotalOtherOrgCnt>0</TotalOtherOrgCnt>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>Academic Appointment Stipends</TypeOfAssistanceTxt>
+        <RegionTxt>Central America and the Caribbean</RegionTxt>
+        <RecipientCnt>195</RecipientCnt>
+        <CashGrantAmt>1578169</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Direct Deposits &amp; Checks</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>Academic Appointment Stipends</TypeOfAssistanceTxt>
+        <RegionTxt>East Asia and the Pacific</RegionTxt>
+        <RecipientCnt>43</RecipientCnt>
+        <CashGrantAmt>716488</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Direct Deposits &amp; Checks</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>Academic Appointment Stipends</TypeOfAssistanceTxt>
+        <RegionTxt>Europe</RegionTxt>
+        <RecipientCnt>82</RecipientCnt>
+        <CashGrantAmt>1971951</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Direct Deposits &amp; Checks</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>Academic Appointment Stipends</TypeOfAssistanceTxt>
+        <RegionTxt>Middle East and North Africa</RegionTxt>
+        <RecipientCnt>5</RecipientCnt>
+        <CashGrantAmt>76906</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Direct Deposits &amp; Checks</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>Academic Appointment Stipends</TypeOfAssistanceTxt>
+        <RegionTxt>North America</RegionTxt>
+        <RecipientCnt>17</RecipientCnt>
+        <CashGrantAmt>147137</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Direct Deposits &amp; Checks</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>Academic Appointment Stipends</TypeOfAssistanceTxt>
+        <RegionTxt>Russia and Neighboring States</RegionTxt>
+        <RecipientCnt>7</RecipientCnt>
+        <CashGrantAmt>144296</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Direct Deposits &amp; Checks</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>Academic Appointment Stipends</TypeOfAssistanceTxt>
+        <RegionTxt>South America</RegionTxt>
+        <RecipientCnt>26</RecipientCnt>
+        <CashGrantAmt>300737</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Direct Deposits &amp; Checks</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>Academic Appointment Stipends</TypeOfAssistanceTxt>
+        <RegionTxt>South Asia</RegionTxt>
+        <RecipientCnt>3</RecipientCnt>
+        <CashGrantAmt>11596</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Direct Deposits &amp; Checks</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>Academic Appointment Stipends</TypeOfAssistanceTxt>
+        <RegionTxt>Sub-Saharan Africa</RegionTxt>
+        <RecipientCnt>4</RecipientCnt>
+        <CashGrantAmt>36041</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Direct Deposits &amp; Checks</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <TransferToForeignCorpInd>1</TransferToForeignCorpInd>
+      <InterestInForeignTrustInd>1</InterestInForeignTrustInd>
+      <ForeignCorpOwnershipInd>1</ForeignCorpOwnershipInd>
+      <PassiveForeignInvestmestCoInd>1</PassiveForeignInvestmestCoInd>
+      <ForeignPartnershipInd>1</ForeignPartnershipInd>
+      <BoycottCountriesInd>1</BoycottCountriesInd>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part I, Line 2:</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Office of Fellowships has central management and administrative responsibility for the Smithsonian programs of research fellowships and other academic appointments for undergraduate, graduate students, postdoctoral and senior scholars. The Smithsonian Institution Fellowship Program is a competitive fellowship program for graduate and postdoctoral fellows, who apply to conduct research at the Institution with research staff serving as advisors. The review process is made up of disciplinary committees comprised of the Institution's staff who evaluate the candidates and then select the fellows. There are other competitive and non-competitive fellowship, visiting scholar and student appointees selected through the Smithsonian units that go through a variety of other selection processes before an award is made. An official letter /agreement is provided to each award recipient identifying the award title, dates of tenure, stipend allowances, and required responsibilities for holding this position. All recipients either will identify a financial institution for receipt of their monetary award or they will receive US Treasury checks. Depending on the tenure of the appointment, payments can range from one lump sum, biweekly payments or monthly payments. Most fellowship appointments are awarded for one to two years. On occasion, we have visiting scholars or fellows who are conducting research in another country. Payments are usually submitted as stated above, however, on occasion, there may be one or two who request that their payments be sent to the country of their research. At the end of tenure, a final report of their research accomplishments is provided for our records. Smithsonian research staff who serve as advisors to these fellows, students and scholars are usually in the field during their tenure. The eight Smithsonian research centers located in the United States and one located in Panama monitor the progress of their fellows especially those fellows in other countries, and the administrative management of funds is managed through the Institution's central administration for accountability. Program services for research and conferences include travel related expenditures. Only travel essential to the performance of official SI business, whether by SI employees, research associates, or invitational travelers (i.e., individuals who are not SI employees), and for which travel-related expenses are to be paid by the Smithsonian, can be approved, authorized, and reimbursed. Investments in regions include investments in foreign partnerships and foreign corporations. The foreign region is determined by the country whose laws govern the investment entity. The value reported represents the fair market value of the investment at the end of the fiscal year. Per Form 990 instructions, stipends are reported on Schedule F if the person receiving the stipend is living or residing outside the United States at the time the stipend is paid or distributed. However, many of these stipend recipients later traveled to the Smithsonian in the United States to perform their research.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleF>
+    <IRS990ScheduleG documentId="RetDoc1041200001">
+      <MailSolicitationsInd>X</MailSolicitationsInd>
+      <EmailSolicitationsInd>X</EmailSolicitationsInd>
+      <PhoneSolicitationsInd>X</PhoneSolicitationsInd>
+      <InPersonSolicitationsInd>X</InPersonSolicitationsInd>
+      <SolicitationOfNonGovtGrantsInd>X</SolicitationOfNonGovtGrantsInd>
+      <SolicitationOfGovtGrantsInd>X</SolicitationOfGovtGrantsInd>
+      <SpecialFundraisingEventsInd>X</SpecialFundraisingEventsInd>
+      <AgrmtProfFundraisingActyInd>1</AgrmtProfFundraisingActyInd>
+      <FundraiserActivityInfoGrp>
+        <OrganizationBusinessName>
+          <BusinessNameLine1>Odell Simms &amp; Associates</BusinessNameLine1>
+        </OrganizationBusinessName>
+        <USAddress>
+          <AddressLine1>1593 Spring Hill Rd</AddressLine1>
+          <City>Tysons Corner</City>
+          <State>VA</State>
+          <ZIPCode>221822245</ZIPCode>
+        </USAddress>
+        <ActivityTxt>Direct Mail-Acquisition Program/Membership Services</ActivityTxt>
+        <FundraiserControlOfFundsInd>0</FundraiserControlOfFundsInd>
+        <GrossReceiptsAmt>0</GrossReceiptsAmt>
+        <RetainedByContractorAmt>2429419</RetainedByContractorAmt>
+        <NetToOrganizationAmt>-2429419</NetToOrganizationAmt>
+      </FundraiserActivityInfoGrp>
+      <FundraiserActivityInfoGrp>
+        <OrganizationBusinessName>
+          <BusinessNameLine1>Epsilon Data Management</BusinessNameLine1>
+        </OrganizationBusinessName>
+        <USAddress>
+          <AddressLine1>1300 N 17th St</AddressLine1>
+          <City>Arlington</City>
+          <State>VA</State>
+          <ZIPCode>22209</ZIPCode>
+        </USAddress>
+        <ActivityTxt>Direct Mail Advisory &amp; Assistance</ActivityTxt>
+        <FundraiserControlOfFundsInd>0</FundraiserControlOfFundsInd>
+        <GrossReceiptsAmt>0</GrossReceiptsAmt>
+        <RetainedByContractorAmt>887476</RetainedByContractorAmt>
+        <NetToOrganizationAmt>-887476</NetToOrganizationAmt>
+      </FundraiserActivityInfoGrp>
+      <FundraiserActivityInfoGrp>
+        <OrganizationBusinessName>
+          <BusinessNameLine1>Avalon Consulting Group</BusinessNameLine1>
+        </OrganizationBusinessName>
+        <USAddress>
+          <AddressLine1>2030 M St NW</AddressLine1>
+          <City>Washington</City>
+          <State>DC</State>
+          <ZIPCode>200364603</ZIPCode>
+        </USAddress>
+        <ActivityTxt>Telemarketing, Direct Mail, Online &amp; Consulting</ActivityTxt>
+        <FundraiserControlOfFundsInd>0</FundraiserControlOfFundsInd>
+        <GrossReceiptsAmt>0</GrossReceiptsAmt>
+        <RetainedByContractorAmt>594063</RetainedByContractorAmt>
+        <NetToOrganizationAmt>-594063</NetToOrganizationAmt>
+      </FundraiserActivityInfoGrp>
+      <FundraiserActivityInfoGrp>
+        <OrganizationBusinessName>
+          <BusinessNameLine1>Community Counselling Service</BusinessNameLine1>
+        </OrganizationBusinessName>
+        <USAddress>
+          <AddressLine1>3349 Highway 138</AddressLine1>
+          <City>Wall</City>
+          <State>NJ</State>
+          <ZIPCode>07719</ZIPCode>
+        </USAddress>
+        <ActivityTxt>Capital Campaign Management Services</ActivityTxt>
+        <FundraiserControlOfFundsInd>0</FundraiserControlOfFundsInd>
+        <GrossReceiptsAmt>0</GrossReceiptsAmt>
+        <RetainedByContractorAmt>552500</RetainedByContractorAmt>
+        <NetToOrganizationAmt>-552500</NetToOrganizationAmt>
+      </FundraiserActivityInfoGrp>
+      <FundraiserActivityInfoGrp>
+        <OrganizationBusinessName>
+          <BusinessNameLine1>Marts &amp; Lundy</BusinessNameLine1>
+        </OrganizationBusinessName>
+        <USAddress>
+          <AddressLine1>1200 Wall St W</AddressLine1>
+          <City>Lyndhurst</City>
+          <State>NJ</State>
+          <ZIPCode>070713680</ZIPCode>
+        </USAddress>
+        <ActivityTxt>Campaign Consultant</ActivityTxt>
+        <FundraiserControlOfFundsInd>0</FundraiserControlOfFundsInd>
+        <GrossReceiptsAmt>0</GrossReceiptsAmt>
+        <RetainedByContractorAmt>429751</RetainedByContractorAmt>
+        <NetToOrganizationAmt>-429751</NetToOrganizationAmt>
+      </FundraiserActivityInfoGrp>
+      <FundraiserActivityInfoGrp>
+        <OrganizationBusinessName>
+          <BusinessNameLine1>21 Sports &amp; Entertainment Mkting</BusinessNameLine1>
+        </OrganizationBusinessName>
+        <USAddress>
+          <AddressLine1>85 Railroad Ave</AddressLine1>
+          <City>Greenwich</City>
+          <State>CT</State>
+          <ZIPCode>06830</ZIPCode>
+        </USAddress>
+        <ActivityTxt>Fundraising Consultant</ActivityTxt>
+        <FundraiserControlOfFundsInd>0</FundraiserControlOfFundsInd>
+        <GrossReceiptsAmt>0</GrossReceiptsAmt>
+        <RetainedByContractorAmt>257000</RetainedByContractorAmt>
+        <NetToOrganizationAmt>-257000</NetToOrganizationAmt>
+      </FundraiserActivityInfoGrp>
+      <FundraiserActivityInfoGrp>
+        <OrganizationBusinessName>
+          <BusinessNameLine1>M &amp; R Strategic Services</BusinessNameLine1>
+        </OrganizationBusinessName>
+        <USAddress>
+          <AddressLine1>2120 L St NW</AddressLine1>
+          <City>Washington</City>
+          <State>DC</State>
+          <ZIPCode>200371538</ZIPCode>
+        </USAddress>
+        <ActivityTxt>Online Advisory</ActivityTxt>
+        <FundraiserControlOfFundsInd>0</FundraiserControlOfFundsInd>
+        <GrossReceiptsAmt>0</GrossReceiptsAmt>
+        <RetainedByContractorAmt>203134</RetainedByContractorAmt>
+        <NetToOrganizationAmt>-203134</NetToOrganizationAmt>
+      </FundraiserActivityInfoGrp>
+      <FundraiserActivityInfoGrp>
+        <OrganizationBusinessName>
+          <BusinessNameLine1>Donor Services Group</BusinessNameLine1>
+        </OrganizationBusinessName>
+        <USAddress>
+          <AddressLine1>1150 Olympic Bvd</AddressLine1>
+          <City>Los Angeles</City>
+          <State>CA</State>
+          <ZIPCode>900641525</ZIPCode>
+        </USAddress>
+        <ActivityTxt>Telemarketing Calling Services</ActivityTxt>
+        <FundraiserControlOfFundsInd>0</FundraiserControlOfFundsInd>
+        <GrossReceiptsAmt>0</GrossReceiptsAmt>
+        <RetainedByContractorAmt>179324</RetainedByContractorAmt>
+        <NetToOrganizationAmt>-179324</NetToOrganizationAmt>
+      </FundraiserActivityInfoGrp>
+      <FundraiserActivityInfoGrp>
+        <OrganizationBusinessName>
+          <BusinessNameLine1>SD&amp;A Teleservices</BusinessNameLine1>
+        </OrganizationBusinessName>
+        <USAddress>
+          <AddressLine1>101 Continental Blvd</AddressLine1>
+          <City>El Segundo</City>
+          <State>CA</State>
+          <ZIPCode>902454515</ZIPCode>
+        </USAddress>
+        <ActivityTxt>Telemarketing Services</ActivityTxt>
+        <FundraiserControlOfFundsInd>0</FundraiserControlOfFundsInd>
+        <GrossReceiptsAmt>0</GrossReceiptsAmt>
+        <RetainedByContractorAmt>109261</RetainedByContractorAmt>
+        <NetToOrganizationAmt>-109261</NetToOrganizationAmt>
+      </FundraiserActivityInfoGrp>
+      <FundraiserActivityInfoGrp>
+        <OrganizationBusinessName>
+          <BusinessNameLine1>General Systems Corp</BusinessNameLine1>
+        </OrganizationBusinessName>
+        <USAddress>
+          <AddressLine1>8306 Old Courthouse Rd</AddressLine1>
+          <City>Vienna</City>
+          <State>VA</State>
+          <ZIPCode>221823882</ZIPCode>
+        </USAddress>
+        <ActivityTxt>Direct Mail Advisory &amp; Assistance</ActivityTxt>
+        <FundraiserControlOfFundsInd>0</FundraiserControlOfFundsInd>
+        <GrossReceiptsAmt>0</GrossReceiptsAmt>
+        <RetainedByContractorAmt>103271</RetainedByContractorAmt>
+        <NetToOrganizationAmt>-103271</NetToOrganizationAmt>
+      </FundraiserActivityInfoGrp>
+      <TotalRetainedByContractorsAmt>5745199</TotalRetainedByContractorsAmt>
+      <TotalNetToOrganizationAmt>-5745199</TotalNetToOrganizationAmt>
+      <FundraisingEventInformationGrp>
+        <NameOfEvent1Amt>National Design Awards Gala</NameOfEvent1Amt>
+        <GrossReceiptsEvent1Amt>1308206</GrossReceiptsEvent1Amt>
+        <CharitableContriEvent1Amt>1162246</CharitableContriEvent1Amt>
+        <GrossRevenueEvent1Amt>145960</GrossRevenueEvent1Amt>
+        <FoodAndBeverageEvent1Amt>167206</FoodAndBeverageEvent1Amt>
+        <EntertainmentEvent1Amt>7424</EntertainmentEvent1Amt>
+        <OtherDirectExpensesEvent1Amt>214098</OtherDirectExpensesEvent1Amt>
+        <NameOfEvent2Amt>Archives of American Art Benefit</NameOfEvent2Amt>
+        <GrossReceiptsEvent2Amt>596207</GrossReceiptsEvent2Amt>
+        <CharitableContriEvent2Amt>511802</CharitableContriEvent2Amt>
+        <GrossRevenueEvent2Amt>84405</GrossRevenueEvent2Amt>
+        <FoodAndBeverageEvent2Amt>74780</FoodAndBeverageEvent2Amt>
+        <OtherDirectExpensesEvent2Amt>53762</OtherDirectExpensesEvent2Amt>
+        <OtherEventsTotalCnt>10</OtherEventsTotalCnt>
+        <GrossReceiptsOtherEventsAmt>624819</GrossReceiptsOtherEventsAmt>
+        <CharitableContriOtherEventsAmt>496275</CharitableContriOtherEventsAmt>
+        <GrossRevenueOtherEventsAmt>128544</GrossRevenueOtherEventsAmt>
+        <RentFcltyCostsOtherEventsAmt>11540</RentFcltyCostsOtherEventsAmt>
+        <FoodAndBeverageOtherEventsAmt>103886</FoodAndBeverageOtherEventsAmt>
+        <EntertainmentOtherEventsAmt>7756</EntertainmentOtherEventsAmt>
+        <OthDirectExpnssOtherEventsAmt>230112</OthDirectExpnssOtherEventsAmt>
+        <GrossReceiptsTotalAmt>2529232</GrossReceiptsTotalAmt>
+        <CharitableContributionsTotAmt>2170323</CharitableContributionsTotAmt>
+        <GrossRevenueTotalEventsAmt>358909</GrossRevenueTotalEventsAmt>
+        <RentFcltyCostsTotalEventsAmt>11540</RentFcltyCostsTotalEventsAmt>
+        <FoodAndBeverageTotalEventsAmt>345872</FoodAndBeverageTotalEventsAmt>
+        <EntertainmentTotalEventsAmt>15180</EntertainmentTotalEventsAmt>
+        <OthDirectExpnssTotalEventsAmt>497972</OthDirectExpnssTotalEventsAmt>
+        <DirectExpenseSummaryEventsAmt>870564</DirectExpenseSummaryEventsAmt>
+        <NetIncomeSummaryAmt>-511655</NetIncomeSummaryAmt>
+      </FundraisingEventInformationGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule G, Part I, Line 2b Column (iv) and (v): As SI has</FormAndLineReferenceDesc>
+        <ExplanationTxt>multiple fundraisers, some who work on the same campaign, it is not possible to accurately report the exact amount of revenue associated with each fundraiser. No fundraiser had control of any contributions; all were paid under the terms of negotiated contracts. Schedule G,Part I,Line 3: SI is a trust instrumentality of the U.S. and as such is exempt from state regulations pursuant to the Supremacy Clause of the U.S. Constitution. All states that have inquired about SI fundraising soliciation registration have acknowledged this exemption.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleG>
+    <IRS990ScheduleI documentId="RetDoc1041900001">
+      <GrantRecordsMaintainedInd>1</GrantRecordsMaintainedInd>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>President and Fellows of Harvard College</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>1033 Massachusetts Ave</AddressLine1>
+          <City>Cambridge</City>
+          <State>MA</State>
+          <ZIPCode>02138</ZIPCode>
+        </USAddress>
+        <RecipientEIN>042103580</RecipientEIN>
+        <IRCSectionDesc>501(c)(3)</IRCSectionDesc>
+        <CashGrantAmt>136108</CashGrantAmt>
+        <PurposeOfGrantTxt>Academic Appointment Stipend</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>Northwestern University</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>633 Clark Street</AddressLine1>
+          <City>Evanston</City>
+          <State>IL</State>
+          <ZIPCode>60208</ZIPCode>
+        </USAddress>
+        <RecipientEIN>362167817</RecipientEIN>
+        <IRCSectionDesc>501(c)(3)</IRCSectionDesc>
+        <CashGrantAmt>15000</CashGrantAmt>
+        <PurposeOfGrantTxt>Academic Appointment Stipend</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>Regents of the University of Michigan</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>3014 Fleming</AddressLine1>
+          <City>Ann Arbor</City>
+          <State>MI</State>
+          <ZIPCode>481091340</ZIPCode>
+        </USAddress>
+        <RecipientEIN>386006309</RecipientEIN>
+        <IRCSectionDesc>501(c)(3)</IRCSectionDesc>
+        <CashGrantAmt>24350</CashGrantAmt>
+        <PurposeOfGrantTxt>Academic Appointment Stipend</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>Indiana University</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>400 E 7th Street Rm 501</AddressLine1>
+          <City>Bloomington</City>
+          <State>IN</State>
+          <ZIPCode>474053024</ZIPCode>
+        </USAddress>
+        <RecipientEIN>356001673</RecipientEIN>
+        <IRCSectionDesc>115</IRCSectionDesc>
+        <CashGrantAmt>12500</CashGrantAmt>
+        <PurposeOfGrantTxt>Academic Appointment Stipend</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>University of Dayton</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>300 College Park Miriam Hall</AddressLine1>
+          <City>Dayton</City>
+          <State>OH</State>
+          <ZIPCode>45409</ZIPCode>
+        </USAddress>
+        <RecipientEIN>310536715</RecipientEIN>
+        <IRCSectionDesc>501(c)(3)</IRCSectionDesc>
+        <CashGrantAmt>14212</CashGrantAmt>
+        <PurposeOfGrantTxt>Academic Appointment Stipend</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>University of Maryland</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>2119 Main Administration Bldg</AddressLine1>
+          <City>College Park</City>
+          <State>MD</State>
+          <ZIPCode>207425035</ZIPCode>
+        </USAddress>
+        <RecipientEIN>526002033</RecipientEIN>
+        <IRCSectionDesc>115</IRCSectionDesc>
+        <CashGrantAmt>34481</CashGrantAmt>
+        <PurposeOfGrantTxt>Academic Appointment Stipend</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>University of Illinois</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>601 E John Street</AddressLine1>
+          <City>Champaign</City>
+          <State>IL</State>
+          <ZIPCode>61820</ZIPCode>
+        </USAddress>
+        <RecipientEIN>376000511</RecipientEIN>
+        <IRCSectionDesc>115</IRCSectionDesc>
+        <CashGrantAmt>15600</CashGrantAmt>
+        <PurposeOfGrantTxt>Academic Appointment Stipend</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <PurposeOfGrantTxt>Academic Appointment Stipend</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>University of Wisconsin-Madison</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>21 N Park Street</AddressLine1>
+          <City>Madison</City>
+          <State>WI</State>
+          <ZIPCode>537151218</ZIPCode>
+        </USAddress>
+        <RecipientEIN>396006492</RecipientEIN>
+        <IRCSectionDesc>115</IRCSectionDesc>
+        <CashGrantAmt>24000</CashGrantAmt>
+        <PurposeOfGrantTxt>Academic Appointment Stipend</PurposeOfGrantTxt>
+      </RecipientTable>
+      <Total501c3OrgCnt>8</Total501c3OrgCnt>
+      <TotalOtherOrgCnt>0</TotalOtherOrgCnt>
+      <GrantsOtherAsstToIndivInUSGrp>
+        <GrantTypeTxt>Academic Appointment Stipends</GrantTypeTxt>
+        <RecipientCnt>978</RecipientCnt>
+        <CashGrantAmt>11854024</CashGrantAmt>
+      </GrantsOtherAsstToIndivInUSGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part I, Line 2:</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Office of Fellowships has central management and administrative responsibility for the Smithsonian programs of research fellowships and other academic appointments for undergraduate, graduate students, postdoctoral and senior scholars. The Smithsonian Institution Fellowship Program is a competitive fellowship program for graduate and postdoctoral fellows, who apply to conduct research at the Institution with research staff serving as advisors. The review process is made up of disciplinary committees comprised of the Institution's research staff who evaluate the candidates and then select the fellows. There are other competitive and non-competitive fellowship, visiting scholar and student appointees selected through the Smithsonian units that go through a variety of other selections processes before an award is made. An official letter/agreement is provided to each award recipient identifying the award title, dates of tenure, stipend allowances, and required responsibilities for holding this position. All recipients either will identify a financial institution for receipt of their monetary award or they will receive US Treasury checks. Depending on the tenure of the appointment, payments may be made in a lump sum or in periodic payments. Most fellowship appointments are awarded for one to two years. At the end of tenure, a final report of their research accomplishments is provided for our records. Smithsonian research staff who serve as advisors to these fellows, students and scholars are usually in the field during their tenure. The individual Smithsonian research centers monitor the progress of their fellows, and the funds are managed through the Institution's central administration to ensure accountability. Similiar processes are followed for awards made to organizations whose academic staff perfoms the related research.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleI>
+    <IRS990ScheduleJ documentId="RetDoc1042400001">
+      <TravelForCompanionsInd>X</TravelForCompanionsInd>
+      <WrittenPolicyRefTAndEExpnssInd>1</WrittenPolicyRefTAndEExpnssInd>
+      <SubstantiationRequiredInd>1</SubstantiationRequiredInd>
+      <CompensationCommitteeInd>X</CompensationCommitteeInd>
+      <IndependentConsultantInd>X</IndependentConsultantInd>
+      <CompensationSurveyInd>X</CompensationSurveyInd>
+      <BoardOrCommitteeApprovalInd>X</BoardOrCommitteeApprovalInd>
+      <SeverancePaymentInd>1</SeverancePaymentInd>
+      <SupplementalNonqualRtrPlanInd>0</SupplementalNonqualRtrPlanInd>
+      <EquityBasedCompArrngmInd>0</EquityBasedCompArrngmInd>
+      <CompBasedOnRevenueOfFlngOrgInd>0</CompBasedOnRevenueOfFlngOrgInd>
+      <CompBsdOnRevRelatedOrgsInd>0</CompBsdOnRevRelatedOrgsInd>
+      <CompBsdNetEarnsFlngOrgInd>1</CompBsdNetEarnsFlngOrgInd>
+      <CompBsdNetEarnsRltdOrgsInd>0</CompBsdNetEarnsRltdOrgsInd>
+      <AnyNonFixedPaymentsInd>0</AnyNonFixedPaymentsInd>
+      <InitialContractExceptionInd>0</InitialContractExceptionInd>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>G Wayne Clough</PersonNm>
+        <TitleTxt>Secretary</TitleTxt>
+        <BaseCompensationFilingOrgAmt>502579</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>20000</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>8652</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>38010</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>2922</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>572163</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Scott Dahl thru 11213</PersonNm>
+        <TitleTxt>Inspector General</TitleTxt>
+        <BaseCompensationFilingOrgAmt>175738</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>7580</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>16961</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>200279</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Albert Horvath</PersonNm>
+        <TitleTxt>Under Sec - Fin &amp; Adm/CFO</TitleTxt>
+        <BaseCompensationFilingOrgAmt>361279</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>5000</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>883</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>38010</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>17773</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>422945</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>John Lapiana thru 12113</PersonNm>
+        <TitleTxt>Chief of Staff - Regents</TitleTxt>
+        <BaseCompensationFilingOrgAmt>175573</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>5000</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>354</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>24762</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>6804</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>212493</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Judith Leonard</PersonNm>
+        <TitleTxt>General Counsel</TitleTxt>
+        <BaseCompensationFilingOrgAmt>176545</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>1037</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>25186</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>6889</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>209657</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Sudeep Anand thru 123113</PersonNm>
+        <TitleTxt>Treasurer</TitleTxt>
+        <BaseCompensationFilingOrgAmt>214329</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>4714</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>2667</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>32690</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>10125</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>264525</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Nancy Bechtol</PersonNm>
+        <TitleTxt>Director - Facilities</TitleTxt>
+        <BaseCompensationFilingOrgAmt>174637</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>650</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>24348</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>803</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>200438</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Gregory Bokman thru 93013</PersonNm>
+        <TitleTxt>CFO-Smithsonian Enterprises</TitleTxt>
+        <BaseCompensationFilingOrgAmt>152252</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>57342</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>119927</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>22512</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>14465</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>366498</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Claudine Brown</PersonNm>
+        <TitleTxt>Asst Sec - Education and Access</TitleTxt>
+        <BaseCompensationFilingOrgAmt>240090</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>3500</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>1544</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>36169</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>32045</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>313348</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Deron Burba</PersonNm>
+        <TitleTxt>Chief Information Officer</TitleTxt>
+        <BaseCompensationFilingOrgAmt>174505</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>10000</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>236</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>25186</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>14648</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>224575</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Amy Chen</PersonNm>
+        <TitleTxt>Chief Investment Officer</TitleTxt>
+        <BaseCompensationFilingOrgAmt>248506</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>180834</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>1032</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>34375</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>1452</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>466199</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Virginia Clark</PersonNm>
+        <TitleTxt>Director - Advancement &amp; Giving</TitleTxt>
+        <BaseCompensationFilingOrgAmt>321321</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>7500</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>2218</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>38010</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>17675</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>386724</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Bruce Dauer</PersonNm>
+        <TitleTxt>VP Finance/Adm - (SE)</TitleTxt>
+        <BaseCompensationFilingOrgAmt>206210</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>10000</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>1970</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>28657</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>3878</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>250715</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>James Douglas</PersonNm>
+        <TitleTxt>Dir - Office of Human Resourses</TitleTxt>
+        <BaseCompensationFilingOrgAmt>178248</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>4000</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>1061</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>25682</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>4497</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>213488</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Richard Kurin</PersonNm>
+        <TitleTxt>Under Sec - History, Art &amp; Culture</TitleTxt>
+        <BaseCompensationFilingOrgAmt>287140</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>5000</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>1893</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>42960</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>11400</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>348393</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Christopher Liedel</PersonNm>
+        <TitleTxt>President - Smithsonian Enterprises</TitleTxt>
+        <BaseCompensationFilingOrgAmt>419930</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>91920</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>1049</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>37665</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>20461</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>571025</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Evelyn Lieberman</PersonNm>
+        <TitleTxt>Director - Comm &amp; External Affairs</TitleTxt>
+        <BaseCompensationFilingOrgAmt>184741</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>10000</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>2075</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>26066</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>896</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>223778</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Era Marshall</PersonNm>
+        <TitleTxt>Dir-Equal Emplymt &amp; Minority Affairs</TitleTxt>
+        <BaseCompensationFilingOrgAmt>159004</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>5000</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>15320</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>179324</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Mary Payne</PersonNm>
+        <TitleTxt>Director - Office of Govt Relations</TitleTxt>
+        <BaseCompensationFilingOrgAmt>180285</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>3000</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>695</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>25808</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>6862</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>216650</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Eva Pell thru 32214</PersonNm>
+        <TitleTxt>Under Secretary - Science</TitleTxt>
+        <BaseCompensationFilingOrgAmt>317199</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>1741</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>38010</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>3056</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>360006</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>David Voyles</PersonNm>
+        <TitleTxt>Director - OPMB</TitleTxt>
+        <BaseCompensationFilingOrgAmt>161844</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>7500</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>6683</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>7511</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>183538</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Michael Caruso</PersonNm>
+        <TitleTxt>Editor in Chief - (SE)</TitleTxt>
+        <BaseCompensationFilingOrgAmt>288325</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>53106</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>676</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>41750</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>17789</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>401646</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>John Dailey</PersonNm>
+        <TitleTxt>Director - NASM</TitleTxt>
+        <BaseCompensationFilingOrgAmt>279443</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>9864</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>5735</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>36145</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>1063</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>332250</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Edward Howell</PersonNm>
+        <TitleTxt>SVP Retail-Smithsonian Enterprises</TitleTxt>
+        <BaseCompensationFilingOrgAmt>253955</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>55552</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>3201</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>39365</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>17660</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>369733</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Kirk Johnson</PersonNm>
+        <TitleTxt>Director - NMNH</TitleTxt>
+        <BaseCompensationFilingOrgAmt>302918</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>718</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>33500</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>17626</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>354762</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Carol LeBlanc</PersonNm>
+        <TitleTxt>SVP Consumer &amp; Educ Products - (SE)</TitleTxt>
+        <BaseCompensationFilingOrgAmt>233418</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>69949</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>333</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>35802</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>7206</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>346708</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Michael Pickett</PersonNm>
+        <TitleTxt>Former Acting Inspector General</TitleTxt>
+        <BaseCompensationFilingOrgAmt>132011</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>3750</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>6094</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>2189</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>144044</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Marsha Shaines</PersonNm>
+        <TitleTxt>Former Acting General Counsel</TitleTxt>
+        <BaseCompensationFilingOrgAmt>160063</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>5000</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>8512</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>173575</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Charles R Alcock</PersonNm>
+        <TitleTxt>Former Acting Under Sec - Science</TitleTxt>
+        <BaseCompensationFilingOrgAmt>143974</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>4487</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>753</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>19186</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>1909</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>170309</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Kenneth Johnson</PersonNm>
+        <TitleTxt>Former Acting Director - OPMB</TitleTxt>
+        <BaseCompensationFilingOrgAmt>164736</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>10000</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>8237</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>328</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>183301</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Scott Miller</PersonNm>
+        <TitleTxt>Former Acting Under Sec - Science</TitleTxt>
+        <BaseCompensationFilingOrgAmt>158802</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>4794</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>8237</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>16961</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>188794</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Andrew Zino thru 61513</PersonNm>
+        <TitleTxt>Former Comptroller</TitleTxt>
+        <BaseCompensationFilingOrgAmt>157501</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>1818</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>8237</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>16555</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>184111</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part I, Line 1a</FormAndLineReferenceDesc>
+        <ExplanationTxt>Travel for companions: Travel was authorized for the spouse of a person listed in Part VII, Section A when the circumstances of that travel met the requirements of the Smithsonian's policy for such travel. The Smithsonian's policy for payment of spousal or dependent family member travel permits such payment only in limited, exceptional cases, when there is a demonstrated bona fide business purpose for the travel and the travel furthers the mission of the Smithsonian, beyond mere attendance at an event or the performance of incidental services. Such travel is authorized only if approved by the Office of General Counsel and the Office of Under Secretary for Finance and Administration/Chief Financial Officer in advance of travel. In the calendar year 2013, one trip was approved for the spouse of a highly compensated employee. The trip was authorized consistent with policy. Because it was determined that there was a bona fide business purpose for the trip, the cost of the trip was not treated as taxable income.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part I, Line 4a</FormAndLineReferenceDesc>
+        <ExplanationTxt>The CFO position for Smithsonian Enterprises was eliminated in March of 2013. Mr. Gregory Bokman was detailed to work for the Undersecretary of Finance and Administration until the effective date of his staff reduction which was September 30, 2013. Mr. Bokman received severance in Calendar Year 2013 of $41,466. Severance is based on years of service and an age adjustment where ten percent of the basic service based computation is added for each year of the employee's age that is beyond 40 years. Additional compensation in column (iii) Other reportable compensation for Mr. Bokman is an annual leave payment of $78,243 and term life insurance of $218. The severance pay and annual leave payment follow the established organizational policies for pay and leave approved by the Board of Regents that mirror pay and leave requirements for Federal employees.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part I, Line 6</FormAndLineReferenceDesc>
+        <ExplanationTxt>Certain employees of Smithsonian Enterprises (SE) are eligible to participate in the Smithsonian Enterprises Management Incentive Plan. This eligibility is determined on an annual basis. Even if eligible to participate, a performance review rating of "Fully Successful" must be received. The Plan includes both financial and individual (operational) goals, and these goals must be met in order to receive an incentive payment. There are different performance levels, with each successive level giving a higher incentive payment. In addition, the eligible person must be employed by the organization on the last day of the fiscal year in order to receive payment. Approvals for incentive payments are tiered; any payment to a senior executive is reviewed by the Secretary, with the Regents (either the Compensation Committee or the Full Board) approving incentive payments to any disqualified person, any direct report to the Secretary, and any executive with total cash above an annually determined threshold. The Regents have delegated to the Secretary the authority to approve other executive incentive payments. For non-executives, the President of SE approves those payments, except for payments above $10,000 which go to the Secretary for approval.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleJ>
+    <IRS990ScheduleK documentId="RetDoc1053100001">
+      <TaxExemptBondsIssuesGrp>
+        <BondReferenceCd>A</BondReferenceCd>
+        <IssuerName>
+          <BusinessNameLine1>Fairfax County Economic Development Authority</BusinessNameLine1>
+        </IssuerName>
+        <BondIssuerEIN>540787833</BondIssuerEIN>
+        <CUSIPNum>30382ECZ5</CUSIPNum>
+        <BondIssuedDt>2003-12-03</BondIssuedDt>
+        <IssuePriceAmt>77545000</IssuePriceAmt>
+        <PurposeDesc>To construct a museum</PurposeDesc>
+        <DefeasedInd>0</DefeasedInd>
+        <OnBehalfOfIssuerInd>0</OnBehalfOfIssuerInd>
+        <PoolFinancingInd>0</PoolFinancingInd>
+      </TaxExemptBondsIssuesGrp>
+      <TaxExemptBondsIssuesGrp>
+        <BondReferenceCd>B</BondReferenceCd>
+        <IssuerName>
+          <BusinessNameLine1>District of Columbia</BusinessNameLine1>
+        </IssuerName>
+        <BondIssuerEIN>536001131</BondIssuerEIN>
+        <CUSIPNum>2548397S6</CUSIPNum>
+        <BondIssuedDt>2010-04-29</BondIssuedDt>
+        <IssuePriceAmt>33825749</IssuePriceAmt>
+        <PurposeDesc>Refunding of 1997 Bonds</PurposeDesc>
+        <DefeasedInd>0</DefeasedInd>
+        <OnBehalfOfIssuerInd>0</OnBehalfOfIssuerInd>
+        <PoolFinancingInd>0</PoolFinancingInd>
+      </TaxExemptBondsIssuesGrp>
+      <TaxExemptBondsProceedsGrp>
+        <BondReferenceCd>A</BondReferenceCd>
+        <TotalProceedsAmt>77545000</TotalProceedsAmt>
+        <IssuanceCostsFromProceedsAmt>530475</IssuanceCostsFromProceedsAmt>
+        <CreditEnhancementAmt>6161</CreditEnhancementAmt>
+        <CapitalExpendituresAmt>77008364</CapitalExpendituresAmt>
+        <SubstantialCompletionYr>2003</SubstantialCompletionYr>
+        <CurrentRefundingInd>0</CurrentRefundingInd>
+        <AdvanceRefundingInd>0</AdvanceRefundingInd>
+        <FinalAllocationMadeInd>1</FinalAllocationMadeInd>
+        <AdequateBooksAndRecMaintInd>1</AdequateBooksAndRecMaintInd>
+      </TaxExemptBondsProceedsGrp>
+      <TaxExemptBondsProceedsGrp>
+        <BondReferenceCd>B</BondReferenceCd>
+        <RetiredAmt>5300000</RetiredAmt>
+        <TotalProceedsAmt>33825749</TotalProceedsAmt>
+        <IssuanceCostsFromProceedsAmt>612994</IssuanceCostsFromProceedsAmt>
+        <OtherSpentProceedsAmt>33212755</OtherSpentProceedsAmt>
+        <SubstantialCompletionYr>2010</SubstantialCompletionYr>
+        <CurrentRefundingInd>1</CurrentRefundingInd>
+        <AdvanceRefundingInd>0</AdvanceRefundingInd>
+        <FinalAllocationMadeInd>0</FinalAllocationMadeInd>
+        <AdequateBooksAndRecMaintInd>1</AdequateBooksAndRecMaintInd>
+      </TaxExemptBondsProceedsGrp>
+      <TaxExemptBondsPrivateBusUseGrp>
+        <BondReferenceCd>A</BondReferenceCd>
+        <OwningBondFinancedPropertyInd>0</OwningBondFinancedPropertyInd>
+        <AnyLeaseArrangementsInd>0</AnyLeaseArrangementsInd>
+        <MgmtContractBondFincdPropInd>0</MgmtContractBondFincdPropInd>
+        <AnyResearchAgreementsInd>0</AnyResearchAgreementsInd>
+        <PrivateBusUseByOthersPct>0.00000</PrivateBusUseByOthersPct>
+        <PrivateBusConcerningUBIPct>0.00000</PrivateBusConcerningUBIPct>
+        <TotalPrivateBusinessUsePct>0.00000</TotalPrivateBusinessUsePct>
+        <BondIssMeetPrvtSecPymtTestInd>0</BondIssMeetPrvtSecPymtTestInd>
+        <ChangeInUseBondFinancedPropInd>0</ChangeInUseBondFinancedPropInd>
+        <ProcsNonqualifiedBondRemdtdInd>1</ProcsNonqualifiedBondRemdtdInd>
+      </TaxExemptBondsPrivateBusUseGrp>
+      <TaxExemptBondsPrivateBusUseGrp>
+        <BondReferenceCd>B</BondReferenceCd>
+        <OwningBondFinancedPropertyInd>0</OwningBondFinancedPropertyInd>
+        <AnyLeaseArrangementsInd>0</AnyLeaseArrangementsInd>
+        <MgmtContractBondFincdPropInd>1</MgmtContractBondFincdPropInd>
+        <EngageBondCounselContractsInd>1</EngageBondCounselContractsInd>
+        <AnyResearchAgreementsInd>0</AnyResearchAgreementsInd>
+        <PrivateBusUseByOthersPct>0.00000</PrivateBusUseByOthersPct>
+        <PrivateBusConcerningUBIPct>0.04420</PrivateBusConcerningUBIPct>
+        <TotalPrivateBusinessUsePct>0.04420</TotalPrivateBusinessUsePct>
+        <BondIssMeetPrvtSecPymtTestInd>0</BondIssMeetPrvtSecPymtTestInd>
+        <ChangeInUseBondFinancedPropInd>0</ChangeInUseBondFinancedPropInd>
+        <ProcsNonqualifiedBondRemdtdInd>1</ProcsNonqualifiedBondRemdtdInd>
+      </TaxExemptBondsPrivateBusUseGrp>
+      <TaxExemptBondsArbitrageGrp>
+        <BondReferenceCd>A</BondReferenceCd>
+        <Form8038TFiledInd>0</Form8038TFiledInd>
+        <RebateNotDueYetInd>0</RebateNotDueYetInd>
+        <ExceptionToRebateInd>1</ExceptionToRebateInd>
+        <NoRebateDueInd>0</NoRebateDueInd>
+        <VariableRateIssueInd>1</VariableRateIssueInd>
+        <HedgeIdentifiedInBksAndRecInd>0</HedgeIdentifiedInBksAndRecInd>
+        <GrossProceedsInvestedInGICInd>0</GrossProceedsInvestedInGICInd>
+        <GrossProceedsInvestedInd>0</GrossProceedsInvestedInd>
+        <WrittenProcToMonitorReqsInd>1</WrittenProcToMonitorReqsInd>
+      </TaxExemptBondsArbitrageGrp>
+      <TaxExemptBondsArbitrageGrp>
+        <BondReferenceCd>B</BondReferenceCd>
+        <Form8038TFiledInd>0</Form8038TFiledInd>
+        <RebateNotDueYetInd>0</RebateNotDueYetInd>
+        <ExceptionToRebateInd>1</ExceptionToRebateInd>
+        <NoRebateDueInd>0</NoRebateDueInd>
+        <VariableRateIssueInd>0</VariableRateIssueInd>
+        <HedgeIdentifiedInBksAndRecInd>0</HedgeIdentifiedInBksAndRecInd>
+        <GrossProceedsInvestedInGICInd>0</GrossProceedsInvestedInGICInd>
+        <GrossProceedsInvestedInd>0</GrossProceedsInvestedInd>
+        <WrittenProcToMonitorReqsInd>1</WrittenProcToMonitorReqsInd>
+      </TaxExemptBondsArbitrageGrp>
+      <ProceduresCorrectiveActionGrp>
+        <BondReferenceCd>A</BondReferenceCd>
+        <ProceduresCorrectiveActionInd>1</ProceduresCorrectiveActionInd>
+      </ProceduresCorrectiveActionGrp>
+      <ProceduresCorrectiveActionGrp>
+        <BondReferenceCd>B</BondReferenceCd>
+        <ProceduresCorrectiveActionInd>1</ProceduresCorrectiveActionInd>
+      </ProceduresCorrectiveActionGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule K, Part I, Bond Issues, Column (f), Line B</FormAndLineReferenceDesc>
+        <ExplanationTxt>The issue date of the current refunded bonds was January 1, 1998.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part III Private Business Use, Line 5, Column B</FormAndLineReferenceDesc>
+        <ExplanationTxt>The percentage of financed property used in a private business use as a result of unrelated trade or business activity is based on the percentage of unrelated revenue to total revenue in the gift shop and theater within the space financed by this bond issue.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleK>
+    <IRS990ScheduleM documentId="RetDoc1042900001">
+      <WorksOfArtGrp>
+        <NonCashCheckboxInd>X</NonCashCheckboxInd>
+        <ContributionCnt>2116</ContributionCnt>
+      </WorksOfArtGrp>
+      <ArtFractionalInterestGrp>
+        <NonCashCheckboxInd>X</NonCashCheckboxInd>
+        <ContributionCnt>1</ContributionCnt>
+      </ArtFractionalInterestGrp>
+      <SecuritiesPubliclyTradedGrp>
+        <NonCashCheckboxInd>X</NonCashCheckboxInd>
+        <ContributionCnt>139</ContributionCnt>
+        <NoncashContributionsRptF990Amt>9876478</NoncashContributionsRptF990Amt>
+        <MethodOfDeterminingRevenuesTxt>Fair Market Value</MethodOfDeterminingRevenuesTxt>
+      </SecuritiesPubliclyTradedGrp>
+      <CollectiblesGrp>
+        <NonCashCheckboxInd>X</NonCashCheckboxInd>
+        <ContributionCnt>6722</ContributionCnt>
+      </CollectiblesGrp>
+      <TaxidermyGrp>
+        <NonCashCheckboxInd>X</NonCashCheckboxInd>
+        <ContributionCnt>4</ContributionCnt>
+      </TaxidermyGrp>
+      <HistoricalArtifactsGrp>
+        <NonCashCheckboxInd>X</NonCashCheckboxInd>
+        <ContributionCnt>3591</ContributionCnt>
+      </HistoricalArtifactsGrp>
+      <ScientificSpecimensGrp>
+        <NonCashCheckboxInd>X</NonCashCheckboxInd>
+        <ContributionCnt>302587</ContributionCnt>
+      </ScientificSpecimensGrp>
+      <ArchaeologicalArtifactsGrp>
+        <NonCashCheckboxInd>X</NonCashCheckboxInd>
+        <ContributionCnt>470</ContributionCnt>
+      </ArchaeologicalArtifactsGrp>
+      <OtherNonCashContriTableGrp>
+        <NonCashCheckboxInd>X</NonCashCheckboxInd>
+        <Desc>Goods</Desc>
+        <ContributionCnt>136</ContributionCnt>
+        <NoncashContributionsRptF990Amt>974113</NoncashContributionsRptF990Amt>
+        <MethodOfDeterminingRevenuesTxt>Fair Market Value</MethodOfDeterminingRevenuesTxt>
+      </OtherNonCashContriTableGrp>
+      <OtherNonCashContriTableGrp>
+        <NonCashCheckboxInd>X</NonCashCheckboxInd>
+        <Desc>Arch cubic ft</Desc>
+        <ContributionCnt>1293</ContributionCnt>
+        <NoncashContributionsRptF990Amt>0</NoncashContributionsRptF990Amt>
+      </OtherNonCashContriTableGrp>
+      <OtherNonCashContriTableGrp>
+        <NonCashCheckboxInd>X</NonCashCheckboxInd>
+        <Desc>Archival misc</Desc>
+        <ContributionCnt>2174</ContributionCnt>
+        <NoncashContributionsRptF990Amt>0</NoncashContributionsRptF990Amt>
+      </OtherNonCashContriTableGrp>
+      <Form8283ReceivedCnt>69</Form8283ReceivedCnt>
+      <AnyPropertyThatMustBeHeldInd>0</AnyPropertyThatMustBeHeldInd>
+      <ReviewProcessUnusualNCGiftsInd>1</ReviewProcessUnusualNCGiftsInd>
+      <ThirdPartiesUsedInd>1</ThirdPartiesUsedInd>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part I, Line 32b:</FormAndLineReferenceDesc>
+        <ExplanationTxt>Although the Smithsonian acquires collections with good faith intention of retaining them for an indefinite period of time, prudent collections management includes judicious consideration of appropriate deaccessioning and disposal to refine and improve the quality and relevance of the collections with respect to the Smithsonian's mission and purpose. When objects are deaccessioned for disposal by sale, the Smithsonian contracts with commercial galleries or auction houses to sell the objects in order to assure the best return from the sale.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part I, Line 33:</FormAndLineReferenceDesc>
+        <ExplanationTxt>In accordance with professional practice, as allowed by SFAS 116, the Smithsonian does not assign value to collection items acquired by donation.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleM>
+    <IRS990ScheduleO documentId="RetDoc1044400001">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Page 1, Line K</FormAndLineReferenceDesc>
+        <ExplanationTxt>Form of organization (Other) The Smithsonian Institution is a trust instrumentality of the U.S., created by Congress; organized pursuant to 20 U.S.C. sec. 41 et seq.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Page 1, Line F</FormAndLineReferenceDesc>
+        <ExplanationTxt>Name of principal officer: Dr. David J. Skorton became Secretary of the Smithsonian effective July 1, 2015.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Page 1, Line M</FormAndLineReferenceDesc>
+        <ExplanationTxt>State of legal domicile: As a trust instrumentality of the United States, the Smithsonian Institution is a federal entity that is not domiciled in any state.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section A, line 1</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Bylaws of the organization delegate the Executive Committee to act on behalf of the Board of Regents when the Board of Regents is not in session. The Board of Regents shall elect from its members an Executive Committee consisting of three members. The Executive Committee shall have and may exercise all powers of the Board of Regents when the Board of Regents is not in session, except those expressly reserved to itself by the Board of Regents, provided that all such proceedings are reported to the Governance and Nominating Committee and the Board of Regents on a regular basis. The Chair of the Board serves as Chair of the Executive Committee. The Vice Chair of the Board serves as a member of the Executive Committee.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section A, line 7a</FormAndLineReferenceDesc>
+        <ExplanationTxt>Pursuant to federal statute, the Board of Regents consists of the Vice President of the United States, the Chief Justice of the United States, three members of the U.S. Senate, three members of the U.S. House of Representatives, and nine additional citizen Regents. The three Senators are appointed by the President Pro Tempore of the U.S. Senate, and the three members of the House of Representatives are appointed by the Speaker of the House of Representatives. Their appointment terms coincide with the terms for which they are elected, and they may be reappointed if re-elected. The citizen Regents are nominated by the Board of Regents, and appointed by a Joint Resolution of Congress which is signed by the President of the United States.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, line 11</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Form 990 return is prepared by staff in the Office of Finance &amp; Accounting (OF&amp;A). It is then reviewed by the Director of OF&amp;A, General Counsel, Chief Financial Officer, an adviser to the Board of Regent's Audit &amp; Review Committee and the Secretary of the Smithsonian, as well as by external tax advisors. After this review process, the 990 is made available to the full Board for its review and comment. The Audit &amp; Review Committee conducts a final review of the return at a regularly scheduled Committee meeting prior to its filing.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, line 12c</FormAndLineReferenceDesc>
+        <ExplanationTxt>All officers, key employees, and certain other employees are required to complete and file annually a Confidential Financial Disclosure Report. These Reports--which require disclosure of certain assets, earned income, liabilities, outside positions, outside contracts and agreements, gifts, hospitality, reimbursements, and other interests related to the employee's Smithsonian position--are reviewed by the Institution's Office of General Counsel for compliance with applicable conflict of interest policies and laws. In addition to this required reporting, all key employees are required to comply with the Institution's Standards of Conduct, which, among other things, requires that employees not engage in private or personal activities that might conflict or appear to conflict with Smithsonian interests, requires that employees obtain Office of General Counsel approval before engaging in a related outside activity for compensation, and requires employees to consult with the Office of General Counsel whenever a doubt exists as to whether an activity or planned activity violates the Standards. All members of the Smithsonian's governing body are required to complete and file annually the Board of Regents Annual Disclosure Statement. These statements - which require reporting by members of outside positions and substantial shareholding in for-profit business entities, outside positions in non-profit entities, and interests and affiliations of the member or the member's immediate family that have or sought to have a relationship to the Smithsonian-are reviewed by the Institution's General Counsel for compliance with applicable conflict of interest policies and laws. In addition to this required reporting, all members of the Smithsonian's governing body are required to comply with the Board of Regents Ethics Guidelines, which, among other things, define conflicts of interest and establish procedures for disclosing and reporting of conflicts and recusal from decision-making.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, line 15</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Smithsonian ensures that compensation paid to officers and other key employees is reasonable and comparable to similar organizations. Employees of the Smithsonian may be paid with federally appropriated funds or with nonfederal ("Trust") funds. Most Trust funded (nonfederal) officer and key employee positions are subject to market-based compensation, and the Board of Regent's Committee on Compensation and Human Resources engages an independent consultant to develop and assemble comparability data for its consideration and to inform it decisions. The Committee's annual deliberations and decisions are documented as part of the final recommendation materials submitted to the Board of Regents. Salaries for Federal employees are determined by statutorily established pay ranges for civil service employees. As a matter of policy, the Smithsonian has established similar ranges for certain Trust funded officer and key employee positions and maintains those ranges in proportion to the appropriate Federal pay ranges.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section C, line 19</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Smithsonian makes these documents available on its public website (www.si.edu). The documents can also be viewed at the Office of Finance &amp; Accounting or mailed.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part XI, line 9:</FormAndLineReferenceDesc>
+        <ExplanationTxt>Change in FONZ net assets 529,657. Deferred gain on building 3,908,586. Change in minority interest-SI Network 2,357,520. Environmental remediation obligation FASB ASC 410-20 23,870,301.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VII and Schedule J-2</FormAndLineReferenceDesc>
+        <ExplanationTxt>The following are abbreviations found in the body of the return: FONZ - Friends of the National Zoo NASM - National Air and Space Musuem NMNH - National Museum of Natural History OPMB - Office of Planning, Management and Budget SE - Smithsonian Enterprises</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+    <IRS990ScheduleR documentId="RetDoc1043400001">
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1>Clay Fellowships Charitable Trust</BusinessNameLine1>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1>10 Memorial Boulevard</AddressLine1>
+          <City>Providence</City>
+          <State>RI</State>
+          <ZIPCode>02903</ZIPCode>
+        </USAddress>
+        <EIN>043560268</EIN>
+        <PrimaryActivitiesTxt>Support of Smithsonian Astrophysical Observatory</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>MA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(c)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>Line 11d, III-O</PublicCharityStatusTxt>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1>Smithsonian UK Charitable Trust</BusinessNameLine1>
+        </DisregardedEntityName>
+        <ForeignAddress>
+          <AddressLine1>c/o Withers LLP 16 Old Bailey</AddressLine1>
+          <City>London</City>
+          <Country>UK</Country>
+          <PostalCode>EC4M 7EG</PostalCode>
+        </ForeignAddress>
+        <PrimaryActivitiesTxt>Advance the work of the Smithsonian Institution worldwide</PrimaryActivitiesTxt>
+        <LegalDomicileForeignCountryCd>UK</LegalDomicileForeignCountryCd>
+        <ExemptCodeSectionTxt>501(c)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>Line 7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1>Smithsonian Institution</BusinessNameLine1>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedOrgTxblCorpTrGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1>Charitable Remainder Trusts (3)</BusinessNameLine1>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1>1000 Jefferson Drive SW</AddressLine1>
+          <City>Washington</City>
+          <State>DC</State>
+          <ZIPCode>20560</ZIPCode>
+        </USAddress>
+        <PrimaryActivitiesTxt>Charitable Remainder Trust</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>DC</LegalDomicileStateCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedOrgTxblCorpTrGrp>
+      <IdRelatedOrgTxblCorpTrGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1>Charitable Remainder Trusts (2)</BusinessNameLine1>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1>1000 Jefferson Drive SW</AddressLine1>
+          <City>Washington</City>
+          <State>DC</State>
+          <ZIPCode>20560</ZIPCode>
+        </USAddress>
+        <PrimaryActivitiesTxt>Charitable Remainder Trust</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>MA</LegalDomicileStateCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedOrgTxblCorpTrGrp>
+      <IdRelatedOrgTxblCorpTrGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1>Charitable Remainder Trusts (1)</BusinessNameLine1>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1>1000 Jefferson Drive SW</AddressLine1>
+          <City>Washington</City>
+          <State>DC</State>
+          <ZIPCode>20560</ZIPCode>
+        </USAddress>
+        <PrimaryActivitiesTxt>Charitable Remainder Trust</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>MI</LegalDomicileStateCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedOrgTxblCorpTrGrp>
+      <IdRelatedOrgTxblCorpTrGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1>Charitable Remainder Trusts (5)</BusinessNameLine1>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1>1000 Jefferson Drive SW</AddressLine1>
+          <City>Washington</City>
+          <State>DC</State>
+          <ZIPCode>20560</ZIPCode>
+        </USAddress>
+        <PrimaryActivitiesTxt>Charitable Remainder Trust</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>NY</LegalDomicileStateCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedOrgTxblCorpTrGrp>
+      <IdRelatedOrgTxblCorpTrGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1>Charitable Remainder Trusts (4)</BusinessNameLine1>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1>1000 Jefferson Drive SW</AddressLine1>
+          <City>Washington</City>
+          <State>DC</State>
+          <ZIPCode>20560</ZIPCode>
+        </USAddress>
+        <PrimaryActivitiesTxt>Charitable Remainder Trust</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>VA</LegalDomicileStateCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedOrgTxblCorpTrGrp>
+      <IdRelatedOrgTxblCorpTrGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1>Charitable Lead Trust (1)</BusinessNameLine1>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1>1000 Jefferson Drive SW</AddressLine1>
+          <City>Washington</City>
+          <State>DC</State>
+          <ZIPCode>20560</ZIPCode>
+        </USAddress>
+        <PrimaryActivitiesTxt>Charitable Lead Trust</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>VA</LegalDomicileStateCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedOrgTxblCorpTrGrp>
+      <ReceiptOfIntAnntsRntsRyltsInd>0</ReceiptOfIntAnntsRntsRyltsInd>
+      <GiftGrntOrCapContriToOthOrgInd>0</GiftGrntOrCapContriToOthOrgInd>
+      <GiftGrntCapContriFromOthOrgInd>1</GiftGrntCapContriFromOthOrgInd>
+      <LoansOrGuaranteesToOtherOrgInd>0</LoansOrGuaranteesToOtherOrgInd>
+      <LoansOrGuaranteesFromOthOrgInd>0</LoansOrGuaranteesFromOthOrgInd>
+      <DivRelatedOrganizationInd>0</DivRelatedOrganizationInd>
+      <AssetSaleToOtherOrgInd>0</AssetSaleToOtherOrgInd>
+      <AssetPurchaseFromOtherOrgInd>0</AssetPurchaseFromOtherOrgInd>
+      <AssetExchangeInd>0</AssetExchangeInd>
+      <RentalOfFacilitiesToOthOrgInd>0</RentalOfFacilitiesToOthOrgInd>
+      <RentalOfFcltsFromOthOrgInd>0</RentalOfFcltsFromOthOrgInd>
+      <PerformOfServicesForOthOrgInd>0</PerformOfServicesForOthOrgInd>
+      <PerformOfServicesByOtherOrgInd>0</PerformOfServicesByOtherOrgInd>
+      <SharingOfFacilitiesInd>0</SharingOfFacilitiesInd>
+      <PaidEmployeesSharingInd>0</PaidEmployeesSharingInd>
+      <ReimbursementPaidToOtherOrgInd>0</ReimbursementPaidToOtherOrgInd>
+      <ReimbursementPaidByOtherOrgInd>0</ReimbursementPaidByOtherOrgInd>
+      <TransferToOtherOrgInd>0</TransferToOtherOrgInd>
+      <TransferFromOtherOrgInd>1</TransferFromOtherOrgInd>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Charitable Lead Trust</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>S</TransactionTypeTxt>
+        <InvolvedAmt>241472</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>Cash</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <TransactionTypeTxt>S</TransactionTypeTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Charitable Trust</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>S</TransactionTypeTxt>
+        <InvolvedAmt>105885</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>Cash</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+    </IRS990ScheduleR>
+  </ReturnData>
+</Return>

@@ -1,0 +1,2046 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return returnVersion="2013v4.0" xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2015-03-20T16:53:32-07:00</ReturnTs>
+    <TaxPeriodEndDt>2014-06-30</TaxPeriodEndDt>
+    <ReturnTypeCd>990</ReturnTypeCd>
+    <TaxPeriodBeginDt>2013-07-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>043567502</EIN>
+      <BusinessName>
+        <BusinessNameLine1>PARTNERS IN HEALTH A NONPROFIT CORPORATION</BusinessNameLine1>
+      </BusinessName>
+      <BusinessNameControlTxt>PART</BusinessNameControlTxt>
+      <PhoneNum>6179988922</PhoneNum>
+      <USAddress>
+        <AddressLine1>888 Commonwealth Avenue 3rd Floor</AddressLine1>
+        <City>Boston</City>
+        <State>MA</State>
+        <ZIPCode>02215</ZIPCode>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>Ann Quandt</PersonNm>
+      <PersonTitleTxt>Chief Financial Officer</PersonTitleTxt>
+      <PhoneNum>6179988878</PhoneNum>
+      <SignatureDt>2015-03-31</SignatureDt>
+    </BusinessOfficerGrp>
+    <TaxYr>2013</TaxYr>
+    <BuildTS>2016-03-07 17:11:31Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCount="13">
+    <IRS990 documentId="R000001" referenceDocumentId="R000012" softwareId="13000241" softwareVersion="v1.00">
+      <PrincipalOfficerNm>Ophelia Dahl</PrincipalOfficerNm>
+      <USAddress>
+        <AddressLine1>888 Commonwealth Ave</AddressLine1>
+        <AddressLine2>3rd Floor</AddressLine2>
+        <City>Boston</City>
+        <State>MA</State>
+        <ZIPCode>02215</ZIPCode>
+      </USAddress>
+      <GrossReceiptsAmt>88151604</GrossReceiptsAmt>
+      <GroupReturnForAffiliatesInd>0</GroupReturnForAffiliatesInd>
+      <Organization501c3Ind>X</Organization501c3Ind>
+      <WebsiteAddressTxt>www.pih.org</WebsiteAddressTxt>
+      <TypeOfOrganizationCorpInd>X</TypeOfOrganizationCorpInd>
+      <FormationYr>2001</FormationYr>
+      <LegalDomicileStateCd>MA</LegalDomicileStateCd>
+      <ActivityOrMissionDesc>Partners In Health's mission is to provide a preferential option for the poor in health care. Through its work in Haiti, Africa, Peru, and Russia, PIH strives to bring the benefits of modern medical science to those most in need of them and to serve as an antidote to despair.</ActivityOrMissionDesc>
+      <VotingMembersGoverningBodyCnt>14</VotingMembersGoverningBodyCnt>
+      <VotingMembersIndependentCnt>12</VotingMembersIndependentCnt>
+      <TotalEmployeeCnt>282</TotalEmployeeCnt>
+      <TotalVolunteersCnt>30</TotalVolunteersCnt>
+      <TotalGrossUBIAmt>0</TotalGrossUBIAmt>
+      <NetUnrelatedBusTxblIncmAmt>0</NetUnrelatedBusTxblIncmAmt>
+      <PYContributionsGrantsAmt>85338027</PYContributionsGrantsAmt>
+      <CYContributionsGrantsAmt>79658459</CYContributionsGrantsAmt>
+      <PYProgramServiceRevenueAmt>5958</PYProgramServiceRevenueAmt>
+      <CYProgramServiceRevenueAmt>32300</CYProgramServiceRevenueAmt>
+      <PYInvestmentIncomeAmt>727219</PYInvestmentIncomeAmt>
+      <CYInvestmentIncomeAmt>34660</CYInvestmentIncomeAmt>
+      <PYOtherRevenueAmt>-209190</PYOtherRevenueAmt>
+      <CYOtherRevenueAmt>639501</CYOtherRevenueAmt>
+      <PYTotalRevenueAmt>85862014</PYTotalRevenueAmt>
+      <CYTotalRevenueAmt>80364920</CYTotalRevenueAmt>
+      <PYGrantsAndSimilarPaidAmt>49976687</PYGrantsAndSimilarPaidAmt>
+      <CYGrantsAndSimilarPaidAmt>45268893</CYGrantsAndSimilarPaidAmt>
+      <PYBenefitsPaidToMembersAmt>0</PYBenefitsPaidToMembersAmt>
+      <CYBenefitsPaidToMembersAmt>0</CYBenefitsPaidToMembersAmt>
+      <PYSalariesCompEmpBnftPaidAmt>12962889</PYSalariesCompEmpBnftPaidAmt>
+      <CYSalariesCompEmpBnftPaidAmt>14254235</CYSalariesCompEmpBnftPaidAmt>
+      <PYTotalProfFndrsngExpnsAmt>222337</PYTotalProfFndrsngExpnsAmt>
+      <CYTotalProfFndrsngExpnsAmt>175163</CYTotalProfFndrsngExpnsAmt>
+      <CYTotalFundraisingExpenseAmt>4800111</CYTotalFundraisingExpenseAmt>
+      <PYOtherExpensesAmt>26305083</PYOtherExpensesAmt>
+      <CYOtherExpensesAmt>18981490</CYOtherExpensesAmt>
+      <PYTotalExpensesAmt>89466996</PYTotalExpensesAmt>
+      <CYTotalExpensesAmt>78679781</CYTotalExpensesAmt>
+      <PYRevenuesLessExpensesAmt>-3604982</PYRevenuesLessExpensesAmt>
+      <CYRevenuesLessExpensesAmt>1685139</CYRevenuesLessExpensesAmt>
+      <TotalAssetsBOYAmt>38017369</TotalAssetsBOYAmt>
+      <TotalAssetsEOYAmt>37978764</TotalAssetsEOYAmt>
+      <TotalLiabilitiesBOYAmt>5409704</TotalLiabilitiesBOYAmt>
+      <TotalLiabilitiesEOYAmt>3380469</TotalLiabilitiesEOYAmt>
+      <NetAssetsOrFundBalancesBOYAmt>32607665</NetAssetsOrFundBalancesBOYAmt>
+      <NetAssetsOrFundBalancesEOYAmt>34598295</NetAssetsOrFundBalancesEOYAmt>
+      <MissionDesc>Partners In Health's mission is to provide a preferential option for the poor in health care. Through its work in Haiti, Africa, Peru, and Russia, PIH strives to bring the benefits of modern medical science to those most in need of them and to serve as an antidote to despair.</MissionDesc>
+      <SignificantNewProgramSrvcInd>0</SignificantNewProgramSrvcInd>
+      <SignificantChangeInd>0</SignificantChangeInd>
+      <ExpenseAmt>32757894</ExpenseAmt>
+      <GrantAmt>23503808</GrantAmt>
+      <RevenueAmt>0</RevenueAmt>
+      <Desc>In collaboration with the Haitian Ministry of Health (MoH), Partners In Health/Zanmi Lasante (PIH/ZL) provides comprehensive care and accompaniment to a service area benefiting 3.4 million people while actively investing in training and education for long-term capacity-building. After the 2010 earthquake destroyed much of Haiti's largest public teaching hospital and nursing school, the MoH asked PIH/ZL to scale up its plans for a small community hospital in Mirebalais. Opened in March 2013, University Hospital in Mirebalais -- a 205,000-square-foot, 300-bed teaching hospital - saw an average of 626 patients daily in 2014, and employs approximately 800 Haitians. PIH/ZL remains committed to training the next generation of Haitian physicians and health professionals in comprehensive and specialized health care services: in 2014 two additional residency programs were launched at the hospital, including the nation's first ever residency in Emergency Medicine. In recognition of the necessity of nurses in raising the standard of care across the healthcare continuum, PIH/ZL inaugurated the Nursing Center of Excellence (NCOE) in May 2014. The NCOE is designed to improve nursing quality and training by educating and retaining a workforce of superbly trained nurses to provide high-quality, dignified care and improve health outcomes for Haiti's most vulnerable populations. Through this initiative, PIH/ZL will reach over 700 nurses to deliver care to over 136,000 children annually.</Desc>
+      <ProgSrvcAccomActy2Grp>
+        <ExpenseAmt>15646019</ExpenseAmt>
+        <GrantAmt>10856659</GrantAmt>
+        <RevenueAmt>0</RevenueAmt>
+        <Desc>Partners In Health/Inshuti Mu Buzima (PIH/IMB) succeeded in launching the All Babies Count (ABC) Program in collaboration with the Rwandan Ministry of Health (MoH). The program provides facility and community-based interventions that aim at reducing neonatal mortality in Rwanda. IMB has opened a Maternal and Neonatal (MN) facility at Rwinkwavu Hospital in Eastern Rwanda that will complement its ABC interventions intended to reduce MN mortalities. The Mentorship, Enhanced Supervision (MESH) and Quality Improvement program that was launched in 2009 with an aim to improve the quality of nursing care through intensive training, mentoring, and supervision is being leveraged to strengthen antenatal, delivery, neonatal, and child health services, all of which are aimed at reducing avoidable MN mortalities in Rwanda. The MESH model was adopted by the Rwandan government and is being scaled up across the country for HIV/AIDS with the support of PIH/IMB mentors. PIH/IMB has also stepped into advance stage of institutionalizing cancer care at its Butaro Cancer Center of Excellence (CCoE) to East Africa that was launched in 2012 in collaboration with the Rwandan MoH and Harvard-affiliated Dana-Farber. Since its opening in July 2012, the CCoE at Butaro Hospital has served over 2,500 patients and has contributed to national policy and implementation planning.</Desc>
+      </ProgSrvcAccomActy2Grp>
+      <ProgSrvcAccomActy3Grp>
+        <ExpenseAmt>5876692</ExpenseAmt>
+        <GrantAmt>5185717</GrantAmt>
+        <RevenueAmt>0</RevenueAmt>
+        <Desc>PIH/Lesotho (PIH/L) works to improve the health of seven remote mountain communities by providing integrated and comprehensive services for maternal and child health as well as HIV and tuberculosis, while managing -- in partnership with the Lesotho Ministry of Health (MoH) -- the national program developed to treat multidrug-resistant tuberculosis (MDR-TB) along with supporting a new national TB reference Laboratory. All PIH/L facilities offer family planning and mothers' waiting houses that provide pregnant women a place to stay before delivery to avoid grueling travel during labor. Also, PIH/L supports training for nurse-midwives to identify and reduce risk. PIH/L outreach community health workers travel to children to offer screening, testing and treatment for HIV, TB, and malnutrition, as well as immunization, deworming, and nutritional supplements. In 2013, the government of Lesotho, impressed with the results of the PIH/L program, began working to develop a plan to scale up this model for care throughout the country. PIH/L is committed to supporting the MoH to implement the National Health Reform. The goal of the Reform is to make significant progress in achieving MDGs 4,5,and 6 in Lesotho and to prove, with research, positive health outcomes can be achieved for the most vulnerable countries.</Desc>
+      </ProgSrvcAccomActy3Grp>
+      <ProgSrvcAccomActyOtherGrp>
+        <ExpenseAmt>16608403</ExpenseAmt>
+        <GrantAmt>5722709</GrantAmt>
+        <RevenueAmt>32300</RevenueAmt>
+        <Desc>In addition to the programs listed, PIH has programs in Peru, Malawi, Russia, Kazakhstan, and Mexico. Other major expenditures in Other Programs include those for training and electronic medical records.</Desc>
+      </ProgSrvcAccomActyOtherGrp>
+      <TotalOtherProgSrvcExpenseAmt>16608403</TotalOtherProgSrvcExpenseAmt>
+      <TotalOtherProgSrvcGrantAmt>5722709</TotalOtherProgSrvcGrantAmt>
+      <TotalOtherProgSrvcRevenueAmt>32300</TotalOtherProgSrvcRevenueAmt>
+      <TotalProgramServiceExpensesAmt>70889008</TotalProgramServiceExpensesAmt>
+      <DescribedInSection501c3Ind referenceDocumentId="R000002">1</DescribedInSection501c3Ind>
+      <ScheduleBRequiredInd referenceDocumentId="R000003">1</ScheduleBRequiredInd>
+      <PoliticalCampaignActyInd>0</PoliticalCampaignActyInd>
+      <LobbyingActivitiesInd referenceDocumentId="R000004">1</LobbyingActivitiesInd>
+      <SubjectToProxyTaxInd>0</SubjectToProxyTaxInd>
+      <DonorAdvisedFundInd>0</DonorAdvisedFundInd>
+      <ConservationEasementsInd>0</ConservationEasementsInd>
+      <CollectionsOfArtInd>0</CollectionsOfArtInd>
+      <CreditCounselingInd referenceDocumentId="R000005">1</CreditCounselingInd>
+      <TempOrPermanentEndowmentsInd>0</TempOrPermanentEndowmentsInd>
+      <ReportLandBuildingEquipmentInd referenceDocumentId="R000005">1</ReportLandBuildingEquipmentInd>
+      <ReportInvestmentsOtherSecInd>0</ReportInvestmentsOtherSecInd>
+      <ReportProgramRelatedInvstInd>0</ReportProgramRelatedInvstInd>
+      <ReportOtherAssetsInd>0</ReportOtherAssetsInd>
+      <ReportOtherLiabilitiesInd>0</ReportOtherLiabilitiesInd>
+      <IncludeFIN48FootnoteInd referenceDocumentId="R000005">1</IncludeFIN48FootnoteInd>
+      <IndependentAuditFinclStmtInd>0</IndependentAuditFinclStmtInd>
+      <ConsolidatedAuditFinclStmtInd referenceDocumentId="R000005">1</ConsolidatedAuditFinclStmtInd>
+      <SchoolOperatingInd>0</SchoolOperatingInd>
+      <ForeignOfficeInd>1</ForeignOfficeInd>
+      <ForeignActivitiesInd referenceDocumentId="R000006">1</ForeignActivitiesInd>
+      <MoreThan5000KToOrgInd referenceDocumentId="R000006">1</MoreThan5000KToOrgInd>
+      <MoreThan5000KToIndividualsInd referenceDocumentId="R000006">1</MoreThan5000KToIndividualsInd>
+      <ProfessionalFundraisingInd referenceDocumentId="R000007">1</ProfessionalFundraisingInd>
+      <FundraisingActivitiesInd referenceDocumentId="R000007">1</FundraisingActivitiesInd>
+      <GamingActivitiesInd>0</GamingActivitiesInd>
+      <OperateHospitalInd>0</OperateHospitalInd>
+      <GrantsToOrganizationsInd referenceDocumentId="R000008">1</GrantsToOrganizationsInd>
+      <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+      <ScheduleJRequiredInd referenceDocumentId="R000009">1</ScheduleJRequiredInd>
+      <TaxExemptBondsInd>0</TaxExemptBondsInd>
+      <EngagedInExcessBenefitTransInd>0</EngagedInExcessBenefitTransInd>
+      <PYExcessBenefitTransInd>0</PYExcessBenefitTransInd>
+      <LoanOutstandingInd>0</LoanOutstandingInd>
+      <GrantToRelatedPersonInd>0</GrantToRelatedPersonInd>
+      <BusinessRlnWithOrgMemInd>0</BusinessRlnWithOrgMemInd>
+      <BusinessRlnWithFamMemInd referenceDocumentId="R000010">1</BusinessRlnWithFamMemInd>
+      <BusinessRlnWithOfficerEntInd>0</BusinessRlnWithOfficerEntInd>
+      <DeductibleNonCashContriInd referenceDocumentId="R000011">1</DeductibleNonCashContriInd>
+      <DeductibleArtContributionInd>0</DeductibleArtContributionInd>
+      <TerminateOperationsInd>0</TerminateOperationsInd>
+      <PartialLiquidationInd>0</PartialLiquidationInd>
+      <DisregardedEntityInd>0</DisregardedEntityInd>
+      <RelatedEntityInd referenceDocumentId="R000013">1</RelatedEntityInd>
+      <RelatedOrganizationCtrlEntInd>1</RelatedOrganizationCtrlEntInd>
+      <TransactionWithControlEntInd referenceDocumentId="R000013">1</TransactionWithControlEntInd>
+      <TrnsfrExmptNonChrtblRltdOrgInd>0</TrnsfrExmptNonChrtblRltdOrgInd>
+      <ActivitiesConductedPrtshpInd>0</ActivitiesConductedPrtshpInd>
+      <ScheduleORequiredInd>1</ScheduleORequiredInd>
+      <IRPDocumentCnt>90</IRPDocumentCnt>
+      <IRPDocumentW2GCnt>0</IRPDocumentW2GCnt>
+      <BackupWthldComplianceInd>1</BackupWthldComplianceInd>
+      <EmployeeCnt>282</EmployeeCnt>
+      <EmploymentTaxReturnsFiledInd>1</EmploymentTaxReturnsFiledInd>
+      <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+      <ForeignFinancialAccountInd>1</ForeignFinancialAccountInd>
+      <ForeignCountryCd>CA</ForeignCountryCd>
+      <ForeignCountryCd>HA</ForeignCountryCd>
+      <ForeignCountryCd>KZ</ForeignCountryCd>
+      <ForeignCountryCd>LT</ForeignCountryCd>
+      <ForeignCountryCd>MI</ForeignCountryCd>
+      <ForeignCountryCd>MX</ForeignCountryCd>
+      <ForeignCountryCd>PE</ForeignCountryCd>
+      <ForeignCountryCd>RS</ForeignCountryCd>
+      <ForeignCountryCd>RW</ForeignCountryCd>
+      <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+      <TaxablePartyNotificationInd>0</TaxablePartyNotificationInd>
+      <NondeductibleContributionsInd>0</NondeductibleContributionsInd>
+      <QuidProQuoContributionsInd>1</QuidProQuoContributionsInd>
+      <QuidProQuoContriDisclInd>1</QuidProQuoContriDisclInd>
+      <Form8282PropertyDisposedOfInd>0</Form8282PropertyDisposedOfInd>
+      <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+      <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+      <IndoorTanningServicesInd>0</IndoorTanningServicesInd>
+      <InfoInScheduleOPartVIInd>X</InfoInScheduleOPartVIInd>
+      <GoverningBodyVotingMembersCnt>14</GoverningBodyVotingMembersCnt>
+      <IndependentVotingMemberCnt>12</IndependentVotingMemberCnt>
+      <FamilyOrBusinessRlnInd>1</FamilyOrBusinessRlnInd>
+      <DelegationOfMgmtDutiesInd>0</DelegationOfMgmtDutiesInd>
+      <ChangeToOrgDocumentsInd>0</ChangeToOrgDocumentsInd>
+      <MaterialDiversionOrMisuseInd>0</MaterialDiversionOrMisuseInd>
+      <MembersOrStockholdersInd>0</MembersOrStockholdersInd>
+      <ElectionOfBoardMembersInd>0</ElectionOfBoardMembersInd>
+      <DecisionsSubjectToApprovaInd>0</DecisionsSubjectToApprovaInd>
+      <MinutesOfGoverningBodyInd>1</MinutesOfGoverningBodyInd>
+      <MinutesOfCommitteesInd>1</MinutesOfCommitteesInd>
+      <OfficerMailingAddressInd>0</OfficerMailingAddressInd>
+      <LocalChaptersInd>0</LocalChaptersInd>
+      <Form990ProvidedToGvrnBodyInd>1</Form990ProvidedToGvrnBodyInd>
+      <ConflictOfInterestPolicyInd>1</ConflictOfInterestPolicyInd>
+      <AnnualDisclosureCoveredPrsnInd>1</AnnualDisclosureCoveredPrsnInd>
+      <RegularMonitoringEnfrcInd>1</RegularMonitoringEnfrcInd>
+      <WhistleblowerPolicyInd>1</WhistleblowerPolicyInd>
+      <DocumentRetentionPolicyInd>1</DocumentRetentionPolicyInd>
+      <CompensationProcessCEOInd>1</CompensationProcessCEOInd>
+      <CompensationProcessOtherInd>0</CompensationProcessOtherInd>
+      <InvestmentInJointVentureInd>0</InvestmentInJointVentureInd>
+      <StatesWhereCopyOfReturnIsFldCd>AK</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>AL</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>AR</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>CA</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>CO</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>CT</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>FL</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>GA</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>HI</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>IL</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>KS</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>KY</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>LA</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>MA</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>MD</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>ME</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>MI</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>MN</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>MS</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>NC</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>ND</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>NH</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>NJ</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>NM</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>NY</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>OH</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>OK</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>OR</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>PA</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>RI</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>SC</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>TN</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>UT</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>VA</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>WA</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>WI</StatesWhereCopyOfReturnIsFldCd>
+      <StatesWhereCopyOfReturnIsFldCd>WV</StatesWhereCopyOfReturnIsFldCd>
+      <UponRequestInd>X</UponRequestInd>
+      <BooksInCareOfDetail>
+        <PersonNm>Ann Quandt</PersonNm>
+        <PhoneNum>6179988878</PhoneNum>
+        <USAddress>
+          <AddressLine1>888 Commonwealth Avenue</AddressLine1>
+          <AddressLine2>3rd Floor</AddressLine2>
+          <City>Boston</City>
+          <State>MA</State>
+          <ZIPCode>02215</ZIPCode>
+        </USAddress>
+      </BooksInCareOfDetail>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Jack Connors</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>1</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Ophelia Dahl</PersonNm>
+        <TitleTxt>Chair of BOD, Executive Director</TitleTxt>
+        <AverageHoursPerWeekRt>60</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>86789</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Dr Paul Farmer</PersonNm>
+        <TitleTxt>Director, Chief Strategist</TitleTxt>
+        <AverageHoursPerWeekRt>60</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Gary Gottlieb</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>1</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Robert Heine</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>1</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Albert Kaneb</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>10</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Diane E Kaneb</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>5</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Lesley King</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>8</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Todd McCormack</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>10</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Dan Nova</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>1</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Ted Philip</PersonNm>
+        <TitleTxt>Director, Chief Operating Officer</TitleTxt>
+        <AverageHoursPerWeekRt>60</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Bryan Stevenson</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>1</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Charlotte C Wagner</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>1</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>David Walton</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>1</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Jennifer Brown</PersonNm>
+        <TitleTxt>Chief Engagement Officer</TitleTxt>
+        <AverageHoursPerWeekRt>60</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>172644</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>19464</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Diane Currier</PersonNm>
+        <TitleTxt>Clerk</TitleTxt>
+        <AverageHoursPerWeekRt>1</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Sarthak Das</PersonNm>
+        <TitleTxt>Chief of Policy &amp; Public Sector</TitleTxt>
+        <AverageHoursPerWeekRt>60</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Sheila Davis</PersonNm>
+        <TitleTxt>Chief Nursing Officer</TitleTxt>
+        <AverageHoursPerWeekRt>60</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>111533</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>17528</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Ken Himmelman</PersonNm>
+        <TitleTxt>Chief Program Officer</TitleTxt>
+        <AverageHoursPerWeekRt>60</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>148089</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>24858</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Cassia Van der Hoof Holstein</PersonNm>
+        <TitleTxt>Chief Partner Integration Officer</TitleTxt>
+        <AverageHoursPerWeekRt>60</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>72500</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Cynthia Maltbie</PersonNm>
+        <TitleTxt>Chief Human Resource Officer</TitleTxt>
+        <AverageHoursPerWeekRt>60</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>150671</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>16746</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Joia Mukherjee</PersonNm>
+        <TitleTxt>Chief Medical Officer</TitleTxt>
+        <AverageHoursPerWeekRt>60</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Ann Quandt</PersonNm>
+        <TitleTxt>Chief Financial Officer</TitleTxt>
+        <AverageHoursPerWeekRt>60</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>101842</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>2388</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>David Whalen</PersonNm>
+        <TitleTxt>Chief Development Officer</TitleTxt>
+        <AverageHoursPerWeekRt>60</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>188799</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>7495</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Marie-Therese F Klay</PersonNm>
+        <TitleTxt>Director of Public Sector Development</TitleTxt>
+        <AverageHoursPerWeekRt>60</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>109253</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>19920</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Abbey M Gardner</PersonNm>
+        <TitleTxt>Director of New York Office</TitleTxt>
+        <AverageHoursPerWeekRt>60</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>122423</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>6327</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Gabou N E Mendy</PersonNm>
+        <TitleTxt>Chief Medical Director of Hopital Universitaire de Mirebalais</TitleTxt>
+        <AverageHoursPerWeekRt>60</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>133295</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>2705</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Donna Barry</PersonNm>
+        <TitleTxt>Policy &amp; Advocacy Director</TitleTxt>
+        <AverageHoursPerWeekRt>60</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>108852</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>6998</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>David Mayo</PersonNm>
+        <TitleTxt>Vice President of IT</TitleTxt>
+        <AverageHoursPerWeekRt>60</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>102359</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <TotalReportableCompFromOrgAmt>1609049</TotalReportableCompFromOrgAmt>
+      <TotReportableCompRltdOrgAmt>0</TotReportableCompRltdOrgAmt>
+      <TotalOtherCompensationAmt>124429</TotalOtherCompensationAmt>
+      <IndivRcvdGreaterThan100KCnt>11</IndivRcvdGreaterThan100KCnt>
+      <FormerOfcrEmployeesListedInd>0</FormerOfcrEmployeesListedInd>
+      <TotalCompGreaterThan150KInd>1</TotalCompGreaterThan150KInd>
+      <CompensationFromOtherSrcsInd>0</CompensationFromOtherSrcsInd>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1>Western Construction Company Ltd</BusinessNameLine1>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <ForeignAddress>
+            <AddressLine1>43-365 Ufulu Road</AddressLine1>
+            <City>Lilongwe</City>
+            <Country>MI</Country>
+          </ForeignAddress>
+        </ContractorAddress>
+        <ServicesDesc>Construction Services</ServicesDesc>
+        <CompensationAmt>642353</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1>Civil Engineering Group Inc</BusinessNameLine1>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1>2480 E Michigan St</AddressLine1>
+            <City>Orlando</City>
+            <State>FL</State>
+            <ZIPCode>32806</ZIPCode>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>Construction Services</ServicesDesc>
+        <CompensationAmt>581033</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1>Ariave Satcom LTD</BusinessNameLine1>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <ForeignAddress>
+            <AddressLine1>14 Hamachtarot S</AddressLine1>
+            <City>Ra anana</City>
+            <Country>IS</Country>
+            <PostalCode>43551</PostalCode>
+          </ForeignAddress>
+        </ContractorAddress>
+        <ServicesDesc>Telecommunication Services</ServicesDesc>
+        <CompensationAmt>306134</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1>Riders For Health</BusinessNameLine1>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <ForeignAddress>
+            <AddressLine1>Drummonds</AddressLine1>
+            <AddressLine2>Spring Hill</AddressLine2>
+            <City>Pitsford</City>
+            <ProvinceOrState>Northampton</ProvinceOrState>
+            <Country>UK</Country>
+          </ForeignAddress>
+        </ContractorAddress>
+        <ServicesDesc>Vehicle Maintenance</ServicesDesc>
+        <CompensationAmt>272218</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1>National Outdoor Sports Advertising Inc</BusinessNameLine1>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1>5151 Wisconsin Ave NW</AddressLine1>
+            <City>Washington</City>
+            <State>DC</State>
+            <ZIPCode>20016</ZIPCode>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>Prof Fundraising &amp; PrintShop</ServicesDesc>
+        <CompensationAmt>254008</CompensationAmt>
+      </ContractorCompensationGrp>
+      <CntrctRcvdGreaterThan100KCnt>10</CntrctRcvdGreaterThan100KCnt>
+      <FederatedCampaignsAmt>0</FederatedCampaignsAmt>
+      <MembershipDuesAmt>0</MembershipDuesAmt>
+      <FundraisingAmt>8169</FundraisingAmt>
+      <RelatedOrganizationsAmt>0</RelatedOrganizationsAmt>
+      <GovernmentGrantsAmt>17942867</GovernmentGrantsAmt>
+      <AllOtherContributionsAmt>61707423</AllOtherContributionsAmt>
+      <NoncashContributionsAmt>11658992</NoncashContributionsAmt>
+      <TotalContributionsAmt>79658459</TotalContributionsAmt>
+      <ProgramServiceRevenueGrp>
+        <Desc>Clinical Training</Desc>
+        <BusinessCd>813311</BusinessCd>
+        <TotalRevenueColumnAmt>32300</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>32300</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </ProgramServiceRevenueGrp>
+      <TotalOthProgramServiceRevGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>0</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </TotalOthProgramServiceRevGrp>
+      <TotalProgramServiceRevenueAmt>32300</TotalProgramServiceRevenueAmt>
+      <InvestmentIncomeGrp>
+        <TotalRevenueColumnAmt>55279</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>0</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>55279</ExclusionAmt>
+      </InvestmentIncomeGrp>
+      <IncmFromInvestBondProceedsGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>0</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </IncmFromInvestBondProceedsGrp>
+      <RoyaltiesRevenueGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>0</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </RoyaltiesRevenueGrp>
+      <RentalIncomeOrLossGrp>
+        <RealAmt>0</RealAmt>
+        <PersonalAmt>0</PersonalAmt>
+      </RentalIncomeOrLossGrp>
+      <GrossAmountSalesAssetsGrp>
+        <SecuritiesAmt>7746924</SecuritiesAmt>
+        <OtherAmt>0</OtherAmt>
+      </GrossAmountSalesAssetsGrp>
+      <LessCostOthBasisSalesExpnssGrp>
+        <SecuritiesAmt>7767543</SecuritiesAmt>
+        <OtherAmt>0</OtherAmt>
+      </LessCostOthBasisSalesExpnssGrp>
+      <GainOrLossGrp>
+        <SecuritiesAmt>-20619</SecuritiesAmt>
+        <OtherAmt>0</OtherAmt>
+      </GainOrLossGrp>
+      <NetGainOrLossInvestmentsGrp>
+        <TotalRevenueColumnAmt>-20619</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>0</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>-20619</ExclusionAmt>
+      </NetGainOrLossInvestmentsGrp>
+      <FundraisingGrossIncomeAmt>17467</FundraisingGrossIncomeAmt>
+      <ContriRptFundraisingEventAmt>8169</ContriRptFundraisingEventAmt>
+      <FundraisingDirectExpensesAmt>19141</FundraisingDirectExpensesAmt>
+      <NetIncmFromFundraisingEvtGrp>
+        <TotalRevenueColumnAmt>-1674</TotalRevenueColumnAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>-1674</ExclusionAmt>
+      </NetIncmFromFundraisingEvtGrp>
+      <OtherRevenueMiscGrp>
+        <Desc>Admin Support</Desc>
+        <BusinessCd>813311</BusinessCd>
+        <TotalRevenueColumnAmt>23188</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>23188</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </OtherRevenueMiscGrp>
+      <OtherRevenueMiscGrp>
+        <Desc>Logistical Support</Desc>
+        <BusinessCd>813311</BusinessCd>
+        <TotalRevenueColumnAmt>617987</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>617987</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </OtherRevenueMiscGrp>
+      <MiscellaneousRevenueGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>0</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </MiscellaneousRevenueGrp>
+      <OtherRevenueTotalAmt>641175</OtherRevenueTotalAmt>
+      <TotalRevenueGrp>
+        <TotalRevenueColumnAmt>80364920</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>673475</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>32986</ExclusionAmt>
+      </TotalRevenueGrp>
+      <GrantsToDomesticOrgsGrp>
+        <TotalAmt>402056</TotalAmt>
+        <ProgramServicesAmt>402056</ProgramServicesAmt>
+      </GrantsToDomesticOrgsGrp>
+      <GrantsToDomesticIndividualsGrp>
+        <TotalAmt>0</TotalAmt>
+        <ProgramServicesAmt>0</ProgramServicesAmt>
+      </GrantsToDomesticIndividualsGrp>
+      <ForeignGrantsGrp>
+        <TotalAmt>44866837</TotalAmt>
+        <ProgramServicesAmt>44866837</ProgramServicesAmt>
+      </ForeignGrantsGrp>
+      <BenefitsToMembersGrp>
+        <TotalAmt>0</TotalAmt>
+        <ProgramServicesAmt>0</ProgramServicesAmt>
+      </BenefitsToMembersGrp>
+      <CompCurrentOfcrDirectorsGrp>
+        <TotalAmt>1968848</TotalAmt>
+        <ProgramServicesAmt>1360598</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>393216</ManagementAndGeneralAmt>
+        <FundraisingAmt>215034</FundraisingAmt>
+      </CompCurrentOfcrDirectorsGrp>
+      <CompDisqualPersonsGrp>
+        <TotalAmt>60000</TotalAmt>
+        <ProgramServicesAmt>60000</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>0</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </CompDisqualPersonsGrp>
+      <OtherSalariesAndWagesGrp>
+        <TotalAmt>10034762</TotalAmt>
+        <ProgramServicesAmt>6369011</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>1169851</ManagementAndGeneralAmt>
+        <FundraisingAmt>2495900</FundraisingAmt>
+      </OtherSalariesAndWagesGrp>
+      <PensionPlanContributionsGrp>
+        <TotalAmt>155828</TotalAmt>
+        <ProgramServicesAmt>98882</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>18173</ManagementAndGeneralAmt>
+        <FundraisingAmt>38773</FundraisingAmt>
+      </PensionPlanContributionsGrp>
+      <OtherEmployeeBenefitsGrp>
+        <TotalAmt>1108185</TotalAmt>
+        <ProgramServicesAmt>703208</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>129240</ManagementAndGeneralAmt>
+        <FundraisingAmt>275737</FundraisingAmt>
+      </OtherEmployeeBenefitsGrp>
+      <PayrollTaxesGrp>
+        <TotalAmt>926612</TotalAmt>
+        <ProgramServicesAmt>595761</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>119494</ManagementAndGeneralAmt>
+        <FundraisingAmt>211357</FundraisingAmt>
+      </PayrollTaxesGrp>
+      <FeesForServicesManagementGrp>
+        <TotalAmt>0</TotalAmt>
+        <ProgramServicesAmt>0</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>0</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </FeesForServicesManagementGrp>
+      <FeesForServicesLegalGrp>
+        <TotalAmt>7705</TotalAmt>
+        <ProgramServicesAmt>5314</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>312</ManagementAndGeneralAmt>
+        <FundraisingAmt>2079</FundraisingAmt>
+      </FeesForServicesLegalGrp>
+      <FeesForServicesAccountingGrp>
+        <TotalAmt>113625</TotalAmt>
+        <ProgramServicesAmt>0</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>113625</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </FeesForServicesAccountingGrp>
+      <FeesForServicesLobbyingGrp>
+        <TotalAmt>0</TotalAmt>
+        <ProgramServicesAmt>0</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>0</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </FeesForServicesLobbyingGrp>
+      <FeesForServicesProfFundraising>
+        <TotalAmt>175163</TotalAmt>
+        <FundraisingAmt>175163</FundraisingAmt>
+      </FeesForServicesProfFundraising>
+      <FeesForSrvcInvstMgmntFeesGrp>
+        <TotalAmt>11150</TotalAmt>
+        <ProgramServicesAmt>0</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>11150</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </FeesForSrvcInvstMgmntFeesGrp>
+      <FeesForServicesOtherGrp>
+        <TotalAmt>2811835</TotalAmt>
+        <ProgramServicesAmt>2741459</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>27197</ManagementAndGeneralAmt>
+        <FundraisingAmt>43179</FundraisingAmt>
+      </FeesForServicesOtherGrp>
+      <AdvertisingGrp>
+        <TotalAmt>44516</TotalAmt>
+        <ProgramServicesAmt>31569</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>479</ManagementAndGeneralAmt>
+        <FundraisingAmt>12468</FundraisingAmt>
+      </AdvertisingGrp>
+      <OfficeExpensesGrp>
+        <TotalAmt>941763</TotalAmt>
+        <ProgramServicesAmt>297694</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>120516</ManagementAndGeneralAmt>
+        <FundraisingAmt>523553</FundraisingAmt>
+      </OfficeExpensesGrp>
+      <InformationTechnologyGrp>
+        <TotalAmt>964249</TotalAmt>
+        <ProgramServicesAmt>876090</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>43667</ManagementAndGeneralAmt>
+        <FundraisingAmt>44492</FundraisingAmt>
+      </InformationTechnologyGrp>
+      <RoyaltiesGrp>
+        <TotalAmt>0</TotalAmt>
+        <ProgramServicesAmt>0</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>0</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </RoyaltiesGrp>
+      <OccupancyGrp>
+        <TotalAmt>979636</TotalAmt>
+        <ProgramServicesAmt>549708</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>240314</ManagementAndGeneralAmt>
+        <FundraisingAmt>189614</FundraisingAmt>
+      </OccupancyGrp>
+      <TravelGrp>
+        <TotalAmt>2359100</TotalAmt>
+        <ProgramServicesAmt>2053786</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>129069</ManagementAndGeneralAmt>
+        <FundraisingAmt>176245</FundraisingAmt>
+      </TravelGrp>
+      <PymtTravelEntrtnmntPubOfclGrp>
+        <TotalAmt>0</TotalAmt>
+        <ProgramServicesAmt>0</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>0</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </PymtTravelEntrtnmntPubOfclGrp>
+      <ConferencesMeetingsGrp>
+        <TotalAmt>177794</TotalAmt>
+        <ProgramServicesAmt>149158</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>13434</ManagementAndGeneralAmt>
+        <FundraisingAmt>15202</FundraisingAmt>
+      </ConferencesMeetingsGrp>
+      <InterestGrp>
+        <TotalAmt>16285</TotalAmt>
+        <ProgramServicesAmt>16190</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>95</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </InterestGrp>
+      <PaymentsToAffiliatesGrp>
+        <TotalAmt>0</TotalAmt>
+        <ProgramServicesAmt>0</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>0</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </PaymentsToAffiliatesGrp>
+      <DepreciationDepletionGrp>
+        <TotalAmt>375604</TotalAmt>
+        <ProgramServicesAmt>324485</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>51119</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </DepreciationDepletionGrp>
+      <InsuranceGrp>
+        <TotalAmt>104073</TotalAmt>
+        <ProgramServicesAmt>398</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>103675</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </InsuranceGrp>
+      <OtherExpensesGrp>
+        <Desc>Pharmaceuticals</Desc>
+        <TotalAmt>2980654</TotalAmt>
+        <ProgramServicesAmt>2980654</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>0</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>Medical Supplies</Desc>
+        <TotalAmt>2518660</TotalAmt>
+        <ProgramServicesAmt>2518660</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>0</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>Outside Services</Desc>
+        <TotalAmt>1324203</TotalAmt>
+        <ProgramServicesAmt>1066744</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>137722</ManagementAndGeneralAmt>
+        <FundraisingAmt>119737</FundraisingAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>Durable Goods</Desc>
+        <TotalAmt>987960</TotalAmt>
+        <ProgramServicesAmt>957566</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>21271</ManagementAndGeneralAmt>
+        <FundraisingAmt>9123</FundraisingAmt>
+      </OtherExpensesGrp>
+      <AllOtherExpensesGrp>
+        <TotalAmt>2262678</TotalAmt>
+        <ProgramServicesAmt>1863180</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>147043</ManagementAndGeneralAmt>
+        <FundraisingAmt>252455</FundraisingAmt>
+      </AllOtherExpensesGrp>
+      <TotalFunctionalExpensesGrp>
+        <TotalAmt>78679781</TotalAmt>
+        <ProgramServicesAmt>70889008</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>2990662</ManagementAndGeneralAmt>
+        <FundraisingAmt>4800111</FundraisingAmt>
+      </TotalFunctionalExpensesGrp>
+      <CashNonInterestBearingGrp>
+        <BOYAmt>5096673</BOYAmt>
+        <EOYAmt>5274305</EOYAmt>
+      </CashNonInterestBearingGrp>
+      <SavingsAndTempCashInvstGrp>
+        <BOYAmt>17833303</BOYAmt>
+        <EOYAmt>18294404</EOYAmt>
+      </SavingsAndTempCashInvstGrp>
+      <PledgesAndGrantsReceivableGrp>
+        <BOYAmt>9762795</BOYAmt>
+        <EOYAmt>9354134</EOYAmt>
+      </PledgesAndGrantsReceivableGrp>
+      <AccountsReceivableGrp>
+        <BOYAmt>2822835</BOYAmt>
+        <EOYAmt>654741</EOYAmt>
+      </AccountsReceivableGrp>
+      <PrepaidExpensesDefrdChargesGrp>
+        <BOYAmt>348375</BOYAmt>
+        <EOYAmt>398717</EOYAmt>
+      </PrepaidExpensesDefrdChargesGrp>
+      <LandBldgEquipCostOrOtherBssAmt>6294822</LandBldgEquipCostOrOtherBssAmt>
+      <LandBldgEquipAccumDeprecAmt>3512303</LandBldgEquipAccumDeprecAmt>
+      <LandBldgEquipBasisNetGrp>
+        <BOYAmt>898797</BOYAmt>
+        <EOYAmt>2782519</EOYAmt>
+      </LandBldgEquipBasisNetGrp>
+      <InvestmentsPubTradedSecGrp>
+        <BOYAmt>369196</BOYAmt>
+        <EOYAmt>280256</EOYAmt>
+      </InvestmentsPubTradedSecGrp>
+      <InvestmentsOtherSecuritiesGrp>
+        <BOYAmt>885395</BOYAmt>
+        <EOYAmt>939688</EOYAmt>
+      </InvestmentsOtherSecuritiesGrp>
+      <TotalAssetsGrp>
+        <BOYAmt>38017369</BOYAmt>
+        <EOYAmt>37978764</EOYAmt>
+      </TotalAssetsGrp>
+      <AccountsPayableAccrExpnssGrp>
+        <BOYAmt>5349517</BOYAmt>
+        <EOYAmt>3327726</EOYAmt>
+      </AccountsPayableAccrExpnssGrp>
+      <EscrowAccountLiabilityGrp>
+        <BOYAmt>60187</BOYAmt>
+        <EOYAmt>52743</EOYAmt>
+      </EscrowAccountLiabilityGrp>
+      <OtherLiabilitiesGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </OtherLiabilitiesGrp>
+      <TotalLiabilitiesGrp>
+        <BOYAmt>5409704</BOYAmt>
+        <EOYAmt>3380469</EOYAmt>
+      </TotalLiabilitiesGrp>
+      <OrganizationFollowsSFAS117Ind>X</OrganizationFollowsSFAS117Ind>
+      <UnrestrictedNetAssetsGrp>
+        <BOYAmt>20790017</BOYAmt>
+        <EOYAmt>21349683</EOYAmt>
+      </UnrestrictedNetAssetsGrp>
+      <TemporarilyRstrNetAssetsGrp>
+        <BOYAmt>11817648</BOYAmt>
+        <EOYAmt>13248612</EOYAmt>
+      </TemporarilyRstrNetAssetsGrp>
+      <PermanentlyRstrNetAssetsGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </PermanentlyRstrNetAssetsGrp>
+      <TotalNetAssetsFundBalanceGrp>
+        <BOYAmt>32607665</BOYAmt>
+        <EOYAmt>34598295</EOYAmt>
+      </TotalNetAssetsFundBalanceGrp>
+      <TotLiabNetAssetsFundBalanceGrp>
+        <BOYAmt>38017369</BOYAmt>
+        <EOYAmt>37978764</EOYAmt>
+      </TotLiabNetAssetsFundBalanceGrp>
+      <ReconcilationRevenueExpnssAmt>1685139</ReconcilationRevenueExpnssAmt>
+      <NetUnrlzdGainsLossesInvstAmt>245304</NetUnrlzdGainsLossesInvstAmt>
+      <DonatedServicesAndUseFcltsAmt>0</DonatedServicesAndUseFcltsAmt>
+      <InvestmentExpenseAmt>0</InvestmentExpenseAmt>
+      <PriorPeriodAdjustmentsAmt>60187</PriorPeriodAdjustmentsAmt>
+      <OtherChangesInNetAssetsAmt>0</OtherChangesInNetAssetsAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AccountantCompileOrReviewInd>0</AccountantCompileOrReviewInd>
+      <FSAuditedInd>1</FSAuditedInd>
+      <FSAuditedBasisGrp>
+        <ConsolidatedBasisFinclStmtInd>X</ConsolidatedBasisFinclStmtInd>
+      </FSAuditedBasisGrp>
+      <AuditCommitteeInd>1</AuditCommitteeInd>
+      <FederalGrantAuditRequiredInd>1</FederalGrantAuditRequiredInd>
+      <FederalGrantAuditPerformedInd>1</FederalGrantAuditPerformedInd>
+    </IRS990>
+    <IRS990ScheduleA documentId="R000002" softwareId="13000241" softwareVersion="v1.00">
+      <PublicOrganization170Ind>X</PublicOrganization170Ind>
+      <GiftsGrantsContriRcvd170Grp>
+        <CurrentTaxYearMinus4YearsAmt>147443105</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>79543354</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>95710929</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>85338027</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>79658459</CurrentTaxYearAmt>
+        <TotalAmt>487693874</TotalAmt>
+      </GiftsGrantsContriRcvd170Grp>
+      <TotalCalendarYear170Grp>
+        <CurrentTaxYearMinus4YearsAmt>147443105</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>79543354</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>95710929</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>85338027</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>79658459</CurrentTaxYearAmt>
+        <TotalAmt>487693874</TotalAmt>
+      </TotalCalendarYear170Grp>
+      <SubstantialContributorsTotAmt>13168338</SubstantialContributorsTotAmt>
+      <PublicSupportTotal170Amt>474525536</PublicSupportTotal170Amt>
+      <GrossInvestmentIncome170Grp>
+        <CurrentTaxYearMinus4YearsAmt>414484</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>1327651</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>962741</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>238221</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>55279</CurrentTaxYearAmt>
+        <TotalAmt>2998376</TotalAmt>
+      </GrossInvestmentIncome170Grp>
+      <OtherIncome170Grp>
+        <CurrentTaxYearMinus4YearsAmt>0</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>0</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>0</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>0</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>0</CurrentTaxYearAmt>
+        <TotalAmt>0</TotalAmt>
+      </OtherIncome170Grp>
+      <TotalSupportAmt>490692250</TotalSupportAmt>
+      <PublicSupportCY170Pct>0.96705</PublicSupportCY170Pct>
+      <PublicSupportPY170Pct>0.96246</PublicSupportPY170Pct>
+      <ThirtyThrPctSuprtTestsCY170Ind>X</ThirtyThrPctSuprtTestsCY170Ind>
+    </IRS990ScheduleA>
+    <IRS990ScheduleB documentId="R000003" softwareId="13000241" softwareVersion="v1.00">
+      <ContributorInformationGrp>
+        <ContributorNum>RESTRICTED</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1>RESTRICTED</BusinessNameLine1>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1>RESTRICTED</AddressLine1>
+          <AddressLine2>RESTRICTED</AddressLine2>
+          <City>RESTRICTED</City>
+          <State>RESTRICTED</State>
+          <ZIPCode>RESTRICTED</ZIPCode>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>RESTRICTED</TotalContributionsAmt>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <IRS990ScheduleC documentId="R000004" softwareId="13000241" softwareVersion="v1.00">
+      <TotalGrassrootsLobbyingGrp>
+        <FilingOrganizationsTotalAmt>34587</FilingOrganizationsTotalAmt>
+      </TotalGrassrootsLobbyingGrp>
+      <TotalDirectLobbyingGrp>
+        <FilingOrganizationsTotalAmt>3843</FilingOrganizationsTotalAmt>
+      </TotalDirectLobbyingGrp>
+      <TotalLobbyingExpendGrp>
+        <FilingOrganizationsTotalAmt>38430</FilingOrganizationsTotalAmt>
+      </TotalLobbyingExpendGrp>
+      <OtherExemptPurposeExpendGrp>
+        <FilingOrganizationsTotalAmt>73841240</FilingOrganizationsTotalAmt>
+      </OtherExemptPurposeExpendGrp>
+      <TotalExemptPurposeExpendGrp>
+        <FilingOrganizationsTotalAmt>73879670</FilingOrganizationsTotalAmt>
+      </TotalExemptPurposeExpendGrp>
+      <LobbyingNontaxableAmountGrp>
+        <FilingOrganizationsTotalAmt>1000000</FilingOrganizationsTotalAmt>
+      </LobbyingNontaxableAmountGrp>
+      <GrassrootsNontaxableGrp>
+        <FilingOrganizationsTotalAmt>250000</FilingOrganizationsTotalAmt>
+      </GrassrootsNontaxableGrp>
+      <TotLbbyngGrassrootMnsNonTxGrp>
+        <FilingOrganizationsTotalAmt>0</FilingOrganizationsTotalAmt>
+      </TotLbbyngGrassrootMnsNonTxGrp>
+      <TotLbbyExpendMnsLbbyngNonTxGrp>
+        <FilingOrganizationsTotalAmt>0</FilingOrganizationsTotalAmt>
+      </TotLbbyExpendMnsLbbyngNonTxGrp>
+      <AvgLobbyingNontaxableAmountGrp>
+        <CurrentYearMinus3Amt>1000000</CurrentYearMinus3Amt>
+        <CurrentYearMinus2Amt>1000000</CurrentYearMinus2Amt>
+        <CurrentYearMinus1Amt>1000000</CurrentYearMinus1Amt>
+        <CurrentYearAmt>1000000</CurrentYearAmt>
+        <TotalAmt>4000000</TotalAmt>
+      </AvgLobbyingNontaxableAmountGrp>
+      <LobbyingCeilingAmt>6000000</LobbyingCeilingAmt>
+      <AvgTotalLobbyingExpendGrp>
+        <CurrentYearMinus3Amt>128996</CurrentYearMinus3Amt>
+        <CurrentYearMinus2Amt>146537</CurrentYearMinus2Amt>
+        <CurrentYearMinus1Amt>87312</CurrentYearMinus1Amt>
+        <CurrentYearAmt>38430</CurrentYearAmt>
+        <TotalAmt>401275</TotalAmt>
+      </AvgTotalLobbyingExpendGrp>
+      <AvgGrassrootsNontaxableGrp>
+        <CurrentYearMinus3Amt>250000</CurrentYearMinus3Amt>
+        <CurrentYearMinus2Amt>250000</CurrentYearMinus2Amt>
+        <CurrentYearMinus1Amt>250000</CurrentYearMinus1Amt>
+        <CurrentYearAmt>250000</CurrentYearAmt>
+        <TotalAmt>1000000</TotalAmt>
+      </AvgGrassrootsNontaxableGrp>
+      <GrassrootsCeilingAmt>1500000</GrassrootsCeilingAmt>
+      <AvgGrassrootsLobbyingExpendGrp>
+        <CurrentYearMinus3Amt>116096</CurrentYearMinus3Amt>
+        <CurrentYearMinus2Amt>131883</CurrentYearMinus2Amt>
+        <CurrentYearMinus1Amt>78581</CurrentYearMinus1Amt>
+        <CurrentYearAmt>34587</CurrentYearAmt>
+        <TotalAmt>361147</TotalAmt>
+      </AvgGrassrootsLobbyingExpendGrp>
+    </IRS990ScheduleC>
+    <IRS990ScheduleD documentId="R000005" softwareId="13000241" softwareVersion="v1.00">
+      <AgentTrusteeEtcInd>0</AgentTrusteeEtcInd>
+      <InclEscrowCustodialAcctLiabInd>1</InclEscrowCustodialAcctLiabInd>
+      <ExplanationProvidedInd>X</ExplanationProvidedInd>
+      <LandGrp>
+        <InvestmentCostOrOtherBasisAmt>0</InvestmentCostOrOtherBasisAmt>
+        <OtherCostOrOtherBasisAmt>0</OtherCostOrOtherBasisAmt>
+        <BookValueAmt>0</BookValueAmt>
+      </LandGrp>
+      <BuildingsGrp>
+        <InvestmentCostOrOtherBasisAmt>0</InvestmentCostOrOtherBasisAmt>
+        <OtherCostOrOtherBasisAmt>0</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>0</DepreciationAmt>
+        <BookValueAmt>0</BookValueAmt>
+      </BuildingsGrp>
+      <LeaseholdImprovementsGrp>
+        <InvestmentCostOrOtherBasisAmt>0</InvestmentCostOrOtherBasisAmt>
+        <OtherCostOrOtherBasisAmt>139143</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>66141</DepreciationAmt>
+        <BookValueAmt>73002</BookValueAmt>
+      </LeaseholdImprovementsGrp>
+      <EquipmentGrp>
+        <InvestmentCostOrOtherBasisAmt>0</InvestmentCostOrOtherBasisAmt>
+        <OtherCostOrOtherBasisAmt>891224</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>848226</DepreciationAmt>
+        <BookValueAmt>42998</BookValueAmt>
+      </EquipmentGrp>
+      <OtherLandBuildingsGrp>
+        <InvestmentCostOrOtherBasisAmt>0</InvestmentCostOrOtherBasisAmt>
+        <OtherCostOrOtherBasisAmt>5264455</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>2597936</DepreciationAmt>
+        <BookValueAmt>2666519</BookValueAmt>
+      </OtherLandBuildingsGrp>
+      <TotalBookValueLandBuildingsAmt>2782519</TotalBookValueLandBuildingsAmt>
+      <TotalLiabilityAmt>0</TotalLiabilityAmt>
+      <FootnoteTextInd>X</FootnoteTextInd>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule D, Part IV, Line 2b</FormAndLineReferenceDesc>
+        <ExplanationTxt>Partners In Health served as a custodian for several small partner organizations that have a common mission of breaking the cycle of disease and poverty but have not yet completed the process to register as 501(c)(3) organizations. This included receiving revenue and paying expense.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule D, Part X, Line 2</FormAndLineReferenceDesc>
+        <ExplanationTxt>PIH is a not-for-profit organization as described in Section 501(c)(3) of the Internal Revenue Code, as amended (the Code), and is generally exempt from income taxes pursuant to Section 501(a) of the Code. Socios En Salud (Peru), Partners in Health Russia, Partners in Health Kazakhstan, Inshuti Mu Buzima (Rwanda), Bo Mphato Litsebeletsong tsa Bophelo (Lesotho), Abwenzi Pa Za Umoyo (Malawi), Companeros En Salud (Mexico), and Partners in Health Canada were established and are governed under the laws of their respective countries. PIH is required to assess uncertain tax positions and has determined that there were no such positions that are material to the financial statements.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleD>
+    <IRS990ScheduleF documentId="R000006" softwareId="13000241" softwareVersion="v1.00">
+      <GrantRecordsMaintainedInd>1</GrantRecordsMaintainedInd>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Central America and the Caribbean</RegionTxt>
+        <OfficesCnt>2</OfficesCnt>
+        <EmployeeCnt>5277</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Grantmaking</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>23941865</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Sub-Saharan Africa</RegionTxt>
+        <OfficesCnt>3</OfficesCnt>
+        <EmployeeCnt>10283</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Grantmaking</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>18971101</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Russia and the newly independent States</RegionTxt>
+        <OfficesCnt>2</OfficesCnt>
+        <EmployeeCnt>15</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Grantmaking</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>1385978</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>North America (including Canada and Mexico, but not the United States)</RegionTxt>
+        <OfficesCnt>2</OfficesCnt>
+        <EmployeeCnt>34</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Grantmaking</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>443796</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>South America</RegionTxt>
+        <OfficesCnt>1</OfficesCnt>
+        <EmployeeCnt>359</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Grantmaking</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>124097</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <TotalOfficeCnt>10</TotalOfficeCnt>
+      <TotalEmployeeCnt>15968</TotalEmployeeCnt>
+      <TotalSpentAmt>44866837</TotalSpentAmt>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>Central America and the Caribbean</RegionTxt>
+        <PurposeOfGrantTxt>Healthcare</PurposeOfGrantTxt>
+        <CashGrantAmt>23515978</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Wire</MannerOfCashDisbursementTxt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>Sub-Saharan Africa</RegionTxt>
+        <PurposeOfGrantTxt>Healthcare</PurposeOfGrantTxt>
+        <CashGrantAmt>10856659</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Wire</MannerOfCashDisbursementTxt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>Sub-Saharan Africa</RegionTxt>
+        <PurposeOfGrantTxt>Healthcare</PurposeOfGrantTxt>
+        <CashGrantAmt>5185717</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Wire</MannerOfCashDisbursementTxt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>Sub-Saharan Africa</RegionTxt>
+        <PurposeOfGrantTxt>Healthcare</PurposeOfGrantTxt>
+        <CashGrantAmt>2906613</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Wire</MannerOfCashDisbursementTxt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>Russia and the newly independent States</RegionTxt>
+        <PurposeOfGrantTxt>Healthcare</PurposeOfGrantTxt>
+        <CashGrantAmt>1384478</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Wire</MannerOfCashDisbursementTxt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>North America (including Canada and Mexico, but not the United States)</RegionTxt>
+        <PurposeOfGrantTxt>Healthcare</PurposeOfGrantTxt>
+        <CashGrantAmt>443796</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Wire</MannerOfCashDisbursementTxt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>Central America and the Caribbean</RegionTxt>
+        <PurposeOfGrantTxt>Healthcare</PurposeOfGrantTxt>
+        <CashGrantAmt>341587</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Wire</MannerOfCashDisbursementTxt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>South America</RegionTxt>
+        <PurposeOfGrantTxt>Healthcare</PurposeOfGrantTxt>
+        <CashGrantAmt>124097</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Wire</MannerOfCashDisbursementTxt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>Central America and the Caribbean</RegionTxt>
+        <PurposeOfGrantTxt>Healthcare</PurposeOfGrantTxt>
+        <CashGrantAmt>49300</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Wire</MannerOfCashDisbursementTxt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>Central America and the Caribbean</RegionTxt>
+        <PurposeOfGrantTxt>Healthcare</PurposeOfGrantTxt>
+        <CashGrantAmt>20000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Wire</MannerOfCashDisbursementTxt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>Central America and the Caribbean</RegionTxt>
+        <PurposeOfGrantTxt>Sustainable Develo</PurposeOfGrantTxt>
+        <CashGrantAmt>15000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Wire</MannerOfCashDisbursementTxt>
+      </GrantsToOrgOutsideUSGrp>
+      <GrantsToOrgOutsideUSGrp>
+        <RegionTxt>Sub-Saharan Africa</RegionTxt>
+        <PurposeOfGrantTxt>Sustainable Develo</PurposeOfGrantTxt>
+        <CashGrantAmt>10000</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Wire</MannerOfCashDisbursementTxt>
+      </GrantsToOrgOutsideUSGrp>
+      <Total501c3OrgCnt>12</Total501c3OrgCnt>
+      <TotalOtherOrgCnt>0</TotalOtherOrgCnt>
+      <ForeignIndividualsGrantsGrp>
+        <TypeOfAssistanceTxt>Medical education costs</TypeOfAssistanceTxt>
+        <RegionTxt>Sub-Saharan Africa</RegionTxt>
+        <RecipientCnt>2</RecipientCnt>
+        <CashGrantAmt>12112</CashGrantAmt>
+        <MannerOfCashDisbursementTxt>Wire</MannerOfCashDisbursementTxt>
+      </ForeignIndividualsGrantsGrp>
+      <TransferToForeignCorpInd>1</TransferToForeignCorpInd>
+      <InterestInForeignTrustInd>0</InterestInForeignTrustInd>
+      <ForeignCorpOwnershipInd>1</ForeignCorpOwnershipInd>
+      <PassiveForeignInvestmestCoInd>1</PassiveForeignInvestmestCoInd>
+      <ForeignPartnershipInd>0</ForeignPartnershipInd>
+      <BoycottCountriesInd>0</BoycottCountriesInd>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule F, Part I, Line 2</FormAndLineReferenceDesc>
+        <ExplanationTxt>Partners In Health makes grants only to organizations it knows well and with whom it works closely in partnership toward the common mission of breaking the cycle of poverty and disease. For each major grant, PIH program staff review budgets and work plans to be performed in advance and also review and discuss outcomes either annually or once the work has been completed.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleF>
+    <IRS990ScheduleG documentId="R000007" softwareId="13000241" softwareVersion="v1.00">
+      <MailSolicitationsInd>X</MailSolicitationsInd>
+      <EmailSolicitationsInd>X</EmailSolicitationsInd>
+      <PhoneSolicitationsInd>X</PhoneSolicitationsInd>
+      <InPersonSolicitationsInd>X</InPersonSolicitationsInd>
+      <SolicitationOfNonGovtGrantsInd>X</SolicitationOfNonGovtGrantsInd>
+      <SolicitationOfGovtGrantsInd>X</SolicitationOfGovtGrantsInd>
+      <SpecialFundraisingEventsInd>X</SpecialFundraisingEventsInd>
+      <AgrmtProfFundraisingActyInd>1</AgrmtProfFundraisingActyInd>
+      <FundraiserActivityInfoGrp>
+        <OrganizationBusinessName>
+          <BusinessNameLine1>RobbinsKersten Direct</BusinessNameLine1>
+        </OrganizationBusinessName>
+        <USAddress>
+          <AddressLine1>201 Summer Street</AddressLine1>
+          <AddressLine2>PO Box 5838</AddressLine2>
+          <City>Holliston</City>
+          <State>MA</State>
+          <ZIPCode>017465838</ZIPCode>
+        </USAddress>
+        <ActivityTxt>Direct Mail - consultation and design</ActivityTxt>
+        <FundraiserControlOfFundsInd>0</FundraiserControlOfFundsInd>
+        <GrossReceiptsAmt>270713</GrossReceiptsAmt>
+        <RetainedByContractorAmt>66165</RetainedByContractorAmt>
+        <NetToOrganizationAmt>204548</NetToOrganizationAmt>
+      </FundraiserActivityInfoGrp>
+      <FundraiserActivityInfoGrp>
+        <OrganizationBusinessName>
+          <BusinessNameLine1>Blackbaud Inc</BusinessNameLine1>
+        </OrganizationBusinessName>
+        <USAddress>
+          <AddressLine1>2000 Daniel Island Drive</AddressLine1>
+          <City>Charleston</City>
+          <State>SC</State>
+          <ZIPCode>294927541</ZIPCode>
+        </USAddress>
+        <ActivityTxt>Consultation and donor analytics</ActivityTxt>
+        <FundraiserControlOfFundsInd>0</FundraiserControlOfFundsInd>
+        <GrossReceiptsAmt>0</GrossReceiptsAmt>
+        <RetainedByContractorAmt>36044</RetainedByContractorAmt>
+        <NetToOrganizationAmt>-36044</NetToOrganizationAmt>
+      </FundraiserActivityInfoGrp>
+      <FundraiserActivityInfoGrp>
+        <OrganizationBusinessName>
+          <BusinessNameLine1>National Outdoor Sports Advertising Inc</BusinessNameLine1>
+        </OrganizationBusinessName>
+        <USAddress>
+          <AddressLine1>5151 Wisconsin Ave NW</AddressLine1>
+          <AddressLine2>4th Floor</AddressLine2>
+          <City>Washington</City>
+          <State>DC</State>
+          <ZIPCode>20016</ZIPCode>
+        </USAddress>
+        <ActivityTxt>Direct Mail - consultation and design</ActivityTxt>
+        <FundraiserControlOfFundsInd>0</FundraiserControlOfFundsInd>
+        <GrossReceiptsAmt>1158585</GrossReceiptsAmt>
+        <RetainedByContractorAmt>31835</RetainedByContractorAmt>
+        <NetToOrganizationAmt>1126750</NetToOrganizationAmt>
+      </FundraiserActivityInfoGrp>
+      <FundraiserActivityInfoGrp>
+        <OrganizationBusinessName>
+          <BusinessNameLine1>SD&amp;A Teleservices Inc</BusinessNameLine1>
+        </OrganizationBusinessName>
+        <USAddress>
+          <AddressLine1>5757 West Century Blvd</AddressLine1>
+          <AddressLine2>Suite 300</AddressLine2>
+          <City>Los Angeles</City>
+          <State>CA</State>
+          <ZIPCode>90045</ZIPCode>
+        </USAddress>
+        <ActivityTxt>Phone Solicitation</ActivityTxt>
+        <FundraiserControlOfFundsInd>0</FundraiserControlOfFundsInd>
+        <GrossReceiptsAmt>40036</GrossReceiptsAmt>
+        <RetainedByContractorAmt>31744</RetainedByContractorAmt>
+        <NetToOrganizationAmt>8292</NetToOrganizationAmt>
+      </FundraiserActivityInfoGrp>
+      <FundraiserActivityInfoGrp>
+        <OrganizationBusinessName>
+          <BusinessNameLine1>MDG Inc</BusinessNameLine1>
+        </OrganizationBusinessName>
+        <USAddress>
+          <AddressLine1>13 Water Street</AddressLine1>
+          <AddressLine2>Third Floor</AddressLine2>
+          <City>Holliston</City>
+          <State>MA</State>
+          <ZIPCode>01746</ZIPCode>
+        </USAddress>
+        <ActivityTxt>Direct Mail - consultation and design</ActivityTxt>
+        <FundraiserControlOfFundsInd>0</FundraiserControlOfFundsInd>
+        <GrossReceiptsAmt>0</GrossReceiptsAmt>
+        <RetainedByContractorAmt>6600</RetainedByContractorAmt>
+        <NetToOrganizationAmt>-6600</NetToOrganizationAmt>
+      </FundraiserActivityInfoGrp>
+      <TotalGrossReceiptsAmt>1469334</TotalGrossReceiptsAmt>
+      <TotalRetainedByContractorsAmt>172388</TotalRetainedByContractorsAmt>
+      <TotalNetToOrganizationAmt>1296946</TotalNetToOrganizationAmt>
+      <AllStatesCd>All States</AllStatesCd>
+      <FundraisingEventInformationGrp>
+        <NameOfEvent1Amt>Fundraising Dinner</NameOfEvent1Amt>
+        <GrossReceiptsEvent1Amt>9920</GrossReceiptsEvent1Amt>
+        <CharitableContriEvent1Amt>3720</CharitableContriEvent1Amt>
+        <GrossRevenueEvent1Amt>6200</GrossRevenueEvent1Amt>
+        <CashPrizesEvent1Amt>0</CashPrizesEvent1Amt>
+        <NonCashPrizesEvent1Amt>0</NonCashPrizesEvent1Amt>
+        <RentFacilityCostsEvent1Amt>0</RentFacilityCostsEvent1Amt>
+        <FoodAndBeverageEvent1Amt>9471</FoodAndBeverageEvent1Amt>
+        <EntertainmentEvent1Amt>0</EntertainmentEvent1Amt>
+        <OtherDirectExpensesEvent1Amt>701</OtherDirectExpensesEvent1Amt>
+        <NameOfEvent2Amt>Family Fun Day</NameOfEvent2Amt>
+        <GrossReceiptsEvent2Amt>14436</GrossReceiptsEvent2Amt>
+        <CharitableContriEvent2Amt>4449</CharitableContriEvent2Amt>
+        <GrossRevenueEvent2Amt>9987</GrossRevenueEvent2Amt>
+        <CashPrizesEvent2Amt>0</CashPrizesEvent2Amt>
+        <NonCashPrizesEvent2Amt>0</NonCashPrizesEvent2Amt>
+        <RentFacilityCostsEvent2Amt>0</RentFacilityCostsEvent2Amt>
+        <FoodAndBeverageEvent2Amt>3106</FoodAndBeverageEvent2Amt>
+        <EntertainmentEvent2Amt>0</EntertainmentEvent2Amt>
+        <OtherDirectExpensesEvent2Amt>5863</OtherDirectExpensesEvent2Amt>
+        <OtherEventsTotalCnt>0</OtherEventsTotalCnt>
+        <GrossReceiptsTotalAmt>24356</GrossReceiptsTotalAmt>
+        <CharitableContributionsTotAmt>8169</CharitableContributionsTotAmt>
+        <GrossRevenueTotalEventsAmt>16187</GrossRevenueTotalEventsAmt>
+        <CashPrizesTotalEventsAmt>0</CashPrizesTotalEventsAmt>
+        <NonCashPrizesTotalEventsAmt>0</NonCashPrizesTotalEventsAmt>
+        <RentFcltyCostsTotalEventsAmt>0</RentFcltyCostsTotalEventsAmt>
+        <FoodAndBeverageTotalEventsAmt>12577</FoodAndBeverageTotalEventsAmt>
+        <EntertainmentTotalEventsAmt>0</EntertainmentTotalEventsAmt>
+        <OthDirectExpnssTotalEventsAmt>6564</OthDirectExpnssTotalEventsAmt>
+        <DirectExpenseSummaryEventsAmt>19141</DirectExpenseSummaryEventsAmt>
+        <NetIncomeSummaryAmt>-2954</NetIncomeSummaryAmt>
+      </FundraisingEventInformationGrp>
+    </IRS990ScheduleG>
+    <IRS990ScheduleI documentId="R000008" softwareId="13000241" softwareVersion="v1.00">
+      <GrantRecordsMaintainedInd>1</GrantRecordsMaintainedInd>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>Justice Resource Institute Inc</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>160 Gould Street</AddressLine1>
+          <AddressLine2>Suite 300</AddressLine2>
+          <City>Needham</City>
+          <State>MA</State>
+          <ZIPCode>024942300</ZIPCode>
+        </USAddress>
+        <RecipientEIN>042526357</RecipientEIN>
+        <IRCSectionDesc>501(c)(3)</IRCSectionDesc>
+        <CashGrantAmt>230000</CashGrantAmt>
+        <PurposeOfGrantTxt>Prevention and Access to Care and Treatment project</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>Regis College</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>235 Wellesley Street</AddressLine1>
+          <City>Weston</City>
+          <State>MA</State>
+          <ZIPCode>02493</ZIPCode>
+        </USAddress>
+        <RecipientEIN>042104451</RecipientEIN>
+        <IRCSectionDesc>501(c)(3)</IRCSectionDesc>
+        <CashGrantAmt>150876</CashGrantAmt>
+        <PurposeOfGrantTxt>Nursing education</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>Team Heart Inc</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>PO Box 70</AddressLine1>
+          <City>Newton</City>
+          <State>MA</State>
+          <ZIPCode>02468</ZIPCode>
+        </USAddress>
+        <RecipientEIN>271435443</RecipientEIN>
+        <IRCSectionDesc>501(c)(3)</IRCSectionDesc>
+        <CashGrantAmt>9531</CashGrantAmt>
+        <PurposeOfGrantTxt>Healthcare</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1>Last Mile Health</BusinessNameLine1>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1>2 Atlantic Ave</AddressLine1>
+          <AddressLine2>Floor 4</AddressLine2>
+          <City>Boston</City>
+          <State>MA</State>
+          <ZIPCode>02110</ZIPCode>
+        </USAddress>
+        <RecipientEIN>261401736</RecipientEIN>
+        <IRCSectionDesc>501(c)(3)</IRCSectionDesc>
+        <CashGrantAmt>5002</CashGrantAmt>
+        <PurposeOfGrantTxt>Healthcare</PurposeOfGrantTxt>
+      </RecipientTable>
+      <Total501c3OrgCnt>4</Total501c3OrgCnt>
+      <TotalOtherOrgCnt>0</TotalOtherOrgCnt>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule I, Part I, Line 2</FormAndLineReferenceDesc>
+        <ExplanationTxt>Partners In Health makes grants only to organizations it knows well and with whom it works closely in partnership toward the common mission of breaking the cycle of poverty and disease. For each major grant, PIH program staff review budgets for work to be performed in advance and also review and discuss outcomes either annually or once the work has been completed.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleI>
+    <IRS990ScheduleJ documentId="R000009" softwareId="13000241" softwareVersion="v1.00">
+      <DiscretionarySpendingAcctInd>X</DiscretionarySpendingAcctInd>
+      <WrittenPolicyRefTAndEExpnssInd>0</WrittenPolicyRefTAndEExpnssInd>
+      <SubstantiationRequiredInd>1</SubstantiationRequiredInd>
+      <CompensationCommitteeInd>X</CompensationCommitteeInd>
+      <Form990OfOtherOrganizationsInd>X</Form990OfOtherOrganizationsInd>
+      <CompensationSurveyInd>X</CompensationSurveyInd>
+      <BoardOrCommitteeApprovalInd>X</BoardOrCommitteeApprovalInd>
+      <SeverancePaymentInd>1</SeverancePaymentInd>
+      <SupplementalNonqualRtrPlanInd>0</SupplementalNonqualRtrPlanInd>
+      <EquityBasedCompArrngmInd>0</EquityBasedCompArrngmInd>
+      <CompBasedOnRevenueOfFlngOrgInd>0</CompBasedOnRevenueOfFlngOrgInd>
+      <CompBsdOnRevRelatedOrgsInd>0</CompBsdOnRevRelatedOrgsInd>
+      <CompBsdNetEarnsFlngOrgInd>0</CompBsdNetEarnsFlngOrgInd>
+      <CompBsdNetEarnsRltdOrgsInd>0</CompBsdNetEarnsRltdOrgsInd>
+      <AnyNonFixedPaymentsInd>0</AnyNonFixedPaymentsInd>
+      <InitialContractExceptionInd>0</InitialContractExceptionInd>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Jennifer Brown</PersonNm>
+        <TitleTxt>Chief Engagement Officer</TitleTxt>
+        <BaseCompensationFilingOrgAmt>172644</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>831</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>18633</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>192108</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Ken Himmelman</PersonNm>
+        <TitleTxt>Chief Program Officer</TitleTxt>
+        <BaseCompensationFilingOrgAmt>147969</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>120</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>4650</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>20208</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>172947</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Cynthia Maltbie</PersonNm>
+        <TitleTxt>Chief Human Resource Officer</TitleTxt>
+        <BaseCompensationFilingOrgAmt>150659</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>12</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>16746</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>167417</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>David Whalen</PersonNm>
+        <TitleTxt>Chief Development Officer</TitleTxt>
+        <BaseCompensationFilingOrgAmt>188679</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>120</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>5707</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>1788</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>196294</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule J, Part I, Line 1a</FormAndLineReferenceDesc>
+        <ExplanationTxt>Discretionary Spending Account: Dr. Paul Farmer, Chief Strategist and Director, travels extensively to remote locations on behalf of PIH to advise on clinical strategy and heath care operations. He also travels for fundraising purposes. To facilitate these efforts, PIH has provided Dr. Farmer and his team with an ATM card and petty cash account for periodic cash withdrawals for business purposes.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule J, Part I, Line 1b</FormAndLineReferenceDesc>
+        <ExplanationTxt>See explanation above for Sch J, Part I, Line 1a.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule J, Part I, Line 4</FormAndLineReferenceDesc>
+        <ExplanationTxt>PIH paid Donna Barry $30,592 severance in calendar year 2013.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleJ>
+    <IRS990ScheduleL documentId="R000010" softwareId="13000241" softwareVersion="v1.00">
+      <BusTrInvolveInterestedPrsnGrp>
+        <NameOfInterested>
+          <PersonNm>Didi Bertrand</PersonNm>
+        </NameOfInterested>
+        <RelationshipDescriptionTxt>Paul Farmer's spouse</RelationshipDescriptionTxt>
+        <TransactionAmt>60000</TransactionAmt>
+        <TransactionDesc>Compensation for services</TransactionDesc>
+        <SharingOfRevenuesInd>0</SharingOfRevenuesInd>
+      </BusTrInvolveInterestedPrsnGrp>
+    </IRS990ScheduleL>
+    <IRS990ScheduleM documentId="R000011" softwareId="13000241" softwareVersion="v1.00">
+      <ClothingAndHouseholdGoodsGrp>
+        <NonCashCheckboxInd>X</NonCashCheckboxInd>
+        <NoncashContributionsRptF990Amt>599</NoncashContributionsRptF990Amt>
+        <MethodOfDeterminingRevenuesTxt>Fair Value</MethodOfDeterminingRevenuesTxt>
+      </ClothingAndHouseholdGoodsGrp>
+      <IntellectualPropertyGrp>
+        <NonCashCheckboxInd>X</NonCashCheckboxInd>
+        <ContributionCnt>2</ContributionCnt>
+        <NoncashContributionsRptF990Amt>1818463</NoncashContributionsRptF990Amt>
+        <MethodOfDeterminingRevenuesTxt>Fair Value</MethodOfDeterminingRevenuesTxt>
+      </IntellectualPropertyGrp>
+      <SecuritiesPubliclyTradedGrp>
+        <NonCashCheckboxInd>X</NonCashCheckboxInd>
+        <ContributionCnt>171</ContributionCnt>
+        <NoncashContributionsRptF990Amt>7724422</NoncashContributionsRptF990Amt>
+        <MethodOfDeterminingRevenuesTxt>Fair Value</MethodOfDeterminingRevenuesTxt>
+      </SecuritiesPubliclyTradedGrp>
+      <FoodInventoryGrp>
+        <NonCashCheckboxInd>X</NonCashCheckboxInd>
+        <ContributionCnt>2</ContributionCnt>
+        <NoncashContributionsRptF990Amt>4206</NoncashContributionsRptF990Amt>
+        <MethodOfDeterminingRevenuesTxt>Fair Value</MethodOfDeterminingRevenuesTxt>
+      </FoodInventoryGrp>
+      <DrugsAndMedicalSuppliesGrp>
+        <NonCashCheckboxInd>X</NonCashCheckboxInd>
+        <ContributionCnt>51</ContributionCnt>
+        <NoncashContributionsRptF990Amt>2111302</NoncashContributionsRptF990Amt>
+        <MethodOfDeterminingRevenuesTxt>Fair Value</MethodOfDeterminingRevenuesTxt>
+      </DrugsAndMedicalSuppliesGrp>
+      <Form8283ReceivedCnt>0</Form8283ReceivedCnt>
+      <AnyPropertyThatMustBeHeldInd>0</AnyPropertyThatMustBeHeldInd>
+      <ReviewProcessUnusualNCGiftsInd>1</ReviewProcessUnusualNCGiftsInd>
+      <ThirdPartiesUsedInd>0</ThirdPartiesUsedInd>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule M, Part I, Line 8</FormAndLineReferenceDesc>
+        <ExplanationTxt>PIH counted intellectual property contributions by the number of donations made to PIH. PIH received 2 intellectual property donations in FY14.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule M, Part I, Line 9</FormAndLineReferenceDesc>
+        <ExplanationTxt>PIH counted security contributions by the number of donations made to PIH. PIH received 171 security donations in FY14.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule M, Part I, Line 19</FormAndLineReferenceDesc>
+        <ExplanationTxt>PIH counted food inventory contributions by the number of donations made to PIH. PIH received 2 food inventory donations in FY14.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule M, Part I, Line 20</FormAndLineReferenceDesc>
+        <ExplanationTxt>PIH counted drug and medical supply contributions by the number of donations made to PIH. PIH received 51 drug and medical supply donations in FY14.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleM>
+    <IRS990ScheduleO documentId="R000012" softwareId="13000241" softwareVersion="v1.00">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section A, Line 2</FormAndLineReferenceDesc>
+        <ExplanationTxt>Board of Governors members Albert Kaneb and Diane E. Kaneb are married to each other.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, Line 11b</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Form 990 is prepared by the Finance Office staff and is reviewed carefully by the PIH Chief Financial Officer. The Form 990 is then reviewed by CBIZ Tofias, PIH's tax advisor. A complete draft of the Form 990 is then reviewed by the PIH Executive Director and the Chief Operating Officer. This draft is then provided to the Audit and Investment Committee for their review. Finally, the Form 990 is provided to the full Board of Governors prior to filing. Any and all questions and comments are addressed by the PIH Chief Financial Officer, who engages CBIZ Tofias in the discussion whenever relevant or necessary.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, Line 12c</FormAndLineReferenceDesc>
+        <ExplanationTxt>Each year, all PIH Officers and Board members are required to review the organization's conlict of interest policy and indicate their compliance in writing. Throughout the year, PIH senior leadership reviews major contracts and expenditures. Any arrangements or expenditures that might give rise to a conflict of interest either in fact or appearance would be raised to the Executive Committee and the Board of Governors for discussion and disposition. The Board reserves the right to disallow any such transaction, arrangement or other working relationship and/or to ask the interested person to remove him or herself from any discussion or vote on the matter. The Board shall determine the existence of a conflict of interest by a majority vote of the disinterested directors.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, Line 15</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Compensation Committee of the Board of Governors, none of whose members have a conflict of interest, is charged with reviewing the proposed compensation of PIH's Executive Director. Comparability data for similarly qualified persons in functionally comparable positions at similarly situated organizations is prepared by the organization and reviewed by the Compensation Committee before forming its conclusions. The deliberation and decision are documented in the minutes contemporaneously.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section C, Line 19</FormAndLineReferenceDesc>
+        <ExplanationTxt>Partners In Health posts a copy of its annual report, its audited financial statements, and its Form 990 on its website and provides copies to anyone who inquires. PIH also provides a copy of its Articles of Organization, its by-laws, and its conflict of interest policy on its website for any interested party to view.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+    <IRS990ScheduleR documentId="R000013" softwareId="13000241" softwareVersion="v1.00">
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1>Inshuti Mu Buzima (Rwanda)</BusinessNameLine1>
+        </DisregardedEntityName>
+        <ForeignAddress>
+          <AddressLine1>Rwinkwavu</AddressLine1>
+          <City>Rwinkwavu</City>
+          <Country>RW</Country>
+        </ForeignAddress>
+        <PrimaryActivitiesTxt>Healthcare</PrimaryActivitiesTxt>
+        <LegalDomicileForeignCountryCd>RW</LegalDomicileForeignCountryCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1>Bo Mphato Lisebeletsong tsa Bophelo (Lesotho)</BusinessNameLine1>
+        </DisregardedEntityName>
+        <ForeignAddress>
+          <AddressLine1>New Europa 438 Pope John Paul</AddressLine1>
+          <City>Maseru</City>
+          <Country>LT</Country>
+        </ForeignAddress>
+        <PrimaryActivitiesTxt>Healthcare</PrimaryActivitiesTxt>
+        <LegalDomicileForeignCountryCd>LT</LegalDomicileForeignCountryCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1>Socios En Salud (Peru)</BusinessNameLine1>
+        </DisregardedEntityName>
+        <ForeignAddress>
+          <AddressLine1>Av Merino Reyna 575 06 Porras B</AddressLine1>
+          <City>Carabayllo</City>
+          <Country>PE</Country>
+        </ForeignAddress>
+        <PrimaryActivitiesTxt>Healthcare</PrimaryActivitiesTxt>
+        <LegalDomicileForeignCountryCd>PE</LegalDomicileForeignCountryCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1>Abwenzi Pa Za Umoyo (Malawi)</BusinessNameLine1>
+        </DisregardedEntityName>
+        <ForeignAddress>
+          <AddressLine1>PO Box 56</AddressLine1>
+          <City>Neno Boma 624200</City>
+          <ProvinceOrState>Neno District</ProvinceOrState>
+          <Country>MI</Country>
+        </ForeignAddress>
+        <PrimaryActivitiesTxt>Healthcare</PrimaryActivitiesTxt>
+        <LegalDomicileForeignCountryCd>MI</LegalDomicileForeignCountryCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1>Partners In Health Russia</BusinessNameLine1>
+        </DisregardedEntityName>
+        <ForeignAddress>
+          <AddressLine1>11 13 Trekprudniy Pereulok 10</AddressLine1>
+          <City>Moscow</City>
+          <Country>RS</Country>
+        </ForeignAddress>
+        <PrimaryActivitiesTxt>Healthcare</PrimaryActivitiesTxt>
+        <LegalDomicileForeignCountryCd>RS</LegalDomicileForeignCountryCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1>Companeros En Salud (Mexico)</BusinessNameLine1>
+        </DisregardedEntityName>
+        <ForeignAddress>
+          <AddressLine1>5a Avenida Norte Poniente No 42</AddressLine1>
+          <AddressLine2>frente al hospital</AddressLine2>
+          <City>Angel Albino Corzo</City>
+          <ProvinceOrState>Chiapas CP</ProvinceOrState>
+          <Country>MX</Country>
+          <PostalCode>30370</PostalCode>
+        </ForeignAddress>
+        <PrimaryActivitiesTxt>Healthcare</PrimaryActivitiesTxt>
+        <LegalDomicileForeignCountryCd>MX</LegalDomicileForeignCountryCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1>Partners In Health Kazakhstan</BusinessNameLine1>
+        </DisregardedEntityName>
+        <ForeignAddress>
+          <AddressLine1>99 Gogol Street 19</AddressLine1>
+          <City>Almaty</City>
+          <Country>KZ</Country>
+        </ForeignAddress>
+        <PrimaryActivitiesTxt>Healthcare</PrimaryActivitiesTxt>
+        <LegalDomicileForeignCountryCd>KZ</LegalDomicileForeignCountryCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1>Partners In Health Canada</BusinessNameLine1>
+        </DisregardedEntityName>
+        <ForeignAddress>
+          <AddressLine1>c/o St Paul University</AddressLine1>
+          <AddressLine2>223 Main Street</AddressLine2>
+          <City>Ottawa</City>
+          <ProvinceOrState>Ontario</ProvinceOrState>
+          <Country>CA</Country>
+        </ForeignAddress>
+        <PrimaryActivitiesTxt>International Development</PrimaryActivitiesTxt>
+        <LegalDomicileForeignCountryCd>CA</LegalDomicileForeignCountryCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1>The River Street Development Foundation</BusinessNameLine1>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1>888 Commonwealth Avenue 3rd Floor</AddressLine1>
+          <City>Boston</City>
+          <State>MA</State>
+          <ZIPCode>02215</ZIPCode>
+        </USAddress>
+        <EIN>522117495</EIN>
+        <PrimaryActivitiesTxt>Support PIH</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>MA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(c)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>11 Type II</PublicCharityStatusTxt>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <ReceiptOfIntAnntsRntsRyltsInd>0</ReceiptOfIntAnntsRntsRyltsInd>
+      <GiftGrntOrCapContriToOthOrgInd>1</GiftGrntOrCapContriToOthOrgInd>
+      <GiftGrntCapContriFromOthOrgInd>0</GiftGrntCapContriFromOthOrgInd>
+      <LoansOrGuaranteesToOtherOrgInd>0</LoansOrGuaranteesToOtherOrgInd>
+      <LoansOrGuaranteesFromOthOrgInd>0</LoansOrGuaranteesFromOthOrgInd>
+      <DivRelatedOrganizationInd>0</DivRelatedOrganizationInd>
+      <AssetSaleToOtherOrgInd>0</AssetSaleToOtherOrgInd>
+      <AssetPurchaseFromOtherOrgInd>0</AssetPurchaseFromOtherOrgInd>
+      <AssetExchangeInd>0</AssetExchangeInd>
+      <RentalOfFacilitiesToOthOrgInd>0</RentalOfFacilitiesToOthOrgInd>
+      <RentalOfFcltsFromOthOrgInd>0</RentalOfFcltsFromOthOrgInd>
+      <PerformOfServicesForOthOrgInd>1</PerformOfServicesForOthOrgInd>
+      <PerformOfServicesByOtherOrgInd>0</PerformOfServicesByOtherOrgInd>
+      <SharingOfFacilitiesInd>0</SharingOfFacilitiesInd>
+      <PaidEmployeesSharingInd>1</PaidEmployeesSharingInd>
+      <ReimbursementPaidToOtherOrgInd>0</ReimbursementPaidToOtherOrgInd>
+      <ReimbursementPaidByOtherOrgInd>0</ReimbursementPaidByOtherOrgInd>
+      <TransferToOtherOrgInd>0</TransferToOtherOrgInd>
+      <TransferFromOtherOrgInd>0</TransferFromOtherOrgInd>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Inshuti Mu Buzima (Rwanda)</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>b</TransactionTypeTxt>
+        <InvolvedAmt>10856659</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>Amount is determined based on fiscal year budget proposal from site, budget review, revision, and PIH Board approval.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Inshuti Mu Buzima (Rwanda)</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>l</TransactionTypeTxt>
+        <InvolvedAmt>695214</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>PIH in Boston raises funds for all country sites. These expenses are allocated based on the proportion that the site expenses bear to the total program expenses across all sites.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Inshuti Mu Buzima (Rwanda)</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>l</TransactionTypeTxt>
+        <InvolvedAmt>787309</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>This amount represents payments processed by PIH in Boston to contractors performing their jobs at the country sites.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Inshuti Mu Buzima (Rwanda)</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>o</TransactionTypeTxt>
+        <InvolvedAmt>881860</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>This amount represents HR costs (excluding consultant costs) paid by PIH in Boston to employees performing their jobs for the sites.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Bo Mphato Lisebeletsong tsa Bophelo (Lesotho)</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>b</TransactionTypeTxt>
+        <InvolvedAmt>5185717</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>Amount is determined based on fiscal year budget proposal from site, budget review, revision, and PIH Board approval.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Bo Mphato Lisebeletsong tsa Bophelo (Lesotho)</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>l</TransactionTypeTxt>
+        <InvolvedAmt>250186</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>PIH in Boston raises funds for all country sites. These expenses are allocated based on the proportion that the site expenses bear to the total program expenses across all sites.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Bo Mphato Lisebeletsong tsa Bophelo (Lesotho)</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>l</TransactionTypeTxt>
+        <InvolvedAmt>159232</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>This amount represents payments processed by PIH in Boston to contractors performing their jobs at the country sites.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Bo Mphato Lisebeletsong tsa Bophelo (Lesotho)</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>o</TransactionTypeTxt>
+        <InvolvedAmt>236720</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>This amount represents HR costs (excluding consultant costs) paid by PIH in Boston to employees performing their jobs for the sites.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Abwenzi Pa Za Umoyo (Malawi)</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>b</TransactionTypeTxt>
+        <InvolvedAmt>2906613</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>Amount is determined based on fiscal year budget proposal from site, budget review, revision, and PIH Board approval.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Abwenzi Pa Za Umoyo (Malawi)</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>l</TransactionTypeTxt>
+        <InvolvedAmt>167733</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>PIH in Boston raises funds for all country sites. These expenses are allocated based on the proportion that the site expenses bear to the total program expenses across all sites.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Abwenzi Pa Za Umoyo (Malawi)</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>l</TransactionTypeTxt>
+        <InvolvedAmt>196760</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>This amount represents payments processed by PIH in Boston to contractors performing their jobs at the country sites.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Abwenzi Pa Za Umoyo (Malawi)</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>o</TransactionTypeTxt>
+        <InvolvedAmt>187770</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>This amount represents HR costs (excluding consultant costs) paid by PIH in Boston to employees performing their jobs for the sites.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Partners In Health Russia</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>b</TransactionTypeTxt>
+        <InvolvedAmt>1384478</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>Amount is determined based on fiscal year budget proposal from site, budget review, revision, and PIH Board approval.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Partners In Health Russia</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>l</TransactionTypeTxt>
+        <InvolvedAmt>79586</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>PIH in Boston raises funds for all country sites. These expenses are allocated based on the proportion that the site expenses bear to the total program expenses across all sites.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Partners In Health Russia</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>o</TransactionTypeTxt>
+        <InvolvedAmt>177147</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>This amount represents HR costs (excluding consultant costs) paid by PIH in Boston to employees performing their jobs for the sites.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Socios En Salud (Peru)</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>b</TransactionTypeTxt>
+        <InvolvedAmt>124097</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>Amount is determined based on fiscal year budget proposal from site, budget review, revision, and PIH Board approval.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Socios En Salud (Peru)</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>l</TransactionTypeTxt>
+        <InvolvedAmt>246478</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>PIH in Boston raises funds for all country sites. These expenses are allocated based on the proportion that the site expenses bear to the total program expenses across all sites.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Socios En Salud (Peru)</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>o</TransactionTypeTxt>
+        <InvolvedAmt>101617</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>This amount represents HR costs (excluding consultant costs) paid by PIH in Boston to employees performing their jobs for the sites.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Companeros En Salud (Mexico)</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>b</TransactionTypeTxt>
+        <InvolvedAmt>443796</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>Amount is determined based on fiscal year budget proposal from site, budget review, revision, and PIH Board approval.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1>Companeros En Salud (Mexico)</BusinessNameLine1>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>o</TransactionTypeTxt>
+        <InvolvedAmt>63196</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>This amount represents HR costs (excluding consultant costs) paid by PIH in Boston to employees performing their jobs for the sites.</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule R, Part V, Line 1l</FormAndLineReferenceDesc>
+        <ExplanationTxt>Development staff at Partners In Health in Boston raise funds for all country sites. For purposes of Schedule R, these expenses have been allocated based on the proportion that the site expenses bear to the total program expenses across all sites.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleR>
+  </ReturnData>
+</Return>
