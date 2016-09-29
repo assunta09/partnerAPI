@@ -6,30 +6,6 @@ class Organisation < ApplicationRecord
   has_many :program_service_accomplishments
   belongs_to :masterfile
 
-  # def impact_score
-  #   total_expenses = expense_data.total
-  #   admin_expenses = 0.00
-  #   expense_data.attributes.each do |expense_type, value|
-  #     if expense_type == 'other' || expense_type == 'member_benefits' || expense_type == 'salaries' || expense_type == 'fundraising_fees'
-  #       if value != nil
-  #         admin_expenses += value
-  #       end
-  #     end
-  #   end
-  #   1 - admin_expenses/total_expenses
-  # end
-
-  # def general_expenses_percentages
-  #   percentages = {}
-  #   expense_data.attributes.each do |expense_type, value|
-  #     if expense_type == 'other' || expense_type == 'member_benefits' || expense_type == 'salaries' || expense_type == 'fundraising_fees' || expense_type == 'grants'
-  #       if value != nil
-  #         percentages[expense_type] = value.to_f/expense_data.total
-  #       end
-  #     end
-  #   end
-  #   percentages
-  # end
 
   def fundraising_ratio
     fundraising_ratio = {fundraising_fees: expense_data.fundraising_fees, funds_raised: Contribution.find(revenue_data.contribution_id).fundraising}
@@ -155,7 +131,12 @@ class Organisation < ApplicationRecord
     exec_salaries = Executive.where(organisation_id: self.id)
     sort_salaries = exec_salaries.sort_by{|k| (k["salary"] + k["other_salary"])}.reverse
     top_salaries = []
-    sort_salaries[0...3].each {|executive| top_salaries << {name: executive.name, salary: (executive.salary + executive.other_salary)} }
+    sort_salaries[0...3].each do |executive|
+      total_salary = executive.salary + executive.other_salary
+      if total_salary != 0
+        top_salaries << {name: executive.name, title: executive.title, salary: total_salary}
+      end
+    end
     top_salaries
   end
 
