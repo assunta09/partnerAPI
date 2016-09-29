@@ -26,7 +26,7 @@ class Organisation < ApplicationRecord
   def general_expenses_absolutes
     expense_split = {}
     expense_data.attributes.each do |expense_type, value|
-      if expense_type == 'member_benefits' || expense_type == 'fundraising_fees'
+      if expense_type == 'member_benefits' || expense_type == 'fundraising_fees' || expense_type == 'total'
         expense_split[expense_type] = value.to_i
       elsif expense_type == 'salary_id'
         salary_data = Salary.find(value)
@@ -47,7 +47,7 @@ class Organisation < ApplicationRecord
   def general_revenue_absolutes
     revenue_split = {}
     revenue_data.attributes.each do |revenue_type, value|
-      if revenue_type == 'service_revenue' || revenue_type == 'investments' || revenue_type == 'other'
+      if revenue_type == 'service_revenue' || revenue_type == 'investments' || revenue_type == 'other' || revenue_type == 'total'
         revenue_split[revenue_type] = value.to_i
       elsif revenue_type == "contribution_id"
         contribution_data = Contribution.find(value)
@@ -115,13 +115,16 @@ class Organisation < ApplicationRecord
     array = [general_revenue_absolutes, contributions_absolutes]
     revenue_split = array.inject(:update)
     revenue_split.delete('contribution')
+    ['contribution', 'total'].each do |item_to_delete|
+      revenue_split.delete(item_to_delete)
+    end
     revenue_split
   end
 
   def expenses_split_absolutes
     different_expense_types = [general_expenses_absolutes, salaries_absolutes, grants_absolutes, other_expenses_absolutes]
     expense_split = different_expense_types.inject(:update)
-    ['salaries','grant', 'other_expenses'].each do |item_to_delete|
+    ['salaries','grant', 'other_expenses', 'total'].each do |item_to_delete|
       expense_split.delete(item_to_delete)
     end
     expense_split
