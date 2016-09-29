@@ -40,7 +40,6 @@ def classification_seeding
   end
 end
 
-
 #Category_id. If only a subset of files should be added to the database, call this file to get the object ids for the files
 #Choose the categories to be targeted below and uncomment the method call below
 #The json file containing the object ids can be found here:
@@ -73,21 +72,23 @@ def obtain_category_object_id
   end
 end
 
-def create_organisation(file_attributes)
+
+def create_organisation(doc, file_attributes)
+
   masterfile = Masterfile.find_by(ein: file_attributes["EIN"])
   if masterfile != nil
     org = Organisation.create(
-      name: file_attributes["BusinessNameLine1"],
-      mission: file_attributes["ActivityOrMissionDesc"],
-      ein: file_attributes["EIN"],
-      # ein: '000019818',
-      address: file_attributes["AddressLine1"],
-      city: file_attributes["City"],
-      state: file_attributes["State"],
-      zip: file_attributes["ZIPCode"],
-      year_formed: file_attributes["FormationYr"],
-      number_of_employees: file_attributes["TotalEmployeeCnt"],
-      domain: file_attributes["WebsiteAddressTxt"],
+      name: doc.search("ReturnHeader/Filer/BusinessName").text.gsub("\n", '').strip,
+      mission: doc.search("ReturnData/IRS990/ActivityOrMissionDesc").text,
+      ein: doc.search("ReturnHeader/Filer/EIN").text,
+      # put all USAddress elements into an array since individual tags differ between XML files
+      address: doc.search("ReturnHeader/Filer/USAddress").text.gsub("\n", '').strip.split,
+      # city: doc.search("ReturnHeader/Filer/USAddress/CityNm#{NEED REGEX}").text,
+      # state: doc.search("ReturnHeader/Filer/USAddress/StateAbbreviationCd#{NEED REGEX}").text,
+      # zip: doc.search("ReturnHeader/Filer/USAddress/ZIPCd#{NEED REGEX}").text,
+      year_formed: doc.search("ReturnData/IRS990/FormationYr").text,
+      number_of_employees: doc.search("ReturnData/IRS990/TotalEmployeeCnt").text,
+      domain: doc.search("ReturnData/IRS990/WebsiteAddressTxt").text,
       masterfile_id: masterfile.id
      )
   else
@@ -306,8 +307,8 @@ end
 #Both tables should be seeded fully once before seeding the other tables:
 # classification_seeding
 
-  #===================================================================================================================
-  #SEEDING of the main tables
+#===================================================================================================================
+#SEEDING of the main tables
 source_path = Rails.root.join('db', 'xml_files')
 
 Dir.glob("#{source_path}/*.xml").each do |xml_file|
@@ -325,16 +326,16 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   end
 
   # Call the different methods to seed files
-  # if create_organisation(file_attributes)
+
+
+  if create_organisation(doc, file_attributes)
     org = Organisation.find_by(ein: file_attributes["EIN"])
-    if org != nil
-    # create_program_service_accomplishments(org, doc, file_attributes)
-    create_expenses(org, doc, file_attributes)
+    create_program_service_accomplishments(org, doc, file_attributes)
+    # create_expenses(org, doc, file_attributes)
     # create_revenues(org, doc, file_attributes)
     # create_balance(org, file_attributes)
     # create_executive(org, doc, file_attributes)
-    end
-  # end
+  end
 end
 
 
