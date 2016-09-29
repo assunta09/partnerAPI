@@ -89,8 +89,9 @@ def create_organisation(doc, file_attributes)
       year_formed: doc.search("ReturnData/IRS990/FormationYr").text,
       number_of_employees: doc.search("ReturnData/IRS990/TotalEmployeeCnt").text,
       domain: doc.search("ReturnData/IRS990/WebsiteAddressTxt").text,
-      masterfile_id: masterfile.id
+      masterfile_id: 1
      )
+    p org
   else
     false
   end
@@ -121,6 +122,7 @@ def create_program_service_accomplishments(org, doc, file_attributes)
 end
 
 def create_revenues(org, doc, file_attributes)
+
     contribution_grant = Contribution.create(
       membership_fees: file_attributes["MembershipDuesAmt"],
       campaigns: file_attributes["FederatedCampaignsAmt"] ,
@@ -210,17 +212,17 @@ def create_expenses(org, doc, file_attributes)
       total: other_expenses_total
     )
 
-    def calculate_other_expenses(other_expense)
-      expenses_form = 0
-       other_expense.attributes.each do |expense_type, value|
-        if expense_type != 'other' && expense_type != 'total' && expense_type != "created_at" && expense_type != "updated_at"
-          expenses_form += value
-        end
-      end
-      expenses_other = other_expense.total - expenses_form
-    end
+    # def calculate_other_expenses(other_expense)
+    #   expenses_form = 0
+    #    other_expense.attributes.each do |expense_type, value|
+    #     if expense_type != 'other' && expense_type != 'total' && expense_type != "created_at" && expense_type != "updated_at"
+    #       expenses_form += value
+    #     end
+    #   end
+    #   expenses_other = other_expense.total - expenses_form
+    # end
 
-    other_expense.other = calculate_other_expenses(other_expense)
+    # other_expense.other = calculate_other_expenses(other_expense)
 
     Expense.create(
       organisation_id: org.id,
@@ -328,12 +330,13 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
 
 
   if create_organisation(doc, file_attributes)
-    org = Organisation.find_by(ein: file_attributes["EIN"])
+    ein = doc.search("ReturnHeader/Filer/EIN").text
+    org = Organisation.find_by(ein: ein)
     # create_program_service_accomplishments(org, doc, file_attributes)
-    # create_expenses(org, doc, file_attributes)
-    # create_revenues(org, doc, file_attributes)
-    # create_balance(org, file_attributes)
-    # create_executive(org, doc, file_attributes)
+    create_expenses(org, doc, file_attributes)
+    create_revenues(org, doc, file_attributes)
+    create_balance(org, file_attributes)
+    create_executive(org, doc, file_attributes)
   end
 end
 
