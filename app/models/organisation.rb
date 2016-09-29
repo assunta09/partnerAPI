@@ -1,8 +1,8 @@
 class Organisation < ApplicationRecord
   has_many :executives
   has_many :balances
-  has_many :revenues
-  has_many :expenses
+  has_many :revenues # organisations have a one-to-many relationship with revenues and expenses to allow
+  has_many :expenses # analysis over several years in the future
   has_many :program_service_accomplishments
   belongs_to :masterfile
 
@@ -11,6 +11,8 @@ class Organisation < ApplicationRecord
     fundraising_ratio = {fundraising_fees: expense_data.fundraising_fees, funds_raised: Contribution.find(revenue_data.contribution_id).fundraising}
   end
 
+  # returns expenses overview
+  # found in Part I lines 13-19 from IRS990 form
   def general_expenses_absolutes
     expense_split = {}
     expense_data.attributes.each do |expense_type, value|
@@ -38,6 +40,8 @@ class Organisation < ApplicationRecord
     expense_split
   end
 
+  # returns revenue overview
+  # found in Part I lines 8-12 from IRS990 form
   def general_revenue_absolutes
     revenue_split = {}
     revenue_data.attributes.each do |revenue_type, value|
@@ -55,6 +59,8 @@ class Organisation < ApplicationRecord
     revenue_split
   end
 
+  # returns breakdown of other expenses for an organisation
+  # found in Part IX, column (a), lines 11a-11d, 11f-24e in IRS990 form
   def other_expenses_absolutes
     other_expense_split = {}
     other_expense_data = OtherExpense.find(expense_data.other_expense_id)
@@ -69,6 +75,8 @@ class Organisation < ApplicationRecord
     other_expense_split
   end
 
+  # return information about compensation for each reported individual
+  # this information is found in Part VII of the IRS990 form
   def salaries_absolutes
     salary_split = {}
     salary_data = Salary.find(expense_data.salary_id)
@@ -83,6 +91,7 @@ class Organisation < ApplicationRecord
     salary_split
   end
 
+  # returns information found in Part IX, column (A), lines 1-3 in IRS990 form
   def grants_absolutes
     grant_split = {}
     grant_data = Grant.find(expense_data.grant_id)
@@ -97,6 +106,7 @@ class Organisation < ApplicationRecord
     grant_split
   end
 
+  # return information found in Part VIII, lines 1a-f in IRS990 form
   def contributions_absolutes
     contribution_split = {}
     contribution_data = Contribution.find(revenue_data.contribution_id)
@@ -127,6 +137,8 @@ class Organisation < ApplicationRecord
     variable
   end
 
+  # returns the top three highest paid individuals for each organization
+  # this information is found in Part VII of the IRS990 form
   def top_salaries_absolutes
     exec_salaries = Executive.where(organisation_id: self.id)
     sort_salaries = exec_salaries.sort_by{|k| (k["salary"] + k["other_salary"])}.reverse
@@ -140,6 +152,8 @@ class Organisation < ApplicationRecord
     top_salaries
   end
 
+  # returns organisation's three largest program services as measured by expenses
+  # found in part III 4a-c from IRS990 form
   def render_program_service_accomplishments
     psa_get_data = ProgramServiceAccomplishment.where(organisation_id: self.id)
     program_service_accomplishments = []
