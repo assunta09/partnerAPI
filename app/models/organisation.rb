@@ -6,33 +6,35 @@ class Organisation < ApplicationRecord
   has_many :program_service_accomplishments
   belongs_to :masterfile
 
+  def rendering
+    organisation_data = self.attributes
+    address_new = organisation_data["address"].join(' ')
+    organisation_data["address"] = address_new
+    ['created_at', 'updated_at', 'ein','masterfile_id'].each do |item_to_delete|
+      organisation_data.delete(item_to_delete)
+    end
+    organisation_data[:tax_year] = expense_data.year
+    organisation_data
+  end
 
   def fundraising_ratio
-    fundraising_ratio = {fundraising_fees: expense_data.fundraising_fees, funds_raised: Contribution.find(revenue_data.contribution_id).fundraising}
+    fundraising_ratio = {fundraising_fees: expense_data.fundraising_fees.to_i, funds_raised: Contribution.find(revenue_data.contribution_id).fundraising.to_i}
   end
 
   def general_expenses_absolutes
     expense_split = {}
     expense_data.attributes.each do |expense_type, value|
       if expense_type == 'member_benefits' || expense_type == 'fundraising_fees'
-        if value != nil
-          expense_split[expense_type] = value
-        end
+        expense_split[expense_type] = value.to_i
       elsif expense_type == 'salary_id'
         salary_data = Salary.find(value)
-        if salary_data.total != nil
-          expense_split['salaries'] = salary_data.total
-        end
+        expense_split['salaries'] = salary_data.total.to_i
       elsif expense_type == 'grant_id'
         grant_data = Grant.find(value)
-        if grant_data.total != nil
-          expense_split['grant'] = grant_data.total
-        end
+        expense_split['grant'] = grant_data.total.to_i
       elsif expense_type == 'other_expense_id'
         other_expenses_data = OtherExpense.find(value)
-        if other_expenses_data.total != nil
-          expense_split['other_expenses'] = other_expenses_data.total
-        end
+        expense_split['other_expenses'] = other_expenses_data.total.to_i
       end
     end
     expense_split
@@ -42,14 +44,10 @@ class Organisation < ApplicationRecord
     revenue_split = {}
     revenue_data.attributes.each do |revenue_type, value|
       if revenue_type == 'service_revenue' || revenue_type == 'investments' || revenue_type == 'other'
-        if value != nil
-          revenue_split[revenue_type] = value
-        end
+        revenue_split[revenue_type] = value.to_i
       elsif revenue_type == "contribution_id"
         contribution_data = Contribution.find(value)
-        if contribution_data.total
-          revenue_split['contribution'] = contribution_data.total
-        end
+        revenue_split['contribution'] = contribution_data.total.to_i
       end
     end
     revenue_split
@@ -61,9 +59,7 @@ class Organisation < ApplicationRecord
 
     other_expense_data.attributes.each do |expense_type, value|
       if expense_type != 'total' && expense_type != 'id' && expense_type != 'created_at' && expense_type != 'updated_at'
-        if value != nil
-          other_expense_split[expense_type] = value
-        end
+          other_expense_split[expense_type] = value.to_i
       end
     end
     other_expense_split
@@ -75,9 +71,7 @@ class Organisation < ApplicationRecord
 
     salary_data.attributes.each do |expense_type, value|
       if expense_type != 'total' && expense_type != 'id' && expense_type != 'created_at' && expense_type != 'updated_at'
-        if value != nil
-          salary_split[expense_type] = value
-        end
+        salary_split[expense_type] = value.to_i
       end
     end
     salary_split
@@ -89,9 +83,7 @@ class Organisation < ApplicationRecord
 
     grant_data.attributes.each do |expense_type, value|
       if expense_type != 'total' && expense_type != 'id' && expense_type != 'created_at' && expense_type != 'updated_at'
-        if value != nil
-          grant_split[expense_type] = value
-        end
+          grant_split[expense_type] = value.to_i
       end
     end
     grant_split
@@ -103,9 +95,7 @@ class Organisation < ApplicationRecord
 
     contribution_data.attributes.each do |revenue_type, value|
       if revenue_type != 'total' && revenue_type != 'id' && revenue_type != 'created_at' && revenue_type != 'updated_at'
-        if value != nil
-          contribution_split[revenue_type] = value
-        end
+        contribution_split[revenue_type] = value.to_i
       end
     end
     contribution_split
@@ -113,18 +103,18 @@ class Organisation < ApplicationRecord
 
   def revenues_split_absolutes
     array = [general_revenue_absolutes, contributions_absolutes]
-    variable = array.inject(:update)
-    variable.delete('contribution')
-    variable
+    revenue_split = array.inject(:update)
+    revenue_split.delete('contribution')
+    revenue_split
   end
 
   def expenses_split_absolutes
     different_expense_types = [general_expenses_absolutes, salaries_absolutes, grants_absolutes, other_expenses_absolutes]
-    variable = different_expense_types.inject(:update)
+    expense_split = different_expense_types.inject(:update)
     ['salaries','grant', 'other_expenses'].each do |item_to_delete|
-      variable.delete(item_to_delete)
+      expense_split.delete(item_to_delete)
     end
-    variable
+    expense_split
   end
 
   def top_salaries_absolutes
@@ -145,9 +135,10 @@ class Organisation < ApplicationRecord
     program_service_accomplishments = []
 
     psa_get_data.each do |accomplishment|
-      program_service_accomplishments << {expense_amount: accomplishment.expense_amount,
-        grant_amount: accomplishment.grant_amount,
-        revenues: accomplishment.revenues,
+      program_service_accomplishments << {
+        expense_amount: accomplishment.expense_amount.to_i,
+        grant_amount: accomplishment.grant_amount.to_i,
+        revenues: accomplishment.revenues.to_i,
         description: accomplishment.description}
     end
     program_service_accomplishments

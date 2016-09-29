@@ -11,6 +11,8 @@ def classification_seeding
     classification.each do |line|
     Classification.create(line.to_hash)
     end
+
+    puts "Classification seeded"
   end
 
     #MASTERFILE includes all non-profit organisation with their full categorization.
@@ -38,6 +40,7 @@ def classification_seeding
     end
    end
   end
+  puts "Masterfile seeded"
 end
 
 #Category_id. If only a subset of files should be added to the database, call this file to get the object ids for the files
@@ -74,9 +77,8 @@ end
 
 
 def create_organisation(doc, file_attributes)
-
-  # masterfile = Masterfile.find_by(ein: file_attributes["EIN"])
-  # if masterfile != nil
+  masterfile = Masterfile.find_by(ein: file_attributes["EIN"])
+  if masterfile != nil
     org = Organisation.create(
       name: doc.search("ReturnHeader/Filer/BusinessName").text.gsub("\n", '').strip,
       mission: doc.search("ReturnData/IRS990/ActivityOrMissionDesc").text,
@@ -91,10 +93,9 @@ def create_organisation(doc, file_attributes)
       domain: doc.search("ReturnData/IRS990/WebsiteAddressTxt").text,
       masterfile_id: 1
      )
-  #   p org
-  # else
-  #   false
-  # end
+  else
+    false
+  end
 end
 
 def create_program_service_accomplishments(org, doc, file_attributes)
@@ -308,7 +309,7 @@ end
 
 #Uncomment below to seed classification and masterfile table.
 #Both tables should be seeded fully once before seeding the other tables:
-# classification_seeding
+classification_seeding
 
 #===================================================================================================================
 #SEEDING of the main tables
@@ -329,12 +330,10 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   end
 
   # Call the different methods to seed files
-
-
   if create_organisation(doc, file_attributes)
     ein = doc.search("ReturnHeader/Filer/EIN").text
     org = Organisation.find_by(ein: ein)
-    # create_program_service_accomplishments(org, doc, file_attributes)
+    create_program_service_accomplishments(org, doc, file_attributes)
     create_expenses(org, doc, file_attributes)
     create_revenues(org, doc, file_attributes)
     create_balance(org, file_attributes)
@@ -342,4 +341,5 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   end
 end
 
+puts "Fully seeded"
 
