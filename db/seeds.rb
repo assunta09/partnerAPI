@@ -329,7 +329,7 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
 
   if create_organisation(doc, file_attributes)
     org = Organisation.find_by(ein: file_attributes["EIN"])
-    create_program_service_accomplishments(org, doc, file_attributes)
+    # create_program_service_accomplishments(org, doc, file_attributes)
     # create_expenses(org, doc, file_attributes)
     # create_revenues(org, doc, file_attributes)
     # create_balance(org, file_attributes)
