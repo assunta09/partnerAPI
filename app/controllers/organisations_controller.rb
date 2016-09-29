@@ -7,7 +7,6 @@ class OrganisationsController < ApplicationController
 
   def show
     organisation = Organisation.find(params[:id])
-
     render json: {organisation: organisation.rendering,
       generalExpensesAbsolutes: organisation.general_expenses_absolutes,
       generalRevenueAbsolutes: organisation.general_revenue_absolutes,
