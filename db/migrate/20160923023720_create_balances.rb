@@ -3,9 +3,9 @@ class CreateBalances < ActiveRecord::Migration[5.0]
     create_table :balances do |t|
       t.integer :organisation_id
       t.integer :year
-      t.integer :total_assets
-      t.integer :total_liabilities
-      t.integer :net_assets
+      t.bigint :total_assets
+      t.bigint :total_liabilities
+      t.bigint :net_assets
 
       t.timestamps
     end
