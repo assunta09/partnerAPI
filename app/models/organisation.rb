@@ -7,16 +7,41 @@ class Organisation < ApplicationRecord
   belongs_to :masterfile
 
   def rendering
+    #This method renders the organisations general data as needed for the frontend
     organisation_data = self.attributes
-    address_new = organisation_data["address"].join(' ')
-    organisation_data["address"] = address_new
+
+    #Ger rid of attributes in the organisations table that are not needed
     ['created_at', 'updated_at', 'ein','masterfile_id'].each do |item_to_delete|
       organisation_data.delete(item_to_delete)
     end
+    #The address needs to re-formated and we have to get the coordinates for the address
+    address_new = organisation_data["address"].join(' ')
+    geolocation = get_geocoding(address_new)
+    location = [geolocation.first[:latitude], geolocation.first[:longitude]]
+    organisation_data["address"] = address(location, address_new)
+
+    #Add some extra fields to the general information section
     organisation_data[:tax_year] = expense_data.year
+    organisation_data[:geocoding] = geolocation
     organisation_data
   end
 
+# Method for geocoding
+  def get_geocoding(address)
+    location = Geocoder.search(address)
+    [latitude: location[0].latitude, longitude: location[0].longitude]
+  end
+
+#Method for reverse geocoding, i.e. getting a nicely formatted address
+  def address(location, address_new)
+    if location.present?
+      Geocoder.address(location)
+    else
+      address_new
+    end
+  end
+
+#Returns fund-raising fees and funds raised needed to display fund-raising ratio
   def fundraising_ratio
     fundraising_ratio = {fundraising_fees: expense_data.fundraising_fees.to_i, funds_raised: Contribution.find(revenue_data.contribution_id).fundraising.to_i}
   end
