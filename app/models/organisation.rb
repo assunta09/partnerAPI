@@ -8,6 +8,8 @@ class Organisation < ApplicationRecord
 
   def rendering
     organisation_data = self.attributes
+    address_new = organisation_data["address"].join(' ')
+    organisation_data["address"] = address_new
     ['created_at', 'updated_at', 'ein','masterfile_id'].each do |item_to_delete|
       organisation_data.delete(item_to_delete)
     end
