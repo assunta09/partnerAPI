@@ -3,11 +3,11 @@ class CreateContributions < ActiveRecord::Migration[5.0]
     create_table :contributions do |t|
       t.integer :membership_fees
       t.integer :campaigns
-      t.integer :fundraising
-      t.integer :related_organisations
-      t.integer :government_grants
-      t.integer :other_gifts_or_donations
-      t.integer :total
+      t.integer :fundraising, default: 0
+      t.integer :related_organisations, default: 0
+      t.integer :government_grants, default: 0
+      t.integer :other_gifts_or_donations, default: 0
+      t.integer :total, default: 0
 
       t.timestamps
     end
