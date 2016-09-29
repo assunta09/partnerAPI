@@ -2,41 +2,42 @@ require 'csv'
 require 'json'
 
 #CLASSIFICATION and MASTERFILE seeding needs to be done once before all the other files are seeded
-
+def classification_seeding
   #Classification are according to the IRS - full explanation can be found here: https://www.irs.gov/pub/irs-soi/eo_info.pdf
-if Classification.all.length == 0
-  #SEEDING of the classification file
-  classifications_csv = File.read(Rails.root.join('db', 'category_seeding', 'Subsections_Classifications.csv'))
-  classification = CSV.parse(classifications_csv, headers: true, :col_sep => ";",:encoding => 'ISO-8859-1')
-  classification.each do |line|
-  Classification.create(line.to_hash)
-  end
-end
-
-  #MASTERFILE includes all non-profit organisation with their full categorization.
-  #The lists for seeding can be found here: https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf
-  #Download the lists for all Region 1-4 and add them to the folder regional_files in category seeding (the folder is excluded in git.ignore)
-if Masterfile.all.length == 0
- source_path_csv = Rails.root.join('db', 'category_seeding', 'regional_files')
- Dir.glob("#{source_path_csv}/*.csv").each do |csv_file|
-  masterfile_csv = File.read(csv_file)
-  masterfile = CSV.parse(masterfile_csv, headers: true, :encoding => 'ISO-8859-1')
-  masterfile.each do |line|
-    m = Masterfile.new
-    m.ein = line['EIN']
-    m.subsection_code = line['SUBSECTION']
-    m.classification_codes = line['CLASSIFICATION']
-    m.affiliation_code = line['AFFILIATION']
-    m.activity_codes = line['ACTIVITY']
-    m.organization_code = line['ORGANIZATION']
-    classification_code = m.classification_codes.to_s.split('').first.to_i
-    classification = Classification.find_by(subsection_code: m.subsection_code, classification_code: classification_code)
-    if classification != nil
-      m.classification_id = classification.id
-      m.save
+  if Classification.all.length == 0
+    #SEEDING of the classification file
+    classifications_csv = File.read(Rails.root.join('db', 'category_seeding', 'Subsections_Classifications.csv'))
+    classification = CSV.parse(classifications_csv, headers: true, :col_sep => ";",:encoding => 'ISO-8859-1')
+    classification.each do |line|
+    Classification.create(line.to_hash)
     end
   end
- end
+
+    #MASTERFILE includes all non-profit organisation with their full categorization.
+    #The lists for seeding can be found here: https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf
+    #Download the lists for all Region 1-4 and add them to the folder regional_files in category seeding (the folder is excluded in git.ignore)
+  if Masterfile.all.length == 0
+   source_path_csv = Rails.root.join('db', 'category_seeding', 'regional_files')
+   Dir.glob("#{source_path_csv}/*.csv").each do |csv_file|
+    masterfile_csv = File.read(csv_file)
+    masterfile = CSV.parse(masterfile_csv, headers: true, :encoding => 'ISO-8859-1')
+    masterfile.each do |line|
+      m = Masterfile.new
+      m.ein = line['EIN']
+      m.subsection_code = line['SUBSECTION']
+      m.classification_codes = line['CLASSIFICATION']
+      m.affiliation_code = line['AFFILIATION']
+      m.activity_codes = line['ACTIVITY']
+      m.organization_code = line['ORGANIZATION']
+      classification_code = m.classification_codes.to_s.split('').first.to_i
+      classification = Classification.find_by(subsection_code: m.subsection_code, classification_code: classification_code)
+      if classification != nil
+        m.classification_id = classification.id
+        m.save
+      end
+    end
+   end
+  end
 end
 
 
@@ -71,9 +72,6 @@ def obtain_category_object_id
     end
   end
 end
-
-#Uncomment to get the object_ids for a specific category
-# obtain_category_object_id
 
 def create_organisation(file_attributes)
   masterfile = Masterfile.find_by(ein: file_attributes["EIN"])
@@ -126,7 +124,7 @@ def create_revenues(org, doc, file_attributes)
       membership_fees: file_attributes["MembershipDuesAmt"],
       campaigns: file_attributes["FederatedCampaignsAmt"] ,
       fundraising: doc.search("ReturnData/IRS990/FundraisingAmt").text,
-      related_organisations: file_attributes["RelatedOrganizationsAmt"],
+      related_organisations: doc.search("ReturnData/IRS990/RelatedOrganizationsAmt").text,
       government_grants: file_attributes["GovernmentGrantsAmt"],
       other_gifts_or_donations: file_attributes["AllOtherContributionsAmt"],
       total: file_attributes["CYContributionsGrantsAmt"]
@@ -138,7 +136,7 @@ def create_revenues(org, doc, file_attributes)
       contribution_id: contribution_grant.id,
       service_revenue: file_attributes["CYProgramServiceRevenueAmt"],
       investments: file_attributes["CYInvestmentIncomeAmt"],
-      other: file_attributes["CYTotalRevenueAmt"],
+      other: file_attributes["CYOtherRevenueAmt"],
       total: file_attributes["CYTotalRevenueAmt"]
     )
 end
@@ -169,6 +167,7 @@ def create_expenses(org, doc, file_attributes)
   occupancy_total = doc.search('ReturnData/IRS990/OccupancyGrp/TotalAmt').text
   #other_total = doc.search('ReturnData/IRS990/CYOtherExpensesAmt/TotalAmt').text
   other_expenses_total = doc.search('ReturnData/IRS990/CYOtherExpensesAmt/TotalAmt').text
+
   #Getting the data for Grants
   domestic_orgs = doc.search('GrantsToDomesticOrgsGrp/TotalAmt').text
   domestic_indiv = doc.search('GrantsToDomesticIndividualsGrp/TotalAmt').text
@@ -207,9 +206,21 @@ def create_expenses(org, doc, file_attributes)
       royalties: royalties_total,
       conventions_and_meetings: conventions_and_meetings_total,
       occupancy: occupancy_total,
-      other: nil, # need to write helper function later to calculate the other total
+      other: nil,
       total: other_expenses_total
     )
+
+    def calculate_other_expenses(other_expense)
+      expenses_form = 0
+       other_expense.attributes.each do |expense_type, value|
+        if expense_type != 'other' && expense_type != 'total' && expense_type != "created_at" && expense_type != "updated_at"
+          expenses_form += value
+        end
+      end
+      expenses_other = other_expense.total - expenses_form
+    end
+
+    other_expense.other = calculate_other_expenses(other_expense)
 
     Expense.create(
       organisation_id: org.id,
@@ -283,7 +294,20 @@ def create_executive(org, doc, file_attributes)
   end
 end
 
-#SEED SCRIPT
+
+#===================================================================================================================
+#===================================================================================================================
+#SEED SCRIPT/ DRIVER CODE
+
+#Uncomment below to get the object_ids for a specific category
+# obtain_category_object_id
+
+#Uncomment below to seed classification and masterfile table.
+#Both tables should be seeded fully once before seeding the other tables:
+# classification_seeding
+
+  #===================================================================================================================
+  #SEEDING of the main tables
 source_path = Rails.root.join('db', 'xml_files')
 
 Dir.glob("#{source_path}/*.xml").each do |xml_file|
@@ -295,8 +319,7 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   # Accessing children only - no parent tags
   leaves = doc.xpath('//*[not(*)]')
   file_attributes = {}
-
-  # Iterate through leaves (tags without children) and assign their name as key and their text as value
+    # Iterate through leaves (tags without children) and assign their name as key and their text as value
   leaves.each do |node|
     file_attributes["#{node.name}"] = node.text
   end
@@ -305,16 +328,13 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   # if create_organisation(file_attributes)
     org = Organisation.find_by(ein: file_attributes["EIN"])
     if org != nil
-    # org = Organisation.find_by(ein: '000019818')
-
-    create_program_service_accomplishments(org, doc, file_attributes)
-    # create_expenses(org, doc, file_attributes)
+    # create_program_service_accomplishments(org, doc, file_attributes)
+    create_expenses(org, doc, file_attributes)
     # create_revenues(org, doc, file_attributes)
-  #   create_balance(org, file_attributes)
+    # create_balance(org, file_attributes)
     # create_executive(org, doc, file_attributes)
     end
   # end
-
 end
 
 

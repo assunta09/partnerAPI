@@ -23,3 +23,4 @@
 #Ignore csvfiles
 /db/category_seeding/regional_files
 /db/category_seeding/file_selection_by_category
+/db/xml_files/*
