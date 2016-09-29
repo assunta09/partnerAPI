@@ -166,8 +166,7 @@ def create_expenses(org, doc, file_attributes)
   royalties_total = doc.search('ReturnData/IRS990/RoyaltiesGrp/TotalAmt').text
   conventions_and_meetings_total = doc.search('ReturnData/IRS990/ConferencesMeetingsGrp/TotalAmt').text
   occupancy_total = doc.search('ReturnData/IRS990/OccupancyGrp/TotalAmt').text
-  #other_total = doc.search('ReturnData/IRS990/CYOtherExpensesAmt/TotalAmt').text
-  other_expenses_total = doc.search('ReturnData/IRS990/CYOtherExpensesAmt/TotalAmt').text
+  other_expenses_total = doc.search('ReturnData/IRS990/CYOtherExpensesAmt').text
 
   #Getting the data for Grants
   domestic_orgs = doc.search('GrantsToDomesticOrgsGrp/TotalAmt').text
