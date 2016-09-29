@@ -19,16 +19,20 @@ class Organisation < ApplicationRecord
   #   1 - admin_expenses/total_expenses
   # end
 
-  def general_expenses_percentages
-    percentages = {}
-    expense_data.attributes.each do |expense_type, value|
-      if expense_type == 'other' || expense_type == 'member_benefits' || expense_type == 'salaries' || expense_type == 'fundraising_fees' || expense_type == 'grants'
-        if value != nil
-          percentages[expense_type] = value.to_f/expense_data.total
-        end
-      end
-    end
-    percentages
+  # def general_expenses_percentages
+  #   percentages = {}
+  #   expense_data.attributes.each do |expense_type, value|
+  #     if expense_type == 'other' || expense_type == 'member_benefits' || expense_type == 'salaries' || expense_type == 'fundraising_fees' || expense_type == 'grants'
+  #       if value != nil
+  #         percentages[expense_type] = value.to_f/expense_data.total
+  #       end
+  #     end
+  #   end
+  #   percentages
+  # end
+
+  def fundraising_ratio
+    fundraising_ratio = {fundraising_fees: expense_data.fundraising_fees, funds_raised: Contribution.find(revenue_data.contribution_id).fundraising}
   end
 
   def general_expenses_absolutes
@@ -78,6 +82,7 @@ class Organisation < ApplicationRecord
   def other_expenses_absolutes
     other_expense_split = {}
     other_expense_data = OtherExpense.find(expense_data.other_expense_id)
+
     other_expense_data.attributes.each do |expense_type, value|
       if expense_type != 'total' && expense_type != 'id' && expense_type != 'created_at' && expense_type != 'updated_at'
         if value != nil
@@ -91,6 +96,7 @@ class Organisation < ApplicationRecord
   def salaries_absolutes
     salary_split = {}
     salary_data = Salary.find(expense_data.salary_id)
+
     salary_data.attributes.each do |expense_type, value|
       if expense_type != 'total' && expense_type != 'id' && expense_type != 'created_at' && expense_type != 'updated_at'
         if value != nil
@@ -104,6 +110,7 @@ class Organisation < ApplicationRecord
   def grants_absolutes
     grant_split = {}
     grant_data = Grant.find(expense_data.grant_id)
+
     grant_data.attributes.each do |expense_type, value|
       if expense_type != 'total' && expense_type != 'id' && expense_type != 'created_at' && expense_type != 'updated_at'
         if value != nil
@@ -114,10 +121,10 @@ class Organisation < ApplicationRecord
     grant_split
   end
 
-
   def contributions_absolutes
     contribution_split = {}
     contribution_data = Contribution.find(revenue_data.contribution_id)
+
     contribution_data.attributes.each do |revenue_type, value|
       if revenue_type != 'total' && revenue_type != 'id' && revenue_type != 'created_at' && revenue_type != 'updated_at'
         if value != nil
@@ -128,30 +135,44 @@ class Organisation < ApplicationRecord
     contribution_split
   end
 
-  def all_revenues_absolutes
-    general_revenue = general_revenue_absolutes
-    contributions = contributions_absolutes
-    array = [general_revenue, contributions]
+  def revenues_split_absolutes
+    array = [general_revenue_absolutes, contributions_absolutes]
     variable = array.inject(:update)
     variable.delete('contribution')
     variable
   end
 
-
-  def all_expenses_absolutes
-    general_expenses = general_expenses_absolutes
-    salaries = salaries_absolutes
-    grants = grants_absolutes
-    other_expenses = other_expenses_absolutes
-    array = [general_expenses, salaries, grants, other_expenses]
-    variable = array.inject(:update)
-    variable.delete('salaries')
-    variable.delete('grant')
-    variable.delete('other_expenses')
+  def expenses_split_absolutes
+    different_expense_types = [general_expenses_absolutes, salaries_absolutes, grants_absolutes, other_expenses_absolutes]
+    variable = different_expense_types.inject(:update)
+    ['salaries','grant', 'other_expenses'].each do |item_to_delete|
+      variable.delete(item_to_delete)
+    end
     variable
   end
 
+  def top_salaries_absolutes
+    exec_salaries = Executive.where(organisation_id: self.id)
+    sort_salaries = exec_salaries.sort_by{|k| (k["salary"] + k["other_salary"])}.reverse
+    top_salaries = []
+    sort_salaries[0...3].each {|executive| top_salaries << {name: executive.name, salary: (executive.salary + executive.other_salary)} }
+    top_salaries
+  end
 
+  def render_program_service_accomplishments
+    psa_get_data = ProgramServiceAccomplishment.where(organisation_id: self.id)
+    program_service_accomplishments = []
+
+    psa_get_data.each do |accomplishment|
+      program_service_accomplishments << {expense_amount: accomplishment.expense_amount,
+        grant_amount: accomplishment.grant_amount,
+        revenues: accomplishment.revenues,
+        description: accomplishment.description}
+    end
+    program_service_accomplishments
+  end
+
+  private
   def expense_data
     expenses = Expense.where(organisation_id: self.id).first
   end

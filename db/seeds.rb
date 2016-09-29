@@ -36,6 +36,7 @@ require 'json'
 #  end
 # end
 
+
 # Run this method to grab AWS's object ID's for specific forms for a specific category
 # def obtain_category_object_id
 #   file = File.read("db/category_seeding/index_2015.json")
@@ -68,7 +69,6 @@ require 'json'
 # obtain_category_object_id
 
 def create_organisation(doc, file_attributes)
-
   masterfile = Masterfile.find_by(ein: file_attributes["EIN"])
   if masterfile != nil
     org = Organisation.create(
@@ -90,7 +90,7 @@ def create_organisation(doc, file_attributes)
   end
 end
 
-def create_program_service_accomplishments(org, doc)
+def create_program_service_accomplishments(org, doc, file_attributes)
     # Different paths to access the program service accomplishment data
     prog_service_accomp_path = ['ReturnData/IRS990', 'ReturnData/IRS990/ProgSrvcAccomActy2Grp', 'ReturnData/IRS990/ProgSrvcAccomActy3Grp']
 
@@ -108,18 +108,20 @@ def create_program_service_accomplishments(org, doc)
            grant_amount: return_data_hash["GrantAmt"],
            revenues: return_data_hash["RevenueAmt"],
            description: return_data_hash["Desc"],
+            year: file_attributes["TaxYr"]
          )
       end
     end
 end
 
-def create_revenues(org, file_attributes)
+def create_revenues(org, doc, file_attributes)
     contribution_grant = Contribution.create(
       membership_fees: file_attributes["MembershipDuesAmt"],
       campaigns: file_attributes["FederatedCampaignsAmt"] ,
-      fundraising: file_attributes["FundraisingAmt"],
+      # fundraising: file_attributes["FundraisingAmt"],
+      fundraising: doc.search("ReturnData/IRS990/FundraisingAmt").text,
       related_organisations: file_attributes["RelatedOrganizationsAmt"],
-      government_grants: nil, # **ToDo** NEED TO FIND OUT HOW THIS IS CALLED!!!
+      government_grants: file_attributes["GovernmentGrantsAmt"],
       other_gifts_or_donations: file_attributes["AllOtherContributionsAmt"],
       total: file_attributes["CYContributionsGrantsAmt"]
     )
@@ -294,14 +296,15 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   end
 
   # Call the different methods to seed files
+
   if create_organisation(doc, file_attributes)
     org = Organisation.find_by(ein: file_attributes["EIN"])
+    create_program_service_accomplishments(org, doc, file_attributes)
+    # create_expenses(org, doc, file_attributes)
+    # create_revenues(org, doc, file_attributes)
+  #   create_balance(org, file_attributes)
+    # create_executive(org, doc, file_attributes)
 
-    create_program_service_accomplishments(org, doc)
-    create_expenses(org, doc, file_attributes)
-    create_revenues(org, file_attributes)
-    create_balance(org, file_attributes)
-    create_executive(org, doc, file_attributes)
   end
 
 end
