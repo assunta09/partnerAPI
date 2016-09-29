@@ -252,7 +252,6 @@ end
 def create_executive(org, doc, file_attributes)
 
   path = 'Form990PartVIISectionAGrp'
-  # nodes = doc.search(path).text.split("\n")
   if doc.search(path) != nil
     arr = []
     nodes = doc.search(path).children
@@ -329,8 +328,6 @@ Dir.glob("#{source_path}/*.xml").each do |xml_file|
   end
 
   # Call the different methods to seed files
-
-
   if create_organisation(doc, file_attributes)
     ein = doc.search("ReturnHeader/Filer/EIN").text
     org = Organisation.find_by(ein: ein)
