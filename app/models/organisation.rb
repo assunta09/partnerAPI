@@ -6,9 +6,17 @@ class Organisation < ApplicationRecord
   has_many :program_service_accomplishments
   belongs_to :masterfile
 
+  def rendering
+    organisation_data = self.attributes
+    ['created_at', 'updated_at', 'ein','masterfile_id'].each do |item_to_delete|
+      organisation_data.delete(item_to_delete)
+    end
+    organisation_data[:tax_year] = expense_data.year
+    organisation_data
+  end
 
   def fundraising_ratio
-    fundraising_ratio = {fundraising_fees: expense_data.fundraising_fees, funds_raised: Contribution.find(revenue_data.contribution_id).fundraising}
+    fundraising_ratio = {fundraising_fees: expense_data.fundraising_fees.to_i, funds_raised: Contribution.find(revenue_data.contribution_id).fundraising.to_i}
   end
 
   def general_expenses_absolutes
