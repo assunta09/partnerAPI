@@ -58,6 +58,9 @@ RSpec.configure do |config|
   # config.filter_gems_from_backtrace("gem name")
 end
 
+
+
+
 Shoulda::Matchers.configure do |config|
   config.integrate do |with|
     # Choose a test framework:
@@ -71,7 +74,9 @@ Shoulda::Matchers.configure do |config|
     # with.library :active_model
     # with.library :action_controller
     # Or, choose the following (which implies all of the above):
-    with.library :rails
+    # with.library :rails
   end
 end
+
+
 
