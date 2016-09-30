@@ -1,6 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe Organisation, type: :model do
+  let(:organisation) { build(:organisation) }
+  let(:program_service_accomplishment) { build(:program_service_accomplishment)}
+  let(:revenue) { build(:revenue)}
 
   describe "attributes" do
     it { should have_db_column(:name) }
@@ -22,7 +25,13 @@ RSpec.describe Organisation, type: :model do
     it { should belong_to(:masterfile) }
   end
 
-  describe "methods" do
-    pending "Add tests to test for organisation methods"
+  describe "instance methods" do
+    it "returns program service accomplishments in an array" do
+      p_s_a = organisation.render_program_service_accomplishments
+      p_s_a.each do |psa|
+        expect(psa.class).to eq(ProgramServiceAccomplishment)
+      end
+    end
   end
+
 end
