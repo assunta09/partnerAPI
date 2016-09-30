@@ -26,6 +26,7 @@ gem 'redis', '~> 3.0'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
+gem 'faker', '~> 1.6', '>= 1.6.6'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -35,7 +36,7 @@ group :development, :test do
   gem 'capybara'
   gem 'shoulda-matchers', '~> 3.1'
   gem 'rails-controller-testing'
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '~> 4.7'
 end
 
 group :development do
