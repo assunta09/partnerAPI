@@ -3,8 +3,6 @@
 
 *Partner* analyzes data from IRS 990 Filings for nonprofit organizations from Amazon Web Services and visually displays information about an organization's expenses, sources of revenue, and significant contributions to the community.
 
-Insert screen gif here
-
 ## Background
 
 Form 990 is the form used by the United States Internal Revenue Service (IRS) to gather financial information about nonprofit organizations. In June 2016, the IRS made 990 filing data available in bulk and in machine readable format, making it possible to systematically access and analyze information about nonprofit organizations in the United States.
