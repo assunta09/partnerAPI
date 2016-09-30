@@ -1,4 +1,4 @@
-Partner
+![Alt text](/public/logo.png)
 ======
 
 *Partner* analyzes data from IRS 990 Filings for nonprofit organizations from Amazon Web Services and visually displays information about an organization's expenses, sources of revenue, and significant contributions to the community.
@@ -40,7 +40,7 @@ bundle exec rspec spec
 
 * Tedmund Chua <https://github.com/tchua93>
 * Assunta Crux <https://github.com/assunta09>
-* John Kim <https://github.com/assunta09/PartnerClient/commits/development?author=soctkoren>
+* John Kim <https://github.com/soctkoren>
 * Connor Ray <https://github.com/cray9503>
 * Blake Wills <https://github.com/Baw25>
 
